@@ -1,19 +1,20 @@
 # Read about fixtures at http://ar.rubyonrails.org/classes/Fixtures.html
 
 one:
-  login: MyString
-  email: MyString
-  crypted_password: MyString
-  password_salt: MyString
-  persistence_token: MyString
-  single_access_token: MyString
-  perishable_token: MyString
+  login: one
+  email: one@email.com
+  crypted_password: crypted_password1
+  password_salt: password_salt1
+  persistence_token: persistence_token1
+  single_access_token: single_access_token1
+  perishable_token: persistence_token1
 
 two:
-  login: MyString
-  email: MyString
-  crypted_password: MyString
-  password_salt: MyString
-  persistence_token: MyString
-  single_access_token: MyString
-  perishable_token: MyString
+  login: two
+  email: two@email.com
+  crypted_password: crypted_password2
+  password_salt: password_salt2
+  persistence_token: persistence_token2
+  single_access_token: single_access_token2
+  perishable_token: perishable_token2
+

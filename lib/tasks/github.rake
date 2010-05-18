@@ -1,5 +1,5 @@
 String.class_eval do
-  # Based upon http://www.giantjapaneserobot.com/post/191116276/ruby-on-rails-string-to-boolean
+  ## Based upon http://www.giantjapaneserobot.com/post/191116276/ruby-on-rails-string-to-boolean
   #
   def to_bool
     return ['true', '1', 'T', 't'].include? self
