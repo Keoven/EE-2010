@@ -57,3 +57,161 @@ Migrating to UpdateColumnsOnCandidates (20100518045950)
   [4;35;1mSQL (1.9ms)[0m   [0mSHOW FIELDS FROM `users`[0m
   [4;36;1mSQL (1.6ms)[0m   [0;1mdescribe `users`[0m
   [4;35;1mSQL (0.4ms)[0m   [0mSHOW KEYS FROM `users`[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+  [4;36;1mSQL (0.3ms)[0m   [0;1mSHOW TABLES[0m
+  [4;35;1mSQL (0.2ms)[0m   [0mSELECT version FROM schema_migrations[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+  [4;36;1mSQL (30.9ms)[0m   [0;1mDROP DATABASE IF EXISTS `EE-2010_test`[0m
+  [4;35;1mSQL (0.2ms)[0m   [0mCREATE DATABASE `EE-2010_test` DEFAULT CHARACTER SET `utf8`[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+  [4;36;1mSQL (0.3ms)[0m   [0;1mSHOW TABLES[0m
+  [4;35;1mSQL (161.4ms)[0m   [0mCREATE TABLE `candidates` (`id` int(11) DEFAULT NULL auto_increment PRIMARY KEY, `first_name` varchar(255), `middle_name` varchar(255), `last_name` varchar(255), `position` varchar(255), `level` varchar(255), `num_votes` int(11), `created_at` datetime, `updated_at` datetime, `province` varchar(255), `municipality` varchar(255), `district` varchar(255)) ENGINE=InnoDB[0m
+  [4;36;1mSQL (0.5ms)[0m   [0;1mSHOW TABLES[0m
+  [4;35;1mSQL (156.5ms)[0m   [0mCREATE TABLE `users` (`id` int(11) DEFAULT NULL auto_increment PRIMARY KEY, `first_name` varchar(255), `middle_name` varchar(255), `last_name` varchar(255), `street_number` int(11), `street_name` varchar(255), `district_code` varchar(255), `municipality_code` varchar(255), `provincial_code` varchar(255), `voter_id` varchar(255), `birth_date` date, `email` varchar(255), `voted` tinyint(1), `activated` tinyint(1), `created_at` datetime, `updated_at` datetime) ENGINE=InnoDB[0m
+  [4;36;1mSQL (0.5ms)[0m   [0;1mSHOW TABLES[0m
+  [4;35;1mSQL (157.9ms)[0m   [0mCREATE TABLE `schema_migrations` (`version` varchar(255) NOT NULL) ENGINE=InnoDB[0m
+  [4;36;1mSQL (335.9ms)[0m   [0;1mCREATE UNIQUE INDEX `unique_schema_migrations` ON `schema_migrations` (`version`)[0m
+  [4;35;1mSQL (0.5ms)[0m   [0mSHOW TABLES[0m
+  [4;36;1mSQL (0.4ms)[0m   [0;1mSELECT version FROM `schema_migrations`[0m
+  [4;35;1mSQL (69.3ms)[0m   [0mINSERT INTO `schema_migrations` (version) VALUES ('20100518045950')[0m
+  [4;36;1mSQL (43.2ms)[0m   [0;1mINSERT INTO `schema_migrations` (version) VALUES ('20100518044441')[0m
+  [4;35;1mSQL (57.6ms)[0m   [0mINSERT INTO `schema_migrations` (version) VALUES ('20100518035913')[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+  [4;36;1mSQL (0.3ms)[0m   [0;1mSHOW TABLES[0m
+  [4;35;1mSQL (0.2ms)[0m   [0mSELECT version FROM schema_migrations[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+  [4;36;1mSQL (301.7ms)[0m   [0;1mDROP DATABASE IF EXISTS `EE-2010_test`[0m
+  [4;35;1mSQL (0.3ms)[0m   [0mCREATE DATABASE `EE-2010_test` DEFAULT CHARACTER SET `utf8`[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+  [4;36;1mSQL (0.3ms)[0m   [0;1mSHOW TABLES[0m
+  [4;35;1mSQL (176.7ms)[0m   [0mCREATE TABLE `candidates` (`id` int(11) DEFAULT NULL auto_increment PRIMARY KEY, `first_name` varchar(255), `middle_name` varchar(255), `last_name` varchar(255), `position` varchar(255), `level` varchar(255), `num_votes` int(11), `created_at` datetime, `updated_at` datetime, `province` varchar(255), `municipality` varchar(255), `district` varchar(255)) ENGINE=InnoDB[0m
+  [4;36;1mSQL (0.5ms)[0m   [0;1mSHOW TABLES[0m
+  [4;35;1mSQL (155.1ms)[0m   [0mCREATE TABLE `users` (`id` int(11) DEFAULT NULL auto_increment PRIMARY KEY, `first_name` varchar(255), `middle_name` varchar(255), `last_name` varchar(255), `street_number` int(11), `street_name` varchar(255), `district_code` varchar(255), `municipality_code` varchar(255), `provincial_code` varchar(255), `voter_id` varchar(255), `birth_date` date, `email` varchar(255), `voted` tinyint(1), `activated` tinyint(1), `created_at` datetime, `updated_at` datetime) ENGINE=InnoDB[0m
+  [4;36;1mSQL (0.4ms)[0m   [0;1mSHOW TABLES[0m
+  [4;35;1mSQL (145.1ms)[0m   [0mCREATE TABLE `schema_migrations` (`version` varchar(255) NOT NULL) ENGINE=InnoDB[0m
+  [4;36;1mSQL (334.5ms)[0m   [0;1mCREATE UNIQUE INDEX `unique_schema_migrations` ON `schema_migrations` (`version`)[0m
+  [4;35;1mSQL (0.6ms)[0m   [0mSHOW TABLES[0m
+  [4;36;1mSQL (0.4ms)[0m   [0;1mSELECT version FROM `schema_migrations`[0m
+  [4;35;1mSQL (55.0ms)[0m   [0mINSERT INTO `schema_migrations` (version) VALUES ('20100518045950')[0m
+  [4;36;1mSQL (57.5ms)[0m   [0;1mINSERT INTO `schema_migrations` (version) VALUES ('20100518044441')[0m
+  [4;35;1mSQL (58.3ms)[0m   [0mINSERT INTO `schema_migrations` (version) VALUES ('20100518035913')[0m
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+  [4;36;1mSQL (0.5ms)[0m   [0;1mSHOW TABLES[0m
+  [4;35;1mCandidate Columns (2.0ms)[0m   [0mSHOW FIELDS FROM `candidates`[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+  [4;36;1mSQL (0.3ms)[0m   [0;1mSHOW TABLES[0m
+  [4;35;1mSQL (0.2ms)[0m   [0mSELECT version FROM schema_migrations[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+  [4;36;1mSQL (270.4ms)[0m   [0;1mDROP DATABASE IF EXISTS `EE-2010_test`[0m
+  [4;35;1mSQL (0.4ms)[0m   [0mCREATE DATABASE `EE-2010_test` DEFAULT CHARACTER SET `utf8`[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+  [4;36;1mSQL (0.5ms)[0m   [0;1mSHOW TABLES[0m
+  [4;35;1mSQL (179.7ms)[0m   [0mCREATE TABLE `candidates` (`id` int(11) DEFAULT NULL auto_increment PRIMARY KEY, `first_name` varchar(255), `middle_name` varchar(255), `last_name` varchar(255), `position` varchar(255), `level` varchar(255), `num_votes` int(11), `created_at` datetime, `updated_at` datetime, `province` varchar(255), `municipality` varchar(255), `district` varchar(255)) ENGINE=InnoDB[0m
+  [4;36;1mSQL (0.5ms)[0m   [0;1mSHOW TABLES[0m
+  [4;35;1mSQL (154.9ms)[0m   [0mCREATE TABLE `users` (`id` int(11) DEFAULT NULL auto_increment PRIMARY KEY, `first_name` varchar(255), `middle_name` varchar(255), `last_name` varchar(255), `street_number` int(11), `street_name` varchar(255), `district_code` varchar(255), `municipality_code` varchar(255), `provincial_code` varchar(255), `voter_id` varchar(255), `birth_date` date, `email` varchar(255), `voted` tinyint(1), `activated` tinyint(1), `created_at` datetime, `updated_at` datetime) ENGINE=InnoDB[0m
+  [4;36;1mSQL (0.5ms)[0m   [0;1mSHOW TABLES[0m
+  [4;35;1mSQL (159.4ms)[0m   [0mCREATE TABLE `schema_migrations` (`version` varchar(255) NOT NULL) ENGINE=InnoDB[0m
+  [4;36;1mSQL (377.5ms)[0m   [0;1mCREATE UNIQUE INDEX `unique_schema_migrations` ON `schema_migrations` (`version`)[0m
+  [4;35;1mSQL (0.5ms)[0m   [0mSHOW TABLES[0m
+  [4;36;1mSQL (0.4ms)[0m   [0;1mSELECT version FROM `schema_migrations`[0m
+  [4;35;1mSQL (40.7ms)[0m   [0mINSERT INTO `schema_migrations` (version) VALUES ('20100518045950')[0m
+  [4;36;1mSQL (43.2ms)[0m   [0;1mINSERT INTO `schema_migrations` (version) VALUES ('20100518044441')[0m
+  [4;35;1mSQL (43.4ms)[0m   [0mINSERT INTO `schema_migrations` (version) VALUES ('20100518035913')[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+  [4;36;1mSQL (0.3ms)[0m   [0;1mSHOW TABLES[0m
+  [4;35;1mSQL (0.2ms)[0m   [0mSELECT version FROM schema_migrations[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+  [4;36;1mSQL (261.2ms)[0m   [0;1mDROP DATABASE IF EXISTS `EE-2010_test`[0m
+  [4;35;1mSQL (0.3ms)[0m   [0mCREATE DATABASE `EE-2010_test` DEFAULT CHARACTER SET `utf8`[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+  [4;36;1mSQL (3.6ms)[0m   [0;1mSHOW TABLES[0m
+  [4;35;1mSQL (151.9ms)[0m   [0mCREATE TABLE `candidates` (`id` int(11) DEFAULT NULL auto_increment PRIMARY KEY, `first_name` varchar(255), `middle_name` varchar(255), `last_name` varchar(255), `position` varchar(255), `level` varchar(255), `num_votes` int(11), `created_at` datetime, `updated_at` datetime, `province` varchar(255), `municipality` varchar(255), `district` varchar(255)) ENGINE=InnoDB[0m
+  [4;36;1mSQL (0.5ms)[0m   [0;1mSHOW TABLES[0m
+  [4;35;1mSQL (157.9ms)[0m   [0mCREATE TABLE `users` (`id` int(11) DEFAULT NULL auto_increment PRIMARY KEY, `first_name` varchar(255), `middle_name` varchar(255), `last_name` varchar(255), `street_number` int(11), `street_name` varchar(255), `district_code` varchar(255), `municipality_code` varchar(255), `provincial_code` varchar(255), `voter_id` varchar(255), `birth_date` date, `email` varchar(255), `voted` tinyint(1), `activated` tinyint(1), `created_at` datetime, `updated_at` datetime) ENGINE=InnoDB[0m
+  [4;36;1mSQL (0.5ms)[0m   [0;1mSHOW TABLES[0m
+  [4;35;1mSQL (142.4ms)[0m   [0mCREATE TABLE `schema_migrations` (`version` varchar(255) NOT NULL) ENGINE=InnoDB[0m
+  [4;36;1mSQL (320.1ms)[0m   [0;1mCREATE UNIQUE INDEX `unique_schema_migrations` ON `schema_migrations` (`version`)[0m
+  [4;35;1mSQL (0.5ms)[0m   [0mSHOW TABLES[0m
+  [4;36;1mSQL (0.5ms)[0m   [0;1mSELECT version FROM `schema_migrations`[0m
+  [4;35;1mSQL (54.8ms)[0m   [0mINSERT INTO `schema_migrations` (version) VALUES ('20100518045950')[0m
+  [4;36;1mSQL (57.5ms)[0m   [0;1mINSERT INTO `schema_migrations` (version) VALUES ('20100518044441')[0m
+  [4;35;1mSQL (57.6ms)[0m   [0mINSERT INTO `schema_migrations` (version) VALUES ('20100518035913')[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+  [4;36;1mSQL (0.3ms)[0m   [0;1mSHOW TABLES[0m
+  [4;35;1mSQL (0.2ms)[0m   [0mSELECT version FROM schema_migrations[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+  [4;36;1mSQL (215.8ms)[0m   [0;1mDROP DATABASE IF EXISTS `EE-2010_test`[0m
+  [4;35;1mSQL (0.3ms)[0m   [0mCREATE DATABASE `EE-2010_test` DEFAULT CHARACTER SET `utf8`[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+  [4;36;1mSQL (0.3ms)[0m   [0;1mSHOW TABLES[0m
+  [4;35;1mSQL (164.2ms)[0m   [0mCREATE TABLE `candidates` (`id` int(11) DEFAULT NULL auto_increment PRIMARY KEY, `first_name` varchar(255), `middle_name` varchar(255), `last_name` varchar(255), `position` varchar(255), `level` varchar(255), `num_votes` int(11), `created_at` datetime, `updated_at` datetime, `province` varchar(255), `municipality` varchar(255), `district` varchar(255)) ENGINE=InnoDB[0m
+  [4;36;1mSQL (0.5ms)[0m   [0;1mSHOW TABLES[0m
+  [4;35;1mSQL (183.4ms)[0m   [0mCREATE TABLE `users` (`id` int(11) DEFAULT NULL auto_increment PRIMARY KEY, `first_name` varchar(255), `middle_name` varchar(255), `last_name` varchar(255), `street_number` int(11), `street_name` varchar(255), `district_code` varchar(255), `municipality_code` varchar(255), `provincial_code` varchar(255), `voter_id` varchar(255), `birth_date` date, `email` varchar(255), `voted` tinyint(1), `activated` tinyint(1), `created_at` datetime, `updated_at` datetime) ENGINE=InnoDB[0m
+  [4;36;1mSQL (0.4ms)[0m   [0;1mSHOW TABLES[0m
+  [4;35;1mSQL (157.8ms)[0m   [0mCREATE TABLE `schema_migrations` (`version` varchar(255) NOT NULL) ENGINE=InnoDB[0m
+  [4;36;1mSQL (319.5ms)[0m   [0;1mCREATE UNIQUE INDEX `unique_schema_migrations` ON `schema_migrations` (`version`)[0m
+  [4;35;1mSQL (0.5ms)[0m   [0mSHOW TABLES[0m
+  [4;36;1mSQL (0.4ms)[0m   [0;1mSELECT version FROM `schema_migrations`[0m
+  [4;35;1mSQL (54.6ms)[0m   [0mINSERT INTO `schema_migrations` (version) VALUES ('20100518045950')[0m
+  [4;36;1mSQL (57.6ms)[0m   [0;1mINSERT INTO `schema_migrations` (version) VALUES ('20100518044441')[0m
+  [4;35;1mSQL (57.6ms)[0m   [0mINSERT INTO `schema_migrations` (version) VALUES ('20100518035913')[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+  [4;36;1mSQL (0.3ms)[0m   [0;1mSHOW TABLES[0m
+  [4;35;1mSQL (0.2ms)[0m   [0mSELECT version FROM schema_migrations[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+  [4;36;1mSQL (233.1ms)[0m   [0;1mDROP DATABASE IF EXISTS `EE-2010_test`[0m
+  [4;35;1mSQL (0.3ms)[0m   [0mCREATE DATABASE `EE-2010_test` DEFAULT CHARACTER SET `utf8`[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+  [4;36;1mSQL (0.5ms)[0m   [0;1mSHOW TABLES[0m
+  [4;35;1mSQL (147.6ms)[0m   [0mCREATE TABLE `candidates` (`id` int(11) DEFAULT NULL auto_increment PRIMARY KEY, `first_name` varchar(255), `middle_name` varchar(255), `last_name` varchar(255), `position` varchar(255), `level` varchar(255), `num_votes` int(11), `created_at` datetime, `updated_at` datetime, `province` varchar(255), `municipality` varchar(255), `district` varchar(255)) ENGINE=InnoDB[0m
+  [4;36;1mSQL (0.5ms)[0m   [0;1mSHOW TABLES[0m
+  [4;35;1mSQL (168.4ms)[0m   [0mCREATE TABLE `users` (`id` int(11) DEFAULT NULL auto_increment PRIMARY KEY, `first_name` varchar(255), `middle_name` varchar(255), `last_name` varchar(255), `street_number` int(11), `street_name` varchar(255), `district_code` varchar(255), `municipality_code` varchar(255), `provincial_code` varchar(255), `voter_id` varchar(255), `birth_date` date, `email` varchar(255), `voted` tinyint(1), `activated` tinyint(1), `created_at` datetime, `updated_at` datetime) ENGINE=InnoDB[0m
+  [4;36;1mSQL (0.4ms)[0m   [0;1mSHOW TABLES[0m
+  [4;35;1mSQL (172.2ms)[0m   [0mCREATE TABLE `schema_migrations` (`version` varchar(255) NOT NULL) ENGINE=InnoDB[0m
+  [4;36;1mSQL (364.8ms)[0m   [0;1mCREATE UNIQUE INDEX `unique_schema_migrations` ON `schema_migrations` (`version`)[0m
+  [4;35;1mSQL (0.5ms)[0m   [0mSHOW TABLES[0m
+  [4;36;1mSQL (0.4ms)[0m   [0;1mSELECT version FROM `schema_migrations`[0m
+  [4;35;1mSQL (68.5ms)[0m   [0mINSERT INTO `schema_migrations` (version) VALUES ('20100518045950')[0m
+  [4;36;1mSQL (43.3ms)[0m   [0;1mINSERT INTO `schema_migrations` (version) VALUES ('20100518044441')[0m
+  [4;35;1mSQL (43.2ms)[0m   [0mINSERT INTO `schema_migrations` (version) VALUES ('20100518035913')[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+  [4;36;1mSQL (0.3ms)[0m   [0;1mSHOW TABLES[0m
+  [4;35;1mSQL (0.2ms)[0m   [0mSELECT version FROM schema_migrations[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+  [4;36;1mSQL (231.4ms)[0m   [0;1mDROP DATABASE IF EXISTS `EE-2010_test`[0m
+  [4;35;1mSQL (0.3ms)[0m   [0mCREATE DATABASE `EE-2010_test` DEFAULT CHARACTER SET `utf8`[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+  [4;36;1mSQL (0.7ms)[0m   [0;1mSHOW TABLES[0m
+  [4;35;1mSQL (188.4ms)[0m   [0mCREATE TABLE `candidates` (`id` int(11) DEFAULT NULL auto_increment PRIMARY KEY, `first_name` varchar(255), `middle_name` varchar(255), `last_name` varchar(255), `position` varchar(255), `level` varchar(255), `num_votes` int(11), `created_at` datetime, `updated_at` datetime, `province` varchar(255), `municipality` varchar(255), `district` varchar(255)) ENGINE=InnoDB[0m
+  [4;36;1mSQL (0.5ms)[0m   [0;1mSHOW TABLES[0m
+  [4;35;1mSQL (142.1ms)[0m   [0mCREATE TABLE `users` (`id` int(11) DEFAULT NULL auto_increment PRIMARY KEY, `first_name` varchar(255), `middle_name` varchar(255), `last_name` varchar(255), `street_number` int(11), `street_name` varchar(255), `district_code` varchar(255), `municipality_code` varchar(255), `provincial_code` varchar(255), `voter_id` varchar(255), `birth_date` date, `email` varchar(255), `voted` tinyint(1), `activated` tinyint(1), `created_at` datetime, `updated_at` datetime) ENGINE=InnoDB[0m
+  [4;36;1mSQL (0.4ms)[0m   [0;1mSHOW TABLES[0m
+  [4;35;1mSQL (143.4ms)[0m   [0mCREATE TABLE `schema_migrations` (`version` varchar(255) NOT NULL) ENGINE=InnoDB[0m
+  [4;36;1mSQL (319.6ms)[0m   [0;1mCREATE UNIQUE INDEX `unique_schema_migrations` ON `schema_migrations` (`version`)[0m
+  [4;35;1mSQL (0.5ms)[0m   [0mSHOW TABLES[0m
+  [4;36;1mSQL (0.4ms)[0m   [0;1mSELECT version FROM `schema_migrations`[0m
+  [4;35;1mSQL (54.9ms)[0m   [0mINSERT INTO `schema_migrations` (version) VALUES ('20100518045950')[0m
+  [4;36;1mSQL (57.7ms)[0m   [0;1mINSERT INTO `schema_migrations` (version) VALUES ('20100518044441')[0m
+  [4;35;1mSQL (72.4ms)[0m   [0mINSERT INTO `schema_migrations` (version) VALUES ('20100518035913')[0m
