@@ -15,10 +15,6 @@ class AdminsController < ApplicationController
     end
   end
 
-  def show
-    @admin = @current_admin
-  end
-
   def edit
     @admin = @current_admin
   end
@@ -27,7 +23,7 @@ class AdminsController < ApplicationController
     @admin = @current_admin
     if @admin.update_attributes(params[:admin])
       flash[:notice] = "Account updated!"
-      redirect_to account_url
+      redirect_to admin_path
     else
       render :action => :edit
     end

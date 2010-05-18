@@ -9,7 +9,7 @@ class ApplicationController < ActionController::Base
   private
   def current_admin_session
     return @current_admin_session if defined?(@current_admin_session)
-    @current_admin_session = adminSession.find
+    @current_admin_session = AdminSession.find
   end
 
   def current_admin

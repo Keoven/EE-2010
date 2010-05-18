@@ -1,8 +1,8 @@
-<h1>Register</h1>
+<h1>Register New Administrator</h1>
 
 <% form_for @admin, :url => account_path do |f| %>
   <%= f.error_messages %>
   <%= render :partial => "form", :object => f %>
-  <%= f.submit "Register" %>
+  <%= f.submit "Add New Administrator" %>
 <% end %>
 
