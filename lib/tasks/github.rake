@@ -18,7 +18,7 @@ namespace 'ghub' do
       %x{ git add .
           git commit -am '#{args.msg}'
           git push origin master }
-      puts '==Updating GitHub Repository: Success============'
+      puts '==Updating GitHub Repository: Finished==========='
     end
   end
 
@@ -31,7 +31,7 @@ namespace 'ghub' do
   task :pull do
     puts '==Updating Local Repository========================'
     %x{ git pull origin master }
-    puts '==Updating Local Repository: Success==============='
+    puts '==Updating Local Repository: Finished=============='
   end
 end
 
