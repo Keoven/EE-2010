@@ -1,6 +1,7 @@
 # Read about fixtures at http://ar.rubyonrails.org/classes/Fixtures.html
 
 one:
+  user_id: 1
   first_name: MyString
   middle_name: MyString
   last_name: MyString
@@ -16,6 +17,7 @@ one:
   activated: false
 
 two:
+  user_id: 2
   first_name: MyString
   middle_name: MyString
   last_name: MyString

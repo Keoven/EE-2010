@@ -5,7 +5,7 @@ class UserTest < ActiveSupport::TestCase
   def setup
     @valid_user1 = users(:one)
     @valid_user2 = users(:two)
-    @valid_user = User.create( :id => 1, :first_name => 'a', :middle_name => 'b', :last_name => 'c',
+    @valid_user = User.create( :id => '1', :first_name => 'a', :middle_name => 'b', :last_name => 'c',
      			       :street_number => 1, :street_name => 'string', 
      			       :district_code => 'asdf', :municipality_code => 'asdf', :provincial_code => 'asdf',
      			       :voter_id => 'qwer1234', :birth_date => Date.new, :email => 'a@asdf.com',

@@ -1,0 +1,1211 @@
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+  [4;36;1mUser Delete all (0.2ms)[0m   [0;1mDELETE FROM `users` [0m
+  [4;35;1mUser Delete all (0.2ms)[0m   [0mDELETE FROM `users` [0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+  [4;36;1mUser Delete all (0.1ms)[0m   [0;1mDELETE FROM `users` [0m
+  [4;35;1mUser Delete all (0.2ms)[0m   [0mDELETE FROM `users` [0m
+  [4;36;1mSQL (1.2ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mBEGIN[0m
+  [4;35;1mUser Load (24.2ms)[0m   [0mSELECT * FROM `users` WHERE (`users`.`id` = 980190962) [0m
+  [4;36;1mUser Load (0.5ms)[0m   [0;1mSELECT * FROM `users` WHERE (`users`.`id` = 298486374) [0m
+  [4;35;1mUser Delete all (0.3ms)[0m   [0mDELETE FROM `users` [0m
+  [4;36;1mSQL (40.4ms)[0m   [0;1mROLLBACK[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mBEGIN[0m
+  [4;36;1mUser Load (0.5ms)[0m   [0;1mSELECT * FROM `users` WHERE (`users`.`id` = 980190962) [0m
+  [4;35;1mUser Load (0.3ms)[0m   [0mSELECT * FROM `users` WHERE (`users`.`id` = 298486374) [0m
+  [4;36;1mUser Load (115.0ms)[0m   [0;1mSELECT `users`.id FROM `users` WHERE (`users`.`voter_id` = BINARY 'MyString' AND `users`.id <> 980190962) LIMIT 1[0m
+  [4;35;1mUser Load (0.6ms)[0m   [0mSELECT `users`.id FROM `users` WHERE (`users`.`email` = BINARY 'MyString@yahoo.com' AND `users`.id <> 980190962) LIMIT 1[0m
+  [4;36;1mUser Delete all (1.0ms)[0m   [0;1mDELETE FROM `users` [0m
+  [4;35;1mSQL (85.3ms)[0m   [0mROLLBACK[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mBEGIN[0m
+  [4;35;1mUser Load (0.5ms)[0m   [0mSELECT * FROM `users` WHERE (`users`.`id` = 980190962) [0m
+  [4;36;1mUser Load (0.4ms)[0m   [0;1mSELECT * FROM `users` WHERE (`users`.`id` = 298486374) [0m
+  [4;35;1mUser Delete all (0.4ms)[0m   [0mDELETE FROM `users` [0m
+  [4;36;1mSQL (42.8ms)[0m   [0;1mROLLBACK[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mBEGIN[0m
+  [4;36;1mUser Load (1.0ms)[0m   [0;1mSELECT * FROM `users` WHERE (`users`.`id` = 980190962) [0m
+  [4;35;1mUser Load (0.3ms)[0m   [0mSELECT * FROM `users` WHERE (`users`.`id` = 298486374) [0m
+  [4;36;1mUser Load (0.5ms)[0m   [0;1mSELECT `users`.id FROM `users` WHERE (`users`.`voter_id` = BINARY 'MyString' AND `users`.id <> 980190962) LIMIT 1[0m
+  [4;35;1mUser Load (0.3ms)[0m   [0mSELECT `users`.id FROM `users` WHERE (`users`.`email` = BINARY 'MyString@yahoo.com' AND `users`.id <> 980190962) LIMIT 1[0m
+  [4;36;1mUser Delete all (0.2ms)[0m   [0;1mDELETE FROM `users` [0m
+  [4;35;1mSQL (56.0ms)[0m   [0mROLLBACK[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mBEGIN[0m
+  [4;35;1mUser Load (0.5ms)[0m   [0mSELECT * FROM `users` WHERE (`users`.`id` = 980190962) [0m
+  [4;36;1mUser Load (0.3ms)[0m   [0;1mSELECT * FROM `users` WHERE (`users`.`id` = 298486374) [0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSAVEPOINT active_record_1[0m
+  [4;36;1mUser Load (0.4ms)[0m   [0;1mSELECT `users`.id FROM `users` WHERE (`users`.`voter_id` = BINARY 'MyString' AND `users`.id <> 980190962) LIMIT 1[0m
+  [4;35;1mUser Load (0.3ms)[0m   [0mSELECT `users`.id FROM `users` WHERE (`users`.`email` = BINARY 'MyString@yahoo.com' AND `users`.id <> 980190962) LIMIT 1[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mROLLBACK TO SAVEPOINT active_record_1[0m
+  [4;35;1mUser Delete all (0.4ms)[0m   [0mDELETE FROM `users` [0m
+  [4;36;1mSQL (55.9ms)[0m   [0;1mROLLBACK[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mBEGIN[0m
+  [4;36;1mUser Load (0.5ms)[0m   [0;1mSELECT * FROM `users` WHERE (`users`.`id` = 980190962) [0m
+  [4;35;1mUser Load (0.3ms)[0m   [0mSELECT * FROM `users` WHERE (`users`.`id` = 298486374) [0m
+  [4;36;1mUser Load (0.5ms)[0m   [0;1mSELECT `users`.id FROM `users` WHERE (`users`.`voter_id` = BINARY 'MyString' AND `users`.id <> 980190962) LIMIT 1[0m
+  [4;35;1mUser Load (0.2ms)[0m   [0mSELECT `users`.id FROM `users` WHERE (`users`.`email` = BINARY 'MyString@yahoo.com' AND `users`.id <> 980190962) LIMIT 1[0m
+  [4;36;1mUser Delete all (0.2ms)[0m   [0;1mDELETE FROM `users` [0m
+  [4;35;1mSQL (47.2ms)[0m   [0mROLLBACK[0m
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mBEGIN[0m
+  [4;35;1mUser Load (0.5ms)[0m   [0mSELECT * FROM `users` WHERE (`users`.`id` = 980190962) [0m
+  [4;36;1mUser Load (0.3ms)[0m   [0;1mSELECT * FROM `users` WHERE (`users`.`id` = 298486374) [0m
+  [4;35;1mSQL (0.2ms)[0m   [0mSAVEPOINT active_record_1[0m
+  [4;36;1mUser Load (0.6ms)[0m   [0;1mSELECT `users`.id FROM `users` WHERE (`users`.`voter_id` = BINARY 'MyString' AND `users`.id <> 980190962) LIMIT 1[0m
+  [4;35;1mUser Load (0.2ms)[0m   [0mSELECT `users`.id FROM `users` WHERE (`users`.`email` = BINARY 'MyString@yahoo.com' AND `users`.id <> 980190962) LIMIT 1[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mROLLBACK TO SAVEPOINT active_record_1[0m
+  [4;35;1mUser Delete all (0.4ms)[0m   [0mDELETE FROM `users` [0m
+  [4;36;1mSQL (123.6ms)[0m   [0;1mROLLBACK[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mBEGIN[0m
+  [4;36;1mUser Load (0.5ms)[0m   [0;1mSELECT * FROM `users` WHERE (`users`.`id` = 980190962) [0m
+  [4;35;1mUser Load (0.3ms)[0m   [0mSELECT * FROM `users` WHERE (`users`.`id` = 298486374) [0m
+  [4;36;1mUser Delete all (0.3ms)[0m   [0;1mDELETE FROM `users` [0m
+  [4;35;1mSQL (51.2ms)[0m   [0mROLLBACK[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mBEGIN[0m
+  [4;35;1mUser Load (0.5ms)[0m   [0mSELECT * FROM `users` WHERE (`users`.`id` = 980190962) [0m
+  [4;36;1mUser Load (0.3ms)[0m   [0;1mSELECT * FROM `users` WHERE (`users`.`id` = 298486374) [0m
+  [4;35;1mUser Load (0.5ms)[0m   [0mSELECT `users`.id FROM `users` WHERE (`users`.`voter_id` = BINARY 'MyString' AND `users`.id <> 980190962) LIMIT 1[0m
+  [4;36;1mUser Load (0.4ms)[0m   [0;1mSELECT `users`.id FROM `users` WHERE (`users`.`email` = BINARY 'MyString@yahoo.com' AND `users`.id <> 980190962) LIMIT 1[0m
+  [4;35;1mUser Delete all (0.2ms)[0m   [0mDELETE FROM `users` [0m
+  [4;36;1mSQL (57.0ms)[0m   [0;1mROLLBACK[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+  [4;36;1mSQL (1.0ms)[0m   [0;1mBEGIN[0m
+  [4;35;1mUser Load (0.5ms)[0m   [0mSELECT * FROM `users` WHERE (`users`.`id` = 980190962) [0m
+  [4;36;1mUser Load (0.3ms)[0m   [0;1mSELECT * FROM `users` WHERE (`users`.`id` = 298486374) [0m
+  [4;35;1mUser Load (1.1ms)[0m   [0mSELECT `users`.id FROM `users` WHERE (`users`.`voter_id` = BINARY 'MyString' AND `users`.id <> 980190962) LIMIT 1[0m
+  [4;36;1mUser Load (0.3ms)[0m   [0;1mSELECT `users`.id FROM `users` WHERE (`users`.`email` = BINARY 'MyString@yahoo.com' AND `users`.id <> 980190962) LIMIT 1[0m
+  [4;35;1mUser Delete all (1.0ms)[0m   [0mDELETE FROM `users` [0m
+  [4;36;1mSQL (84.7ms)[0m   [0;1mROLLBACK[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mBEGIN[0m
+  [4;36;1mUser Load (0.5ms)[0m   [0;1mSELECT * FROM `users` WHERE (`users`.`id` = 980190962) [0m
+  [4;35;1mUser Load (0.4ms)[0m   [0mSELECT * FROM `users` WHERE (`users`.`id` = 298486374) [0m
+  [4;36;1mUser Delete all (0.9ms)[0m   [0;1mDELETE FROM `users` [0m
+  [4;35;1mSQL (50.3ms)[0m   [0mROLLBACK[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mBEGIN[0m
+  [4;35;1mUser Load (1.1ms)[0m   [0mSELECT * FROM `users` WHERE (`users`.`id` = 980190962) [0m
+  [4;36;1mUser Load (0.4ms)[0m   [0;1mSELECT * FROM `users` WHERE (`users`.`id` = 298486374) [0m
+  [4;35;1mUser Load (2.3ms)[0m   [0mSELECT `users`.id FROM `users` WHERE (`users`.`voter_id` = BINARY 'MyString' AND `users`.id <> 980190962) LIMIT 1[0m
+  [4;36;1mUser Load (0.4ms)[0m   [0;1mSELECT `users`.id FROM `users` WHERE (`users`.`email` = BINARY 'MyString@yahoo.com' AND `users`.id <> 980190962) LIMIT 1[0m
+  [4;35;1mUser Delete all (1.1ms)[0m   [0mDELETE FROM `users` [0m
+  [4;36;1mSQL (80.8ms)[0m   [0;1mROLLBACK[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mBEGIN[0m
+  [4;35;1mUser Load (0.5ms)[0m   [0mSELECT * FROM `users` WHERE (`users`.`id` = 980190962) [0m
+  [4;36;1mUser Load (0.3ms)[0m   [0;1mSELECT * FROM `users` WHERE (`users`.`id` = 298486374) [0m
+  [4;35;1mUser Delete all (0.3ms)[0m   [0mDELETE FROM `users` [0m
+  [4;36;1mSQL (55.8ms)[0m   [0;1mROLLBACK[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mBEGIN[0m
+  [4;36;1mUser Load (0.3ms)[0m   [0;1mSELECT * FROM `users` WHERE (`users`.`id` = 980190962) [0m
+  [4;35;1mUser Load (0.2ms)[0m   [0mSELECT * FROM `users` WHERE (`users`.`id` = 298486374) [0m
+  [4;36;1mUser Delete all (0.2ms)[0m   [0;1mDELETE FROM `users` [0m
+  [4;35;1mSQL (120.3ms)[0m   [0mROLLBACK[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mBEGIN[0m
+  [4;35;1mUser Load (0.5ms)[0m   [0mSELECT * FROM `users` WHERE (`users`.`id` = 980190962) [0m
+  [4;36;1mUser Load (0.3ms)[0m   [0;1mSELECT * FROM `users` WHERE (`users`.`id` = 298486374) [0m
+  [4;35;1mUser Load (78.6ms)[0m   [0mSELECT `users`.id FROM `users` WHERE (`users`.`voter_id` = BINARY 'MyString' AND `users`.id <> 980190962) LIMIT 1[0m
+  [4;36;1mUser Load (0.6ms)[0m   [0;1mSELECT `users`.id FROM `users` WHERE (`users`.`email` = BINARY 'MyString@yahoo.com' AND `users`.id <> 980190962) LIMIT 1[0m
+  [4;35;1mUser Delete all (0.3ms)[0m   [0mDELETE FROM `users` [0m
+  [4;36;1mSQL (75.8ms)[0m   [0;1mROLLBACK[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+  [4;36;1mSQL (0.5ms)[0m   [0;1mBEGIN[0m
+  [4;35;1mUser Load (0.5ms)[0m   [0mSELECT * FROM `users` WHERE (`users`.`id` = 980190962) [0m
+  [4;36;1mUser Load (0.3ms)[0m   [0;1mSELECT * FROM `users` WHERE (`users`.`id` = 298486374) [0m
+  [4;35;1mSQL (0.7ms)[0m   [0mSAVEPOINT active_record_1[0m
+  [4;36;1mUser Load (1.5ms)[0m   [0;1mSELECT `users`.id FROM `users` WHERE (`users`.`voter_id` = BINARY 'MyString' AND `users`.id <> 980190962) LIMIT 1[0m
+  [4;35;1mUser Load (0.9ms)[0m   [0mSELECT `users`.id FROM `users` WHERE (`users`.`email` = BINARY 'MyString@yahoo.com' AND `users`.id <> 980190962) LIMIT 1[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mROLLBACK TO SAVEPOINT active_record_1[0m
+  [4;35;1mUser Delete all (0.3ms)[0m   [0mDELETE FROM `users` [0m
+  [4;36;1mSQL (92.2ms)[0m   [0;1mROLLBACK[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mBEGIN[0m
+  [4;36;1mUser Load (0.5ms)[0m   [0;1mSELECT * FROM `users` WHERE (`users`.`id` = 980190962) [0m
+  [4;35;1mUser Load (0.3ms)[0m   [0mSELECT * FROM `users` WHERE (`users`.`id` = 298486374) [0m
+  [4;36;1mUser Load (0.5ms)[0m   [0;1mSELECT `users`.id FROM `users` WHERE (`users`.`voter_id` = BINARY 'MyString' AND `users`.id <> 980190962) LIMIT 1[0m
+  [4;35;1mUser Load (0.4ms)[0m   [0mSELECT `users`.id FROM `users` WHERE (`users`.`email` = BINARY 'MyString@yahoo.com' AND `users`.id <> 980190962) LIMIT 1[0m
+  [4;36;1mUser Delete all (0.3ms)[0m   [0;1mDELETE FROM `users` [0m
+  [4;35;1mSQL (57.1ms)[0m   [0mROLLBACK[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mBEGIN[0m
+  [4;35;1mUser Load (0.5ms)[0m   [0mSELECT * FROM `users` WHERE (`users`.`id` = 980190962) [0m
+  [4;36;1mUser Load (0.5ms)[0m   [0;1mSELECT * FROM `users` WHERE (`users`.`id` = 298486374) [0m
+  [4;35;1mUser Delete all (0.3ms)[0m   [0mDELETE FROM `users` [0m
+  [4;36;1mSQL (61.4ms)[0m   [0;1mROLLBACK[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mBEGIN[0m
+  [4;36;1mUser Load (0.5ms)[0m   [0;1mSELECT * FROM `users` WHERE (`users`.`id` = 980190962) [0m
+  [4;35;1mUser Load (0.4ms)[0m   [0mSELECT * FROM `users` WHERE (`users`.`id` = 298486374) [0m
+  [4;36;1mUser Delete all (0.3ms)[0m   [0;1mDELETE FROM `users` [0m
+  [4;35;1mSQL (50.8ms)[0m   [0mROLLBACK[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mBEGIN[0m
+  [4;35;1mUser Load (0.6ms)[0m   [0mSELECT * FROM `users` WHERE (`users`.`id` = 980190962) [0m
+  [4;36;1mUser Load (0.4ms)[0m   [0;1mSELECT * FROM `users` WHERE (`users`.`id` = 298486374) [0m
+  [4;35;1mUser Load (0.6ms)[0m   [0mSELECT `users`.id FROM `users` WHERE (`users`.`voter_id` = BINARY 'MyString' AND `users`.id <> 980190962) LIMIT 1[0m
+  [4;36;1mUser Load (1.4ms)[0m   [0;1mSELECT `users`.id FROM `users` WHERE (`users`.`email` = BINARY 'MyString@yahoo.com' AND `users`.id <> 980190962) LIMIT 1[0m
+  [4;35;1mUser Delete all (0.7ms)[0m   [0mDELETE FROM `users` [0m
+  [4;36;1mSQL (55.6ms)[0m   [0;1mROLLBACK[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mBEGIN[0m
+  [4;36;1mUser Load (0.5ms)[0m   [0;1mSELECT * FROM `users` WHERE (`users`.`id` = 980190962) [0m
+  [4;35;1mUser Load (0.3ms)[0m   [0mSELECT * FROM `users` WHERE (`users`.`id` = 298486374) [0m
+  [4;36;1mUser Load (0.5ms)[0m   [0;1mSELECT `users`.id FROM `users` WHERE (`users`.`voter_id` = BINARY 'MyString' AND `users`.id <> 980190962) LIMIT 1[0m
+  [4;35;1mUser Load (0.4ms)[0m   [0mSELECT `users`.id FROM `users` WHERE (`users`.`email` = BINARY 'MyString@yahoo.com' AND `users`.id <> 980190962) LIMIT 1[0m
+  [4;36;1mUser Delete all (0.3ms)[0m   [0;1mDELETE FROM `users` [0m
+  [4;35;1mSQL (45.4ms)[0m   [0mROLLBACK[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mBEGIN[0m
+  [4;35;1mUser Load (0.5ms)[0m   [0mSELECT * FROM `users` WHERE (`users`.`id` = 980190962) [0m
+  [4;36;1mUser Load (0.5ms)[0m   [0;1mSELECT * FROM `users` WHERE (`users`.`id` = 298486374) [0m
+  [4;35;1mUser Load (0.5ms)[0m   [0mSELECT `users`.id FROM `users` WHERE (`users`.`voter_id` = BINARY 'MyString' AND `users`.id <> 980190962) LIMIT 1[0m
+  [4;36;1mUser Load (0.2ms)[0m   [0;1mSELECT `users`.id FROM `users` WHERE (`users`.`email` = BINARY 'MyString@yahoo.com' AND `users`.id <> 980190962) LIMIT 1[0m
+  [4;35;1mUser Delete all (0.2ms)[0m   [0mDELETE FROM `users` [0m
+  [4;36;1mSQL (47.1ms)[0m   [0;1mROLLBACK[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mBEGIN[0m
+  [4;35;1mUser Load (0.5ms)[0m   [0mSELECT * FROM `users` WHERE (`users`.`id` = 980190962) [0m
+  [4;36;1mUser Load (1.2ms)[0m   [0;1mSELECT * FROM `users` WHERE (`users`.`id` = 298486374) [0m
+  [4;35;1mSQL (0.5ms)[0m   [0mSAVEPOINT active_record_1[0m
+  [4;36;1mUser Load (0.4ms)[0m   [0;1mSELECT `users`.id FROM `users` WHERE (`users`.`voter_id` = BINARY 'MyString' AND `users`.id <> 980190962) LIMIT 1[0m
+  [4;35;1mUser Load (0.3ms)[0m   [0mSELECT `users`.id FROM `users` WHERE (`users`.`email` = BINARY 'MyString@yahoo.com' AND `users`.id <> 980190962) LIMIT 1[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mROLLBACK TO SAVEPOINT active_record_1[0m
+  [4;35;1mUser Delete all (0.3ms)[0m   [0mDELETE FROM `users` [0m
+  [4;36;1mSQL (89.4ms)[0m   [0;1mROLLBACK[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mBEGIN[0m
+  [4;36;1mUser Load (0.5ms)[0m   [0;1mSELECT * FROM `users` WHERE (`users`.`id` = 980190962) [0m
+  [4;35;1mUser Load (0.4ms)[0m   [0mSELECT * FROM `users` WHERE (`users`.`id` = 298486374) [0m
+  [4;36;1mUser Load (0.8ms)[0m   [0;1mSELECT `users`.id FROM `users` WHERE (`users`.`voter_id` = BINARY 'MyString' AND `users`.id <> 980190962) LIMIT 1[0m
+  [4;35;1mUser Load (0.6ms)[0m   [0mSELECT `users`.id FROM `users` WHERE (`users`.`email` = BINARY 'MyString@yahoo.com' AND `users`.id <> 980190962) LIMIT 1[0m
+  [4;36;1mUser Delete all (0.8ms)[0m   [0;1mDELETE FROM `users` [0m
+  [4;35;1mSQL (95.9ms)[0m   [0mROLLBACK[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mBEGIN[0m
+  [4;35;1mUser Load (0.9ms)[0m   [0mSELECT * FROM `users` WHERE (`users`.`id` = 980190962) [0m
+  [4;36;1mUser Load (0.4ms)[0m   [0;1mSELECT * FROM `users` WHERE (`users`.`id` = 298486374) [0m
+  [4;35;1mUser Delete all (0.3ms)[0m   [0mDELETE FROM `users` [0m
+  [4;36;1mSQL (62.3ms)[0m   [0;1mROLLBACK[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mBEGIN[0m
+  [4;36;1mUser Load (0.5ms)[0m   [0;1mSELECT * FROM `users` WHERE (`users`.`id` = 980190962) [0m
+  [4;35;1mUser Load (0.3ms)[0m   [0mSELECT * FROM `users` WHERE (`users`.`id` = 298486374) [0m
+  [4;36;1mUser Delete all (0.3ms)[0m   [0;1mDELETE FROM `users` [0m
+  [4;35;1mSQL (62.4ms)[0m   [0mROLLBACK[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mBEGIN[0m
+  [4;35;1mUser Load (0.6ms)[0m   [0mSELECT * FROM `users` WHERE (`users`.`id` = 980190962) [0m
+  [4;36;1mUser Load (0.3ms)[0m   [0;1mSELECT * FROM `users` WHERE (`users`.`id` = 298486374) [0m
+  [4;35;1mUser Load (0.5ms)[0m   [0mSELECT `users`.id FROM `users` WHERE (`users`.`voter_id` = BINARY 'MyString' AND `users`.id <> 980190962) LIMIT 1[0m
+  [4;36;1mUser Load (0.5ms)[0m   [0;1mSELECT `users`.id FROM `users` WHERE (`users`.`email` = BINARY 'MyString@yahoo.com' AND `users`.id <> 980190962) LIMIT 1[0m
+  [4;35;1mUser Delete all (0.3ms)[0m   [0mDELETE FROM `users` [0m
+  [4;36;1mSQL (45.8ms)[0m   [0;1mROLLBACK[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mBEGIN[0m
+  [4;36;1mUser Load (0.6ms)[0m   [0;1mSELECT * FROM `users` WHERE (`users`.`id` = 980190962) [0m
+  [4;35;1mUser Load (0.3ms)[0m   [0mSELECT * FROM `users` WHERE (`users`.`id` = 298486374) [0m
+  [4;36;1mUser Load (0.4ms)[0m   [0;1mSELECT `users`.id FROM `users` WHERE (`users`.`voter_id` = BINARY 'MyString' AND `users`.id <> 980190962) LIMIT 1[0m
+  [4;35;1mUser Load (0.4ms)[0m   [0mSELECT `users`.id FROM `users` WHERE (`users`.`email` = BINARY 'MyString@yahoo.com' AND `users`.id <> 980190962) LIMIT 1[0m
+  [4;36;1mUser Delete all (0.3ms)[0m   [0;1mDELETE FROM `users` [0m
+  [4;35;1mSQL (46.4ms)[0m   [0mROLLBACK[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mBEGIN[0m
+  [4;35;1mUser Load (0.6ms)[0m   [0mSELECT * FROM `users` WHERE (`users`.`id` = 980190962) [0m
+  [4;36;1mUser Load (0.4ms)[0m   [0;1mSELECT * FROM `users` WHERE (`users`.`id` = 298486374) [0m
+  [4;35;1mUser Load (0.5ms)[0m   [0mSELECT `users`.id FROM `users` WHERE (`users`.`voter_id` = BINARY 'MyString' AND `users`.id <> 980190962) LIMIT 1[0m
+  [4;36;1mUser Load (0.4ms)[0m   [0;1mSELECT `users`.id FROM `users` WHERE (`users`.`email` = BINARY 'MyString@yahoo.com' AND `users`.id <> 980190962) LIMIT 1[0m
+  [4;35;1mUser Delete all (0.3ms)[0m   [0mDELETE FROM `users` [0m
+  [4;36;1mSQL (46.6ms)[0m   [0;1mROLLBACK[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mBEGIN[0m
+  [4;35;1mUser Load (2.2ms)[0m   [0mSELECT * FROM `users` WHERE (`users`.`id` = 980190962) [0m
+  [4;36;1mUser Load (0.2ms)[0m   [0;1mSELECT * FROM `users` WHERE (`users`.`id` = 298486374) [0m
+  [4;35;1mUser Delete all (0.3ms)[0m   [0mDELETE FROM `users` [0m
+  [4;36;1mSQL (43.1ms)[0m   [0;1mROLLBACK[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mBEGIN[0m
+  [4;36;1mUser Load (0.6ms)[0m   [0;1mSELECT * FROM `users` WHERE (`users`.`id` = 980190962) [0m
+  [4;35;1mUser Load (1.2ms)[0m   [0mSELECT * FROM `users` WHERE (`users`.`id` = 298486374) [0m
+  [4;36;1mUser Load (2.7ms)[0m   [0;1mSELECT `users`.id FROM `users` WHERE (`users`.`voter_id` = BINARY 'MyString' AND `users`.id <> 980190962) LIMIT 1[0m
+  [4;35;1mUser Load (0.4ms)[0m   [0mSELECT `users`.id FROM `users` WHERE (`users`.`email` = BINARY 'MyString@yahoo.com' AND `users`.id <> 980190962) LIMIT 1[0m
+  [4;36;1mUser Delete all (0.3ms)[0m   [0;1mDELETE FROM `users` [0m
+  [4;35;1mSQL (54.3ms)[0m   [0mROLLBACK[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mBEGIN[0m
+  [4;35;1mUser Load (0.7ms)[0m   [0mSELECT * FROM `users` WHERE (`users`.`id` = 980190962) [0m
+  [4;36;1mUser Load (0.3ms)[0m   [0;1mSELECT * FROM `users` WHERE (`users`.`id` = 298486374) [0m
+  [4;35;1mUser Delete all (0.3ms)[0m   [0mDELETE FROM `users` [0m
+  [4;36;1mSQL (38.6ms)[0m   [0;1mROLLBACK[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mBEGIN[0m
+  [4;36;1mUser Load (0.8ms)[0m   [0;1mSELECT * FROM `users` WHERE (`users`.`id` = 980190962) [0m
+  [4;35;1mUser Load (0.2ms)[0m   [0mSELECT * FROM `users` WHERE (`users`.`id` = 298486374) [0m
+  [4;36;1mUser Delete all (0.3ms)[0m   [0;1mDELETE FROM `users` [0m
+  [4;35;1mSQL (52.7ms)[0m   [0mROLLBACK[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mBEGIN[0m
+  [4;35;1mUser Load (0.5ms)[0m   [0mSELECT * FROM `users` WHERE (`users`.`id` = 980190962) [0m
+  [4;36;1mUser Load (0.3ms)[0m   [0;1mSELECT * FROM `users` WHERE (`users`.`id` = 298486374) [0m
+  [4;35;1mUser Load (0.4ms)[0m   [0mSELECT `users`.id FROM `users` WHERE (`users`.`voter_id` = BINARY 'MyString' AND `users`.id <> 980190962) LIMIT 1[0m
+  [4;36;1mUser Load (0.4ms)[0m   [0;1mSELECT `users`.id FROM `users` WHERE (`users`.`email` = BINARY 'MyString@yahoo.com' AND `users`.id <> 980190962) LIMIT 1[0m
+  [4;35;1mUser Delete all (0.2ms)[0m   [0mDELETE FROM `users` [0m
+  [4;36;1mSQL (35.5ms)[0m   [0;1mROLLBACK[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mBEGIN[0m
+  [4;36;1mUser Load (0.5ms)[0m   [0;1mSELECT * FROM `users` WHERE (`users`.`id` = 980190962) [0m
+  [4;35;1mUser Load (0.3ms)[0m   [0mSELECT * FROM `users` WHERE (`users`.`id` = 298486374) [0m
+  [4;36;1mUser Load (0.4ms)[0m   [0;1mSELECT `users`.id FROM `users` WHERE (`users`.`voter_id` = BINARY 'MyString' AND `users`.id <> 980190962) LIMIT 1[0m
+  [4;35;1mUser Load (0.4ms)[0m   [0mSELECT `users`.id FROM `users` WHERE (`users`.`email` = BINARY 'MyString@yahoo.com' AND `users`.id <> 980190962) LIMIT 1[0m
+  [4;36;1mUser Delete all (0.3ms)[0m   [0;1mDELETE FROM `users` [0m
+  [4;35;1mSQL (102.2ms)[0m   [0mROLLBACK[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mBEGIN[0m
+  [4;35;1mUser Load (1.6ms)[0m   [0mSELECT * FROM `users` WHERE (`users`.`id` = 980190962) [0m
+  [4;36;1mUser Load (0.4ms)[0m   [0;1mSELECT * FROM `users` WHERE (`users`.`id` = 298486374) [0m
+  [4;35;1mUser Load (0.4ms)[0m   [0mSELECT `users`.id FROM `users` WHERE (`users`.`voter_id` = BINARY 'MyString' AND `users`.id <> 980190962) LIMIT 1[0m
+  [4;36;1mUser Load (0.5ms)[0m   [0;1mSELECT `users`.id FROM `users` WHERE (`users`.`email` = BINARY 'MyString@yahoo.com' AND `users`.id <> 980190962) LIMIT 1[0m
+  [4;35;1mUser Delete all (1.1ms)[0m   [0mDELETE FROM `users` [0m
+  [4;36;1mSQL (43.8ms)[0m   [0;1mROLLBACK[0m
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mBEGIN[0m
+  [4;35;1mUser Load (24.7ms)[0m   [0mSELECT * FROM `users` WHERE (`users`.`id` = 980190962) [0m
+  [4;36;1mUser Load (0.6ms)[0m   [0;1mSELECT * FROM `users` WHERE (`users`.`id` = 298486374) [0m
+  [4;35;1mUser Delete all (0.4ms)[0m   [0mDELETE FROM `users` [0m
+  [4;36;1mSQL (75.0ms)[0m   [0;1mROLLBACK[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mBEGIN[0m
+  [4;36;1mUser Load (0.5ms)[0m   [0;1mSELECT * FROM `users` WHERE (`users`.`id` = 980190962) [0m
+  [4;35;1mUser Load (0.4ms)[0m   [0mSELECT * FROM `users` WHERE (`users`.`id` = 298486374) [0m
+  [4;36;1mUser Delete all (0.3ms)[0m   [0;1mDELETE FROM `users` [0m
+  [4;35;1mSQL (83.2ms)[0m   [0mROLLBACK[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mBEGIN[0m
+  [4;35;1mUser Load (0.5ms)[0m   [0mSELECT * FROM `users` WHERE (`users`.`id` = 980190962) [0m
+  [4;36;1mUser Load (0.3ms)[0m   [0;1mSELECT * FROM `users` WHERE (`users`.`id` = 298486374) [0m
+  [4;35;1mUser Delete all (0.3ms)[0m   [0mDELETE FROM `users` [0m
+  [4;36;1mSQL (51.3ms)[0m   [0;1mROLLBACK[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mBEGIN[0m
+  [4;36;1mUser Load (0.5ms)[0m   [0;1mSELECT * FROM `users` WHERE (`users`.`id` = 980190962) [0m
+  [4;35;1mUser Load (0.3ms)[0m   [0mSELECT * FROM `users` WHERE (`users`.`id` = 298486374) [0m
+  [4;36;1mUser Delete all (0.3ms)[0m   [0;1mDELETE FROM `users` [0m
+  [4;35;1mSQL (60.8ms)[0m   [0mROLLBACK[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mBEGIN[0m
+  [4;35;1mUser Load (0.5ms)[0m   [0mSELECT * FROM `users` WHERE (`users`.`id` = 980190962) [0m
+  [4;36;1mUser Load (0.4ms)[0m   [0;1mSELECT * FROM `users` WHERE (`users`.`id` = 298486374) [0m
+  [4;35;1mUser Delete all (0.3ms)[0m   [0mDELETE FROM `users` [0m
+  [4;36;1mSQL (49.7ms)[0m   [0;1mROLLBACK[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mBEGIN[0m
+  [4;36;1mUser Load (0.5ms)[0m   [0;1mSELECT * FROM `users` WHERE (`users`.`id` = 980190962) [0m
+  [4;35;1mUser Load (0.3ms)[0m   [0mSELECT * FROM `users` WHERE (`users`.`id` = 298486374) [0m
+  [4;36;1mUser Delete all (1.6ms)[0m   [0;1mDELETE FROM `users` [0m
+  [4;35;1mSQL (59.4ms)[0m   [0mROLLBACK[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mBEGIN[0m
+  [4;35;1mUser Load (0.5ms)[0m   [0mSELECT * FROM `users` WHERE (`users`.`id` = 980190962) [0m
+  [4;36;1mUser Load (0.3ms)[0m   [0;1mSELECT * FROM `users` WHERE (`users`.`id` = 298486374) [0m
+  [4;35;1mUser Delete all (0.3ms)[0m   [0mDELETE FROM `users` [0m
+  [4;36;1mSQL (50.1ms)[0m   [0;1mROLLBACK[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mBEGIN[0m
+  [4;35;1mUser Load (0.6ms)[0m   [0mSELECT * FROM `users` WHERE (`users`.`id` = 980190962) [0m
+  [4;36;1mUser Load (0.3ms)[0m   [0;1mSELECT * FROM `users` WHERE (`users`.`id` = 298486374) [0m
+  [4;35;1mSQL (0.2ms)[0m   [0mSAVEPOINT active_record_1[0m
+  [4;36;1mUser Load (0.4ms)[0m   [0;1mSELECT `users`.id FROM `users` WHERE (`users`.`voter_id` = BINARY 'qwer1234') LIMIT 1[0m
+  [4;35;1mUser Load (0.6ms)[0m   [0mSELECT `users`.id FROM `users` WHERE (`users`.`email` = BINARY 'a@asdf.com') LIMIT 1[0m
+  [4;36;1mUser Create (64.2ms)[0m   [0;1mINSERT INTO `users` (`voter_id`, `district_code`, `created_at`, `updated_at`, `birth_date`, `provincial_code`, `voted`, `last_name`, `street_number`, `municipality_code`, `activated`, `street_name`, `first_name`, `middle_name`, `email`) VALUES('qwer1234', 'asdf', '2010-05-18 06:16:41', '2010-05-18 06:16:41', '-4712-01-01', 'asdf', 1, 'c', 1, 'asdf', 1, 'string', 'a', 'b', 'a@asdf.com')[0m
+  [4;35;1mSQL (0.2ms)[0m   [0mRELEASE SAVEPOINT active_record_1[0m
+  [4;36;1mUser Delete all (0.4ms)[0m   [0;1mDELETE FROM `users` [0m
+  [4;35;1mSQL (116.1ms)[0m   [0mROLLBACK[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mBEGIN[0m
+  [4;35;1mUser Load (0.5ms)[0m   [0mSELECT * FROM `users` WHERE (`users`.`id` = 980190962) [0m
+  [4;36;1mUser Load (0.4ms)[0m   [0;1mSELECT * FROM `users` WHERE (`users`.`id` = 298486374) [0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSAVEPOINT active_record_1[0m
+  [4;36;1mUser Load (0.6ms)[0m   [0;1mSELECT `users`.id FROM `users` WHERE (`users`.`voter_id` = BINARY 'qwer1234') LIMIT 1[0m
+  [4;35;1mUser Load (0.4ms)[0m   [0mSELECT `users`.id FROM `users` WHERE (`users`.`email` = BINARY 'a@asdf.com') LIMIT 1[0m
+  [4;36;1mUser Create (0.8ms)[0m   [0;1mINSERT INTO `users` (`voter_id`, `district_code`, `created_at`, `updated_at`, `birth_date`, `provincial_code`, `voted`, `last_name`, `street_number`, `municipality_code`, `activated`, `street_name`, `first_name`, `middle_name`, `email`) VALUES('qwer1234', 'asdf', '2010-05-18 06:16:41', '2010-05-18 06:16:41', '-4712-01-01', 'asdf', 1, 'c', 1, 'asdf', 1, 'string', 'a', 'b', 'a@asdf.com')[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mRELEASE SAVEPOINT active_record_1[0m
+  [4;36;1mUser Load (0.6ms)[0m   [0;1mSELECT `users`.id FROM `users` WHERE (`users`.`voter_id` = BINARY 'qwer1234' AND `users`.id <> 980190964) LIMIT 1[0m
+  [4;35;1mUser Load (0.2ms)[0m   [0mSELECT `users`.id FROM `users` WHERE (`users`.`email` = BINARY 'a@asdf.com' AND `users`.id <> 980190964) LIMIT 1[0m
+  [4;36;1mUser Delete all (0.2ms)[0m   [0;1mDELETE FROM `users` [0m
+  [4;35;1mSQL (152.3ms)[0m   [0mROLLBACK[0m
+  [4;36;1mSQL (0.3ms)[0m   [0;1mBEGIN[0m
+  [4;35;1mUser Load (0.5ms)[0m   [0mSELECT * FROM `users` WHERE (`users`.`id` = 980190962) [0m
+  [4;36;1mUser Load (0.4ms)[0m   [0;1mSELECT * FROM `users` WHERE (`users`.`id` = 298486374) [0m
+  [4;35;1mSQL (0.3ms)[0m   [0mSAVEPOINT active_record_1[0m
+  [4;36;1mUser Load (0.4ms)[0m   [0;1mSELECT `users`.id FROM `users` WHERE (`users`.`voter_id` = BINARY 'qwer1234') LIMIT 1[0m
+  [4;35;1mUser Load (0.5ms)[0m   [0mSELECT `users`.id FROM `users` WHERE (`users`.`email` = BINARY 'a@asdf.com') LIMIT 1[0m
+  [4;36;1mUser Create (0.3ms)[0m   [0;1mINSERT INTO `users` (`voter_id`, `district_code`, `created_at`, `updated_at`, `birth_date`, `provincial_code`, `voted`, `last_name`, `street_number`, `municipality_code`, `activated`, `street_name`, `first_name`, `middle_name`, `email`) VALUES('qwer1234', 'asdf', '2010-05-18 06:16:42', '2010-05-18 06:16:42', '-4712-01-01', 'asdf', 1, 'c', 1, 'asdf', 1, 'string', 'a', 'b', 'a@asdf.com')[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mRELEASE SAVEPOINT active_record_1[0m
+  [4;36;1mUser Delete all (0.2ms)[0m   [0;1mDELETE FROM `users` [0m
+  [4;35;1mSQL (34.4ms)[0m   [0mROLLBACK[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mBEGIN[0m
+  [4;35;1mUser Load (0.3ms)[0m   [0mSELECT * FROM `users` WHERE (`users`.`id` = 980190962) [0m
+  [4;36;1mUser Load (0.2ms)[0m   [0;1mSELECT * FROM `users` WHERE (`users`.`id` = 298486374) [0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSAVEPOINT active_record_1[0m
+  [4;36;1mUser Load (0.3ms)[0m   [0;1mSELECT `users`.id FROM `users` WHERE (`users`.`voter_id` = BINARY 'qwer1234') LIMIT 1[0m
+  [4;35;1mUser Load (0.2ms)[0m   [0mSELECT `users`.id FROM `users` WHERE (`users`.`email` = BINARY 'a@asdf.com') LIMIT 1[0m
+  [4;36;1mUser Create (1.0ms)[0m   [0;1mINSERT INTO `users` (`voter_id`, `district_code`, `created_at`, `updated_at`, `birth_date`, `provincial_code`, `voted`, `last_name`, `street_number`, `municipality_code`, `activated`, `street_name`, `first_name`, `middle_name`, `email`) VALUES('qwer1234', 'asdf', '2010-05-18 06:16:42', '2010-05-18 06:16:42', '-4712-01-01', 'asdf', 1, 'c', 1, 'asdf', 1, 'string', 'a', 'b', 'a@asdf.com')[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mRELEASE SAVEPOINT active_record_1[0m
+  [4;36;1mUser Delete all (0.2ms)[0m   [0;1mDELETE FROM `users` [0m
+  [4;35;1mSQL (54.1ms)[0m   [0mROLLBACK[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mBEGIN[0m
+  [4;35;1mUser Load (0.5ms)[0m   [0mSELECT * FROM `users` WHERE (`users`.`id` = 980190962) [0m
+  [4;36;1mUser Load (0.3ms)[0m   [0;1mSELECT * FROM `users` WHERE (`users`.`id` = 298486374) [0m
+  [4;35;1mSQL (0.3ms)[0m   [0mSAVEPOINT active_record_1[0m
+  [4;36;1mUser Load (0.5ms)[0m   [0;1mSELECT `users`.id FROM `users` WHERE (`users`.`voter_id` = BINARY 'qwer1234') LIMIT 1[0m
+  [4;35;1mUser Load (0.3ms)[0m   [0mSELECT `users`.id FROM `users` WHERE (`users`.`email` = BINARY 'a@asdf.com') LIMIT 1[0m
+  [4;36;1mUser Create (0.5ms)[0m   [0;1mINSERT INTO `users` (`voter_id`, `district_code`, `created_at`, `updated_at`, `birth_date`, `provincial_code`, `voted`, `last_name`, `street_number`, `municipality_code`, `activated`, `street_name`, `first_name`, `middle_name`, `email`) VALUES('qwer1234', 'asdf', '2010-05-18 06:16:42', '2010-05-18 06:16:42', '-4712-01-01', 'asdf', 1, 'c', 1, 'asdf', 1, 'string', 'a', 'b', 'a@asdf.com')[0m
+  [4;35;1mSQL (0.3ms)[0m   [0mRELEASE SAVEPOINT active_record_1[0m
+  [4;36;1mUser Load (0.5ms)[0m   [0;1mSELECT `users`.id FROM `users` WHERE (`users`.`voter_id` = BINARY 'qwer1234' AND `users`.id <> 980190967) LIMIT 1[0m
+  [4;35;1mUser Load (0.6ms)[0m   [0mSELECT `users`.id FROM `users` WHERE (`users`.`email` = BINARY 'a@asdf.com' AND `users`.id <> 980190967) LIMIT 1[0m
+  [4;36;1mUser Delete all (0.2ms)[0m   [0;1mDELETE FROM `users` [0m
+  [4;35;1mSQL (47.2ms)[0m   [0mROLLBACK[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mBEGIN[0m
+  [4;35;1mUser Load (0.5ms)[0m   [0mSELECT * FROM `users` WHERE (`users`.`id` = 980190962) [0m
+  [4;36;1mUser Load (0.3ms)[0m   [0;1mSELECT * FROM `users` WHERE (`users`.`id` = 298486374) [0m
+  [4;35;1mSQL (0.2ms)[0m   [0mSAVEPOINT active_record_1[0m
+  [4;36;1mUser Load (0.3ms)[0m   [0;1mSELECT `users`.id FROM `users` WHERE (`users`.`voter_id` = BINARY 'qwer1234') LIMIT 1[0m
+  [4;35;1mUser Load (0.3ms)[0m   [0mSELECT `users`.id FROM `users` WHERE (`users`.`email` = BINARY 'a@asdf.com') LIMIT 1[0m
+  [4;36;1mUser Create (0.4ms)[0m   [0;1mINSERT INTO `users` (`voter_id`, `district_code`, `created_at`, `updated_at`, `birth_date`, `provincial_code`, `voted`, `last_name`, `street_number`, `municipality_code`, `activated`, `street_name`, `first_name`, `middle_name`, `email`) VALUES('qwer1234', 'asdf', '2010-05-18 06:16:42', '2010-05-18 06:16:42', '-4712-01-01', 'asdf', 1, 'c', 1, 'asdf', 1, 'string', 'a', 'b', 'a@asdf.com')[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mRELEASE SAVEPOINT active_record_1[0m
+  [4;36;1mUser Load (0.7ms)[0m   [0;1mSELECT `users`.id FROM `users` WHERE (`users`.`voter_id` = BINARY 'qwer1234' AND `users`.id <> 980190968) LIMIT 1[0m
+  [4;35;1mUser Load (0.5ms)[0m   [0mSELECT `users`.id FROM `users` WHERE (`users`.`email` = BINARY 'a@asdf.com' AND `users`.id <> 980190968) LIMIT 1[0m
+  [4;36;1mUser Delete all (0.3ms)[0m   [0;1mDELETE FROM `users` [0m
+  [4;35;1mSQL (36.2ms)[0m   [0mROLLBACK[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mBEGIN[0m
+  [4;35;1mUser Load (0.5ms)[0m   [0mSELECT * FROM `users` WHERE (`users`.`id` = 980190962) [0m
+  [4;36;1mUser Load (0.3ms)[0m   [0;1mSELECT * FROM `users` WHERE (`users`.`id` = 298486374) [0m
+  [4;35;1mSQL (1.0ms)[0m   [0mSAVEPOINT active_record_1[0m
+  [4;36;1mUser Load (0.4ms)[0m   [0;1mSELECT `users`.id FROM `users` WHERE (`users`.`voter_id` = BINARY 'qwer1234') LIMIT 1[0m
+  [4;35;1mUser Load (1.1ms)[0m   [0mSELECT `users`.id FROM `users` WHERE (`users`.`email` = BINARY 'a@asdf.com') LIMIT 1[0m
+  [4;36;1mUser Create (0.4ms)[0m   [0;1mINSERT INTO `users` (`voter_id`, `district_code`, `created_at`, `updated_at`, `birth_date`, `provincial_code`, `voted`, `last_name`, `street_number`, `municipality_code`, `activated`, `street_name`, `first_name`, `middle_name`, `email`) VALUES('qwer1234', 'asdf', '2010-05-18 06:16:42', '2010-05-18 06:16:42', '-4712-01-01', 'asdf', 1, 'c', 1, 'asdf', 1, 'string', 'a', 'b', 'a@asdf.com')[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mRELEASE SAVEPOINT active_record_1[0m
+  [4;36;1mUser Load (0.3ms)[0m   [0;1mSELECT `users`.id FROM `users` WHERE (`users`.`voter_id` = BINARY 'qwer1234' AND `users`.id <> 980190969) LIMIT 1[0m
+  [4;35;1mUser Load (0.2ms)[0m   [0mSELECT `users`.id FROM `users` WHERE (`users`.`email` = BINARY 'a@asdf.com' AND `users`.id <> 980190969) LIMIT 1[0m
+  [4;36;1mUser Delete all (0.2ms)[0m   [0;1mDELETE FROM `users` [0m
+  [4;35;1mSQL (48.9ms)[0m   [0mROLLBACK[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mBEGIN[0m
+  [4;35;1mUser Load (0.5ms)[0m   [0mSELECT * FROM `users` WHERE (`users`.`id` = 980190962) [0m
+  [4;36;1mUser Load (0.3ms)[0m   [0;1mSELECT * FROM `users` WHERE (`users`.`id` = 298486374) [0m
+  [4;35;1mSQL (0.2ms)[0m   [0mSAVEPOINT active_record_1[0m
+  [4;36;1mUser Load (0.4ms)[0m   [0;1mSELECT `users`.id FROM `users` WHERE (`users`.`voter_id` = BINARY 'qwer1234') LIMIT 1[0m
+  [4;35;1mUser Load (0.3ms)[0m   [0mSELECT `users`.id FROM `users` WHERE (`users`.`email` = BINARY 'a@asdf.com') LIMIT 1[0m
+  [4;36;1mUser Create (0.4ms)[0m   [0;1mINSERT INTO `users` (`voter_id`, `district_code`, `created_at`, `updated_at`, `birth_date`, `provincial_code`, `voted`, `last_name`, `street_number`, `municipality_code`, `activated`, `street_name`, `first_name`, `middle_name`, `email`) VALUES('qwer1234', 'asdf', '2010-05-18 06:17:05', '2010-05-18 06:17:05', '-4712-01-01', 'asdf', 1, 'c', 1, 'asdf', 1, 'string', 'a', 'b', 'a@asdf.com')[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mRELEASE SAVEPOINT active_record_1[0m
+  [4;36;1mUser Delete all (0.4ms)[0m   [0;1mDELETE FROM `users` [0m
+  [4;35;1mSQL (50.6ms)[0m   [0mROLLBACK[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mBEGIN[0m
+  [4;35;1mUser Load (0.5ms)[0m   [0mSELECT * FROM `users` WHERE (`users`.`id` = 980190962) [0m
+  [4;36;1mUser Load (0.3ms)[0m   [0;1mSELECT * FROM `users` WHERE (`users`.`id` = 298486374) [0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSAVEPOINT active_record_1[0m
+  [4;36;1mUser Load (0.4ms)[0m   [0;1mSELECT `users`.id FROM `users` WHERE (`users`.`voter_id` = BINARY 'qwer1234') LIMIT 1[0m
+  [4;35;1mUser Load (0.3ms)[0m   [0mSELECT `users`.id FROM `users` WHERE (`users`.`email` = BINARY 'a@asdf.com') LIMIT 1[0m
+  [4;36;1mUser Create (0.4ms)[0m   [0;1mINSERT INTO `users` (`voter_id`, `district_code`, `created_at`, `updated_at`, `birth_date`, `provincial_code`, `voted`, `last_name`, `street_number`, `municipality_code`, `activated`, `street_name`, `first_name`, `middle_name`, `email`) VALUES('qwer1234', 'asdf', '2010-05-18 06:17:05', '2010-05-18 06:17:05', '-4712-01-01', 'asdf', 1, 'c', 1, 'asdf', 1, 'string', 'a', 'b', 'a@asdf.com')[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mRELEASE SAVEPOINT active_record_1[0m
+  [4;36;1mUser Load (0.5ms)[0m   [0;1mSELECT `users`.id FROM `users` WHERE (`users`.`voter_id` = BINARY 'qwer1234' AND `users`.id <> 980190971) LIMIT 1[0m
+  [4;35;1mUser Load (0.4ms)[0m   [0mSELECT `users`.id FROM `users` WHERE (`users`.`email` = BINARY 'a@asdf.com' AND `users`.id <> 980190971) LIMIT 1[0m
+  [4;36;1mUser Delete all (0.2ms)[0m   [0;1mDELETE FROM `users` [0m
+  [4;35;1mSQL (81.9ms)[0m   [0mROLLBACK[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mBEGIN[0m
+  [4;35;1mUser Load (0.5ms)[0m   [0mSELECT * FROM `users` WHERE (`users`.`id` = 980190962) [0m
+  [4;36;1mUser Load (0.4ms)[0m   [0;1mSELECT * FROM `users` WHERE (`users`.`id` = 298486374) [0m
+  [4;35;1mSQL (0.2ms)[0m   [0mSAVEPOINT active_record_1[0m
+  [4;36;1mUser Load (2.9ms)[0m   [0;1mSELECT `users`.id FROM `users` WHERE (`users`.`voter_id` = BINARY 'qwer1234') LIMIT 1[0m
+  [4;35;1mUser Load (1.4ms)[0m   [0mSELECT `users`.id FROM `users` WHERE (`users`.`email` = BINARY 'a@asdf.com') LIMIT 1[0m
+  [4;36;1mUser Create (0.5ms)[0m   [0;1mINSERT INTO `users` (`voter_id`, `district_code`, `created_at`, `updated_at`, `birth_date`, `provincial_code`, `voted`, `last_name`, `street_number`, `municipality_code`, `activated`, `street_name`, `first_name`, `middle_name`, `email`) VALUES('qwer1234', 'asdf', '2010-05-18 06:17:05', '2010-05-18 06:17:05', '-4712-01-01', 'asdf', 1, 'c', 1, 'asdf', 1, 'string', 'a', 'b', 'a@asdf.com')[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mRELEASE SAVEPOINT active_record_1[0m
+  [4;36;1mUser Delete all (0.2ms)[0m   [0;1mDELETE FROM `users` [0m
+  [4;35;1mSQL (36.8ms)[0m   [0mROLLBACK[0m
+  [4;36;1mSQL (0.4ms)[0m   [0;1mBEGIN[0m
+  [4;35;1mUser Load (0.5ms)[0m   [0mSELECT * FROM `users` WHERE (`users`.`id` = 980190962) [0m
+  [4;36;1mUser Load (0.3ms)[0m   [0;1mSELECT * FROM `users` WHERE (`users`.`id` = 298486374) [0m
+  [4;35;1mSQL (0.2ms)[0m   [0mSAVEPOINT active_record_1[0m
+  [4;36;1mUser Load (0.4ms)[0m   [0;1mSELECT `users`.id FROM `users` WHERE (`users`.`voter_id` = BINARY 'qwer1234') LIMIT 1[0m
+  [4;35;1mUser Load (0.4ms)[0m   [0mSELECT `users`.id FROM `users` WHERE (`users`.`email` = BINARY 'a@asdf.com') LIMIT 1[0m
+  [4;36;1mUser Create (1.1ms)[0m   [0;1mINSERT INTO `users` (`voter_id`, `district_code`, `created_at`, `updated_at`, `birth_date`, `provincial_code`, `voted`, `last_name`, `street_number`, `municipality_code`, `activated`, `street_name`, `first_name`, `middle_name`, `email`) VALUES('qwer1234', 'asdf', '2010-05-18 06:17:05', '2010-05-18 06:17:05', '-4712-01-01', 'asdf', 1, 'c', 1, 'asdf', 1, 'string', 'a', 'b', 'a@asdf.com')[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mRELEASE SAVEPOINT active_record_1[0m
+  [4;36;1mUser Delete all (0.2ms)[0m   [0;1mDELETE FROM `users` [0m
+  [4;35;1mSQL (50.4ms)[0m   [0mROLLBACK[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mBEGIN[0m
+  [4;35;1mUser Load (0.5ms)[0m   [0mSELECT * FROM `users` WHERE (`users`.`id` = 980190962) [0m
+  [4;36;1mUser Load (0.3ms)[0m   [0;1mSELECT * FROM `users` WHERE (`users`.`id` = 298486374) [0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSAVEPOINT active_record_1[0m
+  [4;36;1mUser Load (0.3ms)[0m   [0;1mSELECT `users`.id FROM `users` WHERE (`users`.`voter_id` = BINARY 'qwer1234') LIMIT 1[0m
+  [4;35;1mUser Load (0.6ms)[0m   [0mSELECT `users`.id FROM `users` WHERE (`users`.`email` = BINARY 'a@asdf.com') LIMIT 1[0m
+  [4;36;1mUser Create (0.5ms)[0m   [0;1mINSERT INTO `users` (`voter_id`, `district_code`, `created_at`, `updated_at`, `birth_date`, `provincial_code`, `voted`, `last_name`, `street_number`, `municipality_code`, `activated`, `street_name`, `first_name`, `middle_name`, `email`) VALUES('qwer1234', 'asdf', '2010-05-18 06:17:05', '2010-05-18 06:17:05', '-4712-01-01', 'asdf', 1, 'c', 1, 'asdf', 1, 'string', 'a', 'b', 'a@asdf.com')[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mRELEASE SAVEPOINT active_record_1[0m
+  [4;36;1mUser Load (0.6ms)[0m   [0;1mSELECT `users`.id FROM `users` WHERE (`users`.`voter_id` = BINARY 'qwer1234' AND `users`.id <> 980190974) LIMIT 1[0m
+  [4;35;1mUser Load (0.4ms)[0m   [0mSELECT `users`.id FROM `users` WHERE (`users`.`email` = BINARY 'a@asdf.com' AND `users`.id <> 980190974) LIMIT 1[0m
+  [4;36;1mUser Delete all (0.6ms)[0m   [0;1mDELETE FROM `users` [0m
+  [4;35;1mSQL (46.4ms)[0m   [0mROLLBACK[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mBEGIN[0m
+  [4;35;1mUser Load (0.6ms)[0m   [0mSELECT * FROM `users` WHERE (`users`.`id` = 980190962) [0m
+  [4;36;1mUser Load (0.3ms)[0m   [0;1mSELECT * FROM `users` WHERE (`users`.`id` = 298486374) [0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSAVEPOINT active_record_1[0m
+  [4;36;1mUser Load (0.4ms)[0m   [0;1mSELECT `users`.id FROM `users` WHERE (`users`.`voter_id` = BINARY 'qwer1234') LIMIT 1[0m
+  [4;35;1mUser Load (0.3ms)[0m   [0mSELECT `users`.id FROM `users` WHERE (`users`.`email` = BINARY 'a@asdf.com') LIMIT 1[0m
+  [4;36;1mUser Create (0.8ms)[0m   [0;1mINSERT INTO `users` (`voter_id`, `district_code`, `created_at`, `updated_at`, `birth_date`, `provincial_code`, `voted`, `last_name`, `street_number`, `municipality_code`, `activated`, `street_name`, `first_name`, `middle_name`, `email`) VALUES('qwer1234', 'asdf', '2010-05-18 06:17:05', '2010-05-18 06:17:05', '-4712-01-01', 'asdf', 1, 'c', 1, 'asdf', 1, 'string', 'a', 'b', 'a@asdf.com')[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mRELEASE SAVEPOINT active_record_1[0m
+  [4;36;1mUser Load (0.9ms)[0m   [0;1mSELECT `users`.id FROM `users` WHERE (`users`.`voter_id` = BINARY 'qwer1234' AND `users`.id <> 980190975) LIMIT 1[0m
+  [4;35;1mUser Load (0.4ms)[0m   [0mSELECT `users`.id FROM `users` WHERE (`users`.`email` = BINARY 'a@asdf.com' AND `users`.id <> 980190975) LIMIT 1[0m
+  [4;36;1mUser Delete all (0.3ms)[0m   [0;1mDELETE FROM `users` [0m
+  [4;35;1mSQL (46.0ms)[0m   [0mROLLBACK[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mBEGIN[0m
+  [4;35;1mUser Load (0.5ms)[0m   [0mSELECT * FROM `users` WHERE (`users`.`id` = 980190962) [0m
+  [4;36;1mUser Load (0.5ms)[0m   [0;1mSELECT * FROM `users` WHERE (`users`.`id` = 298486374) [0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSAVEPOINT active_record_1[0m
+  [4;36;1mUser Load (0.3ms)[0m   [0;1mSELECT `users`.id FROM `users` WHERE (`users`.`voter_id` = BINARY 'qwer1234') LIMIT 1[0m
+  [4;35;1mUser Load (0.2ms)[0m   [0mSELECT `users`.id FROM `users` WHERE (`users`.`email` = BINARY 'a@asdf.com') LIMIT 1[0m
+  [4;36;1mUser Create (0.6ms)[0m   [0;1mINSERT INTO `users` (`voter_id`, `district_code`, `created_at`, `updated_at`, `birth_date`, `provincial_code`, `voted`, `last_name`, `street_number`, `municipality_code`, `activated`, `street_name`, `first_name`, `middle_name`, `email`) VALUES('qwer1234', 'asdf', '2010-05-18 06:17:05', '2010-05-18 06:17:05', '-4712-01-01', 'asdf', 1, 'c', 1, 'asdf', 1, 'string', 'a', 'b', 'a@asdf.com')[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mRELEASE SAVEPOINT active_record_1[0m
+  [4;36;1mUser Load (0.6ms)[0m   [0;1mSELECT `users`.id FROM `users` WHERE (`users`.`voter_id` = BINARY 'qwer1234' AND `users`.id <> 980190976) LIMIT 1[0m
+  [4;35;1mUser Load (0.7ms)[0m   [0mSELECT `users`.id FROM `users` WHERE (`users`.`email` = BINARY 'a@asdf.com' AND `users`.id <> 980190976) LIMIT 1[0m
+  [4;36;1mUser Delete all (0.3ms)[0m   [0;1mDELETE FROM `users` [0m
+  [4;35;1mSQL (103.2ms)[0m   [0mROLLBACK[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mBEGIN[0m
+  [4;35;1mUser Load (0.5ms)[0m   [0mSELECT * FROM `users` WHERE (`users`.`id` = 980190962) [0m
+  [4;36;1mUser Load (0.3ms)[0m   [0;1mSELECT * FROM `users` WHERE (`users`.`id` = 298486374) [0m
+WARNING: Can't mass-assign these protected attributes: id
+  [4;35;1mSQL (0.2ms)[0m   [0mSAVEPOINT active_record_1[0m
+  [4;36;1mUser Load (0.4ms)[0m   [0;1mSELECT `users`.id FROM `users` WHERE (`users`.`voter_id` = BINARY 'qwer1234') LIMIT 1[0m
+  [4;35;1mUser Load (0.2ms)[0m   [0mSELECT `users`.id FROM `users` WHERE (`users`.`email` = BINARY 'a@asdf.com') LIMIT 1[0m
+  [4;36;1mUser Create (0.3ms)[0m   [0;1mINSERT INTO `users` (`voter_id`, `district_code`, `created_at`, `updated_at`, `birth_date`, `provincial_code`, `voted`, `last_name`, `street_number`, `municipality_code`, `activated`, `street_name`, `first_name`, `middle_name`, `email`) VALUES('qwer1234', 'asdf', '2010-05-18 06:17:27', '2010-05-18 06:17:27', '-4712-01-01', 'asdf', 1, 'c', 1, 'asdf', 1, 'string', 'a', 'b', 'a@asdf.com')[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mRELEASE SAVEPOINT active_record_1[0m
+  [4;36;1mUser Delete all (0.3ms)[0m   [0;1mDELETE FROM `users` [0m
+  [4;35;1mSQL (46.1ms)[0m   [0mROLLBACK[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mBEGIN[0m
+  [4;35;1mUser Load (0.5ms)[0m   [0mSELECT * FROM `users` WHERE (`users`.`id` = 980190962) [0m
+  [4;36;1mUser Load (0.3ms)[0m   [0;1mSELECT * FROM `users` WHERE (`users`.`id` = 298486374) [0m
+WARNING: Can't mass-assign these protected attributes: id
+  [4;35;1mSQL (0.1ms)[0m   [0mSAVEPOINT active_record_1[0m
+  [4;36;1mUser Load (0.4ms)[0m   [0;1mSELECT `users`.id FROM `users` WHERE (`users`.`voter_id` = BINARY 'qwer1234') LIMIT 1[0m
+  [4;35;1mUser Load (0.3ms)[0m   [0mSELECT `users`.id FROM `users` WHERE (`users`.`email` = BINARY 'a@asdf.com') LIMIT 1[0m
+  [4;36;1mUser Create (0.5ms)[0m   [0;1mINSERT INTO `users` (`voter_id`, `district_code`, `created_at`, `updated_at`, `birth_date`, `provincial_code`, `voted`, `last_name`, `street_number`, `municipality_code`, `activated`, `street_name`, `first_name`, `middle_name`, `email`) VALUES('qwer1234', 'asdf', '2010-05-18 06:17:27', '2010-05-18 06:17:27', '-4712-01-01', 'asdf', 1, 'c', 1, 'asdf', 1, 'string', 'a', 'b', 'a@asdf.com')[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mRELEASE SAVEPOINT active_record_1[0m
+  [4;36;1mUser Load (0.6ms)[0m   [0;1mSELECT `users`.id FROM `users` WHERE (`users`.`voter_id` = BINARY 'qwer1234' AND `users`.id <> 980190978) LIMIT 1[0m
+  [4;35;1mUser Load (0.4ms)[0m   [0mSELECT `users`.id FROM `users` WHERE (`users`.`email` = BINARY 'a@asdf.com' AND `users`.id <> 980190978) LIMIT 1[0m
+  [4;36;1mUser Delete all (0.4ms)[0m   [0;1mDELETE FROM `users` [0m
+  [4;35;1mSQL (46.6ms)[0m   [0mROLLBACK[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mBEGIN[0m
+  [4;35;1mUser Load (0.5ms)[0m   [0mSELECT * FROM `users` WHERE (`users`.`id` = 980190962) [0m
+  [4;36;1mUser Load (0.4ms)[0m   [0;1mSELECT * FROM `users` WHERE (`users`.`id` = 298486374) [0m
+WARNING: Can't mass-assign these protected attributes: id
+  [4;35;1mSQL (0.1ms)[0m   [0mSAVEPOINT active_record_1[0m
+  [4;36;1mUser Load (0.4ms)[0m   [0;1mSELECT `users`.id FROM `users` WHERE (`users`.`voter_id` = BINARY 'qwer1234') LIMIT 1[0m
+  [4;35;1mUser Load (0.3ms)[0m   [0mSELECT `users`.id FROM `users` WHERE (`users`.`email` = BINARY 'a@asdf.com') LIMIT 1[0m
+  [4;36;1mUser Create (0.4ms)[0m   [0;1mINSERT INTO `users` (`voter_id`, `district_code`, `created_at`, `updated_at`, `birth_date`, `provincial_code`, `voted`, `last_name`, `street_number`, `municipality_code`, `activated`, `street_name`, `first_name`, `middle_name`, `email`) VALUES('qwer1234', 'asdf', '2010-05-18 06:17:27', '2010-05-18 06:17:27', '-4712-01-01', 'asdf', 1, 'c', 1, 'asdf', 1, 'string', 'a', 'b', 'a@asdf.com')[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mRELEASE SAVEPOINT active_record_1[0m
+  [4;36;1mUser Delete all (0.2ms)[0m   [0;1mDELETE FROM `users` [0m
+  [4;35;1mSQL (52.1ms)[0m   [0mROLLBACK[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mBEGIN[0m
+  [4;35;1mUser Load (0.5ms)[0m   [0mSELECT * FROM `users` WHERE (`users`.`id` = 980190962) [0m
+  [4;36;1mUser Load (0.3ms)[0m   [0;1mSELECT * FROM `users` WHERE (`users`.`id` = 298486374) [0m
+WARNING: Can't mass-assign these protected attributes: id
+  [4;35;1mSQL (0.1ms)[0m   [0mSAVEPOINT active_record_1[0m
+  [4;36;1mUser Load (0.3ms)[0m   [0;1mSELECT `users`.id FROM `users` WHERE (`users`.`voter_id` = BINARY 'qwer1234') LIMIT 1[0m
+  [4;35;1mUser Load (0.3ms)[0m   [0mSELECT `users`.id FROM `users` WHERE (`users`.`email` = BINARY 'a@asdf.com') LIMIT 1[0m
+  [4;36;1mUser Create (0.4ms)[0m   [0;1mINSERT INTO `users` (`voter_id`, `district_code`, `created_at`, `updated_at`, `birth_date`, `provincial_code`, `voted`, `last_name`, `street_number`, `municipality_code`, `activated`, `street_name`, `first_name`, `middle_name`, `email`) VALUES('qwer1234', 'asdf', '2010-05-18 06:17:27', '2010-05-18 06:17:27', '-4712-01-01', 'asdf', 1, 'c', 1, 'asdf', 1, 'string', 'a', 'b', 'a@asdf.com')[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mRELEASE SAVEPOINT active_record_1[0m
+  [4;36;1mUser Delete all (0.3ms)[0m   [0;1mDELETE FROM `users` [0m
+  [4;35;1mSQL (40.4ms)[0m   [0mROLLBACK[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mBEGIN[0m
+  [4;35;1mUser Load (0.5ms)[0m   [0mSELECT * FROM `users` WHERE (`users`.`id` = 980190962) [0m
+  [4;36;1mUser Load (0.3ms)[0m   [0;1mSELECT * FROM `users` WHERE (`users`.`id` = 298486374) [0m
+WARNING: Can't mass-assign these protected attributes: id
+  [4;35;1mSQL (0.1ms)[0m   [0mSAVEPOINT active_record_1[0m
+  [4;36;1mUser Load (0.4ms)[0m   [0;1mSELECT `users`.id FROM `users` WHERE (`users`.`voter_id` = BINARY 'qwer1234') LIMIT 1[0m
+  [4;35;1mUser Load (0.3ms)[0m   [0mSELECT `users`.id FROM `users` WHERE (`users`.`email` = BINARY 'a@asdf.com') LIMIT 1[0m
+  [4;36;1mUser Create (0.3ms)[0m   [0;1mINSERT INTO `users` (`voter_id`, `district_code`, `created_at`, `updated_at`, `birth_date`, `provincial_code`, `voted`, `last_name`, `street_number`, `municipality_code`, `activated`, `street_name`, `first_name`, `middle_name`, `email`) VALUES('qwer1234', 'asdf', '2010-05-18 06:17:27', '2010-05-18 06:17:27', '-4712-01-01', 'asdf', 1, 'c', 1, 'asdf', 1, 'string', 'a', 'b', 'a@asdf.com')[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mRELEASE SAVEPOINT active_record_1[0m
+  [4;36;1mUser Load (0.6ms)[0m   [0;1mSELECT `users`.id FROM `users` WHERE (`users`.`voter_id` = BINARY 'qwer1234' AND `users`.id <> 980190981) LIMIT 1[0m
+  [4;35;1mUser Load (0.3ms)[0m   [0mSELECT `users`.id FROM `users` WHERE (`users`.`email` = BINARY 'a@asdf.com' AND `users`.id <> 980190981) LIMIT 1[0m
+  [4;36;1mUser Delete all (0.7ms)[0m   [0;1mDELETE FROM `users` [0m
+  [4;35;1mSQL (50.2ms)[0m   [0mROLLBACK[0m
+  [4;36;1mSQL (0.2ms)[0m   [0;1mBEGIN[0m
+  [4;35;1mUser Load (0.4ms)[0m   [0mSELECT * FROM `users` WHERE (`users`.`id` = 980190962) [0m
+  [4;36;1mUser Load (1.4ms)[0m   [0;1mSELECT * FROM `users` WHERE (`users`.`id` = 298486374) [0m
+WARNING: Can't mass-assign these protected attributes: id
+  [4;35;1mSQL (0.1ms)[0m   [0mSAVEPOINT active_record_1[0m
+  [4;36;1mUser Load (1.0ms)[0m   [0;1mSELECT `users`.id FROM `users` WHERE (`users`.`voter_id` = BINARY 'qwer1234') LIMIT 1[0m
+  [4;35;1mUser Load (1.6ms)[0m   [0mSELECT `users`.id FROM `users` WHERE (`users`.`email` = BINARY 'a@asdf.com') LIMIT 1[0m
+  [4;36;1mUser Create (0.4ms)[0m   [0;1mINSERT INTO `users` (`voter_id`, `district_code`, `created_at`, `updated_at`, `birth_date`, `provincial_code`, `voted`, `last_name`, `street_number`, `municipality_code`, `activated`, `street_name`, `first_name`, `middle_name`, `email`) VALUES('qwer1234', 'asdf', '2010-05-18 06:17:27', '2010-05-18 06:17:27', '-4712-01-01', 'asdf', 1, 'c', 1, 'asdf', 1, 'string', 'a', 'b', 'a@asdf.com')[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mRELEASE SAVEPOINT active_record_1[0m
+  [4;36;1mUser Load (0.4ms)[0m   [0;1mSELECT `users`.id FROM `users` WHERE (`users`.`voter_id` = BINARY 'qwer1234' AND `users`.id <> 980190982) LIMIT 1[0m
+  [4;35;1mUser Load (0.2ms)[0m   [0mSELECT `users`.id FROM `users` WHERE (`users`.`email` = BINARY 'a@asdf.com' AND `users`.id <> 980190982) LIMIT 1[0m
+  [4;36;1mUser Delete all (0.2ms)[0m   [0;1mDELETE FROM `users` [0m
+  [4;35;1mSQL (36.1ms)[0m   [0mROLLBACK[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mBEGIN[0m
+  [4;35;1mUser Load (0.5ms)[0m   [0mSELECT * FROM `users` WHERE (`users`.`id` = 980190962) [0m
+  [4;36;1mUser Load (0.4ms)[0m   [0;1mSELECT * FROM `users` WHERE (`users`.`id` = 298486374) [0m
+WARNING: Can't mass-assign these protected attributes: id
+  [4;35;1mSQL (1.0ms)[0m   [0mSAVEPOINT active_record_1[0m
+  [4;36;1mUser Load (0.4ms)[0m   [0;1mSELECT `users`.id FROM `users` WHERE (`users`.`voter_id` = BINARY 'qwer1234') LIMIT 1[0m
+  [4;35;1mUser Load (0.3ms)[0m   [0mSELECT `users`.id FROM `users` WHERE (`users`.`email` = BINARY 'a@asdf.com') LIMIT 1[0m
+  [4;36;1mUser Create (0.4ms)[0m   [0;1mINSERT INTO `users` (`voter_id`, `district_code`, `created_at`, `updated_at`, `birth_date`, `provincial_code`, `voted`, `last_name`, `street_number`, `municipality_code`, `activated`, `street_name`, `first_name`, `middle_name`, `email`) VALUES('qwer1234', 'asdf', '2010-05-18 06:17:27', '2010-05-18 06:17:27', '-4712-01-01', 'asdf', 1, 'c', 1, 'asdf', 1, 'string', 'a', 'b', 'a@asdf.com')[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mRELEASE SAVEPOINT active_record_1[0m
+  [4;36;1mUser Load (0.5ms)[0m   [0;1mSELECT `users`.id FROM `users` WHERE (`users`.`voter_id` = BINARY 'qwer1234' AND `users`.id <> 980190983) LIMIT 1[0m
+  [4;35;1mUser Load (0.2ms)[0m   [0mSELECT `users`.id FROM `users` WHERE (`users`.`email` = BINARY 'a@asdf.com' AND `users`.id <> 980190983) LIMIT 1[0m
+  [4;36;1mUser Delete all (0.2ms)[0m   [0;1mDELETE FROM `users` [0m
+  [4;35;1mSQL (46.8ms)[0m   [0mROLLBACK[0m
+  [4;36;1mSQL (0.5ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mBEGIN[0m
+  [4;35;1mUser Load (0.5ms)[0m   [0mSELECT * FROM `users` WHERE (`users`.`id` = 980190962) [0m
+  [4;36;1mUser Load (0.4ms)[0m   [0;1mSELECT * FROM `users` WHERE (`users`.`id` = 298486374) [0m
+WARNING: Can't mass-assign these protected attributes: id
+  [4;35;1mSQL (0.2ms)[0m   [0mSAVEPOINT active_record_1[0m
+  [4;36;1mUser Load (0.4ms)[0m   [0;1mSELECT `users`.id FROM `users` WHERE (`users`.`voter_id` = BINARY 'qwer1234') LIMIT 1[0m
+  [4;35;1mUser Load (0.2ms)[0m   [0mSELECT `users`.id FROM `users` WHERE (`users`.`email` = BINARY 'a@asdf.com') LIMIT 1[0m
+  [4;36;1mUser Create (0.3ms)[0m   [0;1mINSERT INTO `users` (`voter_id`, `district_code`, `created_at`, `updated_at`, `birth_date`, `provincial_code`, `voted`, `last_name`, `street_number`, `municipality_code`, `activated`, `street_name`, `first_name`, `middle_name`, `email`) VALUES('qwer1234', 'asdf', '2010-05-18 06:18:26', '2010-05-18 06:18:26', '-4712-01-01', 'asdf', 1, 'c', 1, 'asdf', 1, 'string', 'a', 'b', 'a@asdf.com')[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mRELEASE SAVEPOINT active_record_1[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSAVEPOINT active_record_1[0m
+  [4;35;1mUser Load (0.4ms)[0m   [0mSELECT `users`.id FROM `users` WHERE (`users`.`voter_id` = BINARY 'qwer1234' AND `users`.id <> 980190984) LIMIT 1[0m
+  [4;36;1mUser Load (0.2ms)[0m   [0;1mSELECT `users`.id FROM `users` WHERE (`users`.`email` = BINARY 'a@asdf.com' AND `users`.id <> 980190984) LIMIT 1[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mRELEASE SAVEPOINT active_record_1[0m
+  [4;36;1mUser Delete all (0.2ms)[0m   [0;1mDELETE FROM `users` [0m
+  [4;35;1mSQL (55.0ms)[0m   [0mROLLBACK[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mBEGIN[0m
+  [4;35;1mUser Load (0.3ms)[0m   [0mSELECT * FROM `users` WHERE (`users`.`id` = 980190962) [0m
+  [4;36;1mUser Load (0.2ms)[0m   [0;1mSELECT * FROM `users` WHERE (`users`.`id` = 298486374) [0m
+WARNING: Can't mass-assign these protected attributes: id
+  [4;35;1mSQL (0.1ms)[0m   [0mSAVEPOINT active_record_1[0m
+  [4;36;1mUser Load (0.4ms)[0m   [0;1mSELECT `users`.id FROM `users` WHERE (`users`.`voter_id` = BINARY 'qwer1234') LIMIT 1[0m
+  [4;35;1mUser Load (0.3ms)[0m   [0mSELECT `users`.id FROM `users` WHERE (`users`.`email` = BINARY 'a@asdf.com') LIMIT 1[0m
+  [4;36;1mUser Create (0.4ms)[0m   [0;1mINSERT INTO `users` (`voter_id`, `district_code`, `created_at`, `updated_at`, `birth_date`, `provincial_code`, `voted`, `last_name`, `street_number`, `municipality_code`, `activated`, `street_name`, `first_name`, `middle_name`, `email`) VALUES('qwer1234', 'asdf', '2010-05-18 06:18:27', '2010-05-18 06:18:27', '-4712-01-01', 'asdf', 1, 'c', 1, 'asdf', 1, 'string', 'a', 'b', 'a@asdf.com')[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mRELEASE SAVEPOINT active_record_1[0m
+  [4;36;1mUser Load (0.5ms)[0m   [0;1mSELECT `users`.id FROM `users` WHERE (`users`.`voter_id` = BINARY 'qwer1234' AND `users`.id <> 980190985) LIMIT 1[0m
+  [4;35;1mUser Load (0.4ms)[0m   [0mSELECT `users`.id FROM `users` WHERE (`users`.`email` = BINARY 'a@asdf.com' AND `users`.id <> 980190985) LIMIT 1[0m
+  [4;36;1mUser Delete all (0.3ms)[0m   [0;1mDELETE FROM `users` [0m
+  [4;35;1mSQL (50.1ms)[0m   [0mROLLBACK[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mBEGIN[0m
+  [4;35;1mUser Load (0.5ms)[0m   [0mSELECT * FROM `users` WHERE (`users`.`id` = 980190962) [0m
+  [4;36;1mUser Load (0.3ms)[0m   [0;1mSELECT * FROM `users` WHERE (`users`.`id` = 298486374) [0m
+WARNING: Can't mass-assign these protected attributes: id
+  [4;35;1mSQL (0.1ms)[0m   [0mSAVEPOINT active_record_1[0m
+  [4;36;1mUser Load (0.3ms)[0m   [0;1mSELECT `users`.id FROM `users` WHERE (`users`.`voter_id` = BINARY 'qwer1234') LIMIT 1[0m
+  [4;35;1mUser Load (0.2ms)[0m   [0mSELECT `users`.id FROM `users` WHERE (`users`.`email` = BINARY 'a@asdf.com') LIMIT 1[0m
+  [4;36;1mUser Create (0.7ms)[0m   [0;1mINSERT INTO `users` (`voter_id`, `district_code`, `created_at`, `updated_at`, `birth_date`, `provincial_code`, `voted`, `last_name`, `street_number`, `municipality_code`, `activated`, `street_name`, `first_name`, `middle_name`, `email`) VALUES('qwer1234', 'asdf', '2010-05-18 06:18:27', '2010-05-18 06:18:27', '-4712-01-01', 'asdf', 1, 'c', 1, 'asdf', 1, 'string', 'a', 'b', 'a@asdf.com')[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mRELEASE SAVEPOINT active_record_1[0m
+  [4;36;1mUser Delete all (0.3ms)[0m   [0;1mDELETE FROM `users` [0m
+  [4;35;1mSQL (51.7ms)[0m   [0mROLLBACK[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mBEGIN[0m
+  [4;35;1mUser Load (0.6ms)[0m   [0mSELECT * FROM `users` WHERE (`users`.`id` = 980190962) [0m
+  [4;36;1mUser Load (0.5ms)[0m   [0;1mSELECT * FROM `users` WHERE (`users`.`id` = 298486374) [0m
+WARNING: Can't mass-assign these protected attributes: id
+  [4;35;1mSQL (0.1ms)[0m   [0mSAVEPOINT active_record_1[0m
+  [4;36;1mUser Load (0.4ms)[0m   [0;1mSELECT `users`.id FROM `users` WHERE (`users`.`voter_id` = BINARY 'qwer1234') LIMIT 1[0m
+  [4;35;1mUser Load (0.3ms)[0m   [0mSELECT `users`.id FROM `users` WHERE (`users`.`email` = BINARY 'a@asdf.com') LIMIT 1[0m
+  [4;36;1mUser Create (0.4ms)[0m   [0;1mINSERT INTO `users` (`voter_id`, `district_code`, `created_at`, `updated_at`, `birth_date`, `provincial_code`, `voted`, `last_name`, `street_number`, `municipality_code`, `activated`, `street_name`, `first_name`, `middle_name`, `email`) VALUES('qwer1234', 'asdf', '2010-05-18 06:18:27', '2010-05-18 06:18:27', '-4712-01-01', 'asdf', 1, 'c', 1, 'asdf', 1, 'string', 'a', 'b', 'a@asdf.com')[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mRELEASE SAVEPOINT active_record_1[0m
+  [4;36;1mUser Delete all (0.3ms)[0m   [0;1mDELETE FROM `users` [0m
+  [4;35;1mSQL (73.0ms)[0m   [0mROLLBACK[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mBEGIN[0m
+  [4;35;1mUser Load (0.7ms)[0m   [0mSELECT * FROM `users` WHERE (`users`.`id` = 980190962) [0m
+  [4;36;1mUser Load (1.1ms)[0m   [0;1mSELECT * FROM `users` WHERE (`users`.`id` = 298486374) [0m
+WARNING: Can't mass-assign these protected attributes: id
+  [4;35;1mSQL (0.1ms)[0m   [0mSAVEPOINT active_record_1[0m
+  [4;36;1mUser Load (0.4ms)[0m   [0;1mSELECT `users`.id FROM `users` WHERE (`users`.`voter_id` = BINARY 'qwer1234') LIMIT 1[0m
+  [4;35;1mUser Load (0.4ms)[0m   [0mSELECT `users`.id FROM `users` WHERE (`users`.`email` = BINARY 'a@asdf.com') LIMIT 1[0m
+  [4;36;1mUser Create (0.3ms)[0m   [0;1mINSERT INTO `users` (`voter_id`, `district_code`, `created_at`, `updated_at`, `birth_date`, `provincial_code`, `voted`, `last_name`, `street_number`, `municipality_code`, `activated`, `street_name`, `first_name`, `middle_name`, `email`) VALUES('qwer1234', 'asdf', '2010-05-18 06:18:27', '2010-05-18 06:18:27', '-4712-01-01', 'asdf', 1, 'c', 1, 'asdf', 1, 'string', 'a', 'b', 'a@asdf.com')[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mRELEASE SAVEPOINT active_record_1[0m
+  [4;36;1mUser Load (0.3ms)[0m   [0;1mSELECT `users`.id FROM `users` WHERE (`users`.`voter_id` = BINARY 'qwer1234' AND `users`.id <> 980190988) LIMIT 1[0m
+  [4;35;1mUser Load (0.2ms)[0m   [0mSELECT `users`.id FROM `users` WHERE (`users`.`email` = BINARY 'a@asdf.com' AND `users`.id <> 980190988) LIMIT 1[0m
+  [4;36;1mUser Delete all (0.2ms)[0m   [0;1mDELETE FROM `users` [0m
+  [4;35;1mSQL (38.8ms)[0m   [0mROLLBACK[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mBEGIN[0m
+  [4;35;1mUser Load (0.6ms)[0m   [0mSELECT * FROM `users` WHERE (`users`.`id` = 980190962) [0m
+  [4;36;1mUser Load (0.3ms)[0m   [0;1mSELECT * FROM `users` WHERE (`users`.`id` = 298486374) [0m
+WARNING: Can't mass-assign these protected attributes: id
+  [4;35;1mSQL (10.1ms)[0m   [0mSAVEPOINT active_record_1[0m
+  [4;36;1mUser Load (0.4ms)[0m   [0;1mSELECT `users`.id FROM `users` WHERE (`users`.`voter_id` = BINARY 'qwer1234') LIMIT 1[0m
+  [4;35;1mUser Load (0.2ms)[0m   [0mSELECT `users`.id FROM `users` WHERE (`users`.`email` = BINARY 'a@asdf.com') LIMIT 1[0m
+  [4;36;1mUser Create (0.2ms)[0m   [0;1mINSERT INTO `users` (`voter_id`, `district_code`, `created_at`, `updated_at`, `birth_date`, `provincial_code`, `voted`, `last_name`, `street_number`, `municipality_code`, `activated`, `street_name`, `first_name`, `middle_name`, `email`) VALUES('qwer1234', 'asdf', '2010-05-18 06:18:27', '2010-05-18 06:18:27', '-4712-01-01', 'asdf', 1, 'c', 1, 'asdf', 1, 'string', 'a', 'b', 'a@asdf.com')[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mRELEASE SAVEPOINT active_record_1[0m
+  [4;36;1mUser Load (0.3ms)[0m   [0;1mSELECT `users`.id FROM `users` WHERE (`users`.`voter_id` = BINARY 'qwer1234' AND `users`.id <> 980190989) LIMIT 1[0m
+  [4;35;1mUser Load (0.2ms)[0m   [0mSELECT `users`.id FROM `users` WHERE (`users`.`email` = BINARY 'a@asdf.com' AND `users`.id <> 980190989) LIMIT 1[0m
+  [4;36;1mUser Delete all (0.2ms)[0m   [0;1mDELETE FROM `users` [0m
+  [4;35;1mSQL (53.8ms)[0m   [0mROLLBACK[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mBEGIN[0m
+  [4;35;1mUser Load (0.5ms)[0m   [0mSELECT * FROM `users` WHERE (`users`.`id` = 980190962) [0m
+  [4;36;1mUser Load (0.6ms)[0m   [0;1mSELECT * FROM `users` WHERE (`users`.`id` = 298486374) [0m
+WARNING: Can't mass-assign these protected attributes: id
+  [4;35;1mSQL (0.1ms)[0m   [0mSAVEPOINT active_record_1[0m
+  [4;36;1mUser Load (0.3ms)[0m   [0;1mSELECT `users`.id FROM `users` WHERE (`users`.`voter_id` = BINARY 'qwer1234') LIMIT 1[0m
+  [4;35;1mUser Load (6.7ms)[0m   [0mSELECT `users`.id FROM `users` WHERE (`users`.`email` = BINARY 'a@asdf.com') LIMIT 1[0m
+  [4;36;1mUser Create (0.3ms)[0m   [0;1mINSERT INTO `users` (`voter_id`, `district_code`, `created_at`, `updated_at`, `birth_date`, `provincial_code`, `voted`, `last_name`, `street_number`, `municipality_code`, `activated`, `street_name`, `first_name`, `middle_name`, `email`) VALUES('qwer1234', 'asdf', '2010-05-18 06:18:27', '2010-05-18 06:18:27', '-4712-01-01', 'asdf', 1, 'c', 1, 'asdf', 1, 'string', 'a', 'b', 'a@asdf.com')[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mRELEASE SAVEPOINT active_record_1[0m
+  [4;36;1mUser Load (4.7ms)[0m   [0;1mSELECT `users`.id FROM `users` WHERE (`users`.`voter_id` = BINARY 'qwer1234' AND `users`.id <> 980190990) LIMIT 1[0m
+  [4;35;1mUser Load (0.2ms)[0m   [0mSELECT `users`.id FROM `users` WHERE (`users`.`email` = BINARY 'a@asdf.com' AND `users`.id <> 980190990) LIMIT 1[0m
+  [4;36;1mUser Delete all (0.2ms)[0m   [0;1mDELETE FROM `users` [0m
+  [4;35;1mSQL (39.4ms)[0m   [0mROLLBACK[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+  [4;36;1mSQL (0.2ms)[0m   [0;1mBEGIN[0m
+  [4;35;1mUser Load (0.7ms)[0m   [0mSELECT * FROM `users` WHERE (`users`.`id` = 980190962) [0m
+  [4;36;1mUser Load (0.5ms)[0m   [0;1mSELECT * FROM `users` WHERE (`users`.`id` = 298486374) [0m
+WARNING: Can't mass-assign these protected attributes: id
+  [4;35;1mSQL (0.2ms)[0m   [0mSAVEPOINT active_record_1[0m
+  [4;36;1mUser Load (0.4ms)[0m   [0;1mSELECT `users`.id FROM `users` WHERE (`users`.`voter_id` = BINARY 'qwer1234') LIMIT 1[0m
+  [4;35;1mUser Load (0.2ms)[0m   [0mSELECT `users`.id FROM `users` WHERE (`users`.`email` = BINARY 'a@asdf.com') LIMIT 1[0m
+  [4;36;1mUser Create (0.3ms)[0m   [0;1mINSERT INTO `users` (`voter_id`, `district_code`, `created_at`, `updated_at`, `birth_date`, `provincial_code`, `voted`, `last_name`, `street_number`, `municipality_code`, `activated`, `street_name`, `first_name`, `middle_name`, `email`) VALUES('qwer1234', 'asdf', '2010-05-18 06:18:38', '2010-05-18 06:18:38', '-4712-01-01', 'asdf', 1, 'c', 1, 'asdf', 1, 'string', 'a', 'b', 'a@asdf.com')[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mRELEASE SAVEPOINT active_record_1[0m
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSAVEPOINT active_record_1[0m
+  [4;35;1mUser Load (0.5ms)[0m   [0mSELECT `users`.id FROM `users` WHERE (`users`.`voter_id` = BINARY 'qwer1234' AND `users`.id <> 980190991) LIMIT 1[0m
+  [4;36;1mUser Load (0.3ms)[0m   [0;1mSELECT `users`.id FROM `users` WHERE (`users`.`email` = BINARY 'a@asdf.com' AND `users`.id <> 980190991) LIMIT 1[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mRELEASE SAVEPOINT active_record_1[0m
+  [4;36;1mUser Delete all (0.3ms)[0m   [0;1mDELETE FROM `users` [0m
+  [4;35;1mSQL (52.4ms)[0m   [0mROLLBACK[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mBEGIN[0m
+  [4;35;1mUser Load (0.5ms)[0m   [0mSELECT * FROM `users` WHERE (`users`.`id` = 980190962) [0m
+  [4;36;1mUser Load (0.3ms)[0m   [0;1mSELECT * FROM `users` WHERE (`users`.`id` = 298486374) [0m
+WARNING: Can't mass-assign these protected attributes: id
+  [4;35;1mSQL (0.1ms)[0m   [0mSAVEPOINT active_record_1[0m
+  [4;36;1mUser Load (0.3ms)[0m   [0;1mSELECT `users`.id FROM `users` WHERE (`users`.`voter_id` = BINARY 'qwer1234') LIMIT 1[0m
+  [4;35;1mUser Load (0.3ms)[0m   [0mSELECT `users`.id FROM `users` WHERE (`users`.`email` = BINARY 'a@asdf.com') LIMIT 1[0m
+  [4;36;1mUser Create (0.4ms)[0m   [0;1mINSERT INTO `users` (`voter_id`, `district_code`, `created_at`, `updated_at`, `birth_date`, `provincial_code`, `voted`, `last_name`, `street_number`, `municipality_code`, `activated`, `street_name`, `first_name`, `middle_name`, `email`) VALUES('qwer1234', 'asdf', '2010-05-18 06:18:38', '2010-05-18 06:18:38', '-4712-01-01', 'asdf', 1, 'c', 1, 'asdf', 1, 'string', 'a', 'b', 'a@asdf.com')[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mRELEASE SAVEPOINT active_record_1[0m
+  [4;36;1mUser Load (0.5ms)[0m   [0;1mSELECT `users`.id FROM `users` WHERE (`users`.`voter_id` = BINARY 'qwer1234' AND `users`.id <> 980190992) LIMIT 1[0m
+  [4;35;1mUser Load (0.4ms)[0m   [0mSELECT `users`.id FROM `users` WHERE (`users`.`email` = BINARY 'a@asdf.com' AND `users`.id <> 980190992) LIMIT 1[0m
+  [4;36;1mUser Delete all (0.3ms)[0m   [0;1mDELETE FROM `users` [0m
+  [4;35;1mSQL (36.1ms)[0m   [0mROLLBACK[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mBEGIN[0m
+  [4;35;1mUser Load (0.5ms)[0m   [0mSELECT * FROM `users` WHERE (`users`.`id` = 980190962) [0m
+  [4;36;1mUser Load (0.4ms)[0m   [0;1mSELECT * FROM `users` WHERE (`users`.`id` = 298486374) [0m
+WARNING: Can't mass-assign these protected attributes: id
+  [4;35;1mSQL (0.2ms)[0m   [0mSAVEPOINT active_record_1[0m
+  [4;36;1mUser Load (0.7ms)[0m   [0;1mSELECT `users`.id FROM `users` WHERE (`users`.`voter_id` = BINARY 'qwer1234') LIMIT 1[0m
+  [4;35;1mUser Load (1.7ms)[0m   [0mSELECT `users`.id FROM `users` WHERE (`users`.`email` = BINARY 'a@asdf.com') LIMIT 1[0m
+  [4;36;1mUser Create (0.3ms)[0m   [0;1mINSERT INTO `users` (`voter_id`, `district_code`, `created_at`, `updated_at`, `birth_date`, `provincial_code`, `voted`, `last_name`, `street_number`, `municipality_code`, `activated`, `street_name`, `first_name`, `middle_name`, `email`) VALUES('qwer1234', 'asdf', '2010-05-18 06:18:38', '2010-05-18 06:18:38', '-4712-01-01', 'asdf', 1, 'c', 1, 'asdf', 1, 'string', 'a', 'b', 'a@asdf.com')[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mRELEASE SAVEPOINT active_record_1[0m
+  [4;36;1mUser Delete all (0.2ms)[0m   [0;1mDELETE FROM `users` [0m
+  [4;35;1mSQL (52.1ms)[0m   [0mROLLBACK[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mBEGIN[0m
+  [4;35;1mUser Load (0.5ms)[0m   [0mSELECT * FROM `users` WHERE (`users`.`id` = 980190962) [0m
+  [4;36;1mUser Load (0.4ms)[0m   [0;1mSELECT * FROM `users` WHERE (`users`.`id` = 298486374) [0m
+WARNING: Can't mass-assign these protected attributes: id
+  [4;35;1mSQL (0.2ms)[0m   [0mSAVEPOINT active_record_1[0m
+  [4;36;1mUser Load (0.4ms)[0m   [0;1mSELECT `users`.id FROM `users` WHERE (`users`.`voter_id` = BINARY 'qwer1234') LIMIT 1[0m
+  [4;35;1mUser Load (0.2ms)[0m   [0mSELECT `users`.id FROM `users` WHERE (`users`.`email` = BINARY 'a@asdf.com') LIMIT 1[0m
+  [4;36;1mUser Create (0.3ms)[0m   [0;1mINSERT INTO `users` (`voter_id`, `district_code`, `created_at`, `updated_at`, `birth_date`, `provincial_code`, `voted`, `last_name`, `street_number`, `municipality_code`, `activated`, `street_name`, `first_name`, `middle_name`, `email`) VALUES('qwer1234', 'asdf', '2010-05-18 06:18:38', '2010-05-18 06:18:38', '-4712-01-01', 'asdf', 1, 'c', 1, 'asdf', 1, 'string', 'a', 'b', 'a@asdf.com')[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mRELEASE SAVEPOINT active_record_1[0m
+  [4;36;1mUser Delete all (0.2ms)[0m   [0;1mDELETE FROM `users` [0m
+  [4;35;1mSQL (54.0ms)[0m   [0mROLLBACK[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mBEGIN[0m
+  [4;35;1mUser Load (0.5ms)[0m   [0mSELECT * FROM `users` WHERE (`users`.`id` = 980190962) [0m
+  [4;36;1mUser Load (0.5ms)[0m   [0;1mSELECT * FROM `users` WHERE (`users`.`id` = 298486374) [0m
+WARNING: Can't mass-assign these protected attributes: id
+  [4;35;1mSQL (0.1ms)[0m   [0mSAVEPOINT active_record_1[0m
+  [4;36;1mUser Load (0.4ms)[0m   [0;1mSELECT `users`.id FROM `users` WHERE (`users`.`voter_id` = BINARY 'qwer1234') LIMIT 1[0m
+  [4;35;1mUser Load (0.3ms)[0m   [0mSELECT `users`.id FROM `users` WHERE (`users`.`email` = BINARY 'a@asdf.com') LIMIT 1[0m
+  [4;36;1mUser Create (0.4ms)[0m   [0;1mINSERT INTO `users` (`voter_id`, `district_code`, `created_at`, `updated_at`, `birth_date`, `provincial_code`, `voted`, `last_name`, `street_number`, `municipality_code`, `activated`, `street_name`, `first_name`, `middle_name`, `email`) VALUES('qwer1234', 'asdf', '2010-05-18 06:18:38', '2010-05-18 06:18:38', '-4712-01-01', 'asdf', 1, 'c', 1, 'asdf', 1, 'string', 'a', 'b', 'a@asdf.com')[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mRELEASE SAVEPOINT active_record_1[0m
+  [4;36;1mUser Load (0.5ms)[0m   [0;1mSELECT `users`.id FROM `users` WHERE (`users`.`voter_id` = BINARY 'qwer1234' AND `users`.id <> 980190995) LIMIT 1[0m
+  [4;35;1mUser Load (0.6ms)[0m   [0mSELECT `users`.id FROM `users` WHERE (`users`.`email` = BINARY 'a@asdf.com' AND `users`.id <> 980190995) LIMIT 1[0m
+  [4;36;1mUser Delete all (0.4ms)[0m   [0;1mDELETE FROM `users` [0m
+  [4;35;1mSQL (57.5ms)[0m   [0mROLLBACK[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mBEGIN[0m
+  [4;35;1mUser Load (0.5ms)[0m   [0mSELECT * FROM `users` WHERE (`users`.`id` = 980190962) [0m
+  [4;36;1mUser Load (0.3ms)[0m   [0;1mSELECT * FROM `users` WHERE (`users`.`id` = 298486374) [0m
+WARNING: Can't mass-assign these protected attributes: id
+  [4;35;1mSQL (0.1ms)[0m   [0mSAVEPOINT active_record_1[0m
+  [4;36;1mUser Load (0.3ms)[0m   [0;1mSELECT `users`.id FROM `users` WHERE (`users`.`voter_id` = BINARY 'qwer1234') LIMIT 1[0m
+  [4;35;1mUser Load (0.2ms)[0m   [0mSELECT `users`.id FROM `users` WHERE (`users`.`email` = BINARY 'a@asdf.com') LIMIT 1[0m
+  [4;36;1mUser Create (0.6ms)[0m   [0;1mINSERT INTO `users` (`voter_id`, `district_code`, `created_at`, `updated_at`, `birth_date`, `provincial_code`, `voted`, `last_name`, `street_number`, `municipality_code`, `activated`, `street_name`, `first_name`, `middle_name`, `email`) VALUES('qwer1234', 'asdf', '2010-05-18 06:18:38', '2010-05-18 06:18:38', '-4712-01-01', 'asdf', 1, 'c', 1, 'asdf', 1, 'string', 'a', 'b', 'a@asdf.com')[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mRELEASE SAVEPOINT active_record_1[0m
+  [4;36;1mUser Load (0.5ms)[0m   [0;1mSELECT `users`.id FROM `users` WHERE (`users`.`voter_id` = BINARY 'qwer1234' AND `users`.id <> 980190996) LIMIT 1[0m
+  [4;35;1mUser Load (1.2ms)[0m   [0mSELECT `users`.id FROM `users` WHERE (`users`.`email` = BINARY 'a@asdf.com' AND `users`.id <> 980190996) LIMIT 1[0m
+  [4;36;1mUser Delete all (0.2ms)[0m   [0;1mDELETE FROM `users` [0m
+  [4;35;1mSQL (47.4ms)[0m   [0mROLLBACK[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mBEGIN[0m
+  [4;35;1mUser Load (0.5ms)[0m   [0mSELECT * FROM `users` WHERE (`users`.`id` = 980190962) [0m
+  [4;36;1mUser Load (0.4ms)[0m   [0;1mSELECT * FROM `users` WHERE (`users`.`id` = 298486374) [0m
+WARNING: Can't mass-assign these protected attributes: id
+  [4;35;1mSQL (0.1ms)[0m   [0mSAVEPOINT active_record_1[0m
+  [4;36;1mUser Load (0.4ms)[0m   [0;1mSELECT `users`.id FROM `users` WHERE (`users`.`voter_id` = BINARY 'qwer1234') LIMIT 1[0m
+  [4;35;1mUser Load (0.3ms)[0m   [0mSELECT `users`.id FROM `users` WHERE (`users`.`email` = BINARY 'a@asdf.com') LIMIT 1[0m
+  [4;36;1mUser Create (0.3ms)[0m   [0;1mINSERT INTO `users` (`voter_id`, `district_code`, `created_at`, `updated_at`, `birth_date`, `provincial_code`, `voted`, `last_name`, `street_number`, `municipality_code`, `activated`, `street_name`, `first_name`, `middle_name`, `email`) VALUES('qwer1234', 'asdf', '2010-05-18 06:18:39', '2010-05-18 06:18:39', '-4712-01-01', 'asdf', 1, 'c', 1, 'asdf', 1, 'string', 'a', 'b', 'a@asdf.com')[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mRELEASE SAVEPOINT active_record_1[0m
+  [4;36;1mUser Load (0.3ms)[0m   [0;1mSELECT `users`.id FROM `users` WHERE (`users`.`voter_id` = BINARY 'qwer1234' AND `users`.id <> 980190997) LIMIT 1[0m
+  [4;35;1mUser Load (0.2ms)[0m   [0mSELECT `users`.id FROM `users` WHERE (`users`.`email` = BINARY 'a@asdf.com' AND `users`.id <> 980190997) LIMIT 1[0m
+  [4;36;1mUser Delete all (0.2ms)[0m   [0;1mDELETE FROM `users` [0m
+  [4;35;1mSQL (50.7ms)[0m   [0mROLLBACK[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mBEGIN[0m
+  [4;35;1mUser Load (0.5ms)[0m   [0mSELECT * FROM `users` WHERE (`users`.`id` = 980190962) [0m
+  [4;36;1mUser Load (0.4ms)[0m   [0;1mSELECT * FROM `users` WHERE (`users`.`id` = 298486374) [0m
+WARNING: Can't mass-assign these protected attributes: id
+  [4;35;1mSQL (0.1ms)[0m   [0mSAVEPOINT active_record_1[0m
+  [4;36;1mUser Load (0.3ms)[0m   [0;1mSELECT `users`.id FROM `users` WHERE (`users`.`voter_id` = BINARY 'qwer1234') LIMIT 1[0m
+  [4;35;1mUser Load (0.2ms)[0m   [0mSELECT `users`.id FROM `users` WHERE (`users`.`email` = BINARY 'a@asdf.com') LIMIT 1[0m
+  [4;36;1mUser Create (0.3ms)[0m   [0;1mINSERT INTO `users` (`voter_id`, `district_code`, `created_at`, `updated_at`, `birth_date`, `provincial_code`, `voted`, `last_name`, `street_number`, `municipality_code`, `activated`, `street_name`, `first_name`, `middle_name`, `email`) VALUES('qwer1234', 'asdf', '2010-05-18 06:20:18', '2010-05-18 06:20:18', '-4712-01-01', 'asdf', 1, 'c', 1, 'asdf', 1, 'string', 'a', 'b', 'a@asdf.com')[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mRELEASE SAVEPOINT active_record_1[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSAVEPOINT active_record_1[0m
+  [4;35;1mUser Load (0.4ms)[0m   [0mSELECT `users`.id FROM `users` WHERE (`users`.`voter_id` = BINARY 'qwer1234' AND `users`.id <> 980190998) LIMIT 1[0m
+  [4;36;1mUser Load (0.3ms)[0m   [0;1mSELECT `users`.id FROM `users` WHERE (`users`.`email` = BINARY 'a@asdf.com' AND `users`.id <> 980190998) LIMIT 1[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mRELEASE SAVEPOINT active_record_1[0m
+  [4;36;1mUser Delete all (0.2ms)[0m   [0;1mDELETE FROM `users` [0m
+  [4;35;1mSQL (66.1ms)[0m   [0mROLLBACK[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mBEGIN[0m
+  [4;35;1mUser Load (0.5ms)[0m   [0mSELECT * FROM `users` WHERE (`users`.`id` = 980190962) [0m
+  [4;36;1mUser Load (0.3ms)[0m   [0;1mSELECT * FROM `users` WHERE (`users`.`id` = 298486374) [0m
+WARNING: Can't mass-assign these protected attributes: id
+  [4;35;1mSQL (0.1ms)[0m   [0mSAVEPOINT active_record_1[0m
+  [4;36;1mUser Load (0.3ms)[0m   [0;1mSELECT `users`.id FROM `users` WHERE (`users`.`voter_id` = BINARY 'qwer1234') LIMIT 1[0m
+  [4;35;1mUser Load (0.2ms)[0m   [0mSELECT `users`.id FROM `users` WHERE (`users`.`email` = BINARY 'a@asdf.com') LIMIT 1[0m
+  [4;36;1mUser Create (0.3ms)[0m   [0;1mINSERT INTO `users` (`voter_id`, `district_code`, `created_at`, `updated_at`, `birth_date`, `provincial_code`, `voted`, `last_name`, `street_number`, `municipality_code`, `activated`, `street_name`, `first_name`, `middle_name`, `email`) VALUES('qwer1234', 'asdf', '2010-05-18 06:20:19', '2010-05-18 06:20:19', '-4712-01-01', 'asdf', 1, 'c', 1, 'asdf', 1, 'string', 'a', 'b', 'a@asdf.com')[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mRELEASE SAVEPOINT active_record_1[0m
+  [4;36;1mUser Load (1.5ms)[0m   [0;1mSELECT `users`.id FROM `users` WHERE (`users`.`voter_id` = BINARY 'qwer1234' AND `users`.id <> 980190999) LIMIT 1[0m
+  [4;35;1mUser Load (0.3ms)[0m   [0mSELECT `users`.id FROM `users` WHERE (`users`.`email` = BINARY 'a@asdf.com' AND `users`.id <> 980190999) LIMIT 1[0m
+  [4;36;1mUser Delete all (0.2ms)[0m   [0;1mDELETE FROM `users` [0m
+  [4;35;1mSQL (84.0ms)[0m   [0mROLLBACK[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mBEGIN[0m
+  [4;35;1mUser Load (0.5ms)[0m   [0mSELECT * FROM `users` WHERE (`users`.`id` = 980190962) [0m
+  [4;36;1mUser Load (0.4ms)[0m   [0;1mSELECT * FROM `users` WHERE (`users`.`id` = 298486374) [0m
+WARNING: Can't mass-assign these protected attributes: id
+  [4;35;1mSQL (0.1ms)[0m   [0mSAVEPOINT active_record_1[0m
+  [4;36;1mUser Load (0.3ms)[0m   [0;1mSELECT `users`.id FROM `users` WHERE (`users`.`voter_id` = BINARY 'qwer1234') LIMIT 1[0m
+  [4;35;1mUser Load (0.3ms)[0m   [0mSELECT `users`.id FROM `users` WHERE (`users`.`email` = BINARY 'a@asdf.com') LIMIT 1[0m
+  [4;36;1mUser Create (0.3ms)[0m   [0;1mINSERT INTO `users` (`voter_id`, `district_code`, `created_at`, `updated_at`, `birth_date`, `provincial_code`, `voted`, `last_name`, `street_number`, `municipality_code`, `activated`, `street_name`, `first_name`, `middle_name`, `email`) VALUES('qwer1234', 'asdf', '2010-05-18 06:20:19', '2010-05-18 06:20:19', '-4712-01-01', 'asdf', 1, 'c', 1, 'asdf', 1, 'string', 'a', 'b', 'a@asdf.com')[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mRELEASE SAVEPOINT active_record_1[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSAVEPOINT active_record_1[0m
+  [4;35;1mUser Load (0.3ms)[0m   [0mSELECT `users`.id FROM `users` WHERE (`users`.`voter_id` = BINARY 'qwer1234' AND `users`.id <> 980191000) LIMIT 1[0m
+  [4;36;1mUser Load (0.2ms)[0m   [0;1mSELECT `users`.id FROM `users` WHERE (`users`.`email` = BINARY 'a@asdf.com' AND `users`.id <> 980191000) LIMIT 1[0m
+  [4;35;1mUser Update (37.0ms)[0m   [0mUPDATE `users` SET `updated_at` = '2010-05-18 06:20:19', `district_code` = 'AH1N1' WHERE `id` = 980191000[0m
+  [4;36;1mSQL (0.2ms)[0m   [0;1mRELEASE SAVEPOINT active_record_1[0m
+  [4;35;1mUser Delete all (1.8ms)[0m   [0mDELETE FROM `users` [0m
+  [4;36;1mSQL (52.8ms)[0m   [0;1mROLLBACK[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mBEGIN[0m
+  [4;36;1mUser Load (0.5ms)[0m   [0;1mSELECT * FROM `users` WHERE (`users`.`id` = 980190962) [0m
+  [4;35;1mUser Load (0.3ms)[0m   [0mSELECT * FROM `users` WHERE (`users`.`id` = 298486374) [0m
+WARNING: Can't mass-assign these protected attributes: id
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSAVEPOINT active_record_1[0m
+  [4;35;1mUser Load (0.4ms)[0m   [0mSELECT `users`.id FROM `users` WHERE (`users`.`voter_id` = BINARY 'qwer1234') LIMIT 1[0m
+  [4;36;1mUser Load (0.3ms)[0m   [0;1mSELECT `users`.id FROM `users` WHERE (`users`.`email` = BINARY 'a@asdf.com') LIMIT 1[0m
+  [4;35;1mUser Create (1.8ms)[0m   [0mINSERT INTO `users` (`voter_id`, `district_code`, `created_at`, `updated_at`, `birth_date`, `provincial_code`, `voted`, `last_name`, `street_number`, `municipality_code`, `activated`, `street_name`, `first_name`, `middle_name`, `email`) VALUES('qwer1234', 'asdf', '2010-05-18 06:20:19', '2010-05-18 06:20:19', '-4712-01-01', 'asdf', 1, 'c', 1, 'asdf', 1, 'string', 'a', 'b', 'a@asdf.com')[0m
+  [4;36;1mSQL (0.9ms)[0m   [0;1mRELEASE SAVEPOINT active_record_1[0m
+  [4;35;1mUser Delete all (0.3ms)[0m   [0mDELETE FROM `users` [0m
+  [4;36;1mSQL (49.2ms)[0m   [0;1mROLLBACK[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mBEGIN[0m
+  [4;36;1mUser Load (0.6ms)[0m   [0;1mSELECT * FROM `users` WHERE (`users`.`id` = 980190962) [0m
+  [4;35;1mUser Load (0.7ms)[0m   [0mSELECT * FROM `users` WHERE (`users`.`id` = 298486374) [0m
+WARNING: Can't mass-assign these protected attributes: id
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSAVEPOINT active_record_1[0m
+  [4;35;1mUser Load (0.3ms)[0m   [0mSELECT `users`.id FROM `users` WHERE (`users`.`voter_id` = BINARY 'qwer1234') LIMIT 1[0m
+  [4;36;1mUser Load (0.3ms)[0m   [0;1mSELECT `users`.id FROM `users` WHERE (`users`.`email` = BINARY 'a@asdf.com') LIMIT 1[0m
+  [4;35;1mUser Create (0.5ms)[0m   [0mINSERT INTO `users` (`voter_id`, `district_code`, `created_at`, `updated_at`, `birth_date`, `provincial_code`, `voted`, `last_name`, `street_number`, `municipality_code`, `activated`, `street_name`, `first_name`, `middle_name`, `email`) VALUES('qwer1234', 'asdf', '2010-05-18 06:20:19', '2010-05-18 06:20:19', '-4712-01-01', 'asdf', 1, 'c', 1, 'asdf', 1, 'string', 'a', 'b', 'a@asdf.com')[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mRELEASE SAVEPOINT active_record_1[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSAVEPOINT active_record_1[0m
+  [4;36;1mUser Load (0.3ms)[0m   [0;1mSELECT `users`.id FROM `users` WHERE (`users`.`voter_id` = BINARY 'qwer1234' AND `users`.id <> 980191002) LIMIT 1[0m
+  [4;35;1mUser Load (0.3ms)[0m   [0mSELECT `users`.id FROM `users` WHERE (`users`.`email` = BINARY 'a@asdf.com' AND `users`.id <> 980191002) LIMIT 1[0m
+  [4;36;1mUser Update (0.2ms)[0m   [0;1mUPDATE `users` SET `updated_at` = '2010-05-18 06:20:19', `municipality_code` = 'AH1N1' WHERE `id` = 980191002[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mRELEASE SAVEPOINT active_record_1[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSAVEPOINT active_record_1[0m
+  [4;35;1mUser Load (0.3ms)[0m   [0mSELECT `users`.id FROM `users` WHERE (`users`.`voter_id` = BINARY 'qwer1234' AND `users`.id <> 980191002) LIMIT 1[0m
+  [4;36;1mUser Load (0.2ms)[0m   [0;1mSELECT `users`.id FROM `users` WHERE (`users`.`email` = BINARY 'a@asdf.com' AND `users`.id <> 980191002) LIMIT 1[0m
+  [4;35;1mUser Update (0.2ms)[0m   [0mUPDATE `users` SET `updated_at` = '2010-05-18 06:20:19', `municipality_code` = '1234' WHERE `id` = 980191002[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mRELEASE SAVEPOINT active_record_1[0m
+  [4;35;1mUser Load (0.4ms)[0m   [0mSELECT `users`.id FROM `users` WHERE (`users`.`voter_id` = BINARY 'qwer1234' AND `users`.id <> 980191002) LIMIT 1[0m
+  [4;36;1mUser Load (0.3ms)[0m   [0;1mSELECT `users`.id FROM `users` WHERE (`users`.`email` = BINARY 'a@asdf.com' AND `users`.id <> 980191002) LIMIT 1[0m
+  [4;35;1mUser Delete all (0.2ms)[0m   [0mDELETE FROM `users` [0m
+  [4;36;1mSQL (50.6ms)[0m   [0;1mROLLBACK[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mBEGIN[0m
+  [4;36;1mUser Load (0.5ms)[0m   [0;1mSELECT * FROM `users` WHERE (`users`.`id` = 980190962) [0m
+  [4;35;1mUser Load (0.3ms)[0m   [0mSELECT * FROM `users` WHERE (`users`.`id` = 298486374) [0m
+WARNING: Can't mass-assign these protected attributes: id
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSAVEPOINT active_record_1[0m
+  [4;35;1mUser Load (0.3ms)[0m   [0mSELECT `users`.id FROM `users` WHERE (`users`.`voter_id` = BINARY 'qwer1234') LIMIT 1[0m
+  [4;36;1mUser Load (0.3ms)[0m   [0;1mSELECT `users`.id FROM `users` WHERE (`users`.`email` = BINARY 'a@asdf.com') LIMIT 1[0m
+  [4;35;1mUser Create (0.4ms)[0m   [0mINSERT INTO `users` (`voter_id`, `district_code`, `created_at`, `updated_at`, `birth_date`, `provincial_code`, `voted`, `last_name`, `street_number`, `municipality_code`, `activated`, `street_name`, `first_name`, `middle_name`, `email`) VALUES('qwer1234', 'asdf', '2010-05-18 06:20:19', '2010-05-18 06:20:19', '-4712-01-01', 'asdf', 1, 'c', 1, 'asdf', 1, 'string', 'a', 'b', 'a@asdf.com')[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mRELEASE SAVEPOINT active_record_1[0m
+  [4;35;1mUser Load (0.6ms)[0m   [0mSELECT `users`.id FROM `users` WHERE (`users`.`voter_id` = BINARY 'qwer1234' AND `users`.id <> 980191003) LIMIT 1[0m
+  [4;36;1mUser Load (0.5ms)[0m   [0;1mSELECT `users`.id FROM `users` WHERE (`users`.`email` = BINARY 'a@asdf.com' AND `users`.id <> 980191003) LIMIT 1[0m
+  [4;35;1mUser Delete all (0.4ms)[0m   [0mDELETE FROM `users` [0m
+  [4;36;1mSQL (102.5ms)[0m   [0;1mROLLBACK[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mBEGIN[0m
+  [4;36;1mUser Load (3.9ms)[0m   [0;1mSELECT * FROM `users` WHERE (`users`.`id` = 980190962) [0m
+  [4;35;1mUser Load (0.5ms)[0m   [0mSELECT * FROM `users` WHERE (`users`.`id` = 298486374) [0m
+WARNING: Can't mass-assign these protected attributes: id
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSAVEPOINT active_record_1[0m
+  [4;35;1mUser Load (0.4ms)[0m   [0mSELECT `users`.id FROM `users` WHERE (`users`.`voter_id` = BINARY 'qwer1234') LIMIT 1[0m
+  [4;36;1mUser Load (0.3ms)[0m   [0;1mSELECT `users`.id FROM `users` WHERE (`users`.`email` = BINARY 'a@asdf.com') LIMIT 1[0m
+  [4;35;1mUser Create (0.4ms)[0m   [0mINSERT INTO `users` (`voter_id`, `district_code`, `created_at`, `updated_at`, `birth_date`, `provincial_code`, `voted`, `last_name`, `street_number`, `municipality_code`, `activated`, `street_name`, `first_name`, `middle_name`, `email`) VALUES('qwer1234', 'asdf', '2010-05-18 06:20:19', '2010-05-18 06:20:19', '-4712-01-01', 'asdf', 1, 'c', 1, 'asdf', 1, 'string', 'a', 'b', 'a@asdf.com')[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mRELEASE SAVEPOINT active_record_1[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSAVEPOINT active_record_1[0m
+  [4;36;1mUser Load (0.3ms)[0m   [0;1mSELECT `users`.id FROM `users` WHERE (`users`.`voter_id` = BINARY 'qwer1234' AND `users`.id <> 980191004) LIMIT 1[0m
+  [4;35;1mUser Load (0.2ms)[0m   [0mSELECT `users`.id FROM `users` WHERE (`users`.`email` = BINARY 'a@asdf.com' AND `users`.id <> 980191004) LIMIT 1[0m
+  [4;36;1mUser Update (0.2ms)[0m   [0;1mUPDATE `users` SET `updated_at` = '2010-05-18 06:20:19', `provincial_code` = 'AH1N1' WHERE `id` = 980191004[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mRELEASE SAVEPOINT active_record_1[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSAVEPOINT active_record_1[0m
+  [4;35;1mUser Load (0.3ms)[0m   [0mSELECT `users`.id FROM `users` WHERE (`users`.`voter_id` = BINARY 'qwer1234' AND `users`.id <> 980191004) LIMIT 1[0m
+  [4;36;1mUser Load (0.2ms)[0m   [0;1mSELECT `users`.id FROM `users` WHERE (`users`.`email` = BINARY 'a@asdf.com' AND `users`.id <> 980191004) LIMIT 1[0m
+  [4;35;1mUser Update (0.3ms)[0m   [0mUPDATE `users` SET `updated_at` = '2010-05-18 06:20:19', `provincial_code` = '1234' WHERE `id` = 980191004[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mRELEASE SAVEPOINT active_record_1[0m
+  [4;35;1mUser Load (0.4ms)[0m   [0mSELECT `users`.id FROM `users` WHERE (`users`.`voter_id` = BINARY 'qwer1234' AND `users`.id <> 980191004) LIMIT 1[0m
+  [4;36;1mUser Load (0.3ms)[0m   [0;1mSELECT `users`.id FROM `users` WHERE (`users`.`email` = BINARY 'a@asdf.com' AND `users`.id <> 980191004) LIMIT 1[0m
+  [4;35;1mUser Delete all (0.2ms)[0m   [0mDELETE FROM `users` [0m
+  [4;36;1mSQL (36.2ms)[0m   [0;1mROLLBACK[0m
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mBEGIN[0m
+  [4;35;1mUser Load (0.5ms)[0m   [0mSELECT * FROM `users` WHERE (`users`.`id` = 980190962) [0m
+  [4;36;1mUser Load (0.3ms)[0m   [0;1mSELECT * FROM `users` WHERE (`users`.`id` = 298486374) [0m
+WARNING: Can't mass-assign these protected attributes: id
+  [4;35;1mSQL (0.7ms)[0m   [0mSAVEPOINT active_record_1[0m
+  [4;36;1mUser Load (0.4ms)[0m   [0;1mSELECT `users`.id FROM `users` WHERE (`users`.`voter_id` = BINARY 'qwer1234') LIMIT 1[0m
+  [4;35;1mUser Load (0.2ms)[0m   [0mSELECT `users`.id FROM `users` WHERE (`users`.`email` = BINARY 'a@asdf.com') LIMIT 1[0m
+  [4;36;1mUser Create (0.5ms)[0m   [0;1mINSERT INTO `users` (`voter_id`, `district_code`, `created_at`, `updated_at`, `birth_date`, `provincial_code`, `voted`, `last_name`, `street_number`, `municipality_code`, `activated`, `street_name`, `first_name`, `middle_name`, `email`) VALUES('qwer1234', 'asdf', '2010-05-18 06:20:29', '2010-05-18 06:20:29', '-4712-01-01', 'asdf', 1, 'c', 1, 'asdf', 1, 'string', 'a', 'b', 'a@asdf.com')[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mRELEASE SAVEPOINT active_record_1[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSAVEPOINT active_record_1[0m
+  [4;35;1mUser Load (0.5ms)[0m   [0mSELECT `users`.id FROM `users` WHERE (`users`.`voter_id` = BINARY 'qwer1234' AND `users`.id <> 980191005) LIMIT 1[0m
+  [4;36;1mUser Load (4.4ms)[0m   [0;1mSELECT `users`.id FROM `users` WHERE (`users`.`email` = BINARY 'a@asdf.com' AND `users`.id <> 980191005) LIMIT 1[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mRELEASE SAVEPOINT active_record_1[0m
+  [4;36;1mUser Delete all (0.3ms)[0m   [0;1mDELETE FROM `users` [0m
+  [4;35;1mSQL (52.6ms)[0m   [0mROLLBACK[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mBEGIN[0m
+  [4;35;1mUser Load (0.8ms)[0m   [0mSELECT * FROM `users` WHERE (`users`.`id` = 980190962) [0m
+  [4;36;1mUser Load (0.3ms)[0m   [0;1mSELECT * FROM `users` WHERE (`users`.`id` = 298486374) [0m
+WARNING: Can't mass-assign these protected attributes: id
+  [4;35;1mSQL (0.2ms)[0m   [0mSAVEPOINT active_record_1[0m
+  [4;36;1mUser Load (0.5ms)[0m   [0;1mSELECT `users`.id FROM `users` WHERE (`users`.`voter_id` = BINARY 'qwer1234') LIMIT 1[0m
+  [4;35;1mUser Load (0.3ms)[0m   [0mSELECT `users`.id FROM `users` WHERE (`users`.`email` = BINARY 'a@asdf.com') LIMIT 1[0m
+  [4;36;1mUser Create (0.4ms)[0m   [0;1mINSERT INTO `users` (`voter_id`, `district_code`, `created_at`, `updated_at`, `birth_date`, `provincial_code`, `voted`, `last_name`, `street_number`, `municipality_code`, `activated`, `street_name`, `first_name`, `middle_name`, `email`) VALUES('qwer1234', 'asdf', '2010-05-18 06:20:29', '2010-05-18 06:20:29', '-4712-01-01', 'asdf', 1, 'c', 1, 'asdf', 1, 'string', 'a', 'b', 'a@asdf.com')[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mRELEASE SAVEPOINT active_record_1[0m
+  [4;36;1mUser Load (0.3ms)[0m   [0;1mSELECT `users`.id FROM `users` WHERE (`users`.`voter_id` = BINARY 'qwer1234' AND `users`.id <> 980191006) LIMIT 1[0m
+  [4;35;1mUser Load (0.2ms)[0m   [0mSELECT `users`.id FROM `users` WHERE (`users`.`email` = BINARY 'a@asdf.com' AND `users`.id <> 980191006) LIMIT 1[0m
+  [4;36;1mUser Delete all (0.2ms)[0m   [0;1mDELETE FROM `users` [0m
+  [4;35;1mSQL (50.1ms)[0m   [0mROLLBACK[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mBEGIN[0m
+  [4;35;1mUser Load (0.6ms)[0m   [0mSELECT * FROM `users` WHERE (`users`.`id` = 980190962) [0m
+  [4;36;1mUser Load (0.5ms)[0m   [0;1mSELECT * FROM `users` WHERE (`users`.`id` = 298486374) [0m
+WARNING: Can't mass-assign these protected attributes: id
+  [4;35;1mSQL (0.1ms)[0m   [0mSAVEPOINT active_record_1[0m
+  [4;36;1mUser Load (0.3ms)[0m   [0;1mSELECT `users`.id FROM `users` WHERE (`users`.`voter_id` = BINARY 'qwer1234') LIMIT 1[0m
+  [4;35;1mUser Load (0.3ms)[0m   [0mSELECT `users`.id FROM `users` WHERE (`users`.`email` = BINARY 'a@asdf.com') LIMIT 1[0m
+  [4;36;1mUser Create (0.6ms)[0m   [0;1mINSERT INTO `users` (`voter_id`, `district_code`, `created_at`, `updated_at`, `birth_date`, `provincial_code`, `voted`, `last_name`, `street_number`, `municipality_code`, `activated`, `street_name`, `first_name`, `middle_name`, `email`) VALUES('qwer1234', 'asdf', '2010-05-18 06:20:29', '2010-05-18 06:20:29', '-4712-01-01', 'asdf', 1, 'c', 1, 'asdf', 1, 'string', 'a', 'b', 'a@asdf.com')[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mRELEASE SAVEPOINT active_record_1[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSAVEPOINT active_record_1[0m
+  [4;35;1mUser Load (0.3ms)[0m   [0mSELECT `users`.id FROM `users` WHERE (`users`.`voter_id` = BINARY 'qwer1234' AND `users`.id <> 980191007) LIMIT 1[0m
+  [4;36;1mUser Load (0.2ms)[0m   [0;1mSELECT `users`.id FROM `users` WHERE (`users`.`email` = BINARY 'a@asdf.com' AND `users`.id <> 980191007) LIMIT 1[0m
+  [4;35;1mUser Update (4.7ms)[0m   [0mUPDATE `users` SET `updated_at` = '2010-05-18 06:20:29', `district_code` = 'AH1N1' WHERE `id` = 980191007[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mRELEASE SAVEPOINT active_record_1[0m
+  [4;35;1mSQL (0.2ms)[0m   [0mSAVEPOINT active_record_1[0m
+  [4;36;1mUser Load (0.4ms)[0m   [0;1mSELECT `users`.id FROM `users` WHERE (`users`.`voter_id` = BINARY 'qwer1234' AND `users`.id <> 980191007) LIMIT 1[0m
+  [4;35;1mUser Load (0.2ms)[0m   [0mSELECT `users`.id FROM `users` WHERE (`users`.`email` = BINARY 'a@asdf.com' AND `users`.id <> 980191007) LIMIT 1[0m
+  [4;36;1mUser Update (1.0ms)[0m   [0;1mUPDATE `users` SET `updated_at` = '2010-05-18 06:20:29', `district_code` = '1234' WHERE `id` = 980191007[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mRELEASE SAVEPOINT active_record_1[0m
+  [4;36;1mUser Load (0.4ms)[0m   [0;1mSELECT `users`.id FROM `users` WHERE (`users`.`voter_id` = BINARY 'qwer1234' AND `users`.id <> 980191007) LIMIT 1[0m
+  [4;35;1mUser Load (0.2ms)[0m   [0mSELECT `users`.id FROM `users` WHERE (`users`.`email` = BINARY 'a@asdf.com' AND `users`.id <> 980191007) LIMIT 1[0m
+  [4;36;1mUser Delete all (0.2ms)[0m   [0;1mDELETE FROM `users` [0m
+  [4;35;1mSQL (56.3ms)[0m   [0mROLLBACK[0m
+  [4;36;1mSQL (0.2ms)[0m   [0;1mBEGIN[0m
+  [4;35;1mUser Load (0.5ms)[0m   [0mSELECT * FROM `users` WHERE (`users`.`id` = 980190962) [0m
+  [4;36;1mUser Load (0.3ms)[0m   [0;1mSELECT * FROM `users` WHERE (`users`.`id` = 298486374) [0m
+WARNING: Can't mass-assign these protected attributes: id
+  [4;35;1mSQL (0.1ms)[0m   [0mSAVEPOINT active_record_1[0m
+  [4;36;1mUser Load (0.3ms)[0m   [0;1mSELECT `users`.id FROM `users` WHERE (`users`.`voter_id` = BINARY 'qwer1234') LIMIT 1[0m
+  [4;35;1mUser Load (0.4ms)[0m   [0mSELECT `users`.id FROM `users` WHERE (`users`.`email` = BINARY 'a@asdf.com') LIMIT 1[0m
+  [4;36;1mUser Create (4.4ms)[0m   [0;1mINSERT INTO `users` (`voter_id`, `district_code`, `created_at`, `updated_at`, `birth_date`, `provincial_code`, `voted`, `last_name`, `street_number`, `municipality_code`, `activated`, `street_name`, `first_name`, `middle_name`, `email`) VALUES('qwer1234', 'asdf', '2010-05-18 06:20:29', '2010-05-18 06:20:29', '-4712-01-01', 'asdf', 1, 'c', 1, 'asdf', 1, 'string', 'a', 'b', 'a@asdf.com')[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mRELEASE SAVEPOINT active_record_1[0m
+  [4;36;1mUser Delete all (0.2ms)[0m   [0;1mDELETE FROM `users` [0m
+  [4;35;1mSQL (49.6ms)[0m   [0mROLLBACK[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mBEGIN[0m
+  [4;35;1mUser Load (0.5ms)[0m   [0mSELECT * FROM `users` WHERE (`users`.`id` = 980190962) [0m
+  [4;36;1mUser Load (0.6ms)[0m   [0;1mSELECT * FROM `users` WHERE (`users`.`id` = 298486374) [0m
+WARNING: Can't mass-assign these protected attributes: id
+  [4;35;1mSQL (0.1ms)[0m   [0mSAVEPOINT active_record_1[0m
+  [4;36;1mUser Load (0.3ms)[0m   [0;1mSELECT `users`.id FROM `users` WHERE (`users`.`voter_id` = BINARY 'qwer1234') LIMIT 1[0m
+  [4;35;1mUser Load (0.2ms)[0m   [0mSELECT `users`.id FROM `users` WHERE (`users`.`email` = BINARY 'a@asdf.com') LIMIT 1[0m
+  [4;36;1mUser Create (0.4ms)[0m   [0;1mINSERT INTO `users` (`voter_id`, `district_code`, `created_at`, `updated_at`, `birth_date`, `provincial_code`, `voted`, `last_name`, `street_number`, `municipality_code`, `activated`, `street_name`, `first_name`, `middle_name`, `email`) VALUES('qwer1234', 'asdf', '2010-05-18 06:20:29', '2010-05-18 06:20:29', '-4712-01-01', 'asdf', 1, 'c', 1, 'asdf', 1, 'string', 'a', 'b', 'a@asdf.com')[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mRELEASE SAVEPOINT active_record_1[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSAVEPOINT active_record_1[0m
+  [4;35;1mUser Load (0.4ms)[0m   [0mSELECT `users`.id FROM `users` WHERE (`users`.`voter_id` = BINARY 'qwer1234' AND `users`.id <> 980191009) LIMIT 1[0m
+  [4;36;1mUser Load (0.2ms)[0m   [0;1mSELECT `users`.id FROM `users` WHERE (`users`.`email` = BINARY 'a@asdf.com' AND `users`.id <> 980191009) LIMIT 1[0m
+  [4;35;1mUser Update (0.3ms)[0m   [0mUPDATE `users` SET `updated_at` = '2010-05-18 06:20:29', `municipality_code` = 'AH1N1' WHERE `id` = 980191009[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mRELEASE SAVEPOINT active_record_1[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSAVEPOINT active_record_1[0m
+  [4;36;1mUser Load (0.4ms)[0m   [0;1mSELECT `users`.id FROM `users` WHERE (`users`.`voter_id` = BINARY 'qwer1234' AND `users`.id <> 980191009) LIMIT 1[0m
+  [4;35;1mUser Load (0.2ms)[0m   [0mSELECT `users`.id FROM `users` WHERE (`users`.`email` = BINARY 'a@asdf.com' AND `users`.id <> 980191009) LIMIT 1[0m
+  [4;36;1mUser Update (0.4ms)[0m   [0;1mUPDATE `users` SET `updated_at` = '2010-05-18 06:20:29', `municipality_code` = '1234' WHERE `id` = 980191009[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mRELEASE SAVEPOINT active_record_1[0m
+  [4;36;1mUser Load (0.7ms)[0m   [0;1mSELECT `users`.id FROM `users` WHERE (`users`.`voter_id` = BINARY 'qwer1234' AND `users`.id <> 980191009) LIMIT 1[0m
+  [4;35;1mUser Load (4.8ms)[0m   [0mSELECT `users`.id FROM `users` WHERE (`users`.`email` = BINARY 'a@asdf.com' AND `users`.id <> 980191009) LIMIT 1[0m
+  [4;36;1mUser Delete all (0.2ms)[0m   [0;1mDELETE FROM `users` [0m
+  [4;35;1mSQL (47.7ms)[0m   [0mROLLBACK[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mBEGIN[0m
+  [4;35;1mUser Load (0.6ms)[0m   [0mSELECT * FROM `users` WHERE (`users`.`id` = 980190962) [0m
+  [4;36;1mUser Load (0.3ms)[0m   [0;1mSELECT * FROM `users` WHERE (`users`.`id` = 298486374) [0m
+WARNING: Can't mass-assign these protected attributes: id
+  [4;35;1mSQL (0.1ms)[0m   [0mSAVEPOINT active_record_1[0m
+  [4;36;1mUser Load (0.5ms)[0m   [0;1mSELECT `users`.id FROM `users` WHERE (`users`.`voter_id` = BINARY 'qwer1234') LIMIT 1[0m
+  [4;35;1mUser Load (0.3ms)[0m   [0mSELECT `users`.id FROM `users` WHERE (`users`.`email` = BINARY 'a@asdf.com') LIMIT 1[0m
+  [4;36;1mUser Create (0.3ms)[0m   [0;1mINSERT INTO `users` (`voter_id`, `district_code`, `created_at`, `updated_at`, `birth_date`, `provincial_code`, `voted`, `last_name`, `street_number`, `municipality_code`, `activated`, `street_name`, `first_name`, `middle_name`, `email`) VALUES('qwer1234', 'asdf', '2010-05-18 06:20:30', '2010-05-18 06:20:30', '-4712-01-01', 'asdf', 1, 'c', 1, 'asdf', 1, 'string', 'a', 'b', 'a@asdf.com')[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mRELEASE SAVEPOINT active_record_1[0m
+  [4;36;1mUser Load (0.3ms)[0m   [0;1mSELECT `users`.id FROM `users` WHERE (`users`.`voter_id` = BINARY 'qwer1234' AND `users`.id <> 980191010) LIMIT 1[0m
+  [4;35;1mUser Load (0.2ms)[0m   [0mSELECT `users`.id FROM `users` WHERE (`users`.`email` = BINARY 'a@asdf.com' AND `users`.id <> 980191010) LIMIT 1[0m
+  [4;36;1mUser Delete all (0.2ms)[0m   [0;1mDELETE FROM `users` [0m
+  [4;35;1mSQL (72.3ms)[0m   [0mROLLBACK[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mBEGIN[0m
+  [4;35;1mUser Load (0.5ms)[0m   [0mSELECT * FROM `users` WHERE (`users`.`id` = 980190962) [0m
+  [4;36;1mUser Load (0.3ms)[0m   [0;1mSELECT * FROM `users` WHERE (`users`.`id` = 298486374) [0m
+WARNING: Can't mass-assign these protected attributes: id
+  [4;35;1mSQL (0.4ms)[0m   [0mSAVEPOINT active_record_1[0m
+  [4;36;1mUser Load (0.4ms)[0m   [0;1mSELECT `users`.id FROM `users` WHERE (`users`.`voter_id` = BINARY 'qwer1234') LIMIT 1[0m
+  [4;35;1mUser Load (0.6ms)[0m   [0mSELECT `users`.id FROM `users` WHERE (`users`.`email` = BINARY 'a@asdf.com') LIMIT 1[0m
+  [4;36;1mUser Create (0.5ms)[0m   [0;1mINSERT INTO `users` (`voter_id`, `district_code`, `created_at`, `updated_at`, `birth_date`, `provincial_code`, `voted`, `last_name`, `street_number`, `municipality_code`, `activated`, `street_name`, `first_name`, `middle_name`, `email`) VALUES('qwer1234', 'asdf', '2010-05-18 06:20:30', '2010-05-18 06:20:30', '-4712-01-01', 'asdf', 1, 'c', 1, 'asdf', 1, 'string', 'a', 'b', 'a@asdf.com')[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mRELEASE SAVEPOINT active_record_1[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSAVEPOINT active_record_1[0m
+  [4;35;1mUser Load (0.7ms)[0m   [0mSELECT `users`.id FROM `users` WHERE (`users`.`voter_id` = BINARY 'qwer1234' AND `users`.id <> 980191011) LIMIT 1[0m
+  [4;36;1mUser Load (0.4ms)[0m   [0;1mSELECT `users`.id FROM `users` WHERE (`users`.`email` = BINARY 'a@asdf.com' AND `users`.id <> 980191011) LIMIT 1[0m
+  [4;35;1mUser Update (0.4ms)[0m   [0mUPDATE `users` SET `updated_at` = '2010-05-18 06:20:30', `provincial_code` = 'AH1N1' WHERE `id` = 980191011[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mRELEASE SAVEPOINT active_record_1[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSAVEPOINT active_record_1[0m
+  [4;36;1mUser Load (0.4ms)[0m   [0;1mSELECT `users`.id FROM `users` WHERE (`users`.`voter_id` = BINARY 'qwer1234' AND `users`.id <> 980191011) LIMIT 1[0m
+  [4;35;1mUser Load (0.4ms)[0m   [0mSELECT `users`.id FROM `users` WHERE (`users`.`email` = BINARY 'a@asdf.com' AND `users`.id <> 980191011) LIMIT 1[0m
+  [4;36;1mUser Update (0.5ms)[0m   [0;1mUPDATE `users` SET `updated_at` = '2010-05-18 06:20:30', `provincial_code` = '1234' WHERE `id` = 980191011[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mRELEASE SAVEPOINT active_record_1[0m
+  [4;36;1mUser Load (3.7ms)[0m   [0;1mSELECT `users`.id FROM `users` WHERE (`users`.`voter_id` = BINARY 'qwer1234' AND `users`.id <> 980191011) LIMIT 1[0m
+  [4;35;1mUser Load (0.3ms)[0m   [0mSELECT `users`.id FROM `users` WHERE (`users`.`email` = BINARY 'a@asdf.com' AND `users`.id <> 980191011) LIMIT 1[0m
+  [4;36;1mUser Delete all (4.9ms)[0m   [0;1mDELETE FROM `users` [0m
+  [4;35;1mSQL (57.1ms)[0m   [0mROLLBACK[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mBEGIN[0m
+  [4;35;1mUser Load (0.5ms)[0m   [0mSELECT * FROM `users` WHERE (`users`.`id` = 980190962) [0m
+  [4;36;1mUser Load (0.3ms)[0m   [0;1mSELECT * FROM `users` WHERE (`users`.`id` = 298486374) [0m
+WARNING: Can't mass-assign these protected attributes: id
+  [4;35;1mSQL (0.2ms)[0m   [0mSAVEPOINT active_record_1[0m
+  [4;36;1mUser Load (0.4ms)[0m   [0;1mSELECT `users`.id FROM `users` WHERE (`users`.`voter_id` = BINARY 'qwer1234') LIMIT 1[0m
+  [4;35;1mUser Load (0.2ms)[0m   [0mSELECT `users`.id FROM `users` WHERE (`users`.`email` = BINARY 'a@asdf.com') LIMIT 1[0m
+  [4;36;1mUser Create (0.4ms)[0m   [0;1mINSERT INTO `users` (`voter_id`, `district_code`, `created_at`, `updated_at`, `birth_date`, `provincial_code`, `voted`, `last_name`, `street_number`, `municipality_code`, `activated`, `street_name`, `first_name`, `middle_name`, `email`) VALUES('qwer1234', 'asdf', '2010-05-18 06:21:29', '2010-05-18 06:21:29', '-4712-01-01', 'asdf', 1, 'c', 1, 'asdf', 1, 'string', 'a', 'b', 'a@asdf.com')[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mRELEASE SAVEPOINT active_record_1[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSAVEPOINT active_record_1[0m
+  [4;35;1mUser Load (0.4ms)[0m   [0mSELECT `users`.id FROM `users` WHERE (`users`.`voter_id` = BINARY 'qwer1234' AND `users`.id <> 980191012) LIMIT 1[0m
+  [4;36;1mUser Load (0.2ms)[0m   [0;1mSELECT `users`.id FROM `users` WHERE (`users`.`email` = BINARY 'a@asdf.com' AND `users`.id <> 980191012) LIMIT 1[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mRELEASE SAVEPOINT active_record_1[0m
+  [4;36;1mUser Delete all (0.2ms)[0m   [0;1mDELETE FROM `users` [0m
+  [4;35;1mSQL (51.8ms)[0m   [0mROLLBACK[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mBEGIN[0m
+  [4;35;1mUser Load (0.5ms)[0m   [0mSELECT * FROM `users` WHERE (`users`.`id` = 980190962) [0m
+  [4;36;1mUser Load (0.3ms)[0m   [0;1mSELECT * FROM `users` WHERE (`users`.`id` = 298486374) [0m
+WARNING: Can't mass-assign these protected attributes: id
+  [4;35;1mSQL (0.1ms)[0m   [0mSAVEPOINT active_record_1[0m
+  [4;36;1mUser Load (0.4ms)[0m   [0;1mSELECT `users`.id FROM `users` WHERE (`users`.`voter_id` = BINARY 'qwer1234') LIMIT 1[0m
+  [4;35;1mUser Load (0.3ms)[0m   [0mSELECT `users`.id FROM `users` WHERE (`users`.`email` = BINARY 'a@asdf.com') LIMIT 1[0m
+  [4;36;1mUser Create (0.4ms)[0m   [0;1mINSERT INTO `users` (`voter_id`, `district_code`, `created_at`, `updated_at`, `birth_date`, `provincial_code`, `voted`, `last_name`, `street_number`, `municipality_code`, `activated`, `street_name`, `first_name`, `middle_name`, `email`) VALUES('qwer1234', 'asdf', '2010-05-18 06:21:29', '2010-05-18 06:21:29', '-4712-01-01', 'asdf', 1, 'c', 1, 'asdf', 1, 'string', 'a', 'b', 'a@asdf.com')[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mRELEASE SAVEPOINT active_record_1[0m
+  [4;36;1mUser Load (0.5ms)[0m   [0;1mSELECT `users`.id FROM `users` WHERE (`users`.`voter_id` = BINARY 'qwer1234' AND `users`.id <> 980191013) LIMIT 1[0m
+  [4;35;1mUser Load (0.4ms)[0m   [0mSELECT `users`.id FROM `users` WHERE (`users`.`email` = BINARY 'a@asdf.com' AND `users`.id <> 980191013) LIMIT 1[0m
+  [4;36;1mUser Delete all (0.3ms)[0m   [0;1mDELETE FROM `users` [0m
+  [4;35;1mSQL (91.0ms)[0m   [0mROLLBACK[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mBEGIN[0m
+  [4;35;1mUser Load (0.5ms)[0m   [0mSELECT * FROM `users` WHERE (`users`.`id` = 980190962) [0m
+  [4;36;1mUser Load (0.5ms)[0m   [0;1mSELECT * FROM `users` WHERE (`users`.`id` = 298486374) [0m
+WARNING: Can't mass-assign these protected attributes: id
+  [4;35;1mSQL (0.1ms)[0m   [0mSAVEPOINT active_record_1[0m
+  [4;36;1mUser Load (0.4ms)[0m   [0;1mSELECT `users`.id FROM `users` WHERE (`users`.`voter_id` = BINARY 'qwer1234') LIMIT 1[0m
+  [4;35;1mUser Load (0.3ms)[0m   [0mSELECT `users`.id FROM `users` WHERE (`users`.`email` = BINARY 'a@asdf.com') LIMIT 1[0m
+  [4;36;1mUser Create (0.4ms)[0m   [0;1mINSERT INTO `users` (`voter_id`, `district_code`, `created_at`, `updated_at`, `birth_date`, `provincial_code`, `voted`, `last_name`, `street_number`, `municipality_code`, `activated`, `street_name`, `first_name`, `middle_name`, `email`) VALUES('qwer1234', 'asdf', '2010-05-18 06:21:29', '2010-05-18 06:21:29', '-4712-01-01', 'asdf', 1, 'c', 1, 'asdf', 1, 'string', 'a', 'b', 'a@asdf.com')[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mRELEASE SAVEPOINT active_record_1[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSAVEPOINT active_record_1[0m
+  [4;35;1mUser Load (0.5ms)[0m   [0mSELECT `users`.id FROM `users` WHERE (`users`.`voter_id` = BINARY 'qwer1234' AND `users`.id <> 980191014) LIMIT 1[0m
+  [4;36;1mUser Load (0.4ms)[0m   [0;1mSELECT `users`.id FROM `users` WHERE (`users`.`email` = BINARY 'a@asdf.com' AND `users`.id <> 980191014) LIMIT 1[0m
+  [4;35;1mUser Update (0.3ms)[0m   [0mUPDATE `users` SET `updated_at` = '2010-05-18 06:21:29', `district_code` = 'AH1N1' WHERE `id` = 980191014[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mRELEASE SAVEPOINT active_record_1[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSAVEPOINT active_record_1[0m
+  [4;36;1mUser Load (0.3ms)[0m   [0;1mSELECT `users`.id FROM `users` WHERE (`users`.`voter_id` = BINARY 'qwer1234' AND `users`.id <> 980191014) LIMIT 1[0m
+  [4;35;1mUser Load (0.3ms)[0m   [0mSELECT `users`.id FROM `users` WHERE (`users`.`email` = BINARY 'a@asdf.com' AND `users`.id <> 980191014) LIMIT 1[0m
+  [4;36;1mUser Update (0.3ms)[0m   [0;1mUPDATE `users` SET `updated_at` = '2010-05-18 06:21:29', `district_code` = '1234' WHERE `id` = 980191014[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mRELEASE SAVEPOINT active_record_1[0m
+  [4;36;1mUser Load (0.4ms)[0m   [0;1mSELECT `users`.id FROM `users` WHERE (`users`.`voter_id` = BINARY 'qwer1234' AND `users`.id <> 980191014) LIMIT 1[0m
+  [4;35;1mUser Load (0.4ms)[0m   [0mSELECT `users`.id FROM `users` WHERE (`users`.`email` = BINARY 'a@asdf.com' AND `users`.id <> 980191014) LIMIT 1[0m
+  [4;36;1mUser Delete all (0.2ms)[0m   [0;1mDELETE FROM `users` [0m
+  [4;35;1mSQL (47.9ms)[0m   [0mROLLBACK[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mBEGIN[0m
+  [4;35;1mUser Load (0.5ms)[0m   [0mSELECT * FROM `users` WHERE (`users`.`id` = 980190962) [0m
+  [4;36;1mUser Load (0.3ms)[0m   [0;1mSELECT * FROM `users` WHERE (`users`.`id` = 298486374) [0m
+WARNING: Can't mass-assign these protected attributes: id
+  [4;35;1mSQL (0.1ms)[0m   [0mSAVEPOINT active_record_1[0m
+  [4;36;1mUser Load (0.3ms)[0m   [0;1mSELECT `users`.id FROM `users` WHERE (`users`.`voter_id` = BINARY 'qwer1234') LIMIT 1[0m
+  [4;35;1mUser Load (0.3ms)[0m   [0mSELECT `users`.id FROM `users` WHERE (`users`.`email` = BINARY 'a@asdf.com') LIMIT 1[0m
+  [4;36;1mUser Create (0.5ms)[0m   [0;1mINSERT INTO `users` (`voter_id`, `district_code`, `created_at`, `updated_at`, `birth_date`, `provincial_code`, `voted`, `last_name`, `street_number`, `municipality_code`, `activated`, `street_name`, `first_name`, `middle_name`, `email`) VALUES('qwer1234', 'asdf', '2010-05-18 06:21:29', '2010-05-18 06:21:29', '-4712-01-01', 'asdf', 1, 'c', 1, 'asdf', 1, 'string', 'a', 'b', 'a@asdf.com')[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mRELEASE SAVEPOINT active_record_1[0m
+  [4;36;1mUser Delete all (0.3ms)[0m   [0;1mDELETE FROM `users` [0m
+  [4;35;1mSQL (51.7ms)[0m   [0mROLLBACK[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mBEGIN[0m
+  [4;35;1mUser Load (0.5ms)[0m   [0mSELECT * FROM `users` WHERE (`users`.`id` = 980190962) [0m
+  [4;36;1mUser Load (0.3ms)[0m   [0;1mSELECT * FROM `users` WHERE (`users`.`id` = 298486374) [0m
+WARNING: Can't mass-assign these protected attributes: id
+  [4;35;1mSQL (0.1ms)[0m   [0mSAVEPOINT active_record_1[0m
+  [4;36;1mUser Load (0.4ms)[0m   [0;1mSELECT `users`.id FROM `users` WHERE (`users`.`voter_id` = BINARY 'qwer1234') LIMIT 1[0m
+  [4;35;1mUser Load (0.2ms)[0m   [0mSELECT `users`.id FROM `users` WHERE (`users`.`email` = BINARY 'a@asdf.com') LIMIT 1[0m
+  [4;36;1mUser Create (0.4ms)[0m   [0;1mINSERT INTO `users` (`voter_id`, `district_code`, `created_at`, `updated_at`, `birth_date`, `provincial_code`, `voted`, `last_name`, `street_number`, `municipality_code`, `activated`, `street_name`, `first_name`, `middle_name`, `email`) VALUES('qwer1234', 'asdf', '2010-05-18 06:21:29', '2010-05-18 06:21:29', '-4712-01-01', 'asdf', 1, 'c', 1, 'asdf', 1, 'string', 'a', 'b', 'a@asdf.com')[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mRELEASE SAVEPOINT active_record_1[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSAVEPOINT active_record_1[0m
+  [4;35;1mUser Load (0.4ms)[0m   [0mSELECT `users`.id FROM `users` WHERE (`users`.`voter_id` = BINARY 'qwer1234' AND `users`.id <> 980191016) LIMIT 1[0m
+  [4;36;1mUser Load (0.3ms)[0m   [0;1mSELECT `users`.id FROM `users` WHERE (`users`.`email` = BINARY 'a@asdf.com' AND `users`.id <> 980191016) LIMIT 1[0m
+  [4;35;1mUser Update (0.4ms)[0m   [0mUPDATE `users` SET `updated_at` = '2010-05-18 06:21:29', `municipality_code` = 'AH1N1' WHERE `id` = 980191016[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mRELEASE SAVEPOINT active_record_1[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSAVEPOINT active_record_1[0m
+  [4;36;1mUser Load (0.3ms)[0m   [0;1mSELECT `users`.id FROM `users` WHERE (`users`.`voter_id` = BINARY 'qwer1234' AND `users`.id <> 980191016) LIMIT 1[0m
+  [4;35;1mUser Load (0.2ms)[0m   [0mSELECT `users`.id FROM `users` WHERE (`users`.`email` = BINARY 'a@asdf.com' AND `users`.id <> 980191016) LIMIT 1[0m
+  [4;36;1mUser Update (0.2ms)[0m   [0;1mUPDATE `users` SET `updated_at` = '2010-05-18 06:21:29', `municipality_code` = '1234' WHERE `id` = 980191016[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mRELEASE SAVEPOINT active_record_1[0m
+  [4;36;1mUser Load (0.3ms)[0m   [0;1mSELECT `users`.id FROM `users` WHERE (`users`.`voter_id` = BINARY 'qwer1234' AND `users`.id <> 980191016) LIMIT 1[0m
+  [4;35;1mUser Load (0.4ms)[0m   [0mSELECT `users`.id FROM `users` WHERE (`users`.`email` = BINARY 'a@asdf.com' AND `users`.id <> 980191016) LIMIT 1[0m
+  [4;36;1mUser Delete all (0.2ms)[0m   [0;1mDELETE FROM `users` [0m
+  [4;35;1mSQL (51.1ms)[0m   [0mROLLBACK[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mBEGIN[0m
+  [4;35;1mUser Load (0.5ms)[0m   [0mSELECT * FROM `users` WHERE (`users`.`id` = 980190962) [0m
+  [4;36;1mUser Load (0.3ms)[0m   [0;1mSELECT * FROM `users` WHERE (`users`.`id` = 298486374) [0m
+WARNING: Can't mass-assign these protected attributes: id
+  [4;35;1mSQL (0.1ms)[0m   [0mSAVEPOINT active_record_1[0m
+  [4;36;1mUser Load (0.4ms)[0m   [0;1mSELECT `users`.id FROM `users` WHERE (`users`.`voter_id` = BINARY 'qwer1234') LIMIT 1[0m
+  [4;35;1mUser Load (0.2ms)[0m   [0mSELECT `users`.id FROM `users` WHERE (`users`.`email` = BINARY 'a@asdf.com') LIMIT 1[0m
+  [4;36;1mUser Create (0.4ms)[0m   [0;1mINSERT INTO `users` (`voter_id`, `district_code`, `created_at`, `updated_at`, `birth_date`, `provincial_code`, `voted`, `last_name`, `street_number`, `municipality_code`, `activated`, `street_name`, `first_name`, `middle_name`, `email`) VALUES('qwer1234', 'asdf', '2010-05-18 06:21:29', '2010-05-18 06:21:29', '-4712-01-01', 'asdf', 1, 'c', 1, 'asdf', 1, 'string', 'a', 'b', 'a@asdf.com')[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mRELEASE SAVEPOINT active_record_1[0m
+  [4;36;1mUser Load (0.5ms)[0m   [0;1mSELECT `users`.id FROM `users` WHERE (`users`.`voter_id` = BINARY 'qwer1234' AND `users`.id <> 980191017) LIMIT 1[0m
+  [4;35;1mUser Load (0.4ms)[0m   [0mSELECT `users`.id FROM `users` WHERE (`users`.`email` = BINARY 'a@asdf.com' AND `users`.id <> 980191017) LIMIT 1[0m
+  [4;36;1mUser Delete all (0.3ms)[0m   [0;1mDELETE FROM `users` [0m
+  [4;35;1mSQL (57.7ms)[0m   [0mROLLBACK[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mBEGIN[0m
+  [4;35;1mUser Load (0.5ms)[0m   [0mSELECT * FROM `users` WHERE (`users`.`id` = 980190962) [0m
+  [4;36;1mUser Load (0.3ms)[0m   [0;1mSELECT * FROM `users` WHERE (`users`.`id` = 298486374) [0m
+WARNING: Can't mass-assign these protected attributes: id
+  [4;35;1mSQL (0.1ms)[0m   [0mSAVEPOINT active_record_1[0m
+  [4;36;1mUser Load (0.4ms)[0m   [0;1mSELECT `users`.id FROM `users` WHERE (`users`.`voter_id` = BINARY 'qwer1234') LIMIT 1[0m
+  [4;35;1mUser Load (0.5ms)[0m   [0mSELECT `users`.id FROM `users` WHERE (`users`.`email` = BINARY 'a@asdf.com') LIMIT 1[0m
+  [4;36;1mUser Create (0.5ms)[0m   [0;1mINSERT INTO `users` (`voter_id`, `district_code`, `created_at`, `updated_at`, `birth_date`, `provincial_code`, `voted`, `last_name`, `street_number`, `municipality_code`, `activated`, `street_name`, `first_name`, `middle_name`, `email`) VALUES('qwer1234', 'asdf', '2010-05-18 06:21:29', '2010-05-18 06:21:29', '-4712-01-01', 'asdf', 1, 'c', 1, 'asdf', 1, 'string', 'a', 'b', 'a@asdf.com')[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mRELEASE SAVEPOINT active_record_1[0m
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSAVEPOINT active_record_1[0m
+  [4;35;1mUser Load (0.3ms)[0m   [0mSELECT `users`.id FROM `users` WHERE (`users`.`voter_id` = BINARY 'qwer1234' AND `users`.id <> 980191018) LIMIT 1[0m
+  [4;36;1mUser Load (0.2ms)[0m   [0;1mSELECT `users`.id FROM `users` WHERE (`users`.`email` = BINARY 'a@asdf.com' AND `users`.id <> 980191018) LIMIT 1[0m
+  [4;35;1mUser Update (1.0ms)[0m   [0mUPDATE `users` SET `updated_at` = '2010-05-18 06:21:29', `provincial_code` = 'AH1N1' WHERE `id` = 980191018[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mRELEASE SAVEPOINT active_record_1[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSAVEPOINT active_record_1[0m
+  [4;36;1mUser Load (0.3ms)[0m   [0;1mSELECT `users`.id FROM `users` WHERE (`users`.`voter_id` = BINARY 'qwer1234' AND `users`.id <> 980191018) LIMIT 1[0m
+  [4;35;1mUser Load (0.2ms)[0m   [0mSELECT `users`.id FROM `users` WHERE (`users`.`email` = BINARY 'a@asdf.com' AND `users`.id <> 980191018) LIMIT 1[0m
+  [4;36;1mUser Update (0.2ms)[0m   [0;1mUPDATE `users` SET `updated_at` = '2010-05-18 06:21:29', `provincial_code` = '1234' WHERE `id` = 980191018[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mRELEASE SAVEPOINT active_record_1[0m
+  [4;36;1mUser Load (0.3ms)[0m   [0;1mSELECT `users`.id FROM `users` WHERE (`users`.`voter_id` = BINARY 'qwer1234' AND `users`.id <> 980191018) LIMIT 1[0m
+  [4;35;1mUser Load (0.2ms)[0m   [0mSELECT `users`.id FROM `users` WHERE (`users`.`email` = BINARY 'a@asdf.com' AND `users`.id <> 980191018) LIMIT 1[0m
+  [4;36;1mUser Delete all (7.2ms)[0m   [0;1mDELETE FROM `users` [0m
+  [4;35;1mSQL (54.7ms)[0m   [0mROLLBACK[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mBEGIN[0m
+  [4;35;1mUser Load (0.5ms)[0m   [0mSELECT * FROM `users` WHERE (`users`.`id` = 980190962) [0m
+  [4;36;1mUser Load (0.4ms)[0m   [0;1mSELECT * FROM `users` WHERE (`users`.`id` = 298486374) [0m
+WARNING: Can't mass-assign these protected attributes: id
+  [4;35;1mSQL (0.2ms)[0m   [0mSAVEPOINT active_record_1[0m
+  [4;36;1mUser Load (0.3ms)[0m   [0;1mSELECT `users`.id FROM `users` WHERE (`users`.`voter_id` = BINARY 'qwer1234') LIMIT 1[0m
+  [4;35;1mUser Load (0.2ms)[0m   [0mSELECT `users`.id FROM `users` WHERE (`users`.`email` = BINARY 'a@asdf.com') LIMIT 1[0m
+  [4;36;1mUser Create (0.3ms)[0m   [0;1mINSERT INTO `users` (`voter_id`, `district_code`, `created_at`, `updated_at`, `birth_date`, `provincial_code`, `voted`, `last_name`, `street_number`, `municipality_code`, `activated`, `street_name`, `first_name`, `middle_name`, `email`) VALUES('qwer1234', 'asdf', '2010-05-18 06:22:30', '2010-05-18 06:22:30', '-4712-01-01', 'asdf', 1, 'c', 1, 'asdf', 1, 'string', 'a', 'b', 'a@asdf.com')[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mRELEASE SAVEPOINT active_record_1[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSAVEPOINT active_record_1[0m
+  [4;35;1mUser Load (0.3ms)[0m   [0mSELECT `users`.id FROM `users` WHERE (`users`.`voter_id` = BINARY 'qwer1234' AND `users`.id <> 980191019) LIMIT 1[0m
+  [4;36;1mUser Load (0.3ms)[0m   [0;1mSELECT `users`.id FROM `users` WHERE (`users`.`email` = BINARY 'a@asdf.com' AND `users`.id <> 980191019) LIMIT 1[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mRELEASE SAVEPOINT active_record_1[0m
+  [4;36;1mUser Delete all (1.2ms)[0m   [0;1mDELETE FROM `users` [0m
+  [4;35;1mSQL (41.5ms)[0m   [0mROLLBACK[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mBEGIN[0m
+  [4;35;1mUser Load (0.7ms)[0m   [0mSELECT * FROM `users` WHERE (`users`.`id` = 980190962) [0m
+  [4;36;1mUser Load (0.4ms)[0m   [0;1mSELECT * FROM `users` WHERE (`users`.`id` = 298486374) [0m
+WARNING: Can't mass-assign these protected attributes: id
+  [4;35;1mSQL (0.1ms)[0m   [0mSAVEPOINT active_record_1[0m
+  [4;36;1mUser Load (3.9ms)[0m   [0;1mSELECT `users`.id FROM `users` WHERE (`users`.`voter_id` = BINARY 'qwer1234') LIMIT 1[0m
+  [4;35;1mUser Load (1.6ms)[0m   [0mSELECT `users`.id FROM `users` WHERE (`users`.`email` = BINARY 'a@asdf.com') LIMIT 1[0m
+  [4;36;1mUser Create (0.5ms)[0m   [0;1mINSERT INTO `users` (`voter_id`, `district_code`, `created_at`, `updated_at`, `birth_date`, `provincial_code`, `voted`, `last_name`, `street_number`, `municipality_code`, `activated`, `street_name`, `first_name`, `middle_name`, `email`) VALUES('qwer1234', 'asdf', '2010-05-18 06:22:30', '2010-05-18 06:22:30', '-4712-01-01', 'asdf', 1, 'c', 1, 'asdf', 1, 'string', 'a', 'b', 'a@asdf.com')[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mRELEASE SAVEPOINT active_record_1[0m
+  [4;36;1mUser Load (0.8ms)[0m   [0;1mSELECT `users`.id FROM `users` WHERE (`users`.`voter_id` = BINARY 'qwer1234' AND `users`.id <> 980191020) LIMIT 1[0m
+  [4;35;1mUser Load (0.3ms)[0m   [0mSELECT `users`.id FROM `users` WHERE (`users`.`email` = BINARY 'a@asdf.com' AND `users`.id <> 980191020) LIMIT 1[0m
+  [4;36;1mUser Delete all (0.2ms)[0m   [0;1mDELETE FROM `users` [0m
+  [4;35;1mSQL (41.6ms)[0m   [0mROLLBACK[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mBEGIN[0m
+  [4;35;1mUser Load (0.3ms)[0m   [0mSELECT * FROM `users` WHERE (`users`.`id` = 980190962) [0m
+  [4;36;1mUser Load (0.2ms)[0m   [0;1mSELECT * FROM `users` WHERE (`users`.`id` = 298486374) [0m
+WARNING: Can't mass-assign these protected attributes: id
+  [4;35;1mSQL (0.2ms)[0m   [0mSAVEPOINT active_record_1[0m
+  [4;36;1mUser Load (0.2ms)[0m   [0;1mSELECT `users`.id FROM `users` WHERE (`users`.`voter_id` = BINARY 'qwer1234') LIMIT 1[0m
+  [4;35;1mUser Load (0.1ms)[0m   [0mSELECT `users`.id FROM `users` WHERE (`users`.`email` = BINARY 'a@asdf.com') LIMIT 1[0m
+  [4;36;1mUser Create (0.3ms)[0m   [0;1mINSERT INTO `users` (`voter_id`, `district_code`, `created_at`, `updated_at`, `birth_date`, `provincial_code`, `voted`, `last_name`, `street_number`, `municipality_code`, `activated`, `street_name`, `first_name`, `middle_name`, `email`) VALUES('qwer1234', 'asdf', '2010-05-18 06:22:30', '2010-05-18 06:22:30', '-4712-01-01', 'asdf', 1, 'c', 1, 'asdf', 1, 'string', 'a', 'b', 'a@asdf.com')[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mRELEASE SAVEPOINT active_record_1[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSAVEPOINT active_record_1[0m
+  [4;35;1mUser Load (0.3ms)[0m   [0mSELECT `users`.id FROM `users` WHERE (`users`.`voter_id` = BINARY 'qwer1234' AND `users`.id <> 980191021) LIMIT 1[0m
+  [4;36;1mUser Load (0.3ms)[0m   [0;1mSELECT `users`.id FROM `users` WHERE (`users`.`email` = BINARY 'a@asdf.com' AND `users`.id <> 980191021) LIMIT 1[0m
+  [4;35;1mUser Update (0.4ms)[0m   [0mUPDATE `users` SET `updated_at` = '2010-05-18 06:22:30', `district_code` = 'AH1N1' WHERE `id` = 980191021[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mRELEASE SAVEPOINT active_record_1[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSAVEPOINT active_record_1[0m
+  [4;36;1mUser Load (0.3ms)[0m   [0;1mSELECT `users`.id FROM `users` WHERE (`users`.`voter_id` = BINARY 'qwer1234' AND `users`.id <> 980191021) LIMIT 1[0m
+  [4;35;1mUser Load (0.2ms)[0m   [0mSELECT `users`.id FROM `users` WHERE (`users`.`email` = BINARY 'a@asdf.com' AND `users`.id <> 980191021) LIMIT 1[0m
+  [4;36;1mUser Update (0.5ms)[0m   [0;1mUPDATE `users` SET `updated_at` = '2010-05-18 06:22:30', `district_code` = '1234' WHERE `id` = 980191021[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mRELEASE SAVEPOINT active_record_1[0m
+  [4;36;1mUser Load (0.4ms)[0m   [0;1mSELECT `users`.id FROM `users` WHERE (`users`.`voter_id` = BINARY 'qwer1234' AND `users`.id <> 980191021) LIMIT 1[0m
+  [4;35;1mUser Load (1.3ms)[0m   [0mSELECT `users`.id FROM `users` WHERE (`users`.`email` = BINARY 'a@asdf.com' AND `users`.id <> 980191021) LIMIT 1[0m
+  [4;36;1mUser Delete all (0.3ms)[0m   [0;1mDELETE FROM `users` [0m
+  [4;35;1mSQL (44.1ms)[0m   [0mROLLBACK[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mBEGIN[0m
+  [4;35;1mUser Load (0.5ms)[0m   [0mSELECT * FROM `users` WHERE (`users`.`id` = 980190962) [0m
+  [4;36;1mUser Load (0.4ms)[0m   [0;1mSELECT * FROM `users` WHERE (`users`.`id` = 298486374) [0m
+WARNING: Can't mass-assign these protected attributes: id
+  [4;35;1mSQL (0.2ms)[0m   [0mSAVEPOINT active_record_1[0m
+  [4;36;1mUser Load (0.4ms)[0m   [0;1mSELECT `users`.id FROM `users` WHERE (`users`.`voter_id` = BINARY 'qwer1234') LIMIT 1[0m
+  [4;35;1mUser Load (0.4ms)[0m   [0mSELECT `users`.id FROM `users` WHERE (`users`.`email` = BINARY 'a@asdf.com') LIMIT 1[0m
+  [4;36;1mUser Create (0.4ms)[0m   [0;1mINSERT INTO `users` (`voter_id`, `district_code`, `created_at`, `updated_at`, `birth_date`, `provincial_code`, `voted`, `last_name`, `street_number`, `municipality_code`, `activated`, `street_name`, `first_name`, `middle_name`, `email`) VALUES('qwer1234', 'asdf', '2010-05-18 06:22:30', '2010-05-18 06:22:30', '-4712-01-01', 'asdf', 1, 'c', 1, 'asdf', 1, 'string', 'a', 'b', 'a@asdf.com')[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mRELEASE SAVEPOINT active_record_1[0m
+  [4;36;1mUser Delete all (0.2ms)[0m   [0;1mDELETE FROM `users` [0m
+  [4;35;1mSQL (52.8ms)[0m   [0mROLLBACK[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mBEGIN[0m
+  [4;35;1mUser Load (0.5ms)[0m   [0mSELECT * FROM `users` WHERE (`users`.`id` = 980190962) [0m
+  [4;36;1mUser Load (0.5ms)[0m   [0;1mSELECT * FROM `users` WHERE (`users`.`id` = 298486374) [0m
+WARNING: Can't mass-assign these protected attributes: id
+  [4;35;1mSQL (0.1ms)[0m   [0mSAVEPOINT active_record_1[0m
+  [4;36;1mUser Load (0.4ms)[0m   [0;1mSELECT `users`.id FROM `users` WHERE (`users`.`voter_id` = BINARY 'qwer1234') LIMIT 1[0m
+  [4;35;1mUser Load (0.2ms)[0m   [0mSELECT `users`.id FROM `users` WHERE (`users`.`email` = BINARY 'a@asdf.com') LIMIT 1[0m
+  [4;36;1mUser Create (0.4ms)[0m   [0;1mINSERT INTO `users` (`voter_id`, `district_code`, `created_at`, `updated_at`, `birth_date`, `provincial_code`, `voted`, `last_name`, `street_number`, `municipality_code`, `activated`, `street_name`, `first_name`, `middle_name`, `email`) VALUES('qwer1234', 'asdf', '2010-05-18 06:22:31', '2010-05-18 06:22:31', '-4712-01-01', 'asdf', 1, 'c', 1, 'asdf', 1, 'string', 'a', 'b', 'a@asdf.com')[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mRELEASE SAVEPOINT active_record_1[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSAVEPOINT active_record_1[0m
+  [4;35;1mUser Load (0.3ms)[0m   [0mSELECT `users`.id FROM `users` WHERE (`users`.`voter_id` = BINARY 'qwer1234' AND `users`.id <> 980191023) LIMIT 1[0m
+  [4;36;1mUser Load (0.2ms)[0m   [0;1mSELECT `users`.id FROM `users` WHERE (`users`.`email` = BINARY 'a@asdf.com' AND `users`.id <> 980191023) LIMIT 1[0m
+  [4;35;1mUser Update (0.3ms)[0m   [0mUPDATE `users` SET `updated_at` = '2010-05-18 06:22:31', `municipality_code` = 'AH1N1' WHERE `id` = 980191023[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mRELEASE SAVEPOINT active_record_1[0m
+  [4;35;1mSQL (1.0ms)[0m   [0mSAVEPOINT active_record_1[0m
+  [4;36;1mUser Load (0.4ms)[0m   [0;1mSELECT `users`.id FROM `users` WHERE (`users`.`voter_id` = BINARY 'qwer1234' AND `users`.id <> 980191023) LIMIT 1[0m
+  [4;35;1mUser Load (0.2ms)[0m   [0mSELECT `users`.id FROM `users` WHERE (`users`.`email` = BINARY 'a@asdf.com' AND `users`.id <> 980191023) LIMIT 1[0m
+  [4;36;1mUser Update (0.2ms)[0m   [0;1mUPDATE `users` SET `updated_at` = '2010-05-18 06:22:31', `municipality_code` = '1234' WHERE `id` = 980191023[0m
+  [4;35;1mSQL (1.6ms)[0m   [0mRELEASE SAVEPOINT active_record_1[0m
+  [4;36;1mUser Load (0.4ms)[0m   [0;1mSELECT `users`.id FROM `users` WHERE (`users`.`voter_id` = BINARY 'qwer1234' AND `users`.id <> 980191023) LIMIT 1[0m
+  [4;35;1mUser Load (0.2ms)[0m   [0mSELECT `users`.id FROM `users` WHERE (`users`.`email` = BINARY 'a@asdf.com' AND `users`.id <> 980191023) LIMIT 1[0m
+  [4;36;1mUser Delete all (0.2ms)[0m   [0;1mDELETE FROM `users` [0m
+  [4;35;1mSQL (40.1ms)[0m   [0mROLLBACK[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mBEGIN[0m
+  [4;35;1mUser Load (0.5ms)[0m   [0mSELECT * FROM `users` WHERE (`users`.`id` = 980190962) [0m
+  [4;36;1mUser Load (1.9ms)[0m   [0;1mSELECT * FROM `users` WHERE (`users`.`id` = 298486374) [0m
+WARNING: Can't mass-assign these protected attributes: id
+  [4;35;1mSQL (0.1ms)[0m   [0mSAVEPOINT active_record_1[0m
+  [4;36;1mUser Load (0.3ms)[0m   [0;1mSELECT `users`.id FROM `users` WHERE (`users`.`voter_id` = BINARY 'qwer1234') LIMIT 1[0m
+  [4;35;1mUser Load (0.2ms)[0m   [0mSELECT `users`.id FROM `users` WHERE (`users`.`email` = BINARY 'a@asdf.com') LIMIT 1[0m
+  [4;36;1mUser Create (0.3ms)[0m   [0;1mINSERT INTO `users` (`voter_id`, `district_code`, `created_at`, `updated_at`, `birth_date`, `provincial_code`, `voted`, `last_name`, `street_number`, `municipality_code`, `activated`, `street_name`, `first_name`, `middle_name`, `email`) VALUES('qwer1234', 'asdf', '2010-05-18 06:22:31', '2010-05-18 06:22:31', '-4712-01-01', 'asdf', 1, 'c', 1, 'asdf', 1, 'string', 'a', 'b', 'a@asdf.com')[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mRELEASE SAVEPOINT active_record_1[0m
+  [4;36;1mUser Load (0.4ms)[0m   [0;1mSELECT `users`.id FROM `users` WHERE (`users`.`voter_id` = BINARY 'qwer1234' AND `users`.id <> 980191024) LIMIT 1[0m
+  [4;35;1mUser Load (0.2ms)[0m   [0mSELECT `users`.id FROM `users` WHERE (`users`.`email` = BINARY 'a@asdf.com' AND `users`.id <> 980191024) LIMIT 1[0m
+  [4;36;1mUser Delete all (0.5ms)[0m   [0;1mDELETE FROM `users` [0m
+  [4;35;1mSQL (49.8ms)[0m   [0mROLLBACK[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mBEGIN[0m
+  [4;35;1mUser Load (0.3ms)[0m   [0mSELECT * FROM `users` WHERE (`users`.`id` = 980190962) [0m
+  [4;36;1mUser Load (0.2ms)[0m   [0;1mSELECT * FROM `users` WHERE (`users`.`id` = 298486374) [0m
+WARNING: Can't mass-assign these protected attributes: id
+  [4;35;1mSQL (0.2ms)[0m   [0mSAVEPOINT active_record_1[0m
+  [4;36;1mUser Load (0.3ms)[0m   [0;1mSELECT `users`.id FROM `users` WHERE (`users`.`voter_id` = BINARY 'qwer1234') LIMIT 1[0m
+  [4;35;1mUser Load (0.2ms)[0m   [0mSELECT `users`.id FROM `users` WHERE (`users`.`email` = BINARY 'a@asdf.com') LIMIT 1[0m
+  [4;36;1mUser Create (0.4ms)[0m   [0;1mINSERT INTO `users` (`voter_id`, `district_code`, `created_at`, `updated_at`, `birth_date`, `provincial_code`, `voted`, `last_name`, `street_number`, `municipality_code`, `activated`, `street_name`, `first_name`, `middle_name`, `email`) VALUES('qwer1234', 'asdf', '2010-05-18 06:22:31', '2010-05-18 06:22:31', '-4712-01-01', 'asdf', 1, 'c', 1, 'asdf', 1, 'string', 'a', 'b', 'a@asdf.com')[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mRELEASE SAVEPOINT active_record_1[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSAVEPOINT active_record_1[0m
+  [4;35;1mUser Load (0.5ms)[0m   [0mSELECT `users`.id FROM `users` WHERE (`users`.`voter_id` = BINARY 'qwer1234' AND `users`.id <> 980191025) LIMIT 1[0m
+  [4;36;1mUser Load (0.2ms)[0m   [0;1mSELECT `users`.id FROM `users` WHERE (`users`.`email` = BINARY 'a@asdf.com' AND `users`.id <> 980191025) LIMIT 1[0m
+  [4;35;1mUser Update (0.3ms)[0m   [0mUPDATE `users` SET `updated_at` = '2010-05-18 06:22:31', `provincial_code` = 'AH1N1' WHERE `id` = 980191025[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mRELEASE SAVEPOINT active_record_1[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSAVEPOINT active_record_1[0m
+  [4;36;1mUser Load (0.3ms)[0m   [0;1mSELECT `users`.id FROM `users` WHERE (`users`.`voter_id` = BINARY 'qwer1234' AND `users`.id <> 980191025) LIMIT 1[0m
+  [4;35;1mUser Load (0.2ms)[0m   [0mSELECT `users`.id FROM `users` WHERE (`users`.`email` = BINARY 'a@asdf.com' AND `users`.id <> 980191025) LIMIT 1[0m
+  [4;36;1mUser Update (0.3ms)[0m   [0;1mUPDATE `users` SET `updated_at` = '2010-05-18 06:22:31', `provincial_code` = '1234' WHERE `id` = 980191025[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mRELEASE SAVEPOINT active_record_1[0m
+  [4;36;1mUser Load (0.3ms)[0m   [0;1mSELECT `users`.id FROM `users` WHERE (`users`.`voter_id` = BINARY 'qwer1234' AND `users`.id <> 980191025) LIMIT 1[0m
+  [4;35;1mUser Load (0.3ms)[0m   [0mSELECT `users`.id FROM `users` WHERE (`users`.`email` = BINARY 'a@asdf.com' AND `users`.id <> 980191025) LIMIT 1[0m
+  [4;36;1mUser Delete all (2.4ms)[0m   [0;1mDELETE FROM `users` [0m
+  [4;35;1mSQL (51.9ms)[0m   [0mROLLBACK[0m
