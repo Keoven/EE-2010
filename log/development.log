@@ -215,3 +215,36 @@ Migrating to UpdateColumnsOnCandidates (20100518045950)
   [4;35;1mSQL (54.9ms)[0m   [0mINSERT INTO `schema_migrations` (version) VALUES ('20100518045950')[0m
   [4;36;1mSQL (57.7ms)[0m   [0;1mINSERT INTO `schema_migrations` (version) VALUES ('20100518044441')[0m
   [4;35;1mSQL (72.4ms)[0m   [0mINSERT INTO `schema_migrations` (version) VALUES ('20100518035913')[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+  [4;36;1mSQL (0.3ms)[0m   [0;1mSHOW TABLES[0m
+  [4;35;1mSQL (0.2ms)[0m   [0mSELECT version FROM schema_migrations[0m
+Migrating to CreateUsers (20100518035913)
+Migrating to CreateCandidates (20100518044441)
+  [4;36;1mSQL (558.0ms)[0m   [0;1mCREATE TABLE `candidates` (`id` int(11) DEFAULT NULL auto_increment PRIMARY KEY, `first_name` varchar(255), `middle_name` varchar(255), `last_name` varchar(255), `position` varchar(255), `level` varchar(255), `location` varchar(255), `num_votes` int(11), `created_at` datetime, `updated_at` datetime) ENGINE=InnoDB[0m
+  [4;35;1mSQL (177.4ms)[0m   [0mINSERT INTO schema_migrations (version) VALUES ('20100518044441')[0m
+Migrating to UpdateColumnsOnCandidates (20100518045950)
+  [4;36;1mSQL (850.6ms)[0m   [0;1mALTER TABLE `candidates` DROP `location`[0m
+  [4;35;1mSQL (427.6ms)[0m   [0mALTER TABLE `candidates` ADD `province` varchar(255)[0m
+  [4;36;1mSQL (335.6ms)[0m   [0;1mALTER TABLE `candidates` ADD `municipality` varchar(255)[0m
+  [4;35;1mSQL (325.6ms)[0m   [0mALTER TABLE `candidates` ADD `district` varchar(255)[0m
+  [4;36;1mSQL (56.1ms)[0m   [0;1mINSERT INTO schema_migrations (version) VALUES ('20100518045950')[0m
+Migrating to CreateAdmins (20100518055944)
+  [4;35;1mSQL (126.2ms)[0m   [0mCREATE TABLE `admins` (`id` int(11) DEFAULT NULL auto_increment PRIMARY KEY, `login` varchar(255), `email` varchar(255), `crypted_password` varchar(255), `password_salt` varchar(255), `persistence_token` varchar(255), `single_access_token` varchar(255), `perishable_token` varchar(255), `created_at` datetime, `updated_at` datetime) ENGINE=InnoDB[0m
+  [4;36;1mSQL (55.1ms)[0m   [0;1mINSERT INTO schema_migrations (version) VALUES ('20100518055944')[0m
+Migrating to ChangeUserDistrictValueFromStringToInteger (20100518080031)
+  [4;35;1mSQL (8.8ms)[0m   [0mSHOW FIELDS FROM `users`[0m
+  [4;36;1mSQL (350.3ms)[0m   [0;1mALTER TABLE `users` CHANGE `district_code` `district_code` int(11) DEFAULT NULL[0m
+  [4;35;1mSQL (66.0ms)[0m   [0mINSERT INTO schema_migrations (version) VALUES ('20100518080031')[0m
+  [4;36;1mSQL (5.8ms)[0m   [0;1mSHOW TABLES[0m
+  [4;35;1mSQL (0.3ms)[0m   [0mSELECT version FROM schema_migrations[0m
+  [4;36;1mSQL (0.3ms)[0m   [0;1mSHOW TABLES[0m
+  [4;35;1mSQL (0.9ms)[0m   [0mSHOW FIELDS FROM `admins`[0m
+  [4;36;1mSQL (0.7ms)[0m   [0;1mdescribe `admins`[0m
+  [4;35;1mSQL (17.6ms)[0m   [0mSHOW KEYS FROM `admins`[0m
+  [4;36;1mSQL (45.3ms)[0m   [0;1mSHOW FIELDS FROM `candidates`[0m
+  [4;35;1mSQL (1.6ms)[0m   [0mdescribe `candidates`[0m
+  [4;36;1mSQL (8.4ms)[0m   [0;1mSHOW KEYS FROM `candidates`[0m
+  [4;35;1mSQL (10.6ms)[0m   [0mSHOW FIELDS FROM `users`[0m
+  [4;36;1mSQL (1.6ms)[0m   [0;1mdescribe `users`[0m
+  [4;35;1mSQL (0.4ms)[0m   [0mSHOW KEYS FROM `users`[0m
