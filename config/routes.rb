@@ -1,6 +1,7 @@
 ActionController::Routing::Routes.draw do |map|
   map.resource :admin_session
   map.resources :admins
+  map.resources :users
   map.login '/admin/login', :controller => 'admin_sessions', :action => 'new'
 
   # The priority is based upon order of creation: first created -> highest priority.
