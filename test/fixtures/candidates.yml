@@ -1,0 +1,19 @@
+# Read about fixtures at http://ar.rubyonrails.org/classes/Fixtures.html
+
+one:
+  first_name: MyString
+  middle_name: MyString
+  last_name: MyString
+  position: MyString
+  level: MyString
+  location: MyString
+  num_votes: 1
+
+two:
+  first_name: MyString
+  middle_name: MyString
+  last_name: MyString
+  position: MyString
+  level: MyString
+  location: MyString
+  num_votes: 1
