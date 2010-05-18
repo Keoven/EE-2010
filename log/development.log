@@ -14,3 +14,46 @@ Migrating to CreateUsers (20100518035913)
   [4;36;1mSQL (83.6ms)[0m   [0;1mSHOW FIELDS FROM `users`[0m
   [4;35;1mSQL (2.7ms)[0m   [0mdescribe `users`[0m
   [4;36;1mSQL (21.8ms)[0m   [0;1mSHOW KEYS FROM `users`[0m
+  [4;36;1mSQL (0.3ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+  [4;36;1mSQL (0.3ms)[0m   [0;1mSHOW TABLES[0m
+  [4;35;1mSQL (334.7ms)[0m   [0mCREATE TABLE `schema_migrations` (`version` varchar(255) NOT NULL) ENGINE=InnoDB[0m
+  [4;36;1mSQL (405.6ms)[0m   [0;1mCREATE UNIQUE INDEX `unique_schema_migrations` ON `schema_migrations` (`version`)[0m
+  [4;35;1mSQL (0.5ms)[0m   [0mSHOW TABLES[0m
+  [4;36;1mSQL (0.4ms)[0m   [0;1mSELECT version FROM schema_migrations[0m
+Migrating to CreateUsers (20100518035913)
+  [4;35;1mSQL (161.8ms)[0m   [0mCREATE TABLE `users` (`id` int(11) DEFAULT NULL auto_increment PRIMARY KEY, `first_name` varchar(255), `middle_name` varchar(255), `last_name` varchar(255), `street_number` int(11), `street_name` varchar(255), `district_code` varchar(255), `municipality_code` varchar(255), `provincial_code` varchar(255), `voter_id` varchar(255), `birth_date` date, `email` varchar(255), `voted` tinyint(1), `activated` tinyint(1), `created_at` datetime, `updated_at` datetime) ENGINE=InnoDB[0m
+  [4;36;1mSQL (100.1ms)[0m   [0;1mINSERT INTO schema_migrations (version) VALUES ('20100518035913')[0m
+Migrating to CreateCandidates (20100518044441)
+  [4;35;1mSQL (165.4ms)[0m   [0mCREATE TABLE `candidates` (`id` int(11) DEFAULT NULL auto_increment PRIMARY KEY, `first_name` varchar(255), `middle_name` varchar(255), `last_name` varchar(255), `position` varchar(255), `level` varchar(255), `location` varchar(255), `num_votes` int(11), `created_at` datetime, `updated_at` datetime) ENGINE=InnoDB[0m
+  [4;36;1mSQL (71.5ms)[0m   [0;1mINSERT INTO schema_migrations (version) VALUES ('20100518044441')[0m
+  [4;35;1mSQL (0.6ms)[0m   [0mSHOW TABLES[0m
+  [4;36;1mSQL (0.4ms)[0m   [0;1mSELECT version FROM schema_migrations[0m
+  [4;35;1mSQL (0.3ms)[0m   [0mSHOW TABLES[0m
+  [4;36;1mSQL (1.6ms)[0m   [0;1mSHOW FIELDS FROM `candidates`[0m
+  [4;35;1mSQL (1.6ms)[0m   [0mdescribe `candidates`[0m
+  [4;36;1mSQL (1.3ms)[0m   [0;1mSHOW KEYS FROM `candidates`[0m
+  [4;35;1mSQL (2.1ms)[0m   [0mSHOW FIELDS FROM `users`[0m
+  [4;36;1mSQL (1.9ms)[0m   [0;1mdescribe `users`[0m
+  [4;35;1mSQL (0.5ms)[0m   [0mSHOW KEYS FROM `users`[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+  [4;36;1mSQL (0.3ms)[0m   [0;1mSHOW TABLES[0m
+  [4;35;1mSQL (0.2ms)[0m   [0mSELECT version FROM schema_migrations[0m
+Migrating to CreateUsers (20100518035913)
+Migrating to CreateCandidates (20100518044441)
+Migrating to UpdateColumnsOnCandidates (20100518045950)
+  [4;36;1mSQL (923.7ms)[0m   [0;1mALTER TABLE `candidates` DROP `location`[0m
+  [4;35;1mSQL (378.0ms)[0m   [0mALTER TABLE `candidates` ADD `province` varchar(255)[0m
+  [4;36;1mSQL (376.4ms)[0m   [0;1mALTER TABLE `candidates` ADD `municipality` varchar(255)[0m
+  [4;35;1mSQL (376.6ms)[0m   [0mALTER TABLE `candidates` ADD `district` varchar(255)[0m
+  [4;36;1mSQL (56.8ms)[0m   [0;1mINSERT INTO schema_migrations (version) VALUES ('20100518045950')[0m
+  [4;35;1mSQL (0.6ms)[0m   [0mSHOW TABLES[0m
+  [4;36;1mSQL (0.5ms)[0m   [0;1mSELECT version FROM schema_migrations[0m
+  [4;35;1mSQL (0.4ms)[0m   [0mSHOW TABLES[0m
+  [4;36;1mSQL (1.7ms)[0m   [0;1mSHOW FIELDS FROM `candidates`[0m
+  [4;35;1mSQL (1.4ms)[0m   [0mdescribe `candidates`[0m
+  [4;36;1mSQL (0.4ms)[0m   [0;1mSHOW KEYS FROM `candidates`[0m
+  [4;35;1mSQL (1.9ms)[0m   [0mSHOW FIELDS FROM `users`[0m
+  [4;36;1mSQL (1.6ms)[0m   [0;1mdescribe `users`[0m
+  [4;35;1mSQL (0.4ms)[0m   [0mSHOW KEYS FROM `users`[0m
