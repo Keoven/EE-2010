@@ -9,7 +9,21 @@
 #
 # It's strongly recommended to check this file into your version control system.
 
-ActiveRecord::Schema.define(:version => 20100518035913) do
+ActiveRecord::Schema.define(:version => 20100518045950) do
+
+  create_table "candidates", :force => true do |t|
+    t.string   "first_name"
+    t.string   "middle_name"
+    t.string   "last_name"
+    t.string   "position"
+    t.string   "level"
+    t.integer  "num_votes"
+    t.datetime "created_at"
+    t.datetime "updated_at"
+    t.string   "province"
+    t.string   "municipality"
+    t.string   "district"
+  end
 
   create_table "users", :force => true do |t|
     t.string   "first_name"
