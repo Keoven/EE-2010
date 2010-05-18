@@ -1,0 +1,31 @@
+# Read about fixtures at http://ar.rubyonrails.org/classes/Fixtures.html
+
+one:
+  first_name: MyString
+  middle_name: MyString
+  last_name: MyString
+  street_number: 1
+  street_name: MyString
+  district_code: MyString
+  municipality_code: MyString
+  provincial_code: MyString
+  voter_id: MyString
+  birth_date: 2010-05-18
+  email: MyString
+  voted: false
+  activated: false
+
+two:
+  first_name: MyString
+  middle_name: MyString
+  last_name: MyString
+  street_number: 1
+  street_name: MyString
+  district_code: MyString
+  municipality_code: MyString
+  provincial_code: MyString
+  voter_id: MyString
+  birth_date: 2010-05-18
+  email: MyString
+  voted: false
+  activated: false
