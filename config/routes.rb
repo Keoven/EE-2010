@@ -4,6 +4,8 @@ ActionController::Routing::Routes.draw do |map|
   map.resources :users
   map.login '/admin/login', :controller => 'admin_sessions', :action => 'new'
 
+  map.root :controller => 'users', :action => 'home'
+
   # The priority is based upon order of creation: first created -> highest priority.
 
   # Sample of regular route:

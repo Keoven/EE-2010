@@ -1,4 +1,9 @@
 class UsersController < ApplicationController
+  before_filter :require_election_open, :only => [:home]
+
+  def home
+  end
+
   def index
     @users = User.all
   end
@@ -12,11 +17,11 @@ class UsersController < ApplicationController
     if @user.isActivated?
       if @user.save
         session[:save] = @user.id
-        redirect_to @user 
+        redirect_to @user
       else
         session[:save] = 'Invalid User'
         render :action => :new
-      end    
+      end
     else
       session[:save] = 'Account not yet activated'
       render :action => :new
@@ -29,15 +34,15 @@ class UsersController < ApplicationController
 
   def update
     @user = User.find(params[:id])
-      p @user.inspect	
+      p @user.inspect
       p "################################"
     if @user.update_attributes(params[:user])
-      p "Asdf" 
+      p "Asdf"
       redirect_to @user
     else
       p @user.inspect
       p "qwer"
-      render :action=> :edit 
+      render :action=> :edit
     end
   end
 
@@ -52,3 +57,4 @@ class UsersController < ApplicationController
   end
 
 end
+
