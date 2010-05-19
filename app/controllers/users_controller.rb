@@ -29,14 +29,9 @@ class UsersController < ApplicationController
 
   def update
     @user = User.find(params[:id])
-      p @user.inspect	
-      p "################################"
     if @user.update_attributes(params[:user])
-      p "Asdf" 
       redirect_to @user
     else
-      p @user.inspect
-      p "qwer"
       render :action=> :edit 
     end
   end
