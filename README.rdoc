@@ -1,0 +1,68 @@
+= Final Project Specifications
+
+* Online poll for each position
+* Registration of voters
+* Voting
+* Real-time counts of votes for each candidate
+
+== Roles
+
+[Administrator] Login, Email, Password
+[User/Voter] Name, Address, Voter's ID, Birth Date, District Code, Provincial Code, City/Municipality Code, Email, Voted, Activated
+
+== Requirements
+=== Registration
+
+* Admin can create, update, delete voter records
+* Voter activation/confirmation
+    Voter enters voter's id, birth date, email to a web form
+    Observer to fields detects if all fields are filled up
+    Observer sends request to server (AJAX) for validation
+    Server replies
+    IF voter is registered
+      Show submit button and email link to ballot
+    IF voter is NOT registered
+      Show error message that voter is not registered (This should not be descriptive for security reasons)
+
+===Candidate Records
+
+* A prepopulated database of candidates should exist (use migration of default values using YAML)
+* 2 provinces + Metro Manila
+* 3 Municipalities in the province each
+* All municipalities and cities in Metro Manila
+* 2 district per municipality or city
+* No create form!!
+* fixed data of provinces, city/municipality, district
+* Should have candidates table
+* Name, votes, position, level (can be national, provincial_name, city/municipal_name, district_name) (polymorphism)
+* Create rake task for startup
+
+=== Actual Vote
+
+* Ballot form based on municipality, district, and province of voter
+* Abstain is possible
+* No flying voter
+* Rules on number of votes
+* President - 1
+* Vice President - 1
+* Senators - 12
+* Governor - 1
+* Vice Governor - 1
+* Mayor - 1
+* Vice Mayor - 1
+* Councilors - 6
+* Congressman - 1
+* Dont keep track of user's votes
+* Once form is submitted, update number of votes
+
+=== Showing Results
+
+* Show real time updated votes
+* Always show national positions
+* Local Positions when user selects from a list of provinces or municipality
+* The page should be asynchronously updated or refreshed every five minutes to reflect the updated vote count
+
+=== BONUS:
+
+Administrator can post the presidential and vice presidential results/vote count updates to a Facebook account pre-configured in the system
+
