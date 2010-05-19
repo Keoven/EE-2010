@@ -1,6 +1,6 @@
 ActionController::Routing::Routes.draw do |map|
   map.resource :admin_session
-  map.resources :admins
+  map.resources :admins, :collection => {:dashboard => :get}
   map.resources :users
   map.login '/admin/login', :controller => 'admin_sessions', :action => 'new'
 

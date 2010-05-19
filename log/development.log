@@ -401,3 +401,337 @@ Migrating to ChangeUserDistrictValueFromStringToInteger (20100518080031)
   [4;35;1mSQL (55.3ms)[0m   [0mINSERT INTO `schema_migrations` (version) VALUES ('20100518044441')[0m
   [4;36;1mSQL (44.3ms)[0m   [0;1mINSERT INTO `schema_migrations` (version) VALUES ('20100518045950')[0m
   [4;35;1mSQL (44.3ms)[0m   [0mINSERT INTO `schema_migrations` (version) VALUES ('20100518055944')[0m
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.3ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+  [4;36;1mAdmin Columns (2.6ms)[0m   [0;1mSHOW FIELDS FROM `admins`[0m
+  [4;35;1mSQL (0.6ms)[0m   [0mSHOW TABLES[0m
+  [4;36;1mAdmin Load (26.7ms)[0m   [0;1mSELECT `admins`.id FROM `admins` WHERE (LOWER(`admins`.`email`) = BINARY 'youremail@here.com') LIMIT 1[0m
+  [4;35;1mAdmin Load (0.3ms)[0m   [0mSELECT `admins`.id FROM `admins` WHERE (LOWER(`admins`.`login`) = BINARY 'admin') LIMIT 1[0m
+  [4;36;1mAdmin Load (0.2ms)[0m   [0;1mSELECT `admins`.id FROM `admins` WHERE (`admins`.`persistence_token` = BINARY '3da92ba211abd7a705cb99e503742746d6130bf27f23904fbc2ae6870c8c1e264ea25d87e94f1440ba850557ed5e1a8acd2ddf529015f46f556fd542f74fe721') LIMIT 1[0m
+  [4;35;1mAdmin Load (0.2ms)[0m   [0mSELECT `admins`.id FROM `admins` WHERE (`admins`.`single_access_token` = BINARY 'SbvQqpR-2zlVcKKn_s3i') LIMIT 1[0m
+  [4;36;1mAdmin Load (0.2ms)[0m   [0;1mSELECT `admins`.id FROM `admins` WHERE (`admins`.`login` = BINARY 'admin') LIMIT 1[0m
+  [4;35;1mAdmin Load (0.2ms)[0m   [0mSELECT `admins`.id FROM `admins` WHERE (`admins`.`email` = BINARY 'youremail@here.com') LIMIT 1[0m
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.2ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+  [4;36;1mSQL (0.5ms)[0m   [0;1mSHOW TABLES[0m
+  [4;35;1mSQL (114.4ms)[0m   [0mCREATE TABLE `admins` (`id` int(11) DEFAULT NULL auto_increment PRIMARY KEY, `login` varchar(255), `email` varchar(255), `crypted_password` varchar(255), `password_salt` varchar(255), `persistence_token` varchar(255), `single_access_token` varchar(255), `perishable_token` varchar(255), `created_at` datetime, `updated_at` datetime) ENGINE=InnoDB[0m
+  [4;36;1mSQL (0.5ms)[0m   [0;1mSHOW TABLES[0m
+  [4;35;1mSQL (108.2ms)[0m   [0mCREATE TABLE `candidates` (`id` int(11) DEFAULT NULL auto_increment PRIMARY KEY, `first_name` varchar(255), `middle_name` varchar(255), `last_name` varchar(255), `position` varchar(255), `level` varchar(255), `num_votes` int(11), `created_at` datetime, `updated_at` datetime, `province` varchar(255), `municipality` varchar(255), `district` varchar(255)) ENGINE=InnoDB[0m
+  [4;36;1mSQL (0.5ms)[0m   [0;1mSHOW TABLES[0m
+  [4;35;1mSQL (107.2ms)[0m   [0mCREATE TABLE `users` (`id` int(11) DEFAULT NULL auto_increment PRIMARY KEY, `first_name` varchar(255), `middle_name` varchar(255), `last_name` varchar(255), `street_number` int(11), `street_name` varchar(255), `district_code` int(11), `municipality_code` varchar(255), `provincial_code` varchar(255), `voter_id` varchar(255), `birth_date` date, `email` varchar(255), `voted` tinyint(1), `activated` tinyint(1), `created_at` datetime, `updated_at` datetime) ENGINE=InnoDB[0m
+  [4;36;1mSQL (0.5ms)[0m   [0;1mSHOW TABLES[0m
+  [4;35;1mSQL (99.1ms)[0m   [0mCREATE TABLE `schema_migrations` (`version` varchar(255) NOT NULL) ENGINE=InnoDB[0m
+  [4;36;1mSQL (234.8ms)[0m   [0;1mCREATE UNIQUE INDEX `unique_schema_migrations` ON `schema_migrations` (`version`)[0m
+  [4;35;1mSQL (0.7ms)[0m   [0mSHOW TABLES[0m
+  [4;36;1mSQL (0.4ms)[0m   [0;1mSELECT version FROM `schema_migrations`[0m
+  [4;35;1mSQL (40.4ms)[0m   [0mINSERT INTO `schema_migrations` (version) VALUES ('20100518080031')[0m
+  [4;36;1mSQL (43.9ms)[0m   [0;1mINSERT INTO `schema_migrations` (version) VALUES ('20100518035913')[0m
+  [4;35;1mSQL (45.1ms)[0m   [0mINSERT INTO `schema_migrations` (version) VALUES ('20100518044441')[0m
+  [4;36;1mSQL (43.7ms)[0m   [0;1mINSERT INTO `schema_migrations` (version) VALUES ('20100518045950')[0m
+  [4;35;1mSQL (43.8ms)[0m   [0mINSERT INTO `schema_migrations` (version) VALUES ('20100518055944')[0m
+  [4;36;1mAdmin Columns (1.8ms)[0m   [0;1mSHOW FIELDS FROM `admins`[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mBEGIN[0m
+  [4;36;1mAdmin Load (0.4ms)[0m   [0;1mSELECT `admins`.id FROM `admins` WHERE (LOWER(`admins`.`email`) = BINARY 'youremail@here.com') LIMIT 1[0m
+  [4;35;1mAdmin Load (0.3ms)[0m   [0mSELECT `admins`.id FROM `admins` WHERE (LOWER(`admins`.`login`) = BINARY 'admin') LIMIT 1[0m
+  [4;36;1mAdmin Load (0.2ms)[0m   [0;1mSELECT `admins`.id FROM `admins` WHERE (`admins`.`persistence_token` = BINARY '8ab89dece014f1fd1c3b0ad36abf88b5737c914b64c69b8d6b974f43490802377aad3bd1ef5c4fab587d0d93711895cdfd0243ee4f40cdb07a2e0f562d86824a') LIMIT 1[0m
+  [4;35;1mAdmin Load (0.2ms)[0m   [0mSELECT `admins`.id FROM `admins` WHERE (`admins`.`single_access_token` = BINARY 'o5z-7muYJQjSWrr-z9aB') LIMIT 1[0m
+  [4;36;1mAdmin Load (0.2ms)[0m   [0;1mSELECT `admins`.id FROM `admins` WHERE (`admins`.`login` = BINARY 'admin') LIMIT 1[0m
+  [4;35;1mAdmin Load (0.2ms)[0m   [0mSELECT `admins`.id FROM `admins` WHERE (`admins`.`email` = BINARY 'youremail@here.com') LIMIT 1[0m
+  [4;36;1mAdmin Create (0.3ms)[0m   [0;1mINSERT INTO `admins` (`single_access_token`, `created_at`, `crypted_password`, `perishable_token`, `updated_at`, `password_salt`, `persistence_token`, `login`, `email`) VALUES('o5z-7muYJQjSWrr-z9aB', '2010-05-19 01:23:59', '957cf16ad9da15f2bd1abe28c9ee2b92a5f18be7de5bd2a0e5d01dca18fc6408e6355016a90c00a39624e7f9e34b024f1398738dfebaad14f8bc87265216580a', 'ZQUSws7jjRoAPzgMF6Ap', '2010-05-19 01:23:59', '1owlH85jxAOasBPsiyGY', '8ab89dece014f1fd1c3b0ad36abf88b5737c914b64c69b8d6b974f43490802377aad3bd1ef5c4fab587d0d93711895cdfd0243ee4f40cdb07a2e0f562d86824a', 'admin', 'youremail@here.com')[0m
+  [4;35;1mSQL (54.8ms)[0m   [0mCOMMIT[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+  [4;36;1mSQL (0.4ms)[0m   [0;1mSHOW TABLES[0m
+  [4;35;1mSQL (50.9ms)[0m   [0mDROP TABLE `admins`[0m
+  [4;36;1mSQL (110.7ms)[0m   [0;1mCREATE TABLE `admins` (`id` int(11) DEFAULT NULL auto_increment PRIMARY KEY, `login` varchar(255), `email` varchar(255), `crypted_password` varchar(255), `password_salt` varchar(255), `persistence_token` varchar(255), `single_access_token` varchar(255), `perishable_token` varchar(255), `created_at` datetime, `updated_at` datetime) ENGINE=InnoDB[0m
+  [4;35;1mSQL (0.5ms)[0m   [0mSHOW TABLES[0m
+  [4;36;1mSQL (41.7ms)[0m   [0;1mDROP TABLE `candidates`[0m
+  [4;35;1mSQL (110.4ms)[0m   [0mCREATE TABLE `candidates` (`id` int(11) DEFAULT NULL auto_increment PRIMARY KEY, `first_name` varchar(255), `middle_name` varchar(255), `last_name` varchar(255), `position` varchar(255), `level` varchar(255), `num_votes` int(11), `created_at` datetime, `updated_at` datetime, `province` varchar(255), `municipality` varchar(255), `district` varchar(255)) ENGINE=InnoDB[0m
+  [4;36;1mSQL (0.6ms)[0m   [0;1mSHOW TABLES[0m
+  [4;35;1mSQL (41.4ms)[0m   [0mDROP TABLE `users`[0m
+  [4;36;1mSQL (99.1ms)[0m   [0;1mCREATE TABLE `users` (`id` int(11) DEFAULT NULL auto_increment PRIMARY KEY, `first_name` varchar(255), `middle_name` varchar(255), `last_name` varchar(255), `street_number` int(11), `street_name` varchar(255), `district_code` int(11), `municipality_code` varchar(255), `provincial_code` varchar(255), `voter_id` varchar(255), `birth_date` date, `email` varchar(255), `voted` tinyint(1), `activated` tinyint(1), `created_at` datetime, `updated_at` datetime) ENGINE=InnoDB[0m
+  [4;35;1mSQL (0.6ms)[0m   [0mSHOW TABLES[0m
+  [4;36;1mSQL (0.4ms)[0m   [0;1mSELECT version FROM `schema_migrations`[0m
+  [4;35;1mAdmin Columns (1.7ms)[0m   [0mSHOW FIELDS FROM `admins`[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mBEGIN[0m
+  [4;35;1mAdmin Load (0.4ms)[0m   [0mSELECT `admins`.id FROM `admins` WHERE (LOWER(`admins`.`email`) = BINARY 'youremail@here.com') LIMIT 1[0m
+  [4;36;1mAdmin Load (0.3ms)[0m   [0;1mSELECT `admins`.id FROM `admins` WHERE (LOWER(`admins`.`login`) = BINARY 'admin') LIMIT 1[0m
+  [4;35;1mAdmin Load (0.2ms)[0m   [0mSELECT `admins`.id FROM `admins` WHERE (`admins`.`persistence_token` = BINARY 'c32f42fdf88aff6f3787c02dcab3f62ab61e52818c7b27a0b68fe8cad33c9194889ef78f874c39c54c8010cb4a3aafc4b5c8c560200767bc9245e9db4c3f55fe') LIMIT 1[0m
+  [4;36;1mAdmin Load (0.2ms)[0m   [0;1mSELECT `admins`.id FROM `admins` WHERE (`admins`.`single_access_token` = BINARY 'wbffdrKyB8IeaOBldRfT') LIMIT 1[0m
+  [4;35;1mAdmin Load (0.2ms)[0m   [0mSELECT `admins`.id FROM `admins` WHERE (`admins`.`login` = BINARY 'admin') LIMIT 1[0m
+  [4;36;1mAdmin Load (0.3ms)[0m   [0;1mSELECT `admins`.id FROM `admins` WHERE (`admins`.`email` = BINARY 'youremail@here.com') LIMIT 1[0m
+  [4;35;1mAdmin Create (0.3ms)[0m   [0mINSERT INTO `admins` (`single_access_token`, `created_at`, `crypted_password`, `perishable_token`, `updated_at`, `password_salt`, `persistence_token`, `login`, `email`) VALUES('wbffdrKyB8IeaOBldRfT', '2010-05-19 01:24:10', 'efcee2980eca3607310fb8178cdb02811a85556d41d68a53ede3a3deadf1b99a248622fa6eaf4a5e9bb1ad78faf94a43e0794ce998de159dd1e22bf8aadfb527', 'PahgBffLE0JYyDvheLB3', '2010-05-19 01:24:10', '5ATf-yyHcFyg5ERnksa1', 'c32f42fdf88aff6f3787c02dcab3f62ab61e52818c7b27a0b68fe8cad33c9194889ef78f874c39c54c8010cb4a3aafc4b5c8c560200767bc9245e9db4c3f55fe', 'admin', 'youremail@here.com')[0m
+  [4;36;1mSQL (51.8ms)[0m   [0;1mCOMMIT[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+  [4;36;1mSQL (0.4ms)[0m   [0;1mSHOW TABLES[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+  [4;36;1mSQL (0.4ms)[0m   [0;1mSHOW TABLES[0m
+  [4;35;1mSQL (121.6ms)[0m   [0mCREATE TABLE `admins` (`id` int(11) DEFAULT NULL auto_increment PRIMARY KEY, `login` varchar(255), `email` varchar(255), `crypted_password` varchar(255), `password_salt` varchar(255), `persistence_token` varchar(255), `single_access_token` varchar(255), `perishable_token` varchar(255), `created_at` datetime, `updated_at` datetime) ENGINE=InnoDB[0m
+  [4;36;1mSQL (0.6ms)[0m   [0;1mSHOW TABLES[0m
+  [4;35;1mSQL (41.8ms)[0m   [0mDROP TABLE `candidates`[0m
+  [4;36;1mSQL (99.4ms)[0m   [0;1mCREATE TABLE `candidates` (`id` int(11) DEFAULT NULL auto_increment PRIMARY KEY, `first_name` varchar(255), `middle_name` varchar(255), `last_name` varchar(255), `position` varchar(255), `level` varchar(255), `num_votes` int(11), `created_at` datetime, `updated_at` datetime, `province` varchar(255), `municipality` varchar(255), `district` varchar(255)) ENGINE=InnoDB[0m
+  [4;35;1mSQL (0.5ms)[0m   [0mSHOW TABLES[0m
+  [4;36;1mSQL (41.4ms)[0m   [0;1mDROP TABLE `users`[0m
+  [4;35;1mSQL (99.3ms)[0m   [0mCREATE TABLE `users` (`id` int(11) DEFAULT NULL auto_increment PRIMARY KEY, `first_name` varchar(255), `middle_name` varchar(255), `last_name` varchar(255), `street_number` int(11), `street_name` varchar(255), `district_code` int(11), `municipality_code` varchar(255), `provincial_code` varchar(255), `voter_id` varchar(255), `birth_date` date, `email` varchar(255), `voted` tinyint(1), `activated` tinyint(1), `created_at` datetime, `updated_at` datetime) ENGINE=InnoDB[0m
+  [4;36;1mSQL (0.6ms)[0m   [0;1mSHOW TABLES[0m
+  [4;35;1mSQL (0.3ms)[0m   [0mSELECT version FROM `schema_migrations`[0m
+  [4;36;1mAdmin Columns (0.9ms)[0m   [0;1mSHOW FIELDS FROM `admins`[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mBEGIN[0m
+  [4;36;1mAdmin Load (0.4ms)[0m   [0;1mSELECT `admins`.id FROM `admins` WHERE (LOWER(`admins`.`email`) = BINARY 'youremail@here.com') LIMIT 1[0m
+  [4;35;1mAdmin Load (0.2ms)[0m   [0mSELECT `admins`.id FROM `admins` WHERE (LOWER(`admins`.`login`) = BINARY 'admin') LIMIT 1[0m
+  [4;36;1mAdmin Load (0.2ms)[0m   [0;1mSELECT `admins`.id FROM `admins` WHERE (`admins`.`persistence_token` = BINARY 'da4067c622cb870a823dc80db3275885df96f9125dd3c3aa8a7faf375a36e47b96015d5ae0cc9359c58eb1365615d6c710fc45868ca79f9987a8fe28d53494d3') LIMIT 1[0m
+  [4;35;1mAdmin Load (0.2ms)[0m   [0mSELECT `admins`.id FROM `admins` WHERE (`admins`.`single_access_token` = BINARY 'aygT4jHFsz6XPFKO08dU') LIMIT 1[0m
+  [4;36;1mAdmin Load (0.2ms)[0m   [0;1mSELECT `admins`.id FROM `admins` WHERE (`admins`.`login` = BINARY 'admin') LIMIT 1[0m
+  [4;35;1mAdmin Load (0.2ms)[0m   [0mSELECT `admins`.id FROM `admins` WHERE (`admins`.`email` = BINARY 'youremail@here.com') LIMIT 1[0m
+  [4;36;1mAdmin Create (0.3ms)[0m   [0;1mINSERT INTO `admins` (`single_access_token`, `created_at`, `crypted_password`, `perishable_token`, `updated_at`, `password_salt`, `persistence_token`, `login`, `email`) VALUES('aygT4jHFsz6XPFKO08dU', '2010-05-19 01:24:48', 'a7ac01026af218fd3504b14fcb5d02dfc2a53262e32573c5ce5ecbd057cad4c608c00a31ab00973d308974fd6abab197f6bcdee87abea905bf98d551320cc7ce', 'xCaeQ7APjBjpFqpxmxR8', '2010-05-19 01:24:48', 'KZrMmuxBcWRUds_Rv-8S', 'da4067c622cb870a823dc80db3275885df96f9125dd3c3aa8a7faf375a36e47b96015d5ae0cc9359c58eb1365615d6c710fc45868ca79f9987a8fe28d53494d3', 'admin', 'youremail@here.com')[0m
+  [4;35;1mSQL (52.9ms)[0m   [0mCOMMIT[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.2ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+  [4;36;1mSQL (0.3ms)[0m   [0;1mSHOW TABLES[0m
+  [4;35;1mSQL (106.1ms)[0m   [0mCREATE TABLE `admins` (`id` int(11) DEFAULT NULL auto_increment PRIMARY KEY, `login` varchar(255), `email` varchar(255), `crypted_password` varchar(255), `password_salt` varchar(255), `persistence_token` varchar(255), `single_access_token` varchar(255), `perishable_token` varchar(255), `created_at` datetime, `updated_at` datetime) ENGINE=InnoDB[0m
+  [4;36;1mSQL (0.5ms)[0m   [0;1mSHOW TABLES[0m
+  [4;35;1mSQL (97.1ms)[0m   [0mCREATE TABLE `candidates` (`id` int(11) DEFAULT NULL auto_increment PRIMARY KEY, `first_name` varchar(255), `middle_name` varchar(255), `last_name` varchar(255), `position` varchar(255), `level` varchar(255), `num_votes` int(11), `created_at` datetime, `updated_at` datetime, `province` varchar(255), `municipality` varchar(255), `district` varchar(255)) ENGINE=InnoDB[0m
+  [4;36;1mSQL (0.5ms)[0m   [0;1mSHOW TABLES[0m
+  [4;35;1mSQL (108.6ms)[0m   [0mCREATE TABLE `users` (`id` int(11) DEFAULT NULL auto_increment PRIMARY KEY, `first_name` varchar(255), `middle_name` varchar(255), `last_name` varchar(255), `street_number` int(11), `street_name` varchar(255), `district_code` int(11), `municipality_code` varchar(255), `provincial_code` varchar(255), `voter_id` varchar(255), `birth_date` date, `email` varchar(255), `voted` tinyint(1), `activated` tinyint(1), `created_at` datetime, `updated_at` datetime) ENGINE=InnoDB[0m
+  [4;36;1mSQL (0.6ms)[0m   [0;1mSHOW TABLES[0m
+  [4;35;1mSQL (109.7ms)[0m   [0mCREATE TABLE `schema_migrations` (`version` varchar(255) NOT NULL) ENGINE=InnoDB[0m
+  [4;36;1mSQL (246.2ms)[0m   [0;1mCREATE UNIQUE INDEX `unique_schema_migrations` ON `schema_migrations` (`version`)[0m
+  [4;35;1mSQL (0.5ms)[0m   [0mSHOW TABLES[0m
+  [4;36;1mSQL (0.4ms)[0m   [0;1mSELECT version FROM `schema_migrations`[0m
+  [4;35;1mSQL (41.0ms)[0m   [0mINSERT INTO `schema_migrations` (version) VALUES ('20100518080031')[0m
+  [4;36;1mSQL (43.9ms)[0m   [0;1mINSERT INTO `schema_migrations` (version) VALUES ('20100518035913')[0m
+  [4;35;1mSQL (44.1ms)[0m   [0mINSERT INTO `schema_migrations` (version) VALUES ('20100518044441')[0m
+  [4;36;1mSQL (44.0ms)[0m   [0;1mINSERT INTO `schema_migrations` (version) VALUES ('20100518045950')[0m
+  [4;35;1mSQL (44.1ms)[0m   [0mINSERT INTO `schema_migrations` (version) VALUES ('20100518055944')[0m
+  [4;36;1mAdmin Columns (1.5ms)[0m   [0;1mSHOW FIELDS FROM `admins`[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mBEGIN[0m
+  [4;36;1mAdmin Load (0.4ms)[0m   [0;1mSELECT `admins`.id FROM `admins` WHERE (LOWER(`admins`.`email`) = BINARY 'youremail@here.com') LIMIT 1[0m
+  [4;35;1mAdmin Load (0.3ms)[0m   [0mSELECT `admins`.id FROM `admins` WHERE (LOWER(`admins`.`login`) = BINARY 'admin') LIMIT 1[0m
+  [4;36;1mAdmin Load (0.2ms)[0m   [0;1mSELECT `admins`.id FROM `admins` WHERE (`admins`.`persistence_token` = BINARY '1cc86e58d9e324ddf6d7a03da1f5c84b909cf6cae3dc746f67d49b4c3ca82cd31ebf788a38a195d64ab1c2651b69e13397dae167c770a32ddef681debc5b66a8') LIMIT 1[0m
+  [4;35;1mAdmin Load (0.2ms)[0m   [0mSELECT `admins`.id FROM `admins` WHERE (`admins`.`single_access_token` = BINARY '4n3lojxDeOuspG5GwFWr') LIMIT 1[0m
+  [4;36;1mAdmin Load (0.2ms)[0m   [0;1mSELECT `admins`.id FROM `admins` WHERE (`admins`.`login` = BINARY 'admin') LIMIT 1[0m
+  [4;35;1mAdmin Load (0.2ms)[0m   [0mSELECT `admins`.id FROM `admins` WHERE (`admins`.`email` = BINARY 'youremail@here.com') LIMIT 1[0m
+  [4;36;1mAdmin Create (0.3ms)[0m   [0;1mINSERT INTO `admins` (`single_access_token`, `created_at`, `crypted_password`, `perishable_token`, `updated_at`, `password_salt`, `persistence_token`, `login`, `email`) VALUES('4n3lojxDeOuspG5GwFWr', '2010-05-19 01:25:16', '61bcf77df091dedb4a60750d11603c5eaab3d678001850dd33a808cf6ea358121531f5c654038d19d04e5fda42eb2d5a15563edbbc2985d160c35714fb8c1396', 'Bgofa5bOnUExsrS5F09p', '2010-05-19 01:25:16', '8zC8jJJibxYYrFgQ12Ko', '1cc86e58d9e324ddf6d7a03da1f5c84b909cf6cae3dc746f67d49b4c3ca82cd31ebf788a38a195d64ab1c2651b69e13397dae167c770a32ddef681debc5b66a8', 'admin', 'youremail@here.com')[0m
+  [4;35;1mSQL (131.6ms)[0m   [0mCOMMIT[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+  [4;36;1mSQL (0.3ms)[0m   [0;1mSHOW TABLES[0m
+  [4;35;1mSQL (47.8ms)[0m   [0mDROP TABLE `admins`[0m
+  [4;36;1mSQL (110.6ms)[0m   [0;1mCREATE TABLE `admins` (`id` int(11) DEFAULT NULL auto_increment PRIMARY KEY, `login` varchar(255), `email` varchar(255), `crypted_password` varchar(255), `password_salt` varchar(255), `persistence_token` varchar(255), `single_access_token` varchar(255), `perishable_token` varchar(255), `created_at` datetime, `updated_at` datetime) ENGINE=InnoDB[0m
+  [4;35;1mSQL (0.6ms)[0m   [0mSHOW TABLES[0m
+  [4;36;1mSQL (52.9ms)[0m   [0;1mDROP TABLE `candidates`[0m
+  [4;35;1mSQL (111.5ms)[0m   [0mCREATE TABLE `candidates` (`id` int(11) DEFAULT NULL auto_increment PRIMARY KEY, `first_name` varchar(255), `middle_name` varchar(255), `last_name` varchar(255), `position` varchar(255), `level` varchar(255), `num_votes` int(11), `created_at` datetime, `updated_at` datetime, `province` varchar(255), `municipality` varchar(255), `district` varchar(255)) ENGINE=InnoDB[0m
+  [4;36;1mSQL (0.6ms)[0m   [0;1mSHOW TABLES[0m
+  [4;35;1mSQL (52.4ms)[0m   [0mDROP TABLE `users`[0m
+  [4;36;1mSQL (121.2ms)[0m   [0;1mCREATE TABLE `users` (`id` int(11) DEFAULT NULL auto_increment PRIMARY KEY, `first_name` varchar(255), `middle_name` varchar(255), `last_name` varchar(255), `street_number` int(11), `street_name` varchar(255), `district_code` int(11), `municipality_code` varchar(255), `provincial_code` varchar(255), `voter_id` varchar(255), `birth_date` date, `email` varchar(255), `voted` tinyint(1), `activated` tinyint(1), `created_at` datetime, `updated_at` datetime) ENGINE=InnoDB[0m
+  [4;35;1mSQL (0.5ms)[0m   [0mSHOW TABLES[0m
+  [4;36;1mSQL (0.3ms)[0m   [0;1mSELECT version FROM `schema_migrations`[0m
+  [4;35;1mAdmin Columns (1.7ms)[0m   [0mSHOW FIELDS FROM `admins`[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mBEGIN[0m
+  [4;35;1mAdmin Load (0.4ms)[0m   [0mSELECT `admins`.id FROM `admins` WHERE (LOWER(`admins`.`email`) = BINARY 'youremail@here.com') LIMIT 1[0m
+  [4;36;1mAdmin Load (0.2ms)[0m   [0;1mSELECT `admins`.id FROM `admins` WHERE (LOWER(`admins`.`login`) = BINARY 'admin') LIMIT 1[0m
+  [4;35;1mAdmin Load (0.2ms)[0m   [0mSELECT `admins`.id FROM `admins` WHERE (`admins`.`persistence_token` = BINARY 'af45b6aa0778b571158645213fefb89145dccd69a36f14bfec9809e128096093e7631eb6625f326a41feb9791e6bdad3ee1ad82a79779907b3c59663f4c394d8') LIMIT 1[0m
+  [4;36;1mAdmin Load (0.2ms)[0m   [0;1mSELECT `admins`.id FROM `admins` WHERE (`admins`.`single_access_token` = BINARY 'nCe816bzAKH4nJRUxE18') LIMIT 1[0m
+  [4;35;1mAdmin Load (0.2ms)[0m   [0mSELECT `admins`.id FROM `admins` WHERE (`admins`.`login` = BINARY 'admin') LIMIT 1[0m
+  [4;36;1mAdmin Load (0.2ms)[0m   [0;1mSELECT `admins`.id FROM `admins` WHERE (`admins`.`email` = BINARY 'youremail@here.com') LIMIT 1[0m
+  [4;35;1mAdmin Create (0.3ms)[0m   [0mINSERT INTO `admins` (`single_access_token`, `created_at`, `crypted_password`, `perishable_token`, `updated_at`, `password_salt`, `persistence_token`, `login`, `email`) VALUES('nCe816bzAKH4nJRUxE18', '2010-05-19 01:25:21', '93df80f4aa961c1fd9e0af3263874b41a2a3d40d9d4bfc2dfcb2a204a6f5c2c0b93cbcf93580e0028fd60e8b1c310114ad8523fad5bc99a4bdcd03decb507272', '51DdMXO8R0Y_BpNRPONc', '2010-05-19 01:25:21', 'I9VXYr9hsnh2t0Rmvpa-', 'af45b6aa0778b571158645213fefb89145dccd69a36f14bfec9809e128096093e7631eb6625f326a41feb9791e6bdad3ee1ad82a79779907b3c59663f4c394d8', 'admin', 'youremail@here.com')[0m
+  [4;36;1mSQL (66.4ms)[0m   [0;1mCOMMIT[0m
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+  [4;36;1mAdmin Columns (0.9ms)[0m   [0;1mSHOW FIELDS FROM `admins`[0m
+  [4;35;1mAdmin Load (0.4ms)[0m   [0mSELECT * FROM `admins` [0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-05-19 10:24:41) [GET]
+
+ActionController::RoutingError (No route matches "/admin" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-05-19 10:24:46) [GET]
+
+ActionController::RoutingError (No route matches "/admin/" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing AdminsController#index (for 127.0.0.1 at 2010-05-19 10:24:49) [GET]
+  Parameters: {"action"=>"index", "controller"=>"admins"}
+  [4;36;1mAdmin Columns (0.9ms)[0m   [0;1mSHOW FIELDS FROM `admins`[0m
+Redirected to http://localhost:3000/admin_session/new
+Filter chain halted as [:require_admin] rendered_or_redirected.
+Completed in 22ms (DB: 1) | 302 Found [http://localhost/admins/]
+  [4;35;1mSQL (0.1ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing AdminSessionsController#new (for 127.0.0.1 at 2010-05-19 10:24:49) [GET]
+  Parameters: {"action"=>"new", "controller"=>"admin_sessions"}
+  [4;35;1mAdmin Columns (0.9ms)[0m   [0mSHOW FIELDS FROM `admins`[0m
+Rendering admin_sessions/new
+Completed in 71ms (View: 46, DB: 1) | 200 OK [http://localhost/admin_session/new]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing AdminSessionsController#create (for 127.0.0.1 at 2010-05-19 10:24:56) [POST]
+  Parameters: {"commit"=>"Login", "action"=>"create", "controller"=>"admin_sessions", "admin_session"=>{"remember_me"=>"0", "password"=>"[FILTERED]", "login"=>"admin"}}
+  [4;36;1mAdmin Columns (0.9ms)[0m   [0;1mSHOW FIELDS FROM `admins`[0m
+  [4;35;1mAdmin Load (0.4ms)[0m   [0mSELECT * FROM `admins` WHERE (LOWER(`admins`.login) = 'admin') LIMIT 1[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mBEGIN[0m
+  [4;35;1mAdmin Update (0.4ms)[0m   [0mUPDATE `admins` SET `updated_at` = '2010-05-19 02:24:57', `perishable_token` = 'ESs-xvWA2JCh_XEKBioB' WHERE `id` = 1[0m
+  [4;36;1mSQL (51.1ms)[0m   [0;1mCOMMIT[0m
+
+NameError (undefined local variable or method `account_url' for #<AdminSessionsController:0xb731ded8>):
+  app/controllers/admin_sessions_controller.rb:13:in `create'
+
+Rendered rescues/_trace (127.5ms)
+Rendered rescues/_request_and_response (2.1ms)
+Rendering rescues/layout (internal_server_error)
+  [4;35;1mSQL (0.1ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-05-19 10:25:33) [GET]
+
+ActionController::RoutingError (No route matches "/admin" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+  [4;35;1mSQL (0.1ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing AdminsController#index (for 127.0.0.1 at 2010-05-19 10:25:35) [GET]
+  Parameters: {"action"=>"index", "controller"=>"admins"}
+  [4;35;1mAdmin Columns (0.9ms)[0m   [0mSHOW FIELDS FROM `admins`[0m
+  [4;36;1mAdmin Load (0.4ms)[0m   [0;1mSELECT * FROM `admins` WHERE (`admins`.`id` = '1') LIMIT 1[0m
+
+ActionController::UnknownAction (No action responded to index. Actions: create, edit, new, and update):
+  
+
+Rendering rescues/layout (not_found)
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+  [4;36;1mSQL (0.4ms)[0m   [0;1mSHOW TABLES[0m
+  [4;35;1mSQL (139.8ms)[0m   [0mCREATE TABLE `admins` (`id` int(11) DEFAULT NULL auto_increment PRIMARY KEY, `login` varchar(255), `email` varchar(255), `crypted_password` varchar(255), `password_salt` varchar(255), `persistence_token` varchar(255), `single_access_token` varchar(255), `perishable_token` varchar(255), `created_at` datetime, `updated_at` datetime) ENGINE=InnoDB[0m
+  [4;36;1mSQL (0.5ms)[0m   [0;1mSHOW TABLES[0m
+  [4;35;1mSQL (107.7ms)[0m   [0mCREATE TABLE `candidates` (`id` int(11) DEFAULT NULL auto_increment PRIMARY KEY, `first_name` varchar(255), `middle_name` varchar(255), `last_name` varchar(255), `position` varchar(255), `level` varchar(255), `num_votes` int(11), `created_at` datetime, `updated_at` datetime, `province` varchar(255), `municipality` varchar(255), `district` varchar(255)) ENGINE=InnoDB[0m
+  [4;36;1mSQL (0.5ms)[0m   [0;1mSHOW TABLES[0m
+  [4;35;1mSQL (107.5ms)[0m   [0mCREATE TABLE `users` (`id` int(11) DEFAULT NULL auto_increment PRIMARY KEY, `first_name` varchar(255), `middle_name` varchar(255), `last_name` varchar(255), `street_number` int(11), `street_name` varchar(255), `district_code` int(11), `municipality_code` varchar(255), `provincial_code` varchar(255), `voter_id` varchar(255), `birth_date` date, `email` varchar(255), `voted` tinyint(1), `activated` tinyint(1), `created_at` datetime, `updated_at` datetime) ENGINE=InnoDB[0m
+  [4;36;1mSQL (0.6ms)[0m   [0;1mSHOW TABLES[0m
+  [4;35;1mSQL (109.7ms)[0m   [0mCREATE TABLE `schema_migrations` (`version` varchar(255) NOT NULL) ENGINE=InnoDB[0m
+  [4;36;1mSQL (247.3ms)[0m   [0;1mCREATE UNIQUE INDEX `unique_schema_migrations` ON `schema_migrations` (`version`)[0m
+  [4;35;1mSQL (0.6ms)[0m   [0mSHOW TABLES[0m
+  [4;36;1mSQL (0.4ms)[0m   [0;1mSELECT version FROM `schema_migrations`[0m
+  [4;35;1mSQL (51.7ms)[0m   [0mINSERT INTO `schema_migrations` (version) VALUES ('20100518080031')[0m
+  [4;36;1mSQL (43.9ms)[0m   [0;1mINSERT INTO `schema_migrations` (version) VALUES ('20100518035913')[0m
+  [4;35;1mSQL (44.0ms)[0m   [0mINSERT INTO `schema_migrations` (version) VALUES ('20100518044441')[0m
+  [4;36;1mSQL (55.0ms)[0m   [0;1mINSERT INTO `schema_migrations` (version) VALUES ('20100518045950')[0m
+  [4;35;1mSQL (55.0ms)[0m   [0mINSERT INTO `schema_migrations` (version) VALUES ('20100518055944')[0m
+  [4;36;1mAdmin Columns (1.8ms)[0m   [0;1mSHOW FIELDS FROM `admins`[0m
+WARNING: Can't mass-assign these protected attributes: id
+  [4;35;1mSQL (0.1ms)[0m   [0mBEGIN[0m
+  [4;36;1mAdmin Load (0.4ms)[0m   [0;1mSELECT `admins`.id FROM `admins` WHERE (LOWER(`admins`.`email`) = BINARY 'youremail@here.com') LIMIT 1[0m
+  [4;35;1mAdmin Load (0.2ms)[0m   [0mSELECT `admins`.id FROM `admins` WHERE (LOWER(`admins`.`login`) = BINARY 'admin') LIMIT 1[0m
+  [4;36;1mAdmin Load (0.2ms)[0m   [0;1mSELECT `admins`.id FROM `admins` WHERE (`admins`.`persistence_token` = BINARY 'cb9190fc24ee86c9a02d42367cd45c5ca26fffe2a7e69873f22d17a086db92686cf7139e27f0d9862c4b24754e3beab33a08758d014c4999167bf4da9aa0a709') LIMIT 1[0m
+  [4;35;1mAdmin Load (0.2ms)[0m   [0mSELECT `admins`.id FROM `admins` WHERE (`admins`.`single_access_token` = BINARY 'OMLX_-32qYqJv19zQf9D') LIMIT 1[0m
+  [4;36;1mAdmin Load (0.2ms)[0m   [0;1mSELECT `admins`.id FROM `admins` WHERE (`admins`.`login` = BINARY 'admin') LIMIT 1[0m
+  [4;35;1mAdmin Load (0.2ms)[0m   [0mSELECT `admins`.id FROM `admins` WHERE (`admins`.`email` = BINARY 'youremail@here.com') LIMIT 1[0m
+  [4;36;1mAdmin Create (0.3ms)[0m   [0;1mINSERT INTO `admins` (`single_access_token`, `created_at`, `crypted_password`, `perishable_token`, `updated_at`, `password_salt`, `persistence_token`, `login`, `email`) VALUES('OMLX_-32qYqJv19zQf9D', '2010-05-19 03:44:34', '1e13c7504a009737abe1e02b6277badc42132d3c5dcb0d583c535410179356877e4d4b1bf110b20229a6756b5dc669eb9a16cd7eb66a817cfd15b047485d9c4d', 'KVQQhf_YgLvFQ-1vcgdQ', '2010-05-19 03:44:34', 'mf6rDY4ZokuXbCBqAbnw', 'cb9190fc24ee86c9a02d42367cd45c5ca26fffe2a7e69873f22d17a086db92686cf7139e27f0d9862c4b24754e3beab33a08758d014c4999167bf4da9aa0a709', 'admin', 'youremail@here.com')[0m
+  [4;35;1mSQL (55.1ms)[0m   [0mCOMMIT[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+  [4;36;1mSQL (0.4ms)[0m   [0;1mSHOW TABLES[0m
+  [4;35;1mSQL (49.6ms)[0m   [0mDROP TABLE `admins`[0m
+  [4;36;1mSQL (99.5ms)[0m   [0;1mCREATE TABLE `admins` (`id` int(11) DEFAULT NULL auto_increment PRIMARY KEY, `login` varchar(255), `email` varchar(255), `crypted_password` varchar(255), `password_salt` varchar(255), `persistence_token` varchar(255), `single_access_token` varchar(255), `perishable_token` varchar(255), `created_at` datetime, `updated_at` datetime) ENGINE=InnoDB[0m
+  [4;35;1mSQL (0.6ms)[0m   [0mSHOW TABLES[0m
+  [4;36;1mSQL (41.7ms)[0m   [0;1mDROP TABLE `candidates`[0m
+  [4;35;1mSQL (99.6ms)[0m   [0mCREATE TABLE `candidates` (`id` int(11) DEFAULT NULL auto_increment PRIMARY KEY, `first_name` varchar(255), `middle_name` varchar(255), `last_name` varchar(255), `position` varchar(255), `level` varchar(255), `num_votes` int(11), `created_at` datetime, `updated_at` datetime, `province` varchar(255), `municipality` varchar(255), `district` varchar(255)) ENGINE=InnoDB[0m
+  [4;36;1mSQL (0.6ms)[0m   [0;1mSHOW TABLES[0m
+  [4;35;1mSQL (41.4ms)[0m   [0mDROP TABLE `users`[0m
+  [4;36;1mSQL (110.2ms)[0m   [0;1mCREATE TABLE `users` (`id` int(11) DEFAULT NULL auto_increment PRIMARY KEY, `first_name` varchar(255), `middle_name` varchar(255), `last_name` varchar(255), `street_number` int(11), `street_name` varchar(255), `district_code` int(11), `municipality_code` varchar(255), `provincial_code` varchar(255), `voter_id` varchar(255), `birth_date` date, `email` varchar(255), `voted` tinyint(1), `activated` tinyint(1), `created_at` datetime, `updated_at` datetime) ENGINE=InnoDB[0m
+  [4;35;1mSQL (0.6ms)[0m   [0mSHOW TABLES[0m
+  [4;36;1mSQL (0.4ms)[0m   [0;1mSELECT version FROM `schema_migrations`[0m
+  [4;35;1mAdmin Columns (0.9ms)[0m   [0mSHOW FIELDS FROM `admins`[0m
+WARNING: Can't mass-assign these protected attributes: id
+  [4;36;1mSQL (0.1ms)[0m   [0;1mBEGIN[0m
+  [4;35;1mAdmin Load (0.4ms)[0m   [0mSELECT `admins`.id FROM `admins` WHERE (LOWER(`admins`.`email`) = BINARY 'youremail@here.com') LIMIT 1[0m
+  [4;36;1mAdmin Load (0.2ms)[0m   [0;1mSELECT `admins`.id FROM `admins` WHERE (LOWER(`admins`.`login`) = BINARY 'admin') LIMIT 1[0m
+  [4;35;1mAdmin Load (0.2ms)[0m   [0mSELECT `admins`.id FROM `admins` WHERE (`admins`.`persistence_token` = BINARY 'a9d236788b70471d4951452dc931cfb4cebaf90c4ad6d29a612aa27b9e3de44238f25e87a63f10ae505f3474f78267fec02c0580c3b88ed7b4fbdce82a5a80d6') LIMIT 1[0m
+  [4;36;1mAdmin Load (0.2ms)[0m   [0;1mSELECT `admins`.id FROM `admins` WHERE (`admins`.`single_access_token` = BINARY 'SiVHWPdKW6FvmCGos0EF') LIMIT 1[0m
+  [4;35;1mAdmin Load (0.2ms)[0m   [0mSELECT `admins`.id FROM `admins` WHERE (`admins`.`login` = BINARY 'admin') LIMIT 1[0m
+  [4;36;1mAdmin Load (0.2ms)[0m   [0;1mSELECT `admins`.id FROM `admins` WHERE (`admins`.`email` = BINARY 'youremail@here.com') LIMIT 1[0m
+  [4;35;1mAdmin Create (0.3ms)[0m   [0mINSERT INTO `admins` (`single_access_token`, `created_at`, `crypted_password`, `perishable_token`, `updated_at`, `password_salt`, `persistence_token`, `login`, `email`) VALUES('SiVHWPdKW6FvmCGos0EF', '2010-05-19 03:44:40', '2bf54201acb701e43654b337e3607dc4e191127d117414b471ad410d27f3ba44d56b351e3c1427ab1b8551ee3a00313bb914081111df46f2635019283cfed9e4', 'V5AjAvGCrej_K7NS5AQv', '2010-05-19 03:44:40', '1gjOVb8mUqVUvmVGFTRH', 'a9d236788b70471d4951452dc931cfb4cebaf90c4ad6d29a612aa27b9e3de44238f25e87a63f10ae505f3474f78267fec02c0580c3b88ed7b4fbdce82a5a80d6', 'admin', 'youremail@here.com')[0m
+  [4;36;1mSQL (50.2ms)[0m   [0;1mCOMMIT[0m
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+  [4;36;1mAdmin Columns (1.0ms)[0m   [0;1mSHOW FIELDS FROM `admins`[0m
+  [4;35;1mAdmin Load (0.4ms)[0m   [0mSELECT * FROM `admins` [0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+  [4;36;1mSQL (0.3ms)[0m   [0;1mSHOW TABLES[0m
+  [4;35;1mSQL (118.0ms)[0m   [0mCREATE TABLE `admins` (`id` int(11) DEFAULT NULL auto_increment PRIMARY KEY, `login` varchar(255), `email` varchar(255), `crypted_password` varchar(255), `password_salt` varchar(255), `persistence_token` varchar(255), `single_access_token` varchar(255), `perishable_token` varchar(255), `created_at` datetime, `updated_at` datetime) ENGINE=InnoDB[0m
+  [4;36;1mSQL (0.5ms)[0m   [0;1mSHOW TABLES[0m
+  [4;35;1mSQL (108.2ms)[0m   [0mCREATE TABLE `candidates` (`id` int(11) DEFAULT NULL auto_increment PRIMARY KEY, `first_name` varchar(255), `middle_name` varchar(255), `last_name` varchar(255), `position` varchar(255), `level` varchar(255), `num_votes` int(11), `created_at` datetime, `updated_at` datetime, `province` varchar(255), `municipality` varchar(255), `district` varchar(255)) ENGINE=InnoDB[0m
+  [4;36;1mSQL (0.5ms)[0m   [0;1mSHOW TABLES[0m
+  [4;35;1mSQL (107.6ms)[0m   [0mCREATE TABLE `users` (`id` int(11) DEFAULT NULL auto_increment PRIMARY KEY, `first_name` varchar(255), `middle_name` varchar(255), `last_name` varchar(255), `street_number` int(11), `street_name` varchar(255), `district_code` int(11), `municipality_code` varchar(255), `provincial_code` varchar(255), `voter_id` varchar(255), `birth_date` date, `email` varchar(255), `voted` tinyint(1), `activated` tinyint(1), `created_at` datetime, `updated_at` datetime) ENGINE=InnoDB[0m
+  [4;36;1mSQL (0.5ms)[0m   [0;1mSHOW TABLES[0m
+  [4;35;1mSQL (98.8ms)[0m   [0mCREATE TABLE `schema_migrations` (`version` varchar(255) NOT NULL) ENGINE=InnoDB[0m
+  [4;36;1mSQL (279.2ms)[0m   [0;1mCREATE UNIQUE INDEX `unique_schema_migrations` ON `schema_migrations` (`version`)[0m
+  [4;35;1mSQL (0.6ms)[0m   [0mSHOW TABLES[0m
+  [4;36;1mSQL (0.4ms)[0m   [0;1mSELECT version FROM `schema_migrations`[0m
+  [4;35;1mSQL (40.9ms)[0m   [0mINSERT INTO `schema_migrations` (version) VALUES ('20100518080031')[0m
+  [4;36;1mSQL (44.1ms)[0m   [0;1mINSERT INTO `schema_migrations` (version) VALUES ('20100518035913')[0m
+  [4;35;1mSQL (44.0ms)[0m   [0mINSERT INTO `schema_migrations` (version) VALUES ('20100518044441')[0m
+  [4;36;1mSQL (44.0ms)[0m   [0;1mINSERT INTO `schema_migrations` (version) VALUES ('20100518045950')[0m
+  [4;35;1mSQL (44.1ms)[0m   [0mINSERT INTO `schema_migrations` (version) VALUES ('20100518055944')[0m
+  [4;36;1mAdmin Columns (2.7ms)[0m   [0;1mSHOW FIELDS FROM `admins`[0m
+WARNING: Can't mass-assign these protected attributes: id
+  [4;35;1mSQL (0.1ms)[0m   [0mBEGIN[0m
+  [4;36;1mAdmin Load (0.4ms)[0m   [0;1mSELECT `admins`.id FROM `admins` WHERE (LOWER(`admins`.`email`) = BINARY 'youremail@here.com') LIMIT 1[0m
+  [4;35;1mAdmin Load (0.2ms)[0m   [0mSELECT `admins`.id FROM `admins` WHERE (LOWER(`admins`.`login`) = BINARY 'admin') LIMIT 1[0m
+  [4;36;1mAdmin Load (0.2ms)[0m   [0;1mSELECT `admins`.id FROM `admins` WHERE (`admins`.`persistence_token` = BINARY 'aca0b764fbf91716f7f9f5f24e9c75d3570bc1b70e12ea9da39746fc5be557f493a89fc3358e5b039018e20bd84f7bf8f25d3c9cb52ad25d26b80bbaae74e506') LIMIT 1[0m
+  [4;35;1mAdmin Load (0.2ms)[0m   [0mSELECT `admins`.id FROM `admins` WHERE (`admins`.`single_access_token` = BINARY 'h7CBSGElqlhPf2pO3Ifo') LIMIT 1[0m
+  [4;36;1mAdmin Load (0.2ms)[0m   [0;1mSELECT `admins`.id FROM `admins` WHERE (`admins`.`login` = BINARY 'admin') LIMIT 1[0m
+  [4;35;1mAdmin Load (0.2ms)[0m   [0mSELECT `admins`.id FROM `admins` WHERE (`admins`.`email` = BINARY 'youremail@here.com') LIMIT 1[0m
+  [4;36;1mAdmin Create (0.3ms)[0m   [0;1mINSERT INTO `admins` (`single_access_token`, `created_at`, `crypted_password`, `perishable_token`, `updated_at`, `password_salt`, `persistence_token`, `login`, `email`) VALUES('h7CBSGElqlhPf2pO3Ifo', '2010-05-19 04:44:26', '707031e8b7237b3fbc5769698d3a6d9954109a5b11c7cd898ba1d8ac89ddbb563a4d8565f684f91dde29b19485fd18d6c2a4dddbc30a022972626a90424b1c30', 'YBUfr3GlSPuAh4A-uVSb', '2010-05-19 04:44:26', 'hDC4q_qTZ6ZypPDyaFHG', 'aca0b764fbf91716f7f9f5f24e9c75d3570bc1b70e12ea9da39746fc5be557f493a89fc3358e5b039018e20bd84f7bf8f25d3c9cb52ad25d26b80bbaae74e506', 'admin', 'youremail@here.com')[0m
+  [4;35;1mSQL (50.6ms)[0m   [0mCOMMIT[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+  [4;36;1mSQL (0.4ms)[0m   [0;1mSHOW TABLES[0m
+  [4;35;1mSQL (53.6ms)[0m   [0mDROP TABLE `admins`[0m
+  [4;36;1mSQL (99.5ms)[0m   [0;1mCREATE TABLE `admins` (`id` int(11) DEFAULT NULL auto_increment PRIMARY KEY, `login` varchar(255), `email` varchar(255), `crypted_password` varchar(255), `password_salt` varchar(255), `persistence_token` varchar(255), `single_access_token` varchar(255), `perishable_token` varchar(255), `created_at` datetime, `updated_at` datetime) ENGINE=InnoDB[0m
+  [4;35;1mSQL (0.6ms)[0m   [0mSHOW TABLES[0m
+  [4;36;1mSQL (52.7ms)[0m   [0;1mDROP TABLE `candidates`[0m
+  [4;35;1mSQL (121.6ms)[0m   [0mCREATE TABLE `candidates` (`id` int(11) DEFAULT NULL auto_increment PRIMARY KEY, `first_name` varchar(255), `middle_name` varchar(255), `last_name` varchar(255), `position` varchar(255), `level` varchar(255), `num_votes` int(11), `created_at` datetime, `updated_at` datetime, `province` varchar(255), `municipality` varchar(255), `district` varchar(255)) ENGINE=InnoDB[0m
+  [4;36;1mSQL (0.6ms)[0m   [0;1mSHOW TABLES[0m
+  [4;35;1mSQL (41.1ms)[0m   [0mDROP TABLE `users`[0m
+  [4;36;1mSQL (99.3ms)[0m   [0;1mCREATE TABLE `users` (`id` int(11) DEFAULT NULL auto_increment PRIMARY KEY, `first_name` varchar(255), `middle_name` varchar(255), `last_name` varchar(255), `street_number` int(11), `street_name` varchar(255), `district_code` int(11), `municipality_code` varchar(255), `provincial_code` varchar(255), `voter_id` varchar(255), `birth_date` date, `email` varchar(255), `voted` tinyint(1), `activated` tinyint(1), `created_at` datetime, `updated_at` datetime) ENGINE=InnoDB[0m
+  [4;35;1mSQL (0.8ms)[0m   [0mSHOW TABLES[0m
+  [4;36;1mSQL (0.4ms)[0m   [0;1mSELECT version FROM `schema_migrations`[0m
+  [4;35;1mAdmin Columns (1.7ms)[0m   [0mSHOW FIELDS FROM `admins`[0m
+WARNING: Can't mass-assign these protected attributes: id
+  [4;36;1mSQL (0.1ms)[0m   [0;1mBEGIN[0m
+  [4;35;1mAdmin Load (0.4ms)[0m   [0mSELECT `admins`.id FROM `admins` WHERE (LOWER(`admins`.`email`) = BINARY 'youremail@here.com') LIMIT 1[0m
+  [4;36;1mAdmin Load (0.2ms)[0m   [0;1mSELECT `admins`.id FROM `admins` WHERE (LOWER(`admins`.`login`) = BINARY 'admin') LIMIT 1[0m
+  [4;35;1mAdmin Load (0.2ms)[0m   [0mSELECT `admins`.id FROM `admins` WHERE (`admins`.`persistence_token` = BINARY '056aeb7b5ddb60c91eca1be26a6766462afaec61af4533b0f09d5ae5ca91b2e8e87fb051f4ed2daff4aee6ddc0c4a34dad208bd0d9943efe7e358cecf0a00826') LIMIT 1[0m
+  [4;36;1mAdmin Load (0.2ms)[0m   [0;1mSELECT `admins`.id FROM `admins` WHERE (`admins`.`single_access_token` = BINARY 'y-xD9XsItz5GpJaYiBz7') LIMIT 1[0m
+  [4;35;1mAdmin Load (0.2ms)[0m   [0mSELECT `admins`.id FROM `admins` WHERE (`admins`.`login` = BINARY 'admin') LIMIT 1[0m
+  [4;36;1mAdmin Load (0.2ms)[0m   [0;1mSELECT `admins`.id FROM `admins` WHERE (`admins`.`email` = BINARY 'youremail@here.com') LIMIT 1[0m
+  [4;35;1mAdmin Create (0.3ms)[0m   [0mINSERT INTO `admins` (`single_access_token`, `created_at`, `crypted_password`, `perishable_token`, `updated_at`, `password_salt`, `persistence_token`, `login`, `email`) VALUES('y-xD9XsItz5GpJaYiBz7', '2010-05-19 04:44:34', '1dfe01d5e5b03103236887ac0cb935de8a63c85d259bbcff55f0bfc0d71ea9a495df7dd02d7466b7aebc10e056e4343ceb0e8ce663cf7e0af36f75b78453321d', '4chyUMz7rK_376MXu5cE', '2010-05-19 04:44:34', 'b9Ct1uFssWVvxTjlsJDK', '056aeb7b5ddb60c91eca1be26a6766462afaec61af4533b0f09d5ae5ca91b2e8e87fb051f4ed2daff4aee6ddc0c4a34dad208bd0d9943efe7e358cecf0a00826', 'admin', 'youremail@here.com')[0m
+  [4;36;1mSQL (51.2ms)[0m   [0;1mCOMMIT[0m
+  [4;36;1mAdmin Load (0.7ms)[0m   [0;1mSELECT * FROM `admins` LIMIT 1[0m
+  [4;35;1mAdmin Load (0.5ms)[0m   [0mSELECT * FROM `admins` LIMIT 1[0m
+  [4;36;1mAdmin Load (0.4ms)[0m   [0;1mSELECT * FROM `admins` WHERE (`admins`.`id` = 1) [0m

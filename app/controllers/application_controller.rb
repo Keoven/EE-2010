@@ -21,7 +21,17 @@ class ApplicationController < ActionController::Base
     unless current_admin
       store_location
       flash[:notice] = "You must be logged in to access this page"
-      redirect_to new_admin_session_url
+      redirect_to new_admin_session_path
+      return false
+    end
+  end
+
+  def require_super_admin
+    require_admin
+    unless current_admin.id == 1
+      store_location
+      flash[:notice] = "You must be logged in as supper admin to access this page"
+      redirect_to admins_path
       return false
     end
   end
@@ -30,7 +40,7 @@ class ApplicationController < ActionController::Base
     if current_admin
       store_location
       flash[:notice] = "You must be logged out to access this page"
-      redirect_to account_url
+      redirect_to admins_path
       return false
     end
   end

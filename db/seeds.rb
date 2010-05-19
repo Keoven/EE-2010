@@ -2,6 +2,13 @@
 # The data can then be loaded with the rake db:seed (or created alongside the db with db:setup).
 #
 # Examples:
-#   
+#
 #   cities = City.create([{ :name => 'Chicago' }, { :name => 'Copenhagen' }])
 #   Major.create(:name => 'Daley', :city => cities.first)
+
+Admin.create(:id                    => 1                   ,
+             :login                 => 'admin'             ,
+             :email                 => 'youremail@here.com',
+             :password              => 'minda'             ,
+             :password_confirmation => 'minda'             )
+

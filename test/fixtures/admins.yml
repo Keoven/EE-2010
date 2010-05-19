@@ -1,5 +1,15 @@
 # Read about fixtures at http://ar.rubyonrails.org/classes/Fixtures.html
 
+super:
+  id: 1
+  login: admin
+  email: admin@email.com
+  crypted_password: crypted_password
+  password_salt: password_salt
+  persistence_token: persistence_token
+  single_access_token: single_access_token
+  perishable_token: perishable_token
+
 one:
   login: one
   email: one@email.com
@@ -7,7 +17,7 @@ one:
   password_salt: password_salt1
   persistence_token: persistence_token1
   single_access_token: single_access_token1
-  perishable_token: persistence_token1
+  perishable_token: perishable_token1
 
 two:
   login: two
