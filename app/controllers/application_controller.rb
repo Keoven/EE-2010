@@ -20,8 +20,18 @@ class ApplicationController < ActionController::Base
   def require_admin
     unless current_admin
       store_location
-      flash[:notice] = "You must be logged in to access this page"
-      redirect_to new_admin_session_url
+      flash[:notice] = 'You must be logged in to access this page'
+      redirect_to new_admin_session_path
+      return false
+    end
+  end
+
+  def require_super_admin
+    require_admin
+    unless current_admin.id == 1
+      store_location
+      flash[:notice] = 'You must be logged in as supper admin to access this page'
+      redirect_to admins_path
       return false
     end
   end
@@ -29,8 +39,8 @@ class ApplicationController < ActionController::Base
   def require_no_admin
     if current_admin
       store_location
-      flash[:notice] = "You must be logged out to access this page"
-      redirect_to account_url
+      flash[:notice] = 'You must be logged out to access this page'
+      redirect_to admins_path
       return false
     end
   end
@@ -42,6 +52,14 @@ class ApplicationController < ActionController::Base
   def redirect_back_or_default(default)
     redirect_to(session[:return_to] || default)
     session[:return_to] = nil
+  end
+
+  def require_election_open
+    unless APP_CONFIG['election_status'] == 'open'
+      flash[:notice] = 'Election is not yet open.'
+      render :action => 'election_closed', :layout => 'election_closed'
+      return false
+    end
   end
 end
 

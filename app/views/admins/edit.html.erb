@@ -1,10 +1,10 @@
 <h1>Edit My Account</h1>
 
-<% form_for @admin, :url => admin_path do |f| %>
+<% form_for @admin, :url => admins_path do |f| %>
   <%= f.error_messages %>
   <%= render :partial => 'form', :object => f %>
   <%= f.submit 'Update' %>
 <% end %>
 
-<br /><%= link_to 'My Profile', admin_path %>
+<br /><%= link_to 'My Profile', admins_path %>
 

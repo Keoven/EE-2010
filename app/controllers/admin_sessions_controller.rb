@@ -3,14 +3,14 @@ class AdminSessionsController < ApplicationController
   before_filter :require_admin, :only => :destroy
 
   def new
-    @admin_session = adminSession.new
+    @admin_session = AdminSession.new
   end
 
   def create
-    @admin_session = adminSession.new(params[:admin_session])
+    @admin_session = AdminSession.new(params[:admin_session])
     if @admin_session.save
       flash[:notice] = "Login successful!"
-      redirect_back_or_default account_url
+      redirect_back_or_default dashboard_admins_path
     else
       render :action => :new
     end
@@ -19,7 +19,7 @@ class AdminSessionsController < ApplicationController
   def destroy
     current_admin_session.destroy
     flash[:notice] = "Logout successful!"
-    redirect_back_or_default new_admin_session_url
+    redirect_back_or_default new_admin_session_path
   end
 end
 

@@ -8,12 +8,7 @@ class AdminTest < ActiveSupport::TestCase
     @valid_user = Admin.new(:login                 => 'three',
                             :email                 => 'three@email.com',
                             :password              => 'asdf1234',
-                            :password_confirmation => 'asdf1234',
-                            :crypted_password      => 'crypted_password3',
-                            :password_salt         => 'password_salt3',
-                            :persistence_token     => 'persistence_token3',
-                            :single_access_token   => 'single_access_token3',
-                            :perishable_token      => 'perishable_token3')
+                            :password_confirmation => 'asdf1234')
   end
 
   def teardown
@@ -23,13 +18,13 @@ class AdminTest < ActiveSupport::TestCase
   ## COLUMNS
   #
   test 'should check column value types' do
-    assert @valid_user.login.is_a?(String)
-    assert @valid_user.email.is_a?(String)
-    assert @valid_user.crypted_password.is_a?(String)
-    assert @valid_user.password_salt.is_a?(String)
-    assert @valid_user.persistence_token.is_a?(String)
-    assert @valid_user.single_access_token.is_a?(String)
-    assert @valid_user.perishable_token.is_a?(String)
+    assert @valid_user1.login.is_a?(String)
+    assert @valid_user1.email.is_a?(String)
+    assert @valid_user1.crypted_password.is_a?(String)
+    assert @valid_user1.password_salt.is_a?(String)
+    assert @valid_user1.persistence_token.is_a?(String)
+    assert @valid_user1.single_access_token.is_a?(String)
+    assert @valid_user1.perishable_token.is_a?(String)
     assert @valid_user.save
   end
 

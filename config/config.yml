@@ -1,0 +1,9 @@
+development:
+  election_status: close
+
+test:
+  election_status: close
+
+production:
+  election_status: close
+

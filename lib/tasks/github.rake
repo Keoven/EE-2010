@@ -6,29 +6,41 @@ String.class_eval do
   end
 end
 
-namespace 'ghub' do
-  desc 'Update GitHub Repository (rake ghub:push[<String>,<Optional Boolean>])'
-  task :push, [:msg, :push_only?] do |t, args|
+namespace 'gh' do
+  desc 'Update Local and GitHub Repository (rake gh:u[<String>,<Optional Boolean>])'
+  task :u, [:msg, :push_only?] do |t, args|
     args.with_defaults(:msg => '', :push_only? => 'false')
-    if args.msg.empty?
+    if args.msg.empty? and !push_only?
       puts 'Please supply message for update.'
     else
-      Rake::Task['ghub:pull'].invoke unless args.push_only?.to_bool
-      puts '==Updating GitHub Repository====================='
-      %x{ git add .
-          git commit -am '#{args.msg}'
-          git push origin master }
-      puts '==Updating GitHub Repository: Finished==========='
+      Rake::Task['gh:c'].invoke(args.msg) unless args.push_only?.to_bool
+      Rake::Task['gh:ps'].invoke
     end
   end
 
-  desc 'Update GitHub Repository w/o Pulling (rake ghub:posh[<String>])'
-  task :posh, [:msg] do |t, args|
-    Rake::Task['ghub:push'].invoke(args.msg, 'true')
+  desc 'Push to GitHub Repository Only'
+  task :ps do
+    puts '==Updating GitHub Repository====================='
+    %x{ git push origin master }
+    puts '==Updating GitHub Repository: Finished==========='
   end
 
-  desc 'Update Local Repository'
-  task :pull do
+  desc 'Commit Changes to Local Repository (rake gh:c[<String>])'
+  task :c, [:msg] do |t, args|
+    args.with_defaults(:msg => '')
+    if args.msg.empty?
+      puts 'Please supply message for update.'
+    else
+      puts '==Updating Local Repository========================'
+      %x{ git add .
+          git commit -am '#{args.msg}'
+          git pull origin master }
+      puts '==Updating Local Repository: Finished=============='
+    end
+  end
+
+  desc 'Pull from GitHub Repository Only'
+  task :pl do
     puts '==Updating Local Repository========================'
     %x{ git pull origin master }
     puts '==Updating Local Repository: Finished=============='
