@@ -1,109 +1,108 @@
-Abra: ABR1
-Agusan del Norte: AGN1, AGN2
-Agusan del Sur: AGS1, AGS2
-Aklan: AKL1
-Albay: ALB1, ALB2, ALB3
-Antique: ANT1
-Apayao: APA1
-Aurora: AUR1
-Basilan: BAS1
-Bataan: BAT1, BAT2
-Batanes: BTN1
-Batangas: BTG1, BTG2, BTG3, BTG4
-Benguet: BEN1
-Biliran: BIL1
-Bohol: BHL1, BHL2, BHL3
-Bukidnon: BKN1, BKN2, BKN3
-Bulacan: BUL1, BUL2, BUL3, BUL4
-Cagayan: CAG1, CAG2, CAG3
-Camarines Norte: CMN1, CMN2
-Camarines Sur: CMS1, CMS2, CMS3, CMS4, CMS5
-Camiguin: CAM1
-Capiz: CPZ1, CPZ2
-Catanduanes: CAT1
-Cavite: CVT1, CVT2, CVT3, CVT4, CVT5, CVT6
-Cebu: CEB1, CEB2, CEB3, CEB4, CEB5, CEB6
-Compostela Valley: CPV1, CPV2
-Cotabato: COT1, COT2
-Davao del Norte: DVN1, DVN2
-Davao del Sur: DVS1, DVS2
-Davao Oriental: DVO1, DVO2
-Dinagat Islands: 1
-Eastern Samar: EAS1
-Guimaras: GMR1
-Ifugao: IFU1
-Ilocos Norte: ILN1, ILN2
-Ilocos Sur: ILS1, ILS2
-Iloilo: ILO1, ILO2, ILO3, ILO4, ILO5
-Isabela: ISA1, ISA2, ISA3, ISA4
-Kalinga: KAL1
-La Union: LUN1, LUN2
-Laguna: LGN1, LGN2, LGN3, LGN4
-Lanao del Norte: LNN1, LNN2
-Lanao del Sur: LNS1, LNS2
-Leyte: LEY1, LEY2, LEY3, LEY4, LEY5
-Maguindanao: MAG1, MAG2
-Marinduque: MAR1
-Masbate: MSB1, MSB2, MSB3
-Misamis Occidental: MSO1, MSO2
-Misamis Oriental: MSR1, MSR2
-Mountain Province: MTP1
-Negros Occidental: NEO1, NEO2, NEO3, NEO4, NEO5, NEO6
-Negros Oriental: NER1, NER2, NER3
-Northern Samar: NOS1, NOS2
-Nueva Ecija: NUE1, NUE2, NUE3, NUE4
-Nueva Vizcaya: NUV1
-Occidental Mindoro: OCM1
-Oriental Mindoro: ORM1, ORM2
-Palawan: PLW1, PLW2
-Pampanga: PAM1, PAM2, PAM3, PAM4
-Pangasinan: PAN1, PAN2, PAN3, PAN4, PAN5, PAN6
-Quezon: QZN1, QZN2, QZN3, QZN4
-Quirino: QRN1
-Rizal: RZL1, RZL2
-Romblon: RMB1
-Samar: SMR1, SMR2
-Sarangani: SRG1
-Siquijor: SQJ1
-Sorsogon: SOR1, SOR2
-South Cotabato: SOC1, SOC2
-Southern Leyte: SOL1
-Sultan Kudarat: STK1
-Sulu: SUL1, SUL2
-Surigao del Norte: SUN1, SUN2
-Surigao del Sur: SUS1, SUS2
-Tarlac: TAR1, TAR2, TAR3
-Tawi-Tawi: TWT1
-Zambales: ZMB1, ZMB2
-Zamboanga del Norte: ZBN1, ZBN2, ZBN3
-Zamboanga del Sur: ZBS1, ZBS2
-Zamboanga Sibugay: ZBY1, ZBY2
+ABR1: Abra
+AGN1, AGN2: Agusan del Norte
+AGS1, AGS2: Agusan del Sur
+AKL1: Aklan
+ALB1, ALB2, ALB3: Albay
+ANT1: Antique
+APA1: Apayao
+AUR1: Aurora
+BAS1: Basilan
+BAT1, BAT2: Bataan
+BTN1: Batanes
+BTG1, BTG2, BTG3, BTG4: Batangas
+BEN1: Benguet
+BIL1: Biliran
+BHL1, BHL2, BHL3: Bohol
+BKN1, BKN2, BKN3: Bukidnon
+BUL1, BUL2, BUL3, BUL4: Bulacan
+CAG1, CAG2, CAG3: Cagayan
+CMN1, CMN2: Camarines Norte
+CMS1, CMS2, CMS3, CMS4, CMS5: Camarines Sur
+CAM1: Camiguin
+CPZ1, CPZ2: Capiz
+CAT1: Catanduanes
+CVT1, CVT2, CVT3, CVT4, CVT5, CVT6: Cavite
+CEB1, CEB2, CEB3, CEB4, CEB5, CEB6: Cebu
+CPV1, CPV2: Compostela Valley
+COT1, COT2: Cotabato
+DVN1, DVN2: Davao del Norte
+DVS1, DVS2: Davao del Sur
+DVO1, DVO2: Davao Oriental
+EAS1: Eastern Samar
+GMR1: Guimaras
+IFU1: Ifugao
+ILN1, ILN2: Ilocos Norte
+ILS1, ILS2: Ilocos Sur
+ILO1, ILO2, ILO3, ILO4, ILO5: Iloilo
+ISA1, ISA2, ISA3, ISA4: Isabela
+KAL1: Kalinga
+LUN1, LUN2: La Union
+LGN1, LGN2, LGN3, LGN4: Laguna
+LNN1, LNN2: Lanao del Norte
+LNS1, LNS2: Lanao del Sur
+LEY1, LEY2, LEY3, LEY4, LEY5: Leyte
+MAG1, MAG2: Maguindanao
+MAR1: Marinduque
+MSB1, MSB2, MSB3: Masbate
+MSO1, MSO2: Misamis Occidental
+MSR1, MSR2: Misamis Oriental
+MTP1: Mountain Province
+NEO1, NEO2, NEO3, NEO4, NEO5, NEO6: Negros Occidental
+NER1, NER2, NER3: Negros Oriental
+NOS1, NOS2: Northern Samar
+NUE1, NUE2, NUE3, NUE4: Nueva Ecija
+NUV1: Nueva Vizcaya
+OCM1: Occidental Mindoro
+ORM1, ORM2: Oriental Mindoro
+PLW1, PLW2: Palawan
+PAM1, PAM2, PAM3, PAM4: Pampanga
+PAN1, PAN2, PAN3, PAN4, PAN5, PAN6: Pangasinan
+QZN1, QZN2, QZN3, QZN4: Quezon
+QRN1: Quirino
+RZL1, RZL2: Rizal
+RMB1: Romblon
+SMR1, SMR2: Samar
+SRG1: Sarangani
+SQJ1: Siquijor
+SOR1, SOR2: Sorsogon
+SOC1, SOC2: South Cotabato
+SOL1: Southern Leyte
+STK1: Sultan Kudarat
+SUL1, SUL2: Sulu
+SUN1, SUN2: Surigao del Norte
+SUS1, SUS2: Surigao del Sur
+TAR1, TAR2, TAR3: Tarlac
+TWT1: Tawi-Tawi
+ZMB1, ZMB2: Zambales
+ZBN1, ZBN2, ZBN3: Zamboanga del Norte
+ZBS1, ZBS2: Zamboanga del Sur
+ZBY1, ZBY2: Zamboanga Sibugay
 
-Antipolo City: ANT1, ANT2
-Bacolod City: BCL1
-Baguio City: BAG1
-Cagayan de Oro City: CGY1, CGY2
-Caloocan City: CLC1, CLC2
-Cebu City: CEB1, CEB2
-Dasmariñas City: DSM1
-Davao City: DAV1, DAV2, DAV3
-Iligan City: ILG1
-Iloilo City: ILL1
-Lapu-Lapu City: LPL1
-Las Piñas City: LSP1
-Makati City: MKT1, MKT2
-Malabon City and Navotas City: MNV1, MNV2
-Mandaluyong City: MND1
-Manila City: MNL1, MNL2, MNL3, MNL4, MNL5, MNL6
-Marikina City: MRK1, MRK2
-Muntinlupa City: MNT1
-Parañaque City: PRN1, PRN2
-Pasay City: PSY1
-Pasig City: PSG1
-Pateros and Taguig City: PTG1
-Quezon City: QZN1, QZN2, QZN3, QZN4
-San Jose del Monte City: SJS1
-San Juan City: SJN1
-Taguig City: TGG1
-Valenzuela City: VLN1, VLN2
-Zamboanga City: ZMB1, ZMB2
+ANT1, ANT2: Antipolo City
+BCL1: Bacolod City
+BAG1: Baguio City
+CGY1, CGY2: Cagayan de Oro City
+CLC1, CLC2: Caloocan City
+CEB1, CEB2: Cebu City
+DSM1: Dasmariñas City
+DAV1, DAV2, DAV3: Davao City
+ILG1: Iligan City
+ILL1: Iloilo City
+LPL1: Lapu-Lapu City
+LSP1: Las Piñas City
+MKT1, MKT2: Makati City
+MNV1, MNV2: Malabon City and Navotas City
+MND1: Mandaluyong City
+MNL1, MNL2, MNL3, MNL4, MNL5, MNL6: Manila City
+MRK1, MRK2: Marikina City
+MNT1: Muntinlupa City
+PRN1, PRN2: Parañaque City
+PSY1: Pasay City
+PSG1: Pasig City
+PTG1: Pateros and Taguig City
+QZN1, QZN2, QZN3, QZN4: Quezon City
+SJS1: San Jose del Monte City
+SJN1: San Juan City
+TGG1: Taguig City
+VLN1, VLN2: Valenzuela City
+ZMB1, ZMB2: Zamboanga City

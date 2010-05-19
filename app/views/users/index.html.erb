@@ -1,2 +1,52 @@
-<h1>Users#index</h1>
-<p>Find me in app/views/users/index.html.erb</p>
+<% unless @users.empty? %>
+<table>
+  <thead>
+    <tr>
+      <th>Voter ID</th>
+      <th>Last Name</th>
+      <th>First Name</th>
+      <th>Middle Name</th>
+      <th>Address</th>
+      <th>Birthdate</th>
+      <th>Email address</th>
+      <th></th>
+      <th></th>
+      <th></th>
+      <th></th>
+      <th></th>
+    </tr>
+  </thead>
+  <tfoot>
+    <tr>
+      <td>Total registered</td>
+      <td>100</td>
+    </tr>
+    <tr>
+      <td>Total voted</td>
+      <td>98 (98%)</td>
+    </tr>
+  </tfoot>
+  <tbody>
+    <% @users.each do |user| %>
+    <tr>
+      <td><%=h user.voter_id %></td>
+      <td><%=h user.last_name %></td>
+      <td><%=h user.first_name %></td>
+      <td><%=h user.middle_name %></td>
+      <td><%=h format_address user %></td>
+      <td><%=h user.birth_date %></td>
+      <td><%=h user.email %></td>
+      <td><%=h user.activated %></td>
+      <td><%=h user.voted %></td>
+      <td><%= link_to 'Show', user %></td>
+      <td><%= link_to 'Edit', edit_user_path(user) %></td>
+      <td><%= link_to 'Remove', user, :confirm => 'Are you sure you want to unregister this voter?', :method => :delete %></td>
+    </tr>
+    <% end %>
+  </tbody>
+</table>
+<% else %>
+  No voters registered.
+<% end %>
+
+<%= link_to 'Register New Voter', new_user_path %>

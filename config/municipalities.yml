@@ -1,1714 +1,1714 @@
 Abra:
-  - Bangued: BNG
-  - Boliney: BLN
-  - Bucay: BCY
-  - Bucloc: BCL
-  - Daguioman: DGM
-  - Danglas: DNG
-  - Dolores: DLR
-  - La Paz: LPZ
-  - Lacub: LCB
-  - Lagangilang: LGN
-  - Lagayan: LGY
-  - Langiden: LNG
-  - Licuan-Baay: LCN
-  - Luba: LUB
-  - Malibcong: MLB
-  - Manabo: MNB
-  - Penarrubia: PNR
-  - Pidigan: PDG
-  - Pilar: PLR
-  - Sallapadan: SLP
-  - San Isidro: SIS
-  - San Juan: SJN
-  - San Quintin: SQN
-  - Tayum: TYM
-  - Tineg: TNG
-  - Tubo: TUB
-  - Villaviciosa: VLV
+  BNG: Bangued
+  BLN: Boliney
+  BCY: Bucay
+  BCL: Bucloc
+  DGM: Daguioman
+  DNG: Danglas
+  DLR: Dolores
+  LPZ: La Paz
+  LCB: Lacub
+  LGN: Lagangilang
+  LGY: Lagayan
+  LNG: Langiden
+  LCN: Licuan-Baay
+  LUB: Luba
+  MLB: Malibcong
+  MNB: Manabo
+  PNR: Penarrubia
+  PDG: Pidigan
+  PLR: Pilar
+  SLP: Sallapadan
+  SIS: San Isidro
+  SJN: San Juan
+  SQN: San Quintin
+  TYM: Tayum
+  TNG: Tineg
+  TUB: Tubo
+  VLV: Villaviciosa
 Agusan del Norte:
-  - Butuan City: BTN
-  - Cabadbaran City: CBD
-  - Buenavista: BNV
-  - Carmen: CRM
-  - Jabonga: JBN
-  - Kitcharao: KTC
-  - Las Nieves: LSN
-  - Magallanes: MGL
-  - Nasipit: NSP
-  - Remedios T. Romualdez: RMD
-  - Santiago: SNT
-  - Tubay: TBY
+  BTN: Butuan City
+  CBD: Cabadbaran City
+  BNV: Buenavista
+  CRM: Carmen
+  JBN: Jabonga
+  KTC: Kitcharao
+  LSN: Las Nieves
+  MGL: Magallanes
+  NSP: Nasipit
+  RMD: Remedios T. Romualdez
+  SNT: Santiago
+  TBY: Tubay
 Agusan del Sur:
-  - Bayugan City: BYG
-  - Bunawan: BNW
-  - esperanza: SPR
-  - La Paz: LPZ
-  - Loreto: LRT
-  - Prosperidad: PRS
-  - Rosario: RSR
-  - San Francisco: SFR
-  - San Luis: SLS
-  - Santa Josefa: SJS
-  - Sibagat: SBG
-  - Talacogon: TLC
-  - Trento: TRN
-  - Veruela: VRL
+  BYG: Bayugan City
+  BNW: Bunawan
+  SPR: esperanza
+  LPZ: La Paz
+  LRT: Loreto
+  PRS: Prosperidad
+  RSR: Rosario
+  SFR: San Francisco
+  SLS: San Luis
+  SJS: Santa Josefa
+  SBG: Sibagat
+  TLC: Talacogon
+  TRN: Trento
+  VRL: Veruela
 Aklan:
-  - Altavas: ALT
-  - Balete: BLT
-  - Banga: BNG
-  - Batan: BTN
-  - Buruanga: BRN
-  - Ibajay: IBJ
-  - Kalibo: KLB
-  - Lezo: LEZ
-  - Libacao: LBC
-  - Madalag: MDL
-  - Makato: MKT
-  - Malay: MLY
-  - Malinao: MLN
-  - Nabas: NBS
-  - New Washington: NWW
-  - Numancia: NMN
-  - Tangalan: TNG
+  ALT: Altavas
+  BLT: Balete
+  BNG: Banga
+  BTN: Batan
+  BRN: Buruanga
+  IBJ: Ibajay
+  KLB: Kalibo
+  LEZ: Lezo
+  LBC: Libacao
+  MDL: Madalag
+  MKT: Makato
+  MLY: Malay
+  MLN: Malinao
+  NBS: Nabas
+  NWW: New Washington
+  NMN: Numancia
+  TNG: Tangalan
 Albay:
-  - Legazpi City: LGZ
-  - Ligao City: LIG
-  - Tabaco City: TBC
-  - Bacacay: BCC
-  - Camalig: CML
-  - Daraga: DRG
-  - Guinobatan: GNB
-  - Jovellar: JVL
-  - Libon: LBN
-  - Malilipot: MLL
-  - Malinao: MLN
-  - Manito: MNT
-  - Oas: OAS
-  - Pio Duran: PDR
-  - Polangui: PLN
-  - Rapu-Rapu: RPR
-  - Santo Domingo: SDM
-  - Tiwi: TIW
+  LGZ: Legazpi City
+  LIG: Ligao City
+  TBC: Tabaco City
+  BCC: Bacacay
+  CML: Camalig
+  DRG: Daraga
+  GNB: Guinobatan
+  JVL: Jovellar
+  LBN: Libon
+  MLL: Malilipot
+  MLN: Malinao
+  MNT: Manito
+  OAS: Oas
+  PDR: Pio Duran
+  PLN: Polangui
+  RPR: Rapu-Rapu
+  SDM: Santo Domingo
+  TIW: Tiwi
 Antique:
-  - Anini-y: ANN
-  - Barbaza: BRB
-  - Belison: BLS
-  - Bugasong: BGS
-  - Caluya: CLY
-  - Culasi: CLS
-  - Hamtic: HMT
-  - Laua-an: LAU
-  - Libertad: LBR
-  - Pandan: PND
-  - Patnongon: PTN
-  - San Jose: SJS
-  - San Remigio: SRM
-  - Sebaste: SBS
-  - Sibalom: SBL
-  - Tibiao: TIB
-  - Tobias Fornier: TBS
-  - Valderrama: VLD
+  ANN: Anini-y
+  BRB: Barbaza
+  BLS: Belison
+  BGS: Bugasong
+  CLY: Caluya
+  CLS: Culasi
+  HMT: Hamtic
+  LAU: Laua-an
+  LBR: Libertad
+  PND: Pandan
+  PTN: Patnongon
+  SJS: San Jose
+  SRM: San Remigio
+  SBS: Sebaste
+  SBL: Sibalom
+  TIB: Tibiao
+  TBS: Tobias Fornier
+  VLD: Valderrama
 Apayao:
-  - Calanasan: CLN
-  - Conner: CNR
-  - Flora: FLR
-  - Kabugao: KBG
-  - Luna: LUN
-  - Pudtol: PDT
-  - Santa Marcela: SMR
+  CLN: Calanasan
+  CNR: Conner
+  FLR: Flora
+  KBG: Kabugao
+  LUN: Luna
+  PDT: Pudtol
+  SMR: Santa Marcela
 Aurora:
-  - Baler: BLR
-  - Casiguran: CSG
-  - Dilasag: DLS
-  - Dinalungan: DNL
-  - Dingalan: DNG
-  - Dipaculao: DPC
-  - Maria Aurora: MRA
-  - San Luis: SLS
+  BLR: Baler
+  CSG: Casiguran
+  DLS: Dilasag
+  DNL: Dinalungan
+  DNG: Dingalan
+  DPC: Dipaculao
+  MRA: Maria Aurora
+  SLS: San Luis
 Basilan:
-  - Isabela City: ISB
-  - Lamitan City: LMT
-  - Akbar: AKB
-  - Al-Barka: ALB
-  - Hadji Mohammad Ajul: HDJ
-  - Hadji Muhtamad: HDK
-  - Lantawan: LNT
-  - Maluso: MLS
-  - Sumisip: SMS
-  - Tabuan-Lasa: TBN
-  - Tipo-Tipo: TPT
-  - Tuburan: TBR
-  - Ungkaya Pukan: UNG
+  ISB: Isabela City
+  LMT: Lamitan City
+  AKB: Akbar
+  ALB: Al-Barka
+  HDJ: Hadji Mohammad Ajul
+  HDK: Hadji Muhtamad
+  LNT: Lantawan
+  MLS: Maluso
+  SMS: Sumisip
+  TBN: Tabuan-Lasa
+  TPT: Tipo-Tipo
+  TBR: Tuburan
+  UNG: Ungkaya Pukan
 Bataan:
-  - Balanga City: BLN
-  - Abucay: ABC
-  - Bagac: BGC
-  - Dinalupihan: DNL
-  - Hermosa: HRM
-  - Limay: LMY
-  - Mariveles: MRV
-  - Morong: MRN
-  - Orani: ORN
-  - Orion: ORO
-  - Pilar: PLR
-  - Samal: SML
+  BLN: Balanga City
+  ABC: Abucay
+  BGC: Bagac
+  DNL: Dinalupihan
+  HRM: Hermosa
+  LMY: Limay
+  MRV: Mariveles
+  MRN: Morong
+  ORN: Orani
+  ORO: Orion
+  PLR: Pilar
+  SML: Samal
 Batanes:
-  - Basco: BSC
-  - Itbayat: ITB
-  - Ivana: IVN
-  - Mahatao: MHT
-  - Sabtang: SBT
-  - Uyugan: UYG
+  BSC: Basco
+  ITB: Itbayat
+  IVN: Ivana
+  MHT: Mahatao
+  SBT: Sabtang
+  UYG: Uyugan
 Batangas:
-  - Batangas City: BTN
-  - Lipa City: LIP
-  - Tanauan City: TNN
-  - Agoncillo: AGN
-  - Alitagtag: ALT
-  - Balayan: BLY
-  - Balete: BLT
-  - Bauan: BAU
-  - Calaca: CLC
-  - Calatagan: CLT
-  - Cuenca: CNC
-  - Ibaan: IBN
-  - Laurel: LRL
-  - Lemery: LMR
-  - Lian: LIA
-  - Lobo: LOB
-  - Mabini: MBN
-  - Malvar: MLV
-  - Mataas na Kahoy: MTS
-  - Nasugbu: NSG
-  - Padre Garcia: PDR
-  - Rosario: RSR
-  - San Jose: SJS
-  - San Juan: SJN
-  - San Luis: SLS
-  - San Nicolas: SNC
-  - San Pascual: SPS
-  - Santa Teresita: STR
-  - Santo Tomas: STM
-  - Taal: TAL
-  - Talisay: TLS
-  - Taysan: TYS
-  - Tingloy: TNG
-  - Tuy: TUY
+  BTN: Batangas City
+  LIP: Lipa City
+  TNN: Tanauan City
+  AGN: Agoncillo
+  ALT: Alitagtag
+  BLY: Balayan
+  BLT: Balete
+  BAU: Bauan
+  CLC: Calaca
+  CLT: Calatagan
+  CNC: Cuenca
+  IBN: Ibaan
+  LRL: Laurel
+  LMR: Lemery
+  LIA: Lian
+  LOB: Lobo
+  MBN: Mabini
+  MLV: Malvar
+  MTS: Mataas na Kahoy
+  NSG: Nasugbu
+  PDR: Padre Garcia
+  RSR: Rosario
+  SJS: San Jose
+  SJN: San Juan
+  SLS: San Luis
+  SNC: San Nicolas
+  SPS: San Pascual
+  STR: Santa Teresita
+  STM: Santo Tomas
+  TAL: Taal
+  TLS: Talisay
+  TYS: Taysan
+  TNG: Tingloy
+  TUY: Tuy
 Benguet:
-  - Baguio City: BAG
-  - Atok: ATK
-  - Bakun: BKN
-  - Bokod: BKD
-  - Buguias: BGS
-  - Itogon: ITG
-  - Kabayan: KBY
-  - Kapangan: KPN
-  - Kibungan: KBN
-  - La Trinidad: LTR
-  - Mankayan: MNK
-  - Sablan: SBL
-  - Tuba: TUB
-  - Tublay: TBL
+  BAG: Baguio City
+  ATK: Atok
+  BKN: Bakun
+  BKD: Bokod
+  BGS: Buguias
+  ITG: Itogon
+  KBY: Kabayan
+  KPN: Kapangan
+  KBN: Kibungan
+  LTR: La Trinidad
+  MNK: Mankayan
+  SBL: Sablan
+  TUB: Tuba
+  TBL: Tublay
 Biliran:
-  - Almeria: ALM
-  - Biliran: BLR
-  - Cabucgayan: CBC
-  - Caibiran: CBR
-  - Culaba: CLB
-  - Kawayan: KWY
-  - Maripipi: MRP
-  - Naval: NVL
+  ALM: Almeria
+  BLR: Biliran
+  CBC: Cabucgayan
+  CBR: Caibiran
+  CLB: Culaba
+  KWY: Kawayan
+  MRP: Maripipi
+  NVL: Naval
 Bohol:
-  - Tagbilaran City: TGB
-  - Alburquerque: ALB
-  - Alicia: ALC
-  - Anda: AND
-  - Antequera: ANT
-  - Baclayon: BCL
-  - Balilihan: BLL
-  - Batuan: BTN
-  - Bien Unido: BNU
-  - Bilar: BLR
-  - Buenavista: BNV
-  - Calape: CLP
-  - Candijay: CND
-  - Carmen: CRM
-  - Catigbian: CTG
-  - Clarin: CLR
-  - Corella: CRL
-  - Cortes: CRT
-  - Dagohoy: DGH
-  - Danao: DAN
-  - Dauis: DAU
-  - Dimiao: DIM
-  - Duero: DUE
-  - Garcia Hernandez: GRC
-  - Guindulman: GND
-  - Inabanga: INB
-  - Jagna: JGN
-  - Jetafe: JTF
-  - Lila: LIL
-  - Loay: LOA
-  - Loboc: LBC
-  - Loon: LON
-  - Mabini: MBN
-  - Maribojoc: MRB
-  - Panglao: PNG
-  - Pilar: PLR
-  - Pres. Carlos P. Garcia: PRS
-  - Sagbayan: SGB
-  - San Isidro: SIS
-  - San Miguel: SMG
-  - Sevilla: SVL
-  - Sierra Bullones: SRB
-  - Sikatuna: SKT
-  - Talibon: TLB
-  - Trinidad: TRN
-  - Tubigon: TBG
-  - Ubay: UBY
-  - Valencia: VLN
+  TGB: Tagbilaran City
+  ALB: Alburquerque
+  ALC: Alicia
+  AND: Anda
+  ANT: Antequera
+  BCL: Baclayon
+  BLL: Balilihan
+  BTN: Batuan
+  BNU: Bien Unido
+  BLR: Bilar
+  BNV: Buenavista
+  CLP: Calape
+  CND: Candijay
+  CRM: Carmen
+  CTG: Catigbian
+  CLR: Clarin
+  CRL: Corella
+  CRT: Cortes
+  DGH: Dagohoy
+  DAN: Danao
+  DAU: Dauis
+  DIM: Dimiao
+  DUE: Duero
+  GRC: Garcia Hernandez
+  GND: Guindulman
+  INB: Inabanga
+  JGN: Jagna
+  JTF: Jetafe
+  LIL: Lila
+  LOA: Loay
+  LBC: Loboc
+  LON: Loon
+  MBN: Mabini
+  MRB: Maribojoc
+  PNG: Panglao
+  PLR: Pilar
+  PRS: Pres. Carlos P. Garcia
+  SGB: Sagbayan
+  SIS: San Isidro
+  SMG: San Miguel
+  SVL: Sevilla
+  SRB: Sierra Bullones
+  SKT: Sikatuna
+  TLB: Talibon
+  TRN: Trinidad
+  TBG: Tubigon
+  UBY: Ubay
+  VLN: Valencia
 Bukidnon:
-  - Malaybalay City: MLY
-  - Valencia City: VLN
-  - Baungon: BNG
-  - Cabanglasan: CBN
-  - Damulog: DML
-  - Dangcagan: DNG
-  - Don Carlos: DNC
-  - Impasug-Ong: IMP
-  - Kadingilan: KDN
-  - Kalilangan: KLL
-  - Kibawe: KBW
-  - Kitaotao: KTT
-  - Lantapan: LNT
-  - Libona: LBN
-  - Malitbog: MLT
-  - Manolo Fortich: MNL
-  - Maramag: MRM
-  - Pangantucan: PNG
-  - Quezon: QZN
-  - San Fernando: SFR
-  - Sumilao: SML
-  - Talakag: TLK
+  MLY: Malaybalay City
+  VLN: Valencia City
+  BNG: Baungon
+  CBN: Cabanglasan
+  DML: Damulog
+  DNG: Dangcagan
+  DNC: Don Carlos
+  IMP: Impasug-Ong
+  KDN: Kadingilan
+  KLL: Kalilangan
+  KBW: Kibawe
+  KTT: Kitaotao
+  LNT: Lantapan
+  LBN: Libona
+  MLT: Malitbog
+  MNL: Manolo Fortich
+  MRM: Maramag
+  PNG: Pangantucan
+  QZN: Quezon
+  SFR: San Fernando
+  SML: Sumilao
+  TLK: Talakag
 Bulacan:
-  - Malolos City: MLL
-  - Meycauayan City: MYC
-  - San Jose del Monte City: SJS
-  - Angat: ANG
-  - Balagtas: BLG
-  - Baliuag: BLH
-  - Bocaue: BOC
-  - Bulacan: BLC
-  - Bustos: BST
-  - Calumpit: CLM
-  - Dona Remedios Trinidad: DNR
-  - Guiguinto: GGN
-  - Hagonoy: HGN
-  - Marilao: MRL
-  - Norzagaray: NRZ
-  - Obando: OBN
-  - Pandi: PND
-  - Paombong: PMB
-  - Plaridel: PLR
-  - Pulilan: PLL
-  - San Ildefonso: SIL
-  - San Miguel: SMG
-  - San Rafael: SRF
-  - Santa Maria: SMR
+  MLL: Malolos City
+  MYC: Meycauayan City
+  SJS: San Jose del Monte City
+  ANG: Angat
+  BLG: Balagtas
+  BLH: Baliuag
+  BOC: Bocaue
+  BLC: Bulacan
+  BST: Bustos
+  CLM: Calumpit
+  DNR: Dona Remedios Trinidad
+  GGN: Guiguinto
+  HGN: Hagonoy
+  MRL: Marilao
+  NRZ: Norzagaray
+  OBN: Obando
+  PND: Pandi
+  PMB: Paombong
+  PLR: Plaridel
+  PLL: Pulilan
+  SIL: San Ildefonso
+  SMG: San Miguel
+  SRF: San Rafael
+  SMR: Santa Maria
 Cagayan:
-  - Tuguegarao City: TGG
-  - Abulug: ABL
-  - Alcala: ALC
-  - Allacapan: ALD
-  - Amulung: AML
-  - Aparri: APR
-  - Baggao: BAG
-  - Ballesteros: BLS
-  - Buguey: BGY
-  - Calayan: CLY
-  - Camalaniugan: CML
-  - Claveria: CLV
-  - enrile: NRL
-  - Gattaran: GTR
-  - Gonzaga: GNZ
-  - Iguig: IGG
-  - Lal-Lo: LLL
-  - Lasam: LSM
-  - Pamplona: PMP
-  - Penablanca: PNB
-  - Piat: PIA
-  - Rizal: RZL
-  - Sanchez-Mira: SNC
-  - Santa Ana: SAN
-  - Santa Praxedes: SPR
-  - Santa Teresita: STR
-  - Santo Nino: SNN
-  - Solana: SLN
-  - Tuao: TUA
+  TGG: Tuguegarao City
+  ABL: Abulug
+  ALC: Alcala
+  ALD: Allacapan
+  AML: Amulung
+  APR: Aparri
+  BAG: Baggao
+  BLS: Ballesteros
+  BGY: Buguey
+  CLY: Calayan
+  CML: Camalaniugan
+  CLV: Claveria
+  NRL: enrile
+  GTR: Gattaran
+  GNZ: Gonzaga
+  IGG: Iguig
+  LLL: Lal-Lo
+  LSM: Lasam
+  PMP: Pamplona
+  PNB: Penablanca
+  PIA: Piat
+  RZL: Rizal
+  SNC: Sanchez-Mira
+  SAN: Santa Ana
+  SPR: Santa Praxedes
+  STR: Santa Teresita
+  SNN: Santo Nino
+  SLN: Solana
+  TUA: Tuao
 Camarines Norte:
-  - Basud: BSD
-  - Capalonga: CPL
-  - Daet: DAE
-  - Jose Panganiban: JSP
-  - Labo: LAB
-  - Mercedes: MRC
-  - Paracale: PRC
-  - San Lorenzo Ruiz: SLR
-  - San Vicente: SVC
-  - Santa elena: SLN
-  - Talisay: TLS
-  - Vinzons: VNZ
+  BSD: Basud
+  CPL: Capalonga
+  DAE: Daet
+  JSP: Jose Panganiban
+  LAB: Labo
+  MRC: Mercedes
+  PRC: Paracale
+  SLR: San Lorenzo Ruiz
+  SVC: San Vicente
+  SLN: Santa elena
+  TLS: Talisay
+  VNZ: Vinzons
 Camarines Sur:
-  - Iriga City: IRG
-  - Naga City: NAG
-  - Baao: BAO
-  - Balatan: BLT
-  - Bato: BAT
-  - Bombon: BMB
-  - Buhi: BUH
-  - Bula: BUL
-  - Cabusao: CBS
-  - Calabanga: CLB
-  - Camaligan: CML
-  - Canaman: CNM
-  - Caramoan: CRM
-  - Del Gallego: DLG
-  - Gainza: GNZ
-  - Garchitorena: GRC
-  - Goa: GOA
-  - Lagonoy: LGN
-  - Libmanan: LBM
-  - Lupi: LUP
-  - Magarao: MGR
-  - Milaor: MLR
-  - Minalabac: MNL
-  - Nabua: NAB
-  - Ocampo: OCM
-  - Pamplona: PMP
-  - Pasacao: PSC
-  - Pili: PIL
-  - Presentacion: PRS
-  - Ragay: RGY
-  - Sagnay: SGN
-  - San Fernando: SFR
-  - San Jose: SJS
-  - Sipocot: SPC
-  - Siruma: SRM
-  - Tigaon: TGN
-  - Tinambac: TNM
+  IRG: Iriga City
+  NAG: Naga City
+  BAO: Baao
+  BLT: Balatan
+  BAT: Bato
+  BMB: Bombon
+  BUH: Buhi
+  BUL: Bula
+  CBS: Cabusao
+  CLB: Calabanga
+  CML: Camaligan
+  CNM: Canaman
+  CRM: Caramoan
+  DLG: Del Gallego
+  GNZ: Gainza
+  GRC: Garchitorena
+  GOA: Goa
+  LGN: Lagonoy
+  LBM: Libmanan
+  LUP: Lupi
+  MGR: Magarao
+  MLR: Milaor
+  MNL: Minalabac
+  NAB: Nabua
+  OCM: Ocampo
+  PMP: Pamplona
+  PSC: Pasacao
+  PIL: Pili
+  PRS: Presentacion
+  RGY: Ragay
+  SGN: Sagnay
+  SFR: San Fernando
+  SJS: San Jose
+  SPC: Sipocot
+  SRM: Siruma
+  TGN: Tigaon
+  TNM: Tinambac
 Camiguin:
-  - Catarman: CTR
-  - Guinsiliban: GNS
-  - Mahinog: MHN
-  - Mambajao: MMB
-  - Sagay: SGY
+  CTR: Catarman
+  GNS: Guinsiliban
+  MHN: Mahinog
+  MMB: Mambajao
+  SGY: Sagay
 Capiz:
-  - Roxas City: RXS
-  - Cuartero: CRT
-  - Dao: DAO
-  - Dumalag: DML
-  - Dumarao: DMR
-  - Ivisan: IVS
-  - Jamindan: JMN
-  - Ma-ayon: MYN
-  - Mambusao: MMB
-  - Panay: PNY
-  - Panitan: PNT
-  - Pilar: PLR
-  - Pontevedra: PNT
-  - President Roxas: PRS
-  - Sapi-an: SPN
-  - Sigma: SGM
-  - Tapaz: TPZ
+  RXS: Roxas City
+  CRT: Cuartero
+  DAO: Dao
+  DML: Dumalag
+  DMR: Dumarao
+  IVS: Ivisan
+  JMN: Jamindan
+  MYN: Ma-ayon
+  MMB: Mambusao
+  PNY: Panay
+  PNT: Panitan
+  PLR: Pilar
+  PNT: Pontevedra
+  PRS: President Roxas
+  SPN: Sapi-an
+  SGM: Sigma
+  TPZ: Tapaz
 Catanduanes:
-  - Bagamanoc: BGM
-  - Baras: BRS
-  - Bato: BAT
-  - Caramoran: CRM
-  - Gigmoto: GGM
-  - Pandan: PND
-  - Panganiban: PNG
-  - San Andres: SAN
-  - San Miguel: SMG
-  - Viga: VIG
-  - Virac: VRC
+  BGM: Bagamanoc
+  BRS: Baras
+  BAT: Bato
+  CRM: Caramoran
+  GGM: Gigmoto
+  PND: Pandan
+  PNG: Panganiban
+  SAN: San Andres
+  SMG: San Miguel
+  VIG: Viga
+  VRC: Virac
 Cavite:
-  - Cavite City: CVT
-  - Dasmarinas City: DSM
-  - Tagaytay City: TGY
-  - Trece Martires City: TRC
-  - Alfonso: ALF
-  - Amadeo: AMD
-  - Bacoor: BCR
-  - Carmona: CRM
-  - Gen. Mariano Alvarez: GMR
-  - Gen. emilio Aguinaldo: GML
-  - Gen. Trias: GTR
-  - Imus: IMS
-  - Indang: IND
-  - Kawit: KWT
-  - Magallanes: MGL
-  - Maragondon: MRG
-  - Mendez: MND
-  - Naic: NAI
-  - Noveleta: NVL
-  - Rosario: RSR
-  - Silang: SLN
-  - Tanza: TNZ
-  - Ternate: TRN
+  CVT: Cavite City
+  DSM: Dasmarinas City
+  TGY: Tagaytay City
+  TRC: Trece Martires City
+  ALF: Alfonso
+  AMD: Amadeo
+  BCR: Bacoor
+  CRM: Carmona
+  GMR: Gen. Mariano Alvarez
+  GML: Gen. emilio Aguinaldo
+  GTR: Gen. Trias
+  IMS: Imus
+  IND: Indang
+  KWT: Kawit
+  MGL: Magallanes
+  MRG: Maragondon
+  MND: Mendez
+  NAI: Naic
+  NVL: Noveleta
+  RSR: Rosario
+  SLN: Silang
+  TNZ: Tanza
+  TRN: Ternate
 Cebu:
-  - Bogo City: BOG
-  - Carcar City: CRC
-  - Cebu City: CEB
-  - Danao City: DAN
-  - Lapu-Lapu City: LPL
-  - Mandaue City: MND
-  - Naga City: NAG
-  - Talisay City: TLS
-  - Toledo City: TLD
-  - Alcantara: ALC
-  - Alcoy: ALD
-  - Alegria: ALG
-  - Aloguinsan: ALH
-  - Argao: ARG
-  - Asturias: AST
-  - Badian: BDN
-  - Balamban: BLM
-  - Bantayan: BNT
-  - Barili: BRL
-  - Boljoon: BLJ
-  - Borbon: BRB
-  - Carmen: CRM
-  - Catmon: CTM
-  - Compostela: CMP
-  - Consolacion: CNS
-  - Cordoba: CRD
-  - Daanbantayan: DNB
-  - Dalaguete: DLG
-  - Dumanjug: DMN
-  - Ginatilan: GNT
-  - Liloan: LLN
-  - Madridejos: MDR
-  - Malabuyoc: MLB
-  - Medellin: MDL
-  - Minglanilla: MNG
-  - Moalboal: MLB
-  - Oslob: OSL
-  - Pilar: PLR
-  - Pinamungahan: PNM
-  - Poro: POR
-  - Ronda: RND
-  - Samboan: SMB
-  - San Fernando: SFR
-  - San Francisco: SFS
-  - San Remigio: SRM
-  - Santa Fe: SFE
-  - Santander: SNT
-  - Sibonga: SBN
-  - Sogod: SGD
-  - Tabogon: TBG
-  - Tabuelan: TBL
-  - Tuburan: TBR
-  - Tudela: TDL
+  BOG: Bogo City
+  CRC: Carcar City
+  CEB: Cebu City
+  DAN: Danao City
+  LPL: Lapu-Lapu City
+  MND: Mandaue City
+  NAG: Naga City
+  TLS: Talisay City
+  TLD: Toledo City
+  ALC: Alcantara
+  ALD: Alcoy
+  ALG: Alegria
+  ALH: Aloguinsan
+  ARG: Argao
+  AST: Asturias
+  BDN: Badian
+  BLM: Balamban
+  BNT: Bantayan
+  BRL: Barili
+  BLJ: Boljoon
+  BRB: Borbon
+  CRM: Carmen
+  CTM: Catmon
+  CMP: Compostela
+  CNS: Consolacion
+  CRD: Cordoba
+  DNB: Daanbantayan
+  DLG: Dalaguete
+  DMN: Dumanjug
+  GNT: Ginatilan
+  LLN: Liloan
+  MDR: Madridejos
+  MLB: Malabuyoc
+  MDL: Medellin
+  MNG: Minglanilla
+  MLB: Moalboal
+  OSL: Oslob
+  PLR: Pilar
+  PNM: Pinamungahan
+  POR: Poro
+  RND: Ronda
+  SMB: Samboan
+  SFR: San Fernando
+  SFS: San Francisco
+  SRM: San Remigio
+  SFE: Santa Fe
+  SNT: Santander
+  SBN: Sibonga
+  SGD: Sogod
+  TBG: Tabogon
+  TBL: Tabuelan
+  TBR: Tuburan
+  TDL: Tudela
 Compostela Valley:
-  - Compostela: CMP
-  - Laak: LAK
-  - Mabini: MBN
-  - Maco: MAC
-  - Maragusan: MRG
-  - Mawab: MWB
-  - Monkayo: MNK
-  - Montevista: MNT
-  - Nabunturan: NBN
-  - New Bataan: NWB
-  - Pantukan: PNT
+  CMP: Compostela
+  LAK: Laak
+  MBN: Mabini
+  MAC: Maco
+  MRG: Maragusan
+  MWB: Mawab
+  MNK: Monkayo
+  MNT: Montevista
+  NBN: Nabunturan
+  NWB: New Bataan
+  PNT: Pantukan
 Cotabato:
-  - Kidapawan City: KDP
-  - Alamada: ALM
-  - Aleosan: ALS
-  - Antipas: ANT
-  - Arakan: ARK
-  - Banisilan: BNS
-  - Carmen: CRM
-  - Kabacan: KBC
-  - Libungan: LBN
-  - M'Lang: MLN
-  - Magpet: MGP
-  - Makilala: MKL
-  - Matalam: MTL
-  - Midsayap: MDS
-  - Pigkawayan: PGK
-  - Pikit: PKT
-  - President Roxas: PRS
-  - Tulunan: TLN
+  KDP: Kidapawan City
+  ALM: Alamada
+  ALS: Aleosan
+  ANT: Antipas
+  ARK: Arakan
+  BNS: Banisilan
+  CRM: Carmen
+  KBC: Kabacan
+  LBN: Libungan
+  MLN: M'Lang
+  MGP: Magpet
+  MKL: Makilala
+  MTL: Matalam
+  MDS: Midsayap
+  PGK: Pigkawayan
+  PKT: Pikit
+  PRS: President Roxas
+  TLN: Tulunan
 Davao del Norte:
-  - Panabo City: PNB
-  - Island Garden City of Samal: GRD
-  - Tagum City: TGM
-  - Asuncion: ASN
-  - Braulio e. Dujali: BRL
-  - Carmen: CRM
-  - Kapalong: KPL
-  - New Corella: NWC
-  - San Isidro: SIS
-  - Santo Tomas: STM
-  - Talaingod: TLN
+  PNB: Panabo City
+  GRD: Island Garden City of Samal
+  TGM: Tagum City
+  ASN: Asuncion
+  BRL: Braulio e. Dujali
+  CRM: Carmen
+  KPL: Kapalong
+  NWC: New Corella
+  SIS: San Isidro
+  STM: Santo Tomas
+  TLN: Talaingod
 Davao del Sur:
-  - Davao City: DAV
-  - Digos City: DGS
-  - Bansalan: BNS
-  - Don Marcelino: DNM
-  - Hagonoy: HGN
-  - Jose Abad Santos: JSA
-  - Kiblawan: KBL
-  - Magsaysay: MGS
-  - Malalag: MLL
-  - Malita: MLT
-  - Matanao: MTN
-  - Padada: PDD
-  - Santa Cruz: SCR
-  - Santa Maria: SMR
-  - Sarangani: SRN
-  - Sulop: SLP
+  DAV: Davao City
+  DGS: Digos City
+  BNS: Bansalan
+  DNM: Don Marcelino
+  HGN: Hagonoy
+  JSA: Jose Abad Santos
+  KBL: Kiblawan
+  MGS: Magsaysay
+  MLL: Malalag
+  MLT: Malita
+  MTN: Matanao
+  PDD: Padada
+  SCR: Santa Cruz
+  SMR: Santa Maria
+  SRN: Sarangani
+  SLP: Sulop
 Davao Oriental:
-  - Mati City: MAT
-  - Baganga: BGN
-  - Banaybanay: BNY
-  - Boston: BST
-  - Caraga: CRG
-  - Cateel: CTL
-  - Governor Generoso: GVR
-  - Lupon: LPN
-  - Manay: MNY
-  - San Isidro: SIS
-  - Tarragona: TRG
-eastern Samar:
-  - Borongan City: BRN
-  - Arteche: ART
-  - Balangiga: BLN
-  - Balangkayan: BLO
-  - Can-avid: CNV
-  - Dolores: DLR
-  - General MacArthur: GMC
-  - Giporlos: GPR
-  - Guiuan: GUI
-  - Hernani: HRN
-  - Jipapad: JPP
-  - Lawaan: LWN
-  - Llorente: LLR
-  - Maslog: MSL
-  - Maydolong: MYD
-  - Mercedes: MRC
-  - Oras: ORS
-  - Quinapondan: QNP
-  - Salcedo: SLC
-  - San Julian: SJL
-  - San Policarpo: SPL
-  - Sulat: SLT
-  - Taft: TFT
+  MAT: Mati City
+  BGN: Baganga
+  BNY: Banaybanay
+  BST: Boston
+  CRG: Caraga
+  CTL: Cateel
+  GVR: Governor Generoso
+  LPN: Lupon
+  MNY: Manay
+  SIS: San Isidro
+  TRG: Tarragona
+Eastern Samar:
+  BRN: Borongan City
+  ART: Arteche
+  BLN: Balangiga
+  BLO: Balangkayan
+  CNV: Can-avid
+  DLR: Dolores
+  GMC: General MacArthur
+  GPR: Giporlos
+  GUI: Guiuan
+  HRN: Hernani
+  JPP: Jipapad
+  LWN: Lawaan
+  LLR: Llorente
+  MSL: Maslog
+  MYD: Maydolong
+  MRC: Mercedes
+  ORS: Oras
+  QNP: Quinapondan
+  SLC: Salcedo
+  SJL: San Julian
+  SPL: San Policarpo
+  SLT: Sulat
+  TFT: Taft
 Guimaras:
-  - Buenavista: BNV
-  - Jordan: JRD
-  - Nueva Valencia: NVV
-  - San Lorenzo: SLR
-  - Sibunag: SBN
+  BNV: Buenavista
+  JRD: Jordan
+  NVV: Nueva Valencia
+  SLR: San Lorenzo
+  SBN: Sibunag
 Ifugao:
-  - Aguinaldo: AGN
-  - Alfonso Lista: ALF
-  - Asipulo: ASP
-  - Banaue: BAN
-  - Hingyon: HNG
-  - Hungduan: HNH
-  - Kiangan: KNG
-  - Lagawe: LGW
-  - Lamut: LMT
-  - Mayoyao: MYY
-  - Tinoc: TNC
+  AGN: Aguinaldo
+  ALF: Alfonso Lista
+  ASP: Asipulo
+  BAN: Banaue
+  HNG: Hingyon
+  HNH: Hungduan
+  KNG: Kiangan
+  LGW: Lagawe
+  LMT: Lamut
+  MYY: Mayoyao
+  TNC: Tinoc
 Ilocos Norte:
-  - Batac City: BTC
-  - Laoag City: LAO
-  - Adams: ADM
-  - Bacarra: BCR
-  - Badoc: BDC
-  - Bangui: BNG
-  - Banna: BAN
-  - Burgos: BRG
-  - Carasi: CRS
-  - Currimao: CRM
-  - Dingras: DNG
-  - Dumalneg: DML
-  - Marcos: MRC
-  - Nueva era: NVR
-  - Pagudpud: PGD
-  - Paoay: PAO
-  - Pasuquin: PSQ
-  - Piddig: PDG
-  - Pinili: PNL
-  - San Nicolas: SNC
-  - Sarrat: SRT
-  - Solsona: SLS
-  - Vintar: VNT
+  BTC: Batac City
+  LAO: Laoag City
+  ADM: Adams
+  BCR: Bacarra
+  BDC: Badoc
+  BNG: Bangui
+  BAN: Banna
+  BRG: Burgos
+  CRS: Carasi
+  CRM: Currimao
+  DNG: Dingras
+  DML: Dumalneg
+  MRC: Marcos
+  NVR: Nueva era
+  PGD: Pagudpud
+  PAO: Paoay
+  PSQ: Pasuquin
+  PDG: Piddig
+  PNL: Pinili
+  SNC: San Nicolas
+  SRT: Sarrat
+  SLS: Solsona
+  VNT: Vintar
 Ilocos Sur:
-  - Candon City: CND
-  - Vigan City: VGN
-  - Alilem: ALL
-  - Banayoyo: BNY
-  - Bantay: BNT
-  - Burgos: BRG
-  - Cabugao: CBG
-  - Caoayan: CYN
-  - Cervantes: CRV
-  - Galimuyod: GLM
-  - Gregorio Del Pilar: GRG
-  - Lidlidda: LDL
-  - Magsingal: MGS
-  - Nagbukel: NGB
-  - Narvacan: NRV
-  - Quirino: QRN
-  - Salcedo: SLC
-  - San emilio: SML
-  - San esteban: SST
-  - San Ildefonso: SIL
-  - San Juan: SJN
-  - San Vicente: SVC
-  - Santa: SNT
-  - Santa Catalina: SCT
-  - Santa Cruz: SCR
-  - Santa Lucia: SLC
-  - Santa Maria: SMR
-  - Santiago: SNT
-  - Santo Domingo: SDM
-  - Sigay: SGY
-  - Sinait: SNT
-  - Sugpon: SGP
-  - Suyo: SUY
-  - Tagudin: TGD
+  CND: Candon City
+  VGN: Vigan City
+  ALL: Alilem
+  BNY: Banayoyo
+  BNT: Bantay
+  BRG: Burgos
+  CBG: Cabugao
+  CYN: Caoayan
+  CRV: Cervantes
+  GLM: Galimuyod
+  GRG: Gregorio Del Pilar
+  LDL: Lidlidda
+  MGS: Magsingal
+  NGB: Nagbukel
+  NRV: Narvacan
+  QRN: Quirino
+  SLC: Salcedo
+  SML: San emilio
+  SST: San esteban
+  SIL: San Ildefonso
+  SJN: San Juan
+  SVC: San Vicente
+  SNT: Santa
+  SCT: Santa Catalina
+  SCR: Santa Cruz
+  SLC: Santa Lucia
+  SMR: Santa Maria
+  SNT: Santiago
+  SDM: Santo Domingo
+  SGY: Sigay
+  SNT: Sinait
+  SGP: Sugpon
+  SUY: Suyo
+  TGD: Tagudin
 Iloilo:
-  - Iloilo City: ILL
-  - Passi City: PAS
-  - Ajuy: AJY
-  - Alimodian: ALM
-  - Anilao: ANL
-  - Badiangan: BDN
-  - Balasan: BLS
-  - Banate: BNT
-  - Barotac Nuevo: BRT
-  - Barotac Viejo: BRU
-  - Batad: BTD
-  - Bingawan: BNG
-  - Cabatuan: CBT
-  - Calinog: CLN
-  - Carles: CRL
-  - Concepcion: CNC
-  - Dingle: DNG
-  - Duenas: DNS
-  - Dumangas: DMN
-  - estancia: STN
-  - Guimbal: GMB
-  - Igbaras: IGB
-  - Janiuay: JNY
-  - Lambunao: LMB
-  - Leganes: LGN
-  - Lemery: LMR
-  - Leon: LEO
-  - Maasin: MSN
-  - Miagao: MIA
-  - Mina: MIN
-  - New Lucena: NWL
-  - Oton: OTN
-  - Pavia: PAV
-  - Pototan: PTT
-  - San Dionisio: SDN
-  - San enrique: SNR
-  - San Joaquin: SJQ
-  - San Miguel: SMG
-  - San Rafael: SRF
-  - Santa Barbara: SBR
-  - Sara: SAR
-  - Tigbauan: TGB
-  - Tubungan: TBN
-  - Zarraga: ZRG
+  ILL: Iloilo City
+  PAS: Passi City
+  AJY: Ajuy
+  ALM: Alimodian
+  ANL: Anilao
+  BDN: Badiangan
+  BLS: Balasan
+  BNT: Banate
+  BRT: Barotac Nuevo
+  BRU: Barotac Viejo
+  BTD: Batad
+  BNG: Bingawan
+  CBT: Cabatuan
+  CLN: Calinog
+  CRL: Carles
+  CNC: Concepcion
+  DNG: Dingle
+  DNS: Duenas
+  DMN: Dumangas
+  STN: estancia
+  GMB: Guimbal
+  IGB: Igbaras
+  JNY: Janiuay
+  LMB: Lambunao
+  LGN: Leganes
+  LMR: Lemery
+  LEO: Leon
+  MSN: Maasin
+  MIA: Miagao
+  MIN: Mina
+  NWL: New Lucena
+  OTN: Oton
+  PAV: Pavia
+  PTT: Pototan
+  SDN: San Dionisio
+  SNR: San enrique
+  SJQ: San Joaquin
+  SMG: San Miguel
+  SRF: San Rafael
+  SBR: Santa Barbara
+  SAR: Sara
+  TGB: Tigbauan
+  TBN: Tubungan
+  ZRG: Zarraga
 Isabela:
-  - Cauayan City: CYN
-  - Santiago City: SNT
-  - Alicia: ALC
-  - Angadanan: ANG
-  - Aurora: ARR
-  - Benito Soliven: BNT
-  - Burgos: BRG
-  - Cabagan: CBG
-  - Cabatuan: CBT
-  - Cordon: CRD
-  - Delfin Albano: DLF
-  - Dinapigue: DNP
-  - Divilacan: DVL
-  - echague: CHG
-  - Gamu: GAM
-  - Ilagan: ILG
-  - Jones: JNS
-  - Luna: LUN
-  - Maconacon: MCN
-  - Mallig: MLG
-  - Naguilian: NGL
-  - Palanan: PLN
-  - Quezon: QZN
-  - Quirino: QRN
-  - Ramon: RMN
-  - Reina Mercedes: RNM
-  - Roxas: RXS
-  - San Agustin: SAG
-  - San Guillermo: SGL
-  - San Isidro: SIS
-  - San Manuel: SMN
-  - San Mariano: SMR
-  - San Mateo: SMT
-  - San Pablo: SPB
-  - Santa Maria: SMR
-  - Santo Tomas: STM
-  - Tumauini: TMN
+  CYN: Cauayan City
+  SNT: Santiago City
+  ALC: Alicia
+  ANG: Angadanan
+  ARR: Aurora
+  BNT: Benito Soliven
+  BRG: Burgos
+  CBG: Cabagan
+  CBT: Cabatuan
+  CRD: Cordon
+  DLF: Delfin Albano
+  DNP: Dinapigue
+  DVL: Divilacan
+  CHG: echague
+  GAM: Gamu
+  ILG: Ilagan
+  JNS: Jones
+  LUN: Luna
+  MCN: Maconacon
+  MLG: Mallig
+  NGL: Naguilian
+  PLN: Palanan
+  QZN: Quezon
+  QRN: Quirino
+  RMN: Ramon
+  RNM: Reina Mercedes
+  RXS: Roxas
+  SAG: San Agustin
+  SGL: San Guillermo
+  SIS: San Isidro
+  SMN: San Manuel
+  SMR: San Mariano
+  SMT: San Mateo
+  SPB: San Pablo
+  SMR: Santa Maria
+  STM: Santo Tomas
+  TMN: Tumauini
 Kalinga:
-  - Tabuk City: TBK
-  - Balbalan: BLB
-  - Lubuagan: LBG
-  - Pasil: PSL
-  - Pinukpuk: PNK
-  - Rizal: RZL
-  - Tanudan: TND
-  - Tinglayan: TNG
+  TBK: Tabuk City
+  BLB: Balbalan
+  LBG: Lubuagan
+  PSL: Pasil
+  PNK: Pinukpuk
+  RZL: Rizal
+  TND: Tanudan
+  TNG: Tinglayan
 La Union:
-  - San Fernando City: SFR
-  - Agoo: AGO
-  - Aringay: ARN
-  - Bacnotan: BCN
-  - Bagulin: BGL
-  - Balaoan: BLN
-  - Bangar: BNG
-  - Bauang: BNH
-  - Burgos: BRG
-  - Caba: CAB
-  - Luna: LUN
-  - Naguilian: NGL
-  - Pugo: PUG
-  - Rosario: RSR
-  - San Gabriel: SGB
-  - San Juan: SJN
-  - Santo Tomas: STM
-  - Santol: SNT
-  - Sudipen: SDP
-  - Tubao: TUB
+  SFR: San Fernando City
+  AGO: Agoo
+  ARN: Aringay
+  BCN: Bacnotan
+  BGL: Bagulin
+  BLN: Balaoan
+  BNG: Bangar
+  BNH: Bauang
+  BRG: Burgos
+  CAB: Caba
+  LUN: Luna
+  NGL: Naguilian
+  PUG: Pugo
+  RSR: Rosario
+  SGB: San Gabriel
+  SJN: San Juan
+  STM: Santo Tomas
+  SNT: Santol
+  SDP: Sudipen
+  TUB: Tubao
 Laguna:
-  - Binan City: BNN
-  - Calamba City: CLM
-  - San Pablo City: SPB
-  - Santa Rosa City: SRS
-  - Alaminos: ALM
-  - Bay: BAY
-  - Cabuyao: CBY
-  - Calauan: CLN
-  - Cavinti: CVN
-  - Famy: FMY
-  - Kalayaan: KLY
-  - Liliw: LLW
-  - Los Banos: LSB
-  - Luisiana: LSN
-  - Lumban: LMB
-  - Mabitac: MBT
-  - Magdalena: MGD
-  - Majayjay: MJY
-  - Nagcarlan: NGC
-  - Paete: PAE
-  - Pagsanjan: PGS
-  - Pakil: PKL
-  - Pangil: PNG
-  - Pila: PIL
-  - Rizal: RZL
-  - San Pedro: SPD
-  - Santa Cruz: SCR
-  - Santa Maria: SMR
-  - Siniloan: SNL
-  - Victoria: VCT
+  BNN: Binan City
+  CLM: Calamba City
+  SPB: San Pablo City
+  SRS: Santa Rosa City
+  ALM: Alaminos
+  BAY: Bay
+  CBY: Cabuyao
+  CLN: Calauan
+  CVN: Cavinti
+  FMY: Famy
+  KLY: Kalayaan
+  LLW: Liliw
+  LSB: Los Banos
+  LSN: Luisiana
+  LMB: Lumban
+  MBT: Mabitac
+  MGD: Magdalena
+  MJY: Majayjay
+  NGC: Nagcarlan
+  PAE: Paete
+  PGS: Pagsanjan
+  PKL: Pakil
+  PNG: Pangil
+  PIL: Pila
+  RZL: Rizal
+  SPD: San Pedro
+  SCR: Santa Cruz
+  SMR: Santa Maria
+  SNL: Siniloan
+  VCT: Victoria
 Lanao del Norte:
-  - Iligan City: ILG
-  - Bacolod: BCL
-  - Baloi: BAL
-  - Baroy: BRY
-  - Kapatagan: KPT
-  - Kauswagan: KSW
-  - Kolambugan: KLM
-  - Lala: LAL
-  - Linamon: LNM
-  - Magsaysay: MGS
-  - Maigo: MAI
-  - Matungao: MTN
-  - Munai: MUN
-  - Nunungan: NNN
-  - Pantao Ragat: PNT
-  - Pantar: PNU
-  - Poona Piagapo: PNP
-  - Salvador: SLV
-  - Sapad: SPD
-  - Sultan Naga Dimaporo: SNG
-  - Tagoloan: TGL
-  - Tangcal: TNG
-  - Tubod: TBD
+  ILG: Iligan City
+  BCL: Bacolod
+  BAL: Baloi
+  BRY: Baroy
+  KPT: Kapatagan
+  KSW: Kauswagan
+  KLM: Kolambugan
+  LAL: Lala
+  LNM: Linamon
+  MGS: Magsaysay
+  MAI: Maigo
+  MTN: Matungao
+  MUN: Munai
+  NNN: Nunungan
+  PNT: Pantao Ragat
+  PNU: Pantar
+  PNP: Poona Piagapo
+  SLV: Salvador
+  SPD: Sapad
+  SNG: Sultan Naga Dimaporo
+  TGL: Tagoloan
+  TNG: Tangcal
+  TBD: Tubod
 Lanao del Sur:
-  - Marawi City: MRW
-  - Bacolod-Kalawi: BCL
-  - Balabagan: BLB
-  - Balindong: BLN
-  - Bayang: BYN
-  - Binidayan: BND
-  - Buadiposo-Buntong: BDP
-  - Bubong: BBN
-  - Bumbaran: BMB
-  - Butig: BTG
-  - Calanogas: CLN
-  - Ditsaan-Ramain: DTS
-  - Ganassi: GNS
-  - Kapai: KAP
-  - Kapatagan: KPT
-  - Lumba-Bayabao: LMB
-  - Lumbaca-Unayan: LMC
-  - Lumbatan: LMB
-  - Lumbayanague: LMC
-  - Madalum: MDL
-  - Madamba: MDM
-  - Maguing: MGN
-  - Malabang: MLB
-  - Marantao: MRN
-  - Marogong: MRG
-  - Masiu: MAS
-  - Mulondo: MLN
-  - Pagayawan: PGY
-  - Piagapo: PGP
-  - Poona Bayabao: PNB
-  - Pualas: PLS
-  - Saguiaran: SGR
-  - Sultan Dumalondong: SDM
-  - Picong: PCN
-  - Tagoloan II: TGL
-  - Tamparan: TMP
-  - Taraka: TRK
-  - Tubaran: TBR
-  - Tugaya: TGY
-  - Wao: WAO
+  MRW: Marawi City
+  BCL: Bacolod-Kalawi
+  BLB: Balabagan
+  BLN: Balindong
+  BYN: Bayang
+  BND: Binidayan
+  BDP: Buadiposo-Buntong
+  BBN: Bubong
+  BMB: Bumbaran
+  BTG: Butig
+  CLN: Calanogas
+  DTS: Ditsaan-Ramain
+  GNS: Ganassi
+  KAP: Kapai
+  KPT: Kapatagan
+  LMB: Lumba-Bayabao
+  LMC: Lumbaca-Unayan
+  LMB: Lumbatan
+  LMC: Lumbayanague
+  MDL: Madalum
+  MDM: Madamba
+  MGN: Maguing
+  MLB: Malabang
+  MRN: Marantao
+  MRG: Marogong
+  MAS: Masiu
+  MLN: Mulondo
+  PGY: Pagayawan
+  PGP: Piagapo
+  PNB: Poona Bayabao
+  PLS: Pualas
+  SGR: Saguiaran
+  SDM: Sultan Dumalondong
+  PCN: Picong
+  TGL: Tagoloan II
+  TMP: Tamparan
+  TRK: Taraka
+  TBR: Tubaran
+  TGY: Tugaya
+  WAO: Wao
 Leyte:
-  - Baybay City: BYB
-  - Ormoc City: ORM
-  - Tacloban City: TCL
-  - Abuyog: ABY
-  - Alangalang: ALN
-  - Albuera: ALB
-  - Babatngon: BBT
-  - Barugo: BRG
-  - Bato: BAT
-  - Burauen: BRN
-  - Calubian: CLB
-  - Capoocan: CPC
-  - Carigara: CRG
-  - Dagami: DGM
-  - Dulag: DLG
-  - Hilongos: HLN
-  - Hindang: HND
-  - Inopacan: INP
-  - Isabel: ISB
-  - Jaro: JAR
-  - Javier: JVR
-  - Julita: JLT
-  - Kananga: KNN
-  - La Paz: LPZ
-  - Leyte: LYT
-  - Macarthur: MCR
-  - Mahaplag: MHP
-  - Matag-ob: MTG
-  - Matalom: MTL
-  - Mayorga: MYR
-  - Merida: MRD
-  - Palo: PAL
-  - Palompon: PLM
-  - Pastrana: PST
-  - San Isidro: SIS
-  - San Miguel: SMG
-  - Santa Fe: SFE
-  - Tabango: TBN
-  - Tabontabon: TBO
-  - Tanauan: TNN
-  - Tolosa: TLS
-  - Tunga: TNG
-  - Villaba: VLB
+  BYB: Baybay City
+  ORM: Ormoc City
+  TCL: Tacloban City
+  ABY: Abuyog
+  ALN: Alangalang
+  ALB: Albuera
+  BBT: Babatngon
+  BRG: Barugo
+  BAT: Bato
+  BRN: Burauen
+  CLB: Calubian
+  CPC: Capoocan
+  CRG: Carigara
+  DGM: Dagami
+  DLG: Dulag
+  HLN: Hilongos
+  HND: Hindang
+  INP: Inopacan
+  ISB: Isabel
+  JAR: Jaro
+  JVR: Javier
+  JLT: Julita
+  KNN: Kananga
+  LPZ: La Paz
+  LYT: Leyte
+  MCR: Macarthur
+  MHP: Mahaplag
+  MTG: Matag-ob
+  MTL: Matalom
+  MYR: Mayorga
+  MRD: Merida
+  PAL: Palo
+  PLM: Palompon
+  PST: Pastrana
+  SIS: San Isidro
+  SMG: San Miguel
+  SFE: Santa Fe
+  TBN: Tabango
+  TBO: Tabontabon
+  TNN: Tanauan
+  TLS: Tolosa
+  TNG: Tunga
+  VLB: Villaba
 Maguindanao:
-  - Cotabato City: CTB
-  - Ampatuan: AMP
-  - Barira: BRR
-  - Buldon: BLD
-  - Buluan: BLN
-  - Datu Abdullah Sangki: DAB
-  - Datu Anggal Midtimbang: DAN
-  - Datu Blah T. Sinsuat: DBL
-  - Datu Hoffer Ampatuan: DHF
-  - Datu Montawal: DMN
-  - Datu Odin Sinsuat: DOD
-  - Datu Paglas: DPG
-  - Datu Piang: DPN
-  - Datu Salibo: DSL
-  - Datu Saudi-Ampatuan: DSD
-  - Datu Unsay: DUN
-  - Gen. S. K. Pendatun: GSK
-  - Guindulungan: GND
-  - Kabuntalan: KBN
-  - Mamasapano: MMS
-  - Mangudadatu: MNG
-  - Matanog: MTN
-  - Northern Kabuntalan: NRT
-  - Pagalungan: PGL
-  - Paglat: PGM
-  - Pandag: PND
-  - Parang: PRN
-  - Rajah Buayan: RJH
-  - Shariff Aguak: SHR
-  - Shariff Saydona Mustapha: SHS
-  - South Upi: STH
-  - Sultan Kudarat: SKD
-  - Sultan Mastura: SMS
-  - Sultan sa Barongis: SSB
-  - Talayan: TLY
-  - Talitay: TLT
-  - Upi: UPI
+  CTB: Cotabato City
+  AMP: Ampatuan
+  BRR: Barira
+  BLD: Buldon
+  BLN: Buluan
+  DAB: Datu Abdullah Sangki
+  DAN: Datu Anggal Midtimbang
+  DBL: Datu Blah T. Sinsuat
+  DHF: Datu Hoffer Ampatuan
+  DMN: Datu Montawal
+  DOD: Datu Odin Sinsuat
+  DPG: Datu Paglas
+  DPN: Datu Piang
+  DSL: Datu Salibo
+  DSD: Datu Saudi-Ampatuan
+  DUN: Datu Unsay
+  GSK: Gen. S. K. Pendatun
+  GND: Guindulungan
+  KBN: Kabuntalan
+  MMS: Mamasapano
+  MNG: Mangudadatu
+  MTN: Matanog
+  NRT: Northern Kabuntalan
+  PGL: Pagalungan
+  PGM: Paglat
+  PND: Pandag
+  PRN: Parang
+  RJH: Rajah Buayan
+  SHR: Shariff Aguak
+  SHS: Shariff Saydona Mustapha
+  STH: South Upi
+  SKD: Sultan Kudarat
+  SMS: Sultan Mastura
+  SSB: Sultan sa Barongis
+  TLY: Talayan
+  TLT: Talitay
+  UPI: Upi
 Marinduque:
-  - Boac: BOA
-  - Buenavista: BNV
-  - Gasan: GSN
-  - Mogpog: MGP
-  - Santa Cruz: SCR
-  - Torrijos: TRJ
+  BOA: Boac
+  BNV: Buenavista
+  GSN: Gasan
+  MGP: Mogpog
+  SCR: Santa Cruz
+  TRJ: Torrijos
 Masbate:
-  - Masbate City: MSB
-  - Aroroy: ARR
-  - Baleno: BLN
-  - Balud: BLD
-  - Batuan: BTN
-  - Cataingan: CTN
-  - Cawayan: CWY
-  - Claveria: CLV
-  - Dimasalang: DMS
-  - esperanza: SPR
-  - Mandaon: MND
-  - Milagros: MLG
-  - Mobo: MOB
-  - Monreal: MNR
-  - Palanas: PLN
-  - Pio V. Corpuz: PVC
-  - Placer: PLC
-  - San Fernando: SFR
-  - San Jacinto: SJC
-  - San Pascual: SPS
-  - Uson: USN
+  MSB: Masbate City
+  ARR: Aroroy
+  BLN: Baleno
+  BLD: Balud
+  BTN: Batuan
+  CTN: Cataingan
+  CWY: Cawayan
+  CLV: Claveria
+  DMS: Dimasalang
+  SPR: esperanza
+  MND: Mandaon
+  MLG: Milagros
+  MOB: Mobo
+  MNR: Monreal
+  PLN: Palanas
+  PVC: Pio V. Corpuz
+  PLC: Placer
+  SFR: San Fernando
+  SJC: San Jacinto
+  SPS: San Pascual
+  USN: Uson
 Metro Manila:
-  - Caloocan City: CLC
-  - Las Pinas City: LSP
-  - Makati City: MKT
-  - Malabon City: MLB
-  - Mandaluyong City: MND
-  - Manila City: MNL
-  - Marikina City: MRK
-  - Muntinlupa City: MNT
-  - Navotas City: NVT
-  - Paranaque City: PRN
-  - Pasay City: PSY
-  - Pasig City: PSG
-  - Quezon City: QZN
-  - San Juan City: SJN
-  - Taguig City: TGG
-  - Valenzuela City: VLN
-  - Pateros: PTR
+  CLC: Caloocan City
+  LSP: Las Pinas City
+  MKT: Makati City
+  MLB: Malabon City
+  MND: Mandaluyong City
+  MNL: Manila City
+  MRK: Marikina City
+  MNT: Muntinlupa City
+  NVT: Navotas City
+  PRN: Paranaque City
+  PSY: Pasay City
+  PSG: Pasig City
+  QZN: Quezon City
+  SJN: San Juan City
+  TGG: Taguig City
+  VLN: Valenzuela City
+  PTR: Pateros
 Misamis Occidental:
-  - Oroquieta City: ORQ
-  - Ozamiz City: OZM
-  - Tangub City: TNG
-  - Aloran: ALR
-  - Baliangao: BLN
-  - Bonifacio: BNF
-  - Calamba: CLM
-  - Clarin: CLR
-  - Concepcion: CNC
-  - Don Victoriano Chiongbian: DNV
-  - Jimenez: JMN
-  - Lopez Jaena: LPZ
-  - Panaon: PNN
-  - Plaridel: PLR
-  - Sapang Dalaga: SPN
-  - Sinacaban: SNC
-  - Tudela: TDL
+  ORQ: Oroquieta City
+  OZM: Ozamiz City
+  TNG: Tangub City
+  ALR: Aloran
+  BLN: Baliangao
+  BNF: Bonifacio
+  CLM: Calamba
+  CLR: Clarin
+  CNC: Concepcion
+  DNV: Don Victoriano Chiongbian
+  JMN: Jimenez
+  LPZ: Lopez Jaena
+  PNN: Panaon
+  PLR: Plaridel
+  SPN: Sapang Dalaga
+  SNC: Sinacaban
+  TDL: Tudela
 Misamis Oriental:
-  - Cagayan de Oro: CGY
-  - Gingoog City: GNG
-  - el Salvador City: LSL
-  - Alubijid: ALB
-  - Balingasag: BLN
-  - Balingoan: BLO
-  - Binuangan: BNN
-  - Claveria: CLV
-  - Gitagum: GTG
-  - Initao: INT
-  - Jasaan: JSN
-  - Kinoguitan: KNG
-  - Lagonglong: LGN
-  - Laguindingan: LGO
-  - Libertad: LBR
-  - Lugait: LGT
-  - Magsaysay: MGS
-  - Manticao: MNT
-  - Medina: MDN
-  - Naawan: NWN
-  - Opol: OPL
-  - Salay: SLY
-  - Sugbongcogon: SGB
-  - Tagoloan: TGL
-  - Talisayan: TLS
-  - Villanueva: VLN
+  CGY: Cagayan de Oro
+  GNG: Gingoog City
+  LSL: el Salvador City
+  ALB: Alubijid
+  BLN: Balingasag
+  BLO: Balingoan
+  BNN: Binuangan
+  CLV: Claveria
+  GTG: Gitagum
+  INT: Initao
+  JSN: Jasaan
+  KNG: Kinoguitan
+  LGN: Lagonglong
+  LGO: Laguindingan
+  LBR: Libertad
+  LGT: Lugait
+  MGS: Magsaysay
+  MNT: Manticao
+  MDN: Medina
+  NWN: Naawan
+  OPL: Opol
+  SLY: Salay
+  SGB: Sugbongcogon
+  TGL: Tagoloan
+  TLS: Talisayan
+  VLN: Villanueva
 Mountain Province:
-  - Barlig: BRL
-  - Bauko: BAU
-  - Besao: BES
-  - Bontoc: BNT
-  - Natonin: NTN
-  - Paracelis: PRC
-  - Sabangan: SBN
-  - Sadanga: SDN
-  - Sagada: SGD
-  - Tadian: TDN
+  BRL: Barlig
+  BAU: Bauko
+  BES: Besao
+  BNT: Bontoc
+  NTN: Natonin
+  PRC: Paracelis
+  SBN: Sabangan
+  SDN: Sadanga
+  SGD: Sagada
+  TDN: Tadian
 Negros Occidental:
-  - Bacolod City: BCL
-  - Bago City: BAG
-  - Cadiz City: CDZ
-  - escalante City: SCL
-  - Himamaylan City: HMM
-  - Kabankalan City: KBN
-  - La Carlota City: LCR
-  - Sagay City: SGY
-  - San Carlos City: SCR
-  - Silay City: SLY
-  - Sipalay City: SPL
-  - Talisay City: TLS
-  - Victorias City: VCT
-  - Binalbagan: BNL
-  - Calatrava: CLT
-  - Candoni: CND
-  - Cauayan: CYN
-  - enrique B. Magalona: NRQ
-  - Hinigaran: HNG
-  - Hinoba-an: HNB
-  - Ilog: ILG
-  - Isabela: ISB
-  - La Castellana: LCS
-  - Manapla: MNP
-  - Moises Padilla: MSS
-  - Murcia: MRC
-  - Pontevedra: PNT
-  - Pulupandan: PLP
-  - Salvador Benedicto: SLV
-  - San enrique: SNR
-  - Toboso: TBS
-  - Valladolid: VLD
+  BCL: Bacolod City
+  BAG: Bago City
+  CDZ: Cadiz City
+  SCL: escalante City
+  HMM: Himamaylan City
+  KBN: Kabankalan City
+  LCR: La Carlota City
+  SGY: Sagay City
+  SCR: San Carlos City
+  SLY: Silay City
+  SPL: Sipalay City
+  TLS: Talisay City
+  VCT: Victorias City
+  BNL: Binalbagan
+  CLT: Calatrava
+  CND: Candoni
+  CYN: Cauayan
+  NRQ: enrique B. Magalona
+  HNG: Hinigaran
+  HNB: Hinoba-an
+  ILG: Ilog
+  ISB: Isabela
+  LCS: La Castellana
+  MNP: Manapla
+  MSS: Moises Padilla
+  MRC: Murcia
+  PNT: Pontevedra
+  PLP: Pulupandan
+  SLV: Salvador Benedicto
+  SNR: San enrique
+  TBS: Toboso
+  VLD: Valladolid
 Negros Oriental:
-  - Bais: BAI
-  - Bayawan: BYW
-  - Canlaon: CNL
-  - Dumaguete: DMG
-  - Guihulngan: GHL
-  - Tanjay: TNJ
-  - Amlan: AML
-  - Ayungon: AYN
-  - Bacong: BCN
-  - Basay: BSY
-  - Bindoy: BND
-  - Dauin: DAU
-  - Jimalalud: JML
-  - La Libertad: LLB
-  - Mabinay: MBN
-  - Manjuyod: MNJ
-  - Pamplona: PMP
-  - San Jose: SJS
-  - Santa Catalina: SCT
-  - Siaton: STN
-  - Sibulan: SBL
-  - Tayasan: TYS
-  - Valencia: VLN
-  - Vallehermoso: VLH
-  - Zamboanguita: ZMB
+  BAI: Bais
+  BYW: Bayawan
+  CNL: Canlaon
+  DMG: Dumaguete
+  GHL: Guihulngan
+  TNJ: Tanjay
+  AML: Amlan
+  AYN: Ayungon
+  BCN: Bacong
+  BSY: Basay
+  BND: Bindoy
+  DAU: Dauin
+  JML: Jimalalud
+  LLB: La Libertad
+  MBN: Mabinay
+  MNJ: Manjuyod
+  PMP: Pamplona
+  SJS: San Jose
+  SCT: Santa Catalina
+  STN: Siaton
+  SBL: Sibulan
+  TYS: Tayasan
+  VLN: Valencia
+  VLH: Vallehermoso
+  ZMB: Zamboanguita
 Northern Samar:
-  - Allen: ALN
-  - Biri: BIR
-  - Bobon: BBN
-  - Capul: CPL
-  - Catarman: CTR
-  - Catubig: CTB
-  - Gamay: GMY
-  - Laoang: LNG
-  - Lapinig: LPN
-  - Las Navas: LSN
-  - Lavezares: LVZ
-  - Lope de Vega: LPD
-  - Mapanas: MPN
-  - Mondragon: MND
-  - Palapag: PLP
-  - Pambujan: PMB
-  - Rosario: RSR
-  - San Antonio: SAN
-  - San Isidro: SIS
-  - San Jose: SJS
-  - San Roque: SRQ
-  - San Vicente: SVC
-  - Silvino Lobos: SLV
-  - Victoria: VCT
-Nueva ecija:
-  - Cabanatuan City: CBN
-  - Gapan City: GPN
-  - Science City of Munoz: SCN
-  - Palayan City: PLY
-  - San Jose City: SJS
-  - Aliaga: ALG
-  - Bongabon: BNG
-  - Cabiao: CAB
-  - Carranglan: CRN
-  - Cuyapo: CYP
-  - Gabaldon: GBL
-  - General Mamerto Natividad: GMM
-  - General Tinio: GTN
-  - Guimba: GMB
-  - Jaen: JAE
-  - Laur: LAU
-  - Licab: LCB
-  - Llanera: LLN
-  - Lupao: LUP
-  - Nampicuan: NMP
-  - Pantabangan: PNT
-  - Penaranda: PNR
-  - Quezon: QZN
-  - Rizal: RZL
-  - San Antonio: SAN
-  - San Isidro: SIS
-  - San Leonardo: SLN
-  - Santa Rosa: SRS
-  - Santo Domingo: SDM
-  - Talavera: TLV
-  - Talugtug: TLG
-  - Zaragoza: ZRG
+  ALN: Allen
+  BIR: Biri
+  BBN: Bobon
+  CPL: Capul
+  CTR: Catarman
+  CTB: Catubig
+  GMY: Gamay
+  LNG: Laoang
+  LPN: Lapinig
+  LSN: Las Navas
+  LVZ: Lavezares
+  LPD: Lope de Vega
+  MPN: Mapanas
+  MND: Mondragon
+  PLP: Palapag
+  PMB: Pambujan
+  RSR: Rosario
+  SAN: San Antonio
+  SIS: San Isidro
+  SJS: San Jose
+  SRQ: San Roque
+  SVC: San Vicente
+  SLV: Silvino Lobos
+  VCT: Victoria
+Nueva Ecija:
+  CBN: Cabanatuan City
+  GPN: Gapan City
+  SCN: Science City of Munoz
+  PLY: Palayan City
+  SJS: San Jose City
+  ALG: Aliaga
+  BNG: Bongabon
+  CAB: Cabiao
+  CRN: Carranglan
+  CYP: Cuyapo
+  GBL: Gabaldon
+  GMM: General Mamerto Natividad
+  GTN: General Tinio
+  GMB: Guimba
+  JAE: Jaen
+  LAU: Laur
+  LCB: Licab
+  LLN: Llanera
+  LUP: Lupao
+  NMP: Nampicuan
+  PNT: Pantabangan
+  PNR: Penaranda
+  QZN: Quezon
+  RZL: Rizal
+  SAN: San Antonio
+  SIS: San Isidro
+  SLN: San Leonardo
+  SRS: Santa Rosa
+  SDM: Santo Domingo
+  TLV: Talavera
+  TLG: Talugtug
+  ZRG: Zaragoza
 Nueva Vizcaya:
-  - Alfonso Castaneda: ALF
-  - Ambaguio: AMB
-  - Aritao: ART
-  - Bagabag: BGB
-  - Bambang: BMB
-  - Bayombong: BYM
-  - Diadi: DIA
-  - Dupax del Norte: DPX
-  - Dupax del Sur: DPY
-  - Kasibu: KSB
-  - Kayapa: KYP
-  - Quezon: QZN
-  - Santa Fe: SFE
-  - Solano: SLN
-  - Villaverde: VLV
+  ALF: Alfonso Castaneda
+  AMB: Ambaguio
+  ART: Aritao
+  BGB: Bagabag
+  BMB: Bambang
+  BYM: Bayombong
+  DIA: Diadi
+  DPX: Dupax del Norte
+  DPY: Dupax del Sur
+  KSB: Kasibu
+  KYP: Kayapa
+  QZN: Quezon
+  SFE: Santa Fe
+  SLN: Solano
+  VLV: Villaverde
 Occidental Mindoro:
-  - Abra de Ilog: ABR
-  - Calintaan: CLN
-  - Looc: LOC
-  - Lubang: LBN
-  - Magsaysay: MGS
-  - Mamburao: MMB
-  - Paluan: PLN
-  - Rizal: RZL
-  - Sablayan: SBL
-  - San Jose: SJS
-  - Santa Cruz: SCR
+  ABR: Abra de Ilog
+  CLN: Calintaan
+  LOC: Looc
+  LBN: Lubang
+  MGS: Magsaysay
+  MMB: Mamburao
+  PLN: Paluan
+  RZL: Rizal
+  SBL: Sablayan
+  SJS: San Jose
+  SCR: Santa Cruz
 Oriental Mindoro:
-  - Calapan City: CLP
-  - Baco: BAC
-  - Bansud: BNS
-  - Bongabong: BNG
-  - Bulalacao: BLL
-  - Gloria: GLR
-  - Mansalay: MNS
-  - Naujan: NJN
-  - Pinamalayan: PNM
-  - Pola: POL
-  - Puerto Galera: PRT
-  - Roxas: RXS
-  - San Teodoro: STD
-  - Socorro: SCR
-  - Victoria: VCT
+  CLP: Calapan City
+  BAC: Baco
+  BNS: Bansud
+  BNG: Bongabong
+  BLL: Bulalacao
+  GLR: Gloria
+  MNS: Mansalay
+  NJN: Naujan
+  PNM: Pinamalayan
+  POL: Pola
+  PRT: Puerto Galera
+  RXS: Roxas
+  STD: San Teodoro
+  SCR: Socorro
+  VCT: Victoria
 Palawan:
-  - Puerto Princesa City: PRT
-  - Aborlan: ABR
-  - Agutaya: AGT
-  - Araceli: ARC
-  - Balabac: BLB
-  - Bataraza: BTR
-  - Brooke's Point: BRK
-  - Busuanga: BSN
-  - Cagayancillo: CGY
-  - Coron: CRN
-  - Culion: CLN
-  - Cuyo: CUY
-  - Dumaran: DMR
-  - el Nido: LND
-  - Kalayaan: KLY
-  - Linapacan: LNP
-  - Magsaysay: MGS
-  - Narra: NAR
-  - Quezon: QZN
-  - Rizal: RZL
-  - Roxas: RXS
-  - San Vicente: SVC
-  - Sofronio espanola: SFR
-  - Taytay: TYT
+  PRT: Puerto Princesa City
+  ABR: Aborlan
+  AGT: Agutaya
+  ARC: Araceli
+  BLB: Balabac
+  BTR: Bataraza
+  BRK: Brooke's Point
+  BSN: Busuanga
+  CGY: Cagayancillo
+  CRN: Coron
+  CLN: Culion
+  CUY: Cuyo
+  DMR: Dumaran
+  LND: el Nido
+  KLY: Kalayaan
+  LNP: Linapacan
+  MGS: Magsaysay
+  NAR: Narra
+  QZN: Quezon
+  RZL: Rizal
+  RXS: Roxas
+  SVC: San Vicente
+  SFR: Sofronio espanola
+  TYT: Taytay
 Pampanga:
-  - Angeles City: ANG
-  - San Fernando City: SFR
-  - Apalit: APL
-  - Arayat: ARY
-  - Bacolor: BCL
-  - Candaba: CND
-  - Floridablanca: FLR
-  - Guagua: GUA
-  - Lubao: LUB
-  - Mabalacat: MBL
-  - Macabebe: MCB
-  - Magalang: MGL
-  - Masantol: MSN
-  - Mexico: MXC
-  - Minalin: MNL
-  - Porac: PRC
-  - San Luis: SLS
-  - San Simon: SSM
-  - Santa Ana: SAN
-  - Santa Rita: SRT
-  - Santo Tomas: STM
-  - Sasmuan: SSM
+  ANG: Angeles City
+  SFR: San Fernando City
+  APL: Apalit
+  ARY: Arayat
+  BCL: Bacolor
+  CND: Candaba
+  FLR: Floridablanca
+  GUA: Guagua
+  LUB: Lubao
+  MBL: Mabalacat
+  MCB: Macabebe
+  MGL: Magalang
+  MSN: Masantol
+  MXC: Mexico
+  MNL: Minalin
+  PRC: Porac
+  SLS: San Luis
+  SSM: San Simon
+  SAN: Santa Ana
+  SRT: Santa Rita
+  STM: Santo Tomas
+  SSM: Sasmuan
 Pangasinan:
-  - Alaminos City: ALM
-  - Dagupan City: DGP
-  - San Carlos City: SCR
-  - Urdaneta City: URD
-  - Agno: AGN
-  - Aguilar: AGL
-  - Alcala: ALC
-  - Anda: AND
-  - Asingan: ASN
-  - Balungao: BLN
-  - Bani: BAN
-  - Basista: BSS
-  - Bautista: BTS
-  - Bayambang: BYM
-  - Binalonan: BNL
-  - Binmaley: BNM
-  - Bolinao: BLN
-  - Bugallon: BGL
-  - Burgos: BRG
-  - Calasiao: CLS
-  - Dasol: DSL
-  - Infanta: INF
-  - Labrador: LBR
-  - Laoac: LAO
-  - Lingayen: LNG
-  - Mabini: MBN
-  - Malasiqui: MLS
-  - Manaoag: MNG
-  - Mangaldan: MNH
-  - Mangatarem: MNG
-  - Mapandan: MPN
-  - Natividad: NTV
-  - Pozzorubio: PZR
-  - Rosales: RSL
-  - San Fabian: SFB
-  - San Jacinto: SJC
-  - San Manuel: SMN
-  - San Nicolas: SNC
-  - San Quintin: SQN
-  - Santa Barbara: SBR
-  - Santa Maria: SMR
-  - Santo Tomas: STM
-  - Sison: SSN
-  - Sual: SUA
-  - Tayug: TYG
-  - Umingan: UMN
-  - Urbiztondo: URB
-  - Villasis: VLS
+  ALM: Alaminos City
+  DGP: Dagupan City
+  SCR: San Carlos City
+  URD: Urdaneta City
+  AGN: Agno
+  AGL: Aguilar
+  ALC: Alcala
+  AND: Anda
+  ASN: Asingan
+  BLN: Balungao
+  BAN: Bani
+  BSS: Basista
+  BTS: Bautista
+  BYM: Bayambang
+  BNL: Binalonan
+  BNM: Binmaley
+  BLN: Bolinao
+  BGL: Bugallon
+  BRG: Burgos
+  CLS: Calasiao
+  DSL: Dasol
+  INF: Infanta
+  LBR: Labrador
+  LAO: Laoac
+  LNG: Lingayen
+  MBN: Mabini
+  MLS: Malasiqui
+  MNG: Manaoag
+  MNH: Mangaldan
+  MNG: Mangatarem
+  MPN: Mapandan
+  NTV: Natividad
+  PZR: Pozzorubio
+  RSL: Rosales
+  SFB: San Fabian
+  SJC: San Jacinto
+  SMN: San Manuel
+  SNC: San Nicolas
+  SQN: San Quintin
+  SBR: Santa Barbara
+  SMR: Santa Maria
+  STM: Santo Tomas
+  SSN: Sison
+  SUA: Sual
+  TYG: Tayug
+  UMN: Umingan
+  URB: Urbiztondo
+  VLS: Villasis
 Quezon:
-  - Lucena City: LCN
-  - Tayabas City: TYB
-  - Agdangan: AGD
-  - Alabat: ALB
-  - Atimonan: ATM
-  - Buenavista: BNV
-  - Burdeos: BRD
-  - Calauag: CLG
-  - Candelaria: CND
-  - Catanauan: CTN
-  - Dolores: DLR
-  - General Luna: GLN
-  - General Nakar: GNK
-  - Guinayangan: GNY
-  - Gumaca: GMC
-  - Infanta: INF
-  - Jomalig: JML
-  - Lopez: LPZ
-  - Lucban: LCB
-  - Macalelon: MCL
-  - Mauban: MBN
-  - Mulanay: MLN
-  - Padre Burgos: PDR
-  - Pagbilao: PGB
-  - Panukulan: PNK
-  - Patnanungan: PTN
-  - Perez: PRZ
-  - Pitogo: PTG
-  - Plaridel: PLR
-  - Polillo: PLL
-  - Quezon: QZN
-  - Real: REA
-  - Sampaloc: SMP
-  - San Andres: SAN
-  - San Antonio: SAO
-  - San Francisco: SFR
-  - San Narciso: SNR
-  - Sariaya: SRY
-  - Tagkawayan: TGK
-  - Tiaong: TNG
-  - Unisan: UNS
+  LCN: Lucena City
+  TYB: Tayabas City
+  AGD: Agdangan
+  ALB: Alabat
+  ATM: Atimonan
+  BNV: Buenavista
+  BRD: Burdeos
+  CLG: Calauag
+  CND: Candelaria
+  CTN: Catanauan
+  DLR: Dolores
+  GLN: General Luna
+  GNK: General Nakar
+  GNY: Guinayangan
+  GMC: Gumaca
+  INF: Infanta
+  JML: Jomalig
+  LPZ: Lopez
+  LCB: Lucban
+  MCL: Macalelon
+  MBN: Mauban
+  MLN: Mulanay
+  PDR: Padre Burgos
+  PGB: Pagbilao
+  PNK: Panukulan
+  PTN: Patnanungan
+  PRZ: Perez
+  PTG: Pitogo
+  PLR: Plaridel
+  PLL: Polillo
+  QZN: Quezon
+  REA: Real
+  SMP: Sampaloc
+  SAN: San Andres
+  SAO: San Antonio
+  SFR: San Francisco
+  SNR: San Narciso
+  SRY: Sariaya
+  TGK: Tagkawayan
+  TNG: Tiaong
+  UNS: Unisan
 Quirino:
-  - Aglipay: AGL
-  - Cabarroguis: CBR
-  - Diffun: DFN
-  - Maddela: MDL
-  - Nagtipunan: NGT
-  - Saguday: SGD
+  AGL: Aglipay
+  CBR: Cabarroguis
+  DFN: Diffun
+  MDL: Maddela
+  NGT: Nagtipunan
+  SGD: Saguday
 Rizal:
-  - Antipolo City: ANT
-  - Angono: ANG
-  - Baras: BRS
-  - Binangonan: BNN
-  - Cainta: CNT
-  - Cardona: CRD
-  - Jalajala: JLJ
-  - Morong: MRN
-  - Pililla: PLL
-  - Rodriguez: RDR
-  - San Mateo: SMT
-  - Tanay: TNY
-  - Taytay: TYT
-  - Teresa: TRS
+  ANT: Antipolo City
+  ANG: Angono
+  BRS: Baras
+  BNN: Binangonan
+  CNT: Cainta
+  CRD: Cardona
+  JLJ: Jalajala
+  MRN: Morong
+  PLL: Pililla
+  RDR: Rodriguez
+  SMT: San Mateo
+  TNY: Tanay
+  TYT: Taytay
+  TRS: Teresa
 Romblon:
-  - Alcantara: ALC
-  - Banton: BNT
-  - Cajidiocan: CJD
-  - Calatrava: CLT
-  - Concepcion: CNC
-  - Corcuera: CRC
-  - Ferrol: FRL
-  - Looc: LOC
-  - Magdiwang: MGD
-  - Odiongan: ODN
-  - Romblon: RMB
-  - San Agustin: SAG
-  - San Andres: SAN
-  - San Fernando: SFR
-  - San Jose: SJS
-  - Santa Fe: SFE
-  - Santa Maria: SMR
+  ALC: Alcantara
+  BNT: Banton
+  CJD: Cajidiocan
+  CLT: Calatrava
+  CNC: Concepcion
+  CRC: Corcuera
+  FRL: Ferrol
+  LOC: Looc
+  MGD: Magdiwang
+  ODN: Odiongan
+  RMB: Romblon
+  SAG: San Agustin
+  SAN: San Andres
+  SFR: San Fernando
+  SJS: San Jose
+  SFE: Santa Fe
+  SMR: Santa Maria
 Samar:
-  - Calbayog City: CLB
-  - Catbalogan City: CTB
-  - Almagro: ALM
-  - Basey: BSY
-  - Calbiga: CLB
-  - Daram: DRM
-  - Gandara: GND
-  - Hinabangan: HNB
-  - Jiabong: JBN
-  - Marabut: MRB
-  - Matuguinao: MTG
-  - Motiong: MTN
-  - Pagsanghan: PGS
-  - Paranas: PRN
-  - Pinabacdao: PNB
-  - San Jorge: SJR
-  - San Jose De Buan: SJS
-  - San Sebastian: SSB
-  - Santa Margarita: SMR
-  - Santa Rita: SRT
-  - Santo Nino: SNN
-  - Tagapul-an: TGP
-  - Talalora: TLL
-  - Tarangnan: TRN
-  - Villareal: VLR
-  - Zumarraga: ZMR
+  CLB: Calbayog City
+  CTB: Catbalogan City
+  ALM: Almagro
+  BSY: Basey
+  CLB: Calbiga
+  DRM: Daram
+  GND: Gandara
+  HNB: Hinabangan
+  JBN: Jiabong
+  MRB: Marabut
+  MTG: Matuguinao
+  MTN: Motiong
+  PGS: Pagsanghan
+  PRN: Paranas
+  PNB: Pinabacdao
+  SJR: San Jorge
+  SJS: San Jose De Buan
+  SSB: San Sebastian
+  SMR: Santa Margarita
+  SRT: Santa Rita
+  SNN: Santo Nino
+  TGP: Tagapul-an
+  TLL: Talalora
+  TRN: Tarangnan
+  VLR: Villareal
+  ZMR: Zumarraga
 Sarangani:
-  - Alabel: ALB
-  - Glan: GLN
-  - Kiamba: KMB
-  - Maasim: MSM
-  - Maitum: MTM
-  - Malapatan: MLP
-  - Malungon: MLN
+  ALB: Alabel
+  GLN: Glan
+  KMB: Kiamba
+  MSM: Maasim
+  MTM: Maitum
+  MLP: Malapatan
+  MLN: Malungon
 Siquijor:
-  - enrique Villanueva: NRQ
-  - Larena: LRN
-  - Lazi: LAZ
-  - Maria: MAR
-  - San Juan: SJN
-  - Siquijor: SQJ
+  NRQ: enrique Villanueva
+  LRN: Larena
+  LAZ: Lazi
+  MAR: Maria
+  SJN: San Juan
+  SQJ: Siquijor
 Sorsogon:
-  - Sorsogon City: SRS
-  - Barcelona: BRC
-  - Bulan: BLN
-  - Bulusan: BLS
-  - Casiguran: CSG
-  - Castilla: CST
-  - Donsol: DNS
-  - Gubat: GBT
-  - Irosin: IRS
-  - Juban: JBN
-  - Magallanes: MGL
-  - Matnog: MTN
-  - Pilar: PLR
-  - Prieto Diaz: PRT
-  - Santa Magdalena: SMG
+  SRS: Sorsogon City
+  BRC: Barcelona
+  BLN: Bulan
+  BLS: Bulusan
+  CSG: Casiguran
+  CST: Castilla
+  DNS: Donsol
+  GBT: Gubat
+  IRS: Irosin
+  JBN: Juban
+  MGL: Magallanes
+  MTN: Matnog
+  PLR: Pilar
+  PRT: Prieto Diaz
+  SMG: Santa Magdalena
 South Cotabato:
-  - General Santos City: GSN
-  - Koronadal City: KRN
-  - Banga: BNG
-  - Lake Sebu: LKS
-  - Norala: NRL
-  - Polomolok: PLM
-  - Santo Nino: SNN
-  - Surallah: SRL
-  - T'Boli: TBL
-  - Tampakan: TMP
-  - Tantangan: TNT
-  - Tupi: TUP
+  GSN: General Santos City
+  KRN: Koronadal City
+  BNG: Banga
+  LKS: Lake Sebu
+  NRL: Norala
+  PLM: Polomolok
+  SNN: Santo Nino
+  SRL: Surallah
+  TBL: T'Boli
+  TMP: Tampakan
+  TNT: Tantangan
+  TUP: Tupi
 Southern Leyte:
-  - Maasin City: MSN
-  - Anahawan: ANH
-  - Bontoc: BNT
-  - Hinunangan: HNN
-  - Hinundayan: HNO
-  - Libagon: LBG
-  - Liloan: LLN
-  - Limasawa: LMS
-  - Macrohon: MCR
-  - Malitbog: MLT
-  - Padre Burgos: PDR
-  - Pintuyan: PNT
-  - Saint Bernard: SNT
-  - San Francisco: SFR
-  - San Juan: SJN
-  - San Ricardo: SRC
-  - Silago: SLG
-  - Sogod: SGD
-  - Tomas Oppus: TMS
+  MSN: Maasin City
+  ANH: Anahawan
+  BNT: Bontoc
+  HNN: Hinunangan
+  HNO: Hinundayan
+  LBG: Libagon
+  LLN: Liloan
+  LMS: Limasawa
+  MCR: Macrohon
+  MLT: Malitbog
+  PDR: Padre Burgos
+  PNT: Pintuyan
+  SNT: Saint Bernard
+  SFR: San Francisco
+  SJN: San Juan
+  SRC: San Ricardo
+  SLG: Silago
+  SGD: Sogod
+  TMS: Tomas Oppus
 Sultan Kudarat:
-  - Tacurong City: TCR
-  - Bagumbayan: BGM
-  - Columbio: CLM
-  - esperanza: SPR
-  - Isulan: ISL
-  - Kalamansig: KLM
-  - Lambayong: LMB
-  - Lebak: LBK
-  - Lutayan: LTY
-  - Palimbang: PLM
-  - President Quirino: PRS
-  - Sen. Ninoy Aquino: SNN
+  TCR: Tacurong City
+  BGM: Bagumbayan
+  CLM: Columbio
+  SPR: esperanza
+  ISL: Isulan
+  KLM: Kalamansig
+  LMB: Lambayong
+  LBK: Lebak
+  LTY: Lutayan
+  PLM: Palimbang
+  PRS: President Quirino
+  SNN: Sen. Ninoy Aquino
 Sulu:
-  - Banguingui: BNG
-  - Hadji Panglima Tahil: HDJ
-  - Indanan: IND
-  - Jolo: JOL
-  - Kalingalan Caluang: KLN
-  - Lugus: LGS
-  - Luuk: LUK
-  - Maimbung: MMB
-  - Old Panamao: OLD
-  - Omar: OMR
-  - Pandami: PND
-  - Panglima estino: PNG
-  - Pangutaran: PNH
-  - Parang: PRN
-  - Pata: PAT
-  - Patikul: PTK
-  - Siasi: SIA
-  - Talipao: TLP
-  - Tapul: TPL
+  BNG: Banguingui
+  HDJ: Hadji Panglima Tahil
+  IND: Indanan
+  JOL: Jolo
+  KLN: Kalingalan Caluang
+  LGS: Lugus
+  LUK: Luuk
+  MMB: Maimbung
+  OLD: Old Panamao
+  OMR: Omar
+  PND: Pandami
+  PNG: Panglima estino
+  PNH: Pangutaran
+  PRN: Parang
+  PAT: Pata
+  PTK: Patikul
+  SIA: Siasi
+  TLP: Talipao
+  TPL: Tapul
 Surigao del Norte:
-  - Surigao City: SRG
-  - Alegria: ALG
-  - Bacuag: BCG
-  - Basilisa: BSL
-  - Burgos: BRG
-  - Cagdianao: CGD
-  - Claver: CLV
-  - Dapa: DAP
-  - Del Carmen: DLC
-  - Dinagat: DNG
-  - General Luna: GLN
-  - Gigaquit: GGQ
-  - Libjo: LBJ
-  - Loreto: LRT
-  - Mainit: MNT
-  - Malimono: MLM
-  - Pilar: PLR
-  - Placer: PLC
-  - San Benito: SBN
-  - San Francisco: SFR
-  - San Isidro: SIS
-  - San Jose: SJS
-  - Santa Monica: SMN
-  - Sison: SSN
-  - Socorro: SCR
-  - Tagana-an: TGN
-  - Tubajon: TBJ
-  - Tubod: TBD
+  SRG: Surigao City
+  ALG: Alegria
+  BCG: Bacuag
+  BSL: Basilisa
+  BRG: Burgos
+  CGD: Cagdianao
+  CLV: Claver
+  DAP: Dapa
+  DLC: Del Carmen
+  DNG: Dinagat
+  GLN: General Luna
+  GGQ: Gigaquit
+  LBJ: Libjo
+  LRT: Loreto
+  MNT: Mainit
+  MLM: Malimono
+  PLR: Pilar
+  PLC: Placer
+  SBN: San Benito
+  SFR: San Francisco
+  SIS: San Isidro
+  SJS: San Jose
+  SMN: Santa Monica
+  SSN: Sison
+  SCR: Socorro
+  TGN: Tagana-an
+  TBJ: Tubajon
+  TBD: Tubod
 Surigao del Sur:
-  - Bislig City: BSL
-  - Tandag City: TND
-  - Barobo: BRB
-  - Bayabas: BYB
-  - Cagwait: CGW
-  - Cantilan: CNT
-  - Carmen: CRM
-  - Carrascal: CRS
-  - Cortes: CRT
-  - Hinatuan: HNT
-  - Lanuza: LNZ
-  - Lianga: LNG
-  - Lingig: LNH
-  - Madrid: MDR
-  - Marihatag: MRH
-  - San Agustin: SAG
-  - San Miguel: SMG
-  - Tagbina: TGB
-  - Tago: TAG
+  BSL: Bislig City
+  TND: Tandag City
+  BRB: Barobo
+  BYB: Bayabas
+  CGW: Cagwait
+  CNT: Cantilan
+  CRM: Carmen
+  CRS: Carrascal
+  CRT: Cortes
+  HNT: Hinatuan
+  LNZ: Lanuza
+  LNG: Lianga
+  LNH: Lingig
+  MDR: Madrid
+  MRH: Marihatag
+  SAG: San Agustin
+  SMG: San Miguel
+  TGB: Tagbina
+  TAG: Tago
 Tarlac:
-  - Tarlac City: TRL
-  - Anao: ANA
-  - Bamban: BMB
-  - Camiling: CML
-  - Capas: CPS
-  - Concepcion: CNC
-  - Gerona: GRN
-  - La Paz: LPZ
-  - Mayantoc: MYN
-  - Moncada: MNC
-  - Paniqui: PNQ
-  - Pura: PUR
-  - Ramos: RMS
-  - San Clemente: SCL
-  - San Jose: SJS
-  - San Manuel: SMN
-  - Santa Ignacia: SIG
-  - Victoria: VCT
+  TRL: Tarlac City
+  ANA: Anao
+  BMB: Bamban
+  CML: Camiling
+  CPS: Capas
+  CNC: Concepcion
+  GRN: Gerona
+  LPZ: La Paz
+  MYN: Mayantoc
+  MNC: Moncada
+  PNQ: Paniqui
+  PUR: Pura
+  RMS: Ramos
+  SCL: San Clemente
+  SJS: San Jose
+  SMN: San Manuel
+  SIG: Santa Ignacia
+  VCT: Victoria
 Tawi-Tawi:
-  - Bongao: BNG
-  - Languyan: LNG
-  - Mapun: MPN
-  - Panglima Sugala: PNG
-  - Sapa-Sapa: SPS
-  - Sibutu: SBT
-  - Simunul: SMN
-  - Sitangkai: STN
-  - South Ubian: STH
-  - Tandubas: TND
-  - Turtle Islands: TRT
+  BNG: Bongao
+  LNG: Languyan
+  MPN: Mapun
+  PNG: Panglima Sugala
+  SPS: Sapa-Sapa
+  SBT: Sibutu
+  SMN: Simunul
+  STN: Sitangkai
+  STH: South Ubian
+  TND: Tandubas
+  TRT: Turtle Islands
 Zambales:
-  - Olongapo City: OLN
-  - Botolan: BTL
-  - Cabangan: CBN
-  - Candelaria: CND
-  - Castillejos: CST
-  - Iba: IBA
-  - Masinloc: MSN
-  - Palauig: PLG
-  - San Antonio: SAN
-  - San Felipe: SFL
-  - San Marcelino: SMR
-  - San Narciso: SNR
-  - Santa Cruz: SCR
-  - Subic: SBC
+  OLN: Olongapo City
+  BTL: Botolan
+  CBN: Cabangan
+  CND: Candelaria
+  CST: Castillejos
+  IBA: Iba
+  MSN: Masinloc
+  PLG: Palauig
+  SAN: San Antonio
+  SFL: San Felipe
+  SMR: San Marcelino
+  SNR: San Narciso
+  SCR: Santa Cruz
+  SBC: Subic
 Zamboanga del Norte:
-  - Dapitan City: DPT
-  - Dipolog City: DPL
-  - Bacungan: BCN
-  - Baliguian: BLG
-  - Godod: GDD
-  - Gutalac: GTL
-  - Jose Dalman: JSD
-  - Kalawit: KLW
-  - Katipunan: KTP
-  - La Libertad: LLB
-  - Labason: LBS
-  - Liloy: LLY
-  - Manukan: MNK
-  - Mutia: MUT
-  - Pinan: PNN
-  - Polanco: PLN
-  - Pres. Manuel A. Roxas: PRS
-  - Rizal: RZL
-  - Salug: SLG
-  - Sergio Osmena Sr.: SRG
-  - Siayan: SYN
-  - Sibuco: SBC
-  - Sibutad: SBT
-  - Sindangan: SND
-  - Siocon: SCN
-  - Sirawai: SRW
-  - Tampilisan: TMP
+  DPT: Dapitan City
+  DPL: Dipolog City
+  BCN: Bacungan
+  BLG: Baliguian
+  GDD: Godod
+  GTL: Gutalac
+  JSD: Jose Dalman
+  KLW: Kalawit
+  KTP: Katipunan
+  LLB: La Libertad
+  LBS: Labason
+  LLY: Liloy
+  MNK: Manukan
+  MUT: Mutia
+  PNN: Pinan
+  PLN: Polanco
+  PRS: Pres. Manuel A. Roxas
+  RZL: Rizal
+  SLG: Salug
+  SRG: Sergio Osmena Sr.
+  SYN: Siayan
+  SBC: Sibuco
+  SBT: Sibutad
+  SND: Sindangan
+  SCN: Siocon
+  SRW: Sirawai
+  TMP: Tampilisan
 Zamboanga del Sur:
-  - Pagadian City: PGD
-  - Zamboanga City: ZMB
-  - Aurora: ARR
-  - Bayog: BYG
-  - Dimataling: DMT
-  - Dinas: DNS
-  - Dumalinao: DML
-  - Dumingag: DMN
-  - Guipos: GPS
-  - Josefina: JSF
-  - Kumalarang: KML
-  - Labangan: LBN
-  - Lakewood: LKW
-  - Lapuyan: LPY
-  - Mahayag: MHY
-  - Margosatubig: MRG
-  - Midsalip: MDS
-  - Molave: MLV
-  - Pitogo: PTG
-  - Ramon Magsaysay: RMN
-  - San Miguel: SMG
-  - San Pablo: SPB
-  - Sominot: SMN
-  - Tabina: TBN
-  - Tambulig: TMB
-  - Tigbao: TGB
-  - Tukuran: TKR
-  - Vincenzo A. Sagun: VNC
+  PGD: Pagadian City
+  ZMB: Zamboanga City
+  ARR: Aurora
+  BYG: Bayog
+  DMT: Dimataling
+  DNS: Dinas
+  DML: Dumalinao
+  DMN: Dumingag
+  GPS: Guipos
+  JSF: Josefina
+  KML: Kumalarang
+  LBN: Labangan
+  LKW: Lakewood
+  LPY: Lapuyan
+  MHY: Mahayag
+  MRG: Margosatubig
+  MDS: Midsalip
+  MLV: Molave
+  PTG: Pitogo
+  RMN: Ramon Magsaysay
+  SMG: San Miguel
+  SPB: San Pablo
+  SMN: Sominot
+  TBN: Tabina
+  TMB: Tambulig
+  TGB: Tigbao
+  TKR: Tukuran
+  VNC: Vincenzo A. Sagun
 Zamboanga Sibugay:
-  - Alicia: ALC
-  - Buug: BUG
-  - Diplahan: DPL
-  - Imelda: IML
-  - Ipil: IPL
-  - Kabasalan: KBS
-  - Mabuhay: MBH
-  - Malangas: MLN
-  - Naga: NAG
-  - Olutanga: OLT
-  - Payao: PAY
-  - Roseller Lim: RSL
-  - Siay: SIA
-  - Talusan: TLS
-  - Titay: TTY
-  - Tungawan: TNG
+  ALC: Alicia
+  BUG: Buug
+  DPL: Diplahan
+  IML: Imelda
+  IPL: Ipil
+  KBS: Kabasalan
+  MBH: Mabuhay
+  MLN: Malangas
+  NAG: Naga
+  OLT: Olutanga
+  PAY: Payao
+  RSL: Roseller Lim
+  SIA: Siay
+  TLS: Talusan
+  TTY: Titay
+  TNG: Tungawan
