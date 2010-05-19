@@ -9,6 +9,7 @@ class Candidate < ActiveRecord::Base
   validates_inclusion_of :position, :in => POSITIONS, :message => 'not in list'
   validate :votes_should_not_be_negative
   validate :level_and_position_should_match
+  validate :location_should_match_level
 
   def self.levels
     LEVELS
@@ -26,13 +27,28 @@ class Candidate < ActiveRecord::Base
   def level_and_position_should_match
     case self.level
       when LEVELS[0]
-        errors.add_to_base('Level and position do not match') unless POSITIONS[0..2].include?(self.position)
+        errors.add_to_base("Position not on the #{LEVELS[0]} level") unless POSITIONS[0..2].include?(self.position)
       when LEVELS[1]
-        errors.add_to_base('Level and position do not match') unless POSITIONS[3..4].include?(self.position)
+        errors.add_to_base("Position not on the #{LEVELS[1]} level") unless POSITIONS[3..4].include?(self.position)
       when LEVELS[2]
-        errors.add_to_base('Level and position do not match') unless POSITIONS[5..7].include?(self.position)
+        errors.add_to_base("Position not on the #{LEVELS[2]} level") unless POSITIONS[5..7].include?(self.position)
       when LEVELS[3]
-        errors.add_to_base('Level and position do not match') unless self.position.eql?(POSITIONS[8])
+        errors.add_to_base("Position not on the #{LEVELS[3]} level") unless self.position.eql?(POSITIONS[8])
+    end
+  end
+
+  def location_should_match_level
+    case self.level
+      when LEVELS[0]
+        errors.add_to_base('Province, city/municipality and district must not be set') unless (self.province.nil? and self.municipality.nil? and self.district.nil?)
+      when LEVELS[1]
+        errors.add_to_base('Province must be set') if self.province.nil?
+        errors.add_to_base('City/municipality and district must not be set') unless (self.municipality.nil? and self.district.nil?)
+      when LEVELS[2]
+        errors.add_to_base('City/municipality must be set') if self.municipality.nil?
+        errors.add_to_base('District must not be set') unless self.district.nil?
+      when LEVELS[3]
+        errors.add_to_base('District must be set') if self.district.nil?
     end
   end
 end
