@@ -28,11 +28,11 @@
 
 * A prepopulated database of candidates should exist (use migration of default values using YAML)
 * 2 provinces + Metro Manila
-* 3 Municipalities in the province each
+* 3 municipalities in each province
 * All municipalities and cities in Metro Manila
-* 2 district per municipality or city
+* 2 districts per municipality or city
 * No create form!!
-* fixed data of provinces, city/municipality, district
+* Fixed data for provinces, city/municipality, district
 * Should have candidates table
 * Name, votes, position, level (can be national, provincial_name, city/municipal_name, district_name) (polymorphism)
 * Create rake task for startup
@@ -43,25 +43,23 @@
 * Abstain is possible
 * No flying voter
 * Rules on number of votes
-    <tt>
-    * President      -  1
-    * Vice President -  1
-    * Senators       - 12
-    * Governor       -  1
-    * Vice Governor  -  1
-    * Mayor          -  1
-    * Vice Mayor     -  1
-    * Councilors     -  6
-    * Congressman    -  1
-    </tt>
-* Dont keep track of user's votes
+    President      -  1
+    Vice President -  1
+    Senators       - 12
+    Governor       -  1
+    Vice Governor  -  1
+    Mayor          -  1
+    Vice Mayor     -  1
+    Councilors     -  6
+    Congressman    -  1
+* Don't keep track of user's votes
 * Once form is submitted, update number of votes
 
 === Showing Results
 
-* Show real time updated votes
+* Show real-time updated votes
 * Always show national positions
-* Local Positions when user selects from a list of provinces or municipality
+* Local positions when user selects from a list of provinces or municipality
 * The page should be asynchronously updated or refreshed every five minutes to reflect the updated vote count
 
 === BONUS:
