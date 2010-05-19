@@ -1,7 +1,12 @@
 ActionController::Routing::Routes.draw do |map|
   map.resource :admin_session
+
   map.resources :admins, :collection => {:dashboard => :get}
-  map.resources :users
+  map.namespace :admin do |admin|
+    admin.resources :users
+  end
+
+
   map.login '/admin/login', :controller => 'admin_sessions', :action => 'new'
 
   map.root :controller => 'users', :action => 'home'
