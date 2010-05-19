@@ -43,15 +43,17 @@
 * Abstain is possible
 * No flying voter
 * Rules on number of votes
-* President - 1
-* Vice President - 1
-* Senators - 12
-* Governor - 1
-* Vice Governor - 1
-* Mayor - 1
-* Vice Mayor - 1
-* Councilors - 6
-* Congressman - 1
+    <tt>
+    * President      -  1
+    * Vice President -  1
+    * Senators       - 12
+    * Governor       -  1
+    * Vice Governor  -  1
+    * Mayor          -  1
+    * Vice Mayor     -  1
+    * Councilors     -  6
+    * Congressman    -  1
+    </tt>
 * Dont keep track of user's votes
 * Once form is submitted, update number of votes
 
