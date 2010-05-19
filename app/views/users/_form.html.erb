@@ -1,0 +1,42 @@
+<% field_set_tag 'Name' do %>
+  <%= form.label :last_name %>
+  <%= form.text_field :last_name %>
+  
+  <%= form.label :first_name %>
+  <%= form.text_field :first_name %>
+  
+  <%= form.label :middle_name %>
+  <%= form.text_field :middle_name %>
+<% end %>
+<% field_set_tag 'Address' do %>
+  <%= form.label :street_number %>
+  <%= form.text_field :street_number %>
+  
+  <%= form.label :street_name %>
+  <%= form.text_field :street_name %>
+<% end %>
+<% field_set_tag 'Voter Details' do %>
+  <%= form.label :voter_id %>
+  <%= form.text_field :voter_id %>
+  <!--%= button_to_function 'Generate' %--><br />
+  
+  <%= label :user, :district_code, "District" %>
+  <%= form.text_field :district_code %>
+  <!--TODO%= select :user, :district_code, DISTRICT_LIST.values %-->
+  
+  <%= label :user, :municipality_code, "City/Municipality" %>
+  <%= form.text_field :municipality_code %>
+  <!--TODO%= select :user, :municipality_code, MUNICIPALITY_LIST %-->
+  
+  <%= label :user, :provincial_code, "Province" %>
+  <%= form.text_field :provincial_code %>
+  <!--TODO%= select :user, :provincial_code, PROVINCE_LIST.values.sort %-->
+<% end %>
+<p>
+  <%= form.label :birth_date %><br />
+  <%= date_select :user, :birth_date, :start_year => Time.now.year - 100, :end_year => Time.now.year - 17, :default => Time.now, :order => [:month, :day, :year] %>
+</p>
+<p>
+  <%= form.label :email %><br />
+  <%= form.text_field :email %>
+</p>

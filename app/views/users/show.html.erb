@@ -1,2 +1,31 @@
-<h1>Users#show</h1>
-<p>Find me in app/views/users/show.html.erb</p>
+<p>
+  <em>Voter ID</em>
+  <%=h user.voter_id %>
+</p>
+<p>
+  <em>Name</em>
+  <%=h format_name user %>
+</p>
+<p>
+  <em>Address</em>
+  <%=h format_address user %>
+</p>
+<p>
+  <em>Birthdate</em>
+  <%=h user.birth_date %>
+</p>
+<p>
+  <em>Email Address</em>
+  <%=h user.email %>
+</p>
+<p>
+  <%= "Activated" if user.activated %>
+  <%= "Voted" if user.voted %>
+</p>
+<p>
+  <%= link_to 'Edit', edit_user_path(user) %>
+  <%= link_to 'Remove', user, :confirm => 'Are you sure you want to unregister this voter?', :method => :delete %>
+</p>
+<p>
+  <%= link_to 'Back to Index', users_path %>
+</p>

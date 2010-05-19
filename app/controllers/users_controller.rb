@@ -1,6 +1,11 @@
 class UsersController < ApplicationController
-
+  ##Hooks/Callbacks
+  #
+  before_filter :require_election_open, :only => [:home]
+  
   ## Actions
+  def home
+  end
   
   ##GET /users
   #
@@ -59,3 +64,4 @@ class UsersController < ApplicationController
   end
 
 end
+

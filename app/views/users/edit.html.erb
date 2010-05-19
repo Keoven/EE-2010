@@ -1,2 +1,8 @@
-<h1>Users#edit</h1>
-<p>Find me in app/views/users/edit.html.erb</p>
+<h1>Edit Voter Details</h1>
+<% form_for(@user) do |f| %>   
+  <%= f.error_messages %>      
+  <%= render :partial => "form", :locals => {:form => f} %> 
+  <p>
+    <%= f.submit 'Save Changes' %> 
+  </p>                         
+<% end %>
