@@ -1,0 +1,46 @@
+/*
+.container_12 {
+	background: transparent url(../../images/960gs/12_col.gif) repeat-y;
+}
+*/
+div {
+  overflow: hidden;
+}
+
+body, #header, #footer {
+  background: #333;
+}
+#header > div {
+  padding: 10px 0;
+}
+#header > div * {
+  margin: 0;
+}
+#wrapper {
+  background: white;
+  min-height: 640px;
+  box-shadow: 0 0 25px #000;
+  -moz-box-shadow: 0 0 25px #000;
+  -webkit-box-shadow: 0 0 25px #000;
+}
+
+#errorExplanation * { margin: 0 }
+#errorExplanation {
+  padding: 5px;
+  font-weight: bold;
+  font-size: 0.9em;
+  color: red;
+  margin: 0;
+}
+#errorExplanation ul {
+  font-weight: normal;
+  font-size: 0.9em;
+  list-style-type: square;
+  list-style-position: inside;
+  margin-left: 1em;
+}
+.fieldWithErrors {
+  font-weight: bold;
+  color: red;
+  display: inline;
+}
