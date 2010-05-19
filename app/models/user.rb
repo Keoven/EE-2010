@@ -16,7 +16,7 @@ class User < ActiveRecord::Base
   end
   
   def complete_address
-    return "#{stree_number} #{street_name}" ##get data for district_code, municipality_code, provincial_code
+    return "#{street_number} #{street_name}" ##get data for district_code, municipality_code, provincial_code
   end
   
   def isActivated?

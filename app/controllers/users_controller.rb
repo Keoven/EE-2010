@@ -34,6 +34,7 @@ class UsersController < ApplicationController
 
   def update
     @user = User.find(params[:id])
+<<<<<<< HEAD
       p @user.inspect
       p "################################"
     if @user.update_attributes(params[:user])
@@ -43,6 +44,12 @@ class UsersController < ApplicationController
       p @user.inspect
       p "qwer"
       render :action=> :edit
+=======
+    if @user.update_attributes(params[:user])
+      redirect_to @user
+    else
+      render :action=> :edit 
+>>>>>>> 129fdc5d2b119e3acf2471cf8afd3d629491d86c
     end
   end
 
