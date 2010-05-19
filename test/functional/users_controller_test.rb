@@ -31,15 +31,15 @@ class UsersControllerTest < ActionController::TestCase
 			:voted 			=> true, 
 			:activated 		=> true}
     #user parameters but activated = false
-    @user2 = {          :first_name 		=> 'Alejandro', 
-			:middle_name 		=> 'Marasigan', 
-			:last_name 		=> 'Suarez',
+    @user2 = {          :first_name 		=> 'Ale', 
+			:middle_name 		=> 'Ma', 
+			:last_name 		=> 'Su',
 			:street_number 		=> 1, 
-			:street_name 		=> 'string', 
+			:street_name 		=> 'stringify', 
 			:district_code 		=> 1, 
-			:municipality_code 	=> 'asdf', 
+			:municipality_code 	=> 'fgsfds', 
 			:provincial_code   	=> 'asdf',
-			:voter_id 		=> 'qwer', 
+			:voter_id 		=> 'qwer12341234', 
 			:birth_date 		=> Date.new, 
 			:email 			=> 'a@asdf.com',
 			:voted 			=> true, 
@@ -48,6 +48,8 @@ class UsersControllerTest < ActionController::TestCase
   
   def teardown
     User.delete_all
+    @user1 = nil
+    @user2 = nil
   end
   
   ## test methods
@@ -74,7 +76,7 @@ class UsersControllerTest < ActionController::TestCase
   end
   
   test "action update" do
-    put :update, :id => @user.id, :user => @user2
+    put :update, :id => @user.id, :user => @user1
     assert_redirected_to :controller => "users", :action => "show"
   end
   

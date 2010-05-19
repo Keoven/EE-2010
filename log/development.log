@@ -646,3 +646,29 @@ NameError (undefined local variable or method `adminSession' for #<AdminSessions
 Rendered rescues/_trace (59.0ms)
 Rendered rescues/_request_and_response (66.0ms)
 Rendering rescues/layout (internal_server_error)
+  [4;36;1mSQL (7.5ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (2.4ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+  [4;36;1mSQL (107.8ms)[0m   [0;1mSHOW TABLES[0m
+  [4;35;1mSQL (127.4ms)[0m   [0mSELECT version FROM schema_migrations[0m
+  [4;36;1mSQL (0.3ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.2ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+  [4;36;1mSQL (1099.4ms)[0m   [0;1mDROP DATABASE IF EXISTS `EE-2010_test`[0m
+  [4;35;1mSQL (35.3ms)[0m   [0mCREATE DATABASE `EE-2010_test` DEFAULT CHARACTER SET `utf8`[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+  [4;36;1mSQL (27.0ms)[0m   [0;1mSHOW TABLES[0m
+  [4;35;1mSQL (291.6ms)[0m   [0mCREATE TABLE `admins` (`id` int(11) DEFAULT NULL auto_increment PRIMARY KEY, `login` varchar(255), `email` varchar(255), `crypted_password` varchar(255), `password_salt` varchar(255), `persistence_token` varchar(255), `single_access_token` varchar(255), `perishable_token` varchar(255), `created_at` datetime, `updated_at` datetime) ENGINE=InnoDB[0m
+  [4;36;1mSQL (0.6ms)[0m   [0;1mSHOW TABLES[0m
+  [4;35;1mSQL (119.6ms)[0m   [0mCREATE TABLE `candidates` (`id` int(11) DEFAULT NULL auto_increment PRIMARY KEY, `first_name` varchar(255), `middle_name` varchar(255), `last_name` varchar(255), `position` varchar(255), `level` varchar(255), `num_votes` int(11), `created_at` datetime, `updated_at` datetime, `province` varchar(255), `municipality` varchar(255), `district` varchar(255)) ENGINE=InnoDB[0m
+  [4;36;1mSQL (0.5ms)[0m   [0;1mSHOW TABLES[0m
+  [4;35;1mSQL (119.1ms)[0m   [0mCREATE TABLE `users` (`id` int(11) DEFAULT NULL auto_increment PRIMARY KEY, `first_name` varchar(255), `middle_name` varchar(255), `last_name` varchar(255), `street_number` int(11), `street_name` varchar(255), `district_code` int(11), `municipality_code` varchar(255), `provincial_code` varchar(255), `voter_id` varchar(255), `birth_date` date, `email` varchar(255), `voted` tinyint(1), `activated` tinyint(1), `created_at` datetime, `updated_at` datetime) ENGINE=InnoDB[0m
+  [4;36;1mSQL (0.5ms)[0m   [0;1mSHOW TABLES[0m
+  [4;35;1mSQL (121.5ms)[0m   [0mCREATE TABLE `schema_migrations` (`version` varchar(255) NOT NULL) ENGINE=InnoDB[0m
+  [4;36;1mSQL (281.5ms)[0m   [0;1mCREATE UNIQUE INDEX `unique_schema_migrations` ON `schema_migrations` (`version`)[0m
+  [4;35;1mSQL (0.6ms)[0m   [0mSHOW TABLES[0m
+  [4;36;1mSQL (0.5ms)[0m   [0;1mSELECT version FROM `schema_migrations`[0m
+  [4;35;1mSQL (64.0ms)[0m   [0mINSERT INTO `schema_migrations` (version) VALUES ('20100518080031')[0m
+  [4;36;1mSQL (44.3ms)[0m   [0;1mINSERT INTO `schema_migrations` (version) VALUES ('20100518044441')[0m
+  [4;35;1mSQL (44.3ms)[0m   [0mINSERT INTO `schema_migrations` (version) VALUES ('20100518035913')[0m
+  [4;36;1mSQL (44.3ms)[0m   [0;1mINSERT INTO `schema_migrations` (version) VALUES ('20100518055944')[0m
+  [4;35;1mSQL (44.4ms)[0m   [0mINSERT INTO `schema_migrations` (version) VALUES ('20100518045950')[0m
