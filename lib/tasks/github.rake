@@ -7,19 +7,19 @@ String.class_eval do
 end
 
 namespace 'gh' do
-  desc 'Update Local and GitHub Repository (rake gh:p[<String>,<Optional Boolean>])'
-  task :p, [:msg, :push_only?] do |t, args|
+  desc 'Update Local and GitHub Repository (rake gh:u[<String>,<Optional Boolean>])'
+  task :u, [:msg, :push_only?] do |t, args|
     args.with_defaults(:msg => '', :push_only? => 'false')
     if args.msg.empty? and !push_only?
       puts 'Please supply message for update.'
     else
       Rake::Task['gh:c'].invoke(args.msg) unless args.push_only?.to_bool
-      Rake::Task['gh:po'].invoke
+      Rake::Task['gh:ps'].invoke
     end
   end
 
   desc 'Push to GitHub Repository Only'
-  task :po do
+  task :ps do
     puts '==Updating GitHub Repository====================='
     %x{ git push origin master }
     puts '==Updating GitHub Repository: Finished==========='
@@ -37,6 +37,13 @@ namespace 'gh' do
           git pull origin master }
       puts '==Updating Local Repository: Finished=============='
     end
+  end
+
+  desc 'Pull from GitHub Repository Only'
+  task :pl do
+    puts '==Updating Local Repository========================'
+    %x{ git pull origin master }
+    puts '==Updating Local Repository: Finished=============='
   end
 end
 
