@@ -38,9 +38,9 @@
       <td><%=h user.email %></td>
       <td><%=h user.activated %></td>
       <td><%=h user.voted %></td>
-      <td><%= link_to 'Show', user %></td>
-      <td><%= link_to 'Edit', edit_user_path(user) %></td>
-      <td><%= link_to 'Remove', user, :confirm => 'Are you sure you want to unregister this voter?', :method => :delete %></td>
+      <td><%= link_to 'Show', admin_user_path(user) %></td>
+      <td><%= link_to 'Edit', edit_admin_user_path(user) %></td>
+      <td><%= link_to 'Remove', admin_user_path(user), :confirm => 'Are you sure you want to unregister this voter?', :method => :delete %></td>
     </tr>
     <% end %>
   </tbody>
@@ -49,4 +49,5 @@
   No voters registered.
 <% end %>
 
-<%= link_to 'Register New Voter', new_user_path %>
+<%= link_to 'Register New Voter', new_admin_user_path %>
+

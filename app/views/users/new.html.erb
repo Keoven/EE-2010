@@ -1,8 +1,0 @@
-<h1>Register New Voter</h1>
-<% form_for(@user) do |f| %>
-  <%= f.error_messages %>      
-  <%= render :partial => "form", :locals => {:form => f} %> 
-  <p>
-    <%= f.submit 'Register' %>
-  </p>                         
-<% end %>

@@ -15,7 +15,7 @@ class UserTest < ActiveSupport::TestCase
      			       :municipality_code => 'asdf', 
      			       :provincial_code => 'asdf',
      			       :voter_id => "qwer	", 
-     			       :birth_date => Date.new, 
+     			       :birth_date => Date.today, 
      			       :email => 'a@asdf.com',
      			       :voted => true, 
      			       :activated => true)
@@ -90,7 +90,6 @@ class UserTest < ActiveSupport::TestCase
   
   test "unique voter id" do
     %w(qwer1234 aasdf ewiurh a098711 qwer1234).each do |a|
-      p "#{a} and #{@valid_user.voter_id}"
       assert_not_equal @valid_user.voter_id.strip, a #check uniqueness of id
     end
   end

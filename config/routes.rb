@@ -1,14 +1,14 @@
 ActionController::Routing::Routes.draw do |map|
-  map.resource :admin_session
 
   map.resources :admins, :collection => {:dashboard => :get}
   map.namespace :admin do |admin|
     admin.resources :users
   end
 
-
-  map.login '/admin/login', :controller => 'admin_sessions', :action => 'new'
-
+  map.login        '/admin/login'       , :controller => 'admin_sessions', :action => 'new'
+  map.logout       '/admin/logout'      , :controller => 'admin_sessions', :action => 'destroy'
+  map.auth_login   '/admin/authenticate', :controller => 'admin_sessions', :action => 'create'
+  
   map.root :controller => 'users', :action => 'home'
 
   # The priority is based upon order of creation: first created -> highest priority.
