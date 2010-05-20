@@ -69,4 +69,12 @@ class CandidateTest < ActiveSupport::TestCase
 
     assert_not_nil @valid_candidate.errors
   end
+
+  test 'should cast vote on a candidate' do
+    assert_difference('@valid_candidate.num_votes') do
+      @valid_candidate.cast_vote
+    end
+  end
+
 end
+
