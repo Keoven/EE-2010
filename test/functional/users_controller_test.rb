@@ -70,7 +70,6 @@ class UsersControllerTest < ActionController::TestCase
   test "action create - fail" do
     assert_no_difference('User.count') do
       post :create, :user => @user2
-         
     end
     assert_response :success
   end

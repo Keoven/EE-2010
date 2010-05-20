@@ -1,11 +1,25 @@
 class AdminsController < ApplicationController
+  ## Hooks/Callbacks
+  #
   before_filter :require_admin
   before_filter :require_super_admin, :only => [:index, :destroy, :create]
 
-  def new
-    @admin = Admin.new
+  ### Actions
+  
+  ##GET /admins/dashboard
+  #
+  def dashboard
+    @admin = @current_admin
   end
-
+  
+  ##GET /admins
+  #
+  def index
+    @admins = Admin.all
+  end
+  
+  ##POST /admins
+  #
   def create
     @admin = Admin.new(params[:admin])
     if @admin.save
@@ -15,15 +29,27 @@ class AdminsController < ApplicationController
       render :action => :new
     end
   end
-
+    
+  ##GET /admins/new
+  #
+  def new
+    @admin = Admin.new
+  end
+  
+  ##GET /admins/:id/edit
+  # 
   def edit
     @admin = @current_admin
   end
-
-  def dashboard
-    @admin = @current_admin
+  
+  ##GET /admins/:id
+  #
+  def show
+    @admin = Admin.find(params[:id])
   end
-
+  
+  ##PUT /admins/:id
+  #
   def update
     @admin = @current_admin
     @uattr = params[:admin]
@@ -49,18 +75,12 @@ class AdminsController < ApplicationController
       render :action => :edit
   end
 
-  def index
-    @admins = Admin.all
-  end
-
-  def show
-    @admin = Admin.find(params[:id])
-  end
-
+  ##DELETE /admins/:id
+  #
   def destroy
     Admin.find(params[:id]).destroy
     redirect_to(dashboard_admins_url)
     flash[:notice] = 'Account deleted!'
   end
+  
 end
-
