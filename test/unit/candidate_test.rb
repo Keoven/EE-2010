@@ -1,10 +1,18 @@
 require 'test_helper'
 
 class CandidateTest < ActiveSupport::TestCase
+  ##Setup and Teardown
+  #
   def setup
     @valid_candidate = candidates(:one)
   end
+  
+  def teardown
+    Candidate.delete_all
+  end
 
+  ## Columns
+  #
   test "check columns" do
     assert @valid_candidate.first_name.is_a?(String)
     assert @valid_candidate.middle_name.is_a?(String)
@@ -17,6 +25,8 @@ class CandidateTest < ActiveSupport::TestCase
     assert @valid_candidate.num_votes.is_a?(Integer)
   end
 
+  ##Validations
+  #
   test "should validate presence of first name" do
     @valid_candidate.first_name = nil
     @valid_candidate.save
