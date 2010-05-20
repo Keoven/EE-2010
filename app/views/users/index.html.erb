@@ -1,5 +1,5 @@
 <% unless @users.empty? %>
-<table id="voter-list">
+<table class="record_list">
   <thead>
     <tr>
       <th>Voter ID</th>
@@ -16,20 +16,6 @@
       <th></th>
     </tr>
   </thead>
-  <tfoot>
-    <tr>
-      <td>Total registered</td>
-      <td><%= @users.count %></td>
-    </tr>
-    <tr>
-      <td>Total activated</td>
-      <td><%= User.activated.count %></td>
-    </tr>
-    <tr>
-      <td>Total voted</td>
-      <td><%= User.voted.count %></td>
-    </tr>
-  </tfoot>
   <tbody>
     <% @users.each do |user| %>
     <tr>
@@ -42,9 +28,9 @@
       <td><%=h user.email %></td>
       <td><%=h user.activated %></td>
       <td><%=h user.voted %></td>
-      <td><%= link_to 'Show', user %></td>
-      <td><%= link_to 'Edit', edit_user_path(user) %></td>
-      <td><%= link_to 'Remove', user, :confirm => 'Are you sure you want to unregister this voter?', :method => :delete %></td>
+      <td><%= link_to 'Show', admin_user_path(user) %></td>
+      <td><%= link_to 'Edit', edit_admin_user_path(user) %></td>
+      <td><%= link_to 'Remove', admin_user_path(user), :confirm => 'Are you sure you want to unregister this voter?', :method => :delete %></td>
     </tr>
     <% end %>
   </tbody>
@@ -52,5 +38,18 @@
 <% else %>
   No voters registered.
 <% end %>
-
-<%= link_to 'Register New Voter', new_user_path %>
+<ul class="record_summary">
+  <li class="grid_4">
+    <em>Total registered</em>
+    <%= @users.count %>
+  </li>
+  <li class="grid_4">
+    <em>Total activated</em>
+    <%= User.activated.count %>
+  </li>
+  <li class="grid_4">
+    <em>Total voted</em>
+    <%= User.voted.count %>
+  </li>
+</ul>
+<%= link_to 'Register New Voter', new_admin_user_path %>

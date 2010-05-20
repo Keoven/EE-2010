@@ -23,9 +23,13 @@
   <%= "Voted" if @user.voted %>
 </p>
 <p>
-  <%= link_to 'Edit', edit_user_path(@user) %>
-  <%= link_to 'Remove', @user, :confirm => 'Are you sure you want to unregister this voter?', :method => :delete %>
+  <%= link_to 'Edit', edit_admin_user_path(@user) %>
+  <%= link_to 'Remove', admin_user_path(@user), :confirm => 'Are you sure you want to unregister this voter?', :method => :delete %>
 </p>
 <p>
-  <%= link_to 'Back to Index', users_path %>
+  <%= link_to 'Previous', admin_user_path(@user.id - 1) unless @user.eql?(User.first) %>
+  <%= link_to 'Next', admin_user_path(@user.id + 1) unless @user.eql?(User.last) %>
+</p>
+<p>
+  <%= link_to 'Back to Index', admin_users_path %>
 </p>

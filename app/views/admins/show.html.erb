@@ -1,0 +1,23 @@
+<p>
+  <em>Username</em>
+  <%=h @admin.login %>
+</p>
+<p>
+  <em>Email Address</em>
+  <%=h @admin.email %>
+</p>
+<p>
+  <em>Password (Crypted)</em>
+  <%=h truncate(@admin.crypted_password, 20) %>
+</p>
+<p>
+  <%= link_to 'Edit', edit_admin_path(@admin) %>
+  <%= link_to 'Remove', admin_path(@admin), :method => :delete, :confirm => 'Are you sure you want to unregister this voter?' %>
+</p>
+<p>
+  <%= link_to 'Previous', admin_path(@admin.id - 1) unless @admin.eql?(Admin.first) %>
+  <%= link_to 'Next', admin_path(@admin.id + 1) unless @admin.eql?(Admin.last) %>
+</p>
+<p>
+  <%= link_to 'Back to Index', admins_path %>
+</p>
