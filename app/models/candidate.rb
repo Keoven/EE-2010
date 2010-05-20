@@ -27,6 +27,11 @@ class Candidate < ActiveRecord::Base
 
   ##Instance Methods
   #
+
+  def cast_vote
+    self.num_votes += 1
+  end
+
   private
   def votes_should_not_be_negative
     errors.add(:num_votes, :message => 'should not be negative') if self.num_votes < 0
@@ -60,3 +65,4 @@ class Candidate < ActiveRecord::Base
     end
   end
 end
+

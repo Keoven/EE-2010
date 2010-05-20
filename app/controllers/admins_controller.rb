@@ -4,7 +4,8 @@ class AdminsController < ApplicationController
   before_filter :require_admin
   before_filter :require_super_admin, :only => [:index, :destroy, :create]
 
-  ### Actions
+  ## ACTIONS
+  #
   
   ##GET /admins/dashboard
   #

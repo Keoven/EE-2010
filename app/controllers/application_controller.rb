@@ -20,7 +20,7 @@ class ApplicationController < ActionController::Base
   def require_admin
     unless current_admin
       flash[:notice] = 'You must be logged in to access this page'
-      redirect_to new_admin_session_path
+      redirect_to login_path
       return false
     end
   end

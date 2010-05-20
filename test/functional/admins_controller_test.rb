@@ -13,7 +13,7 @@ class AdminsControllerTest < ActionController::TestCase
   test 'should redirect viewer to login page' do
     ACTIONS.each do |action|
       get action, :id => 1
-      assert_redirected_to new_admin_session_path
+      assert_redirected_to login_path
     end
   end
 
