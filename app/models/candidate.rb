@@ -28,12 +28,20 @@ class Candidate < ActiveRecord::Base
   ##Instance Methods
   #
 
-  def cast_vote(key, user)
-    ## TODO:
-    #   - Validate key to position of candidate.
-    #   - Validate if user can vote the candidate.
-    #
-    self.num_votes += 1
+  def cast_vote(position, user)
+    case position
+      when *POSITIONS[0..2]
+      	self.num_votes += 1
+      when *POSITIONS[3..4]
+        self.num_votes += 1 if self.province     == PROVINCE_LIST[user.province_code]
+      when *POSITIONS[5..7]
+        self.num_votes += 1 if self.province     == PROVINCE_LIST[user.province_code]         and
+                               self.municipality == MUNICIPALITY_LIST[user.municipality_code]
+      when POSITIONS[8]
+        self.num_votes += 1 if self.province     == PROVINCE_LIST[user.province_code]         and
+                               self.municipality == MUNICIPALITY_LIST[user.municipality_code] and
+                               self.district     == DISTRICT_LIST[user.district_code]
+    end   
   end
 
   private

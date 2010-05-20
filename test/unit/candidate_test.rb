@@ -81,8 +81,15 @@ class CandidateTest < ActiveSupport::TestCase
   end
 
   test 'should cast vote on a candidate' do
+  	## Valid Votes
+  	#
+  	
+  	
+  	## Invalid Votes
+  	#
+  	
     assert_difference('@valid_candidate.num_votes') do
-      @valid_candidate.cast_vote
+      @valid_candidate.cast_vote('President', users(:one))
     end
   end
 
