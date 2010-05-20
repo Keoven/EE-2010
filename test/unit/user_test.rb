@@ -3,22 +3,20 @@ require 'test_helper'
 class UserTest < ActiveSupport::TestCase
   
   def setup
-    @valid_user1 = users(:one)
-    @valid_user2 = users(:two)
-    @valid_user = User.create( :id => 1, 
-    			       :first_name => 'Alejandro', 
-    			       :middle_name => 'Marasigan', 
-    			       :last_name => 'Suarez',
-     			       :street_number => 1, 
-     			       :street_name => 'string', 
-     			       :district_code => 1, 
-     			       :municipality_code => 'asdf', 
-     			       :provincial_code => 'asdf',
-     			       :voter_id => "qwer	", 
-     			       :birth_date => Date.new, 
-     			       :email => 'a@asdf.com',
-     			       :voted => true, 
-     			       :activated => true)
+    @valid_user = User.new( :id 		=> 1, 
+    			    :first_name 	=> 'Alejandro', 
+    			    :middle_name 	=> 'Marasigan', 
+    			    :last_name 		=> 'Suarez',
+     			    :street_number 	=> 1, 
+     			    :street_name 	=> 'string', 
+     			    :district_code 	=> 1, 
+     			    :municipality_code 	=> 'asdf', 
+     			    :provincial_code 	=> 'asdf',
+     			    :voter_id 		=> 'qwer',
+     			    :birth_date 	=> Date.today << 264, 
+     			    :email		=> 'a@asdf.com',
+     			    :voted 		=> true, 
+     			    :activated 		=> true)
   end
   
   def teardown
@@ -51,8 +49,7 @@ class UserTest < ActiveSupport::TestCase
     @valid_user.first_name = nil
     @valid_user.middle_name = nil
     @valid_user.last_name = nil  	  	
-    assert_equal false, @valid_user.valid?
-    
+    assert_equal false, @valid_user.valid?  
   end
   
   test "validity of address" do
@@ -90,13 +87,19 @@ class UserTest < ActiveSupport::TestCase
   
   test "unique voter id" do
     %w(qwer1234 aasdf ewiurh a098711 qwer1234).each do |a|
-      p "#{a} and #{@valid_user.voter_id}"
       assert_not_equal @valid_user.voter_id.strip, a #check uniqueness of id
     end
   end
   
   test "validity of email" do
     assert_match /\A([^@\s]+)@((?:[-a-z0-9]+\.)+[a-z]{2,})\Z/i , @valid_user.email
+  end
+  
+  test "age should not be less then 18 years" do
+    @valid_user.birth_date = Date.today << 214 # 17 years old
+    assert_equal(false, @valid_user.save)
+    @valid_user.birth_date = Date.today << 228 # 19 years old
+    assert_equal(true, @valid_user.save)
   end
 
 end

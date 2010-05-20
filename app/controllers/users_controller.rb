@@ -52,11 +52,7 @@ class UsersController < ApplicationController
     if @user.update_attributes(params[:user])
       redirect_to @user
     else
-<<<<<<< HEAD
       render :action=> :edit
-=======
-      render :action=> :edit 
->>>>>>> 6aa0d7b5ea57c65303eaba5336d081525d45d4eb
     end
   end
   
