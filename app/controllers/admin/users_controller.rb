@@ -1,7 +1,4 @@
 class Admin::UsersController < ApplicationController
-  ##Hooks/Callbacks
-  #
-  before_filter :require_election_open, :only => [:home]
 
   ##GET /admin/users
   #

@@ -1,6 +1,12 @@
 ActionController::Routing::Routes.draw do |map|
 
-  map.resources :admins, :collection => {:dashboard => :get}
+  map.resources :admins, :collection => { :dashboard => :get }
+  map.resources :users, :only => :none, :collection => { :home                    => :get,
+                                                         :ballot                  => :get,
+                                                         :election_closed         => :get,
+                                                         :validate_for_activation => :get,
+                                                         :activate                => :put,
+                                                         :cast_ballot             => :put }
   map.namespace :admin do |admin|
     admin.resources :users
   end
@@ -8,7 +14,7 @@ ActionController::Routing::Routes.draw do |map|
   map.login        '/admin/login'       , :controller => 'admin_sessions', :action => 'new'
   map.logout       '/admin/logout'      , :controller => 'admin_sessions', :action => 'destroy'
   map.auth_login   '/admin/authenticate', :controller => 'admin_sessions', :action => 'create'
-  
+
   map.root :controller => 'users', :action => 'home'
 
   # The priority is based upon order of creation: first created -> highest priority.

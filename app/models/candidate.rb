@@ -28,7 +28,11 @@ class Candidate < ActiveRecord::Base
   ##Instance Methods
   #
 
-  def cast_vote
+  def cast_vote(key, user)
+    ## TODO:
+    #   - Validate key to position of candidate.
+    #   - Validate if user can vote the candidate.
+    #
     self.num_votes += 1
   end
 

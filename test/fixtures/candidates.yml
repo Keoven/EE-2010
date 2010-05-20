@@ -1,23 +1,21 @@
 # Read about fixtures at http://ar.rubyonrails.org/classes/Fixtures.html
 
-one:
-  first_name: MyString
-  middle_name: MyString
-  last_name: MyString
-  position: President
-  level: National
-  province: MyString
-  municipality: MyString
-  district: 2
-  num_votes: 1
+<% CANDIDATE = ['president'    , 'vice_president', 'senator'      ,
+                'senator'      , 'governor'      , 'vice_governor',
+                'mayor'        , 'vice_mayor'    , 'councilor'    ,
+                'representative'                                    ] %>
 
-two:
-  first_name: MyString
-  middle_name: MyString
-  last_name: MyString
-  position: Representative
-  level: District
-  province: Metro Manila
-  municipality: Muntinlupa
-  district: 1
-  num_votes: 1
+<% 1.upto(10) do |i| %>
+candidate_<%= i %>:
+  id: <%= i %>
+  first_name: fname_<%= i %>
+  middle_name: mname_<%= i %>
+  last_name: lname_<%= i %>
+  position: <%= CANDIDATE[i] %>
+  level: level
+  province: province_<%= i %>
+  municipality: municipality_<%= i %>
+  district: district_<%= i %>
+  num_votes: 0
+<% end %>
+

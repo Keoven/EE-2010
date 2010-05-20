@@ -2,7 +2,7 @@ require 'test_helper'
 
 class CandidateTest < ActiveSupport::TestCase
   def setup
-    @valid_candidate = candidates(:one)
+    @valid_candidate = candidates(:candidate_1)
   end
 
   test "check columns" do
