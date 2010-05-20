@@ -1,0 +1,4788 @@
+candidate1:
+	first_name: Benigno Simeon III
+	middle_name: Cojuangco
+	last_name: A.
+	position: President
+	level: National
+	num_votes: 0
+	
+candidate2:
+	first_name: John Carlos
+	middle_name: G.
+	last_name: De Los Reyes
+	position: President
+	level: National
+	num_votes: 0
+	
+candidate3:
+	first_name: Joseph
+	middle_name: M.
+	last_name: Ejercito Estrada
+	position: President
+	level: National
+	num_votes: 0
+	
+candidate4:
+	first_name: Richard
+	middle_name: J.
+	last_name: Gordon
+	position: President
+	level: National
+	num_votes: 0
+	
+candidate5:
+	first_name: Madrigal
+	middle_name: A.
+	last_name: Jamby
+	position: President
+	level: National
+	num_votes: 0
+	
+candidate6:
+	first_name: Jesus Nicanor
+	middle_name: P.
+	last_name: Perlas
+	position: President
+	level: National
+	num_votes: 0
+	
+candidate7:
+	first_name: Gilberto Jr.
+	middle_name: C.
+	last_name: Teodoro
+	position: President
+	level: National
+	num_votes: 0
+	
+candidate8:
+	first_name: Eduardo
+	middle_name: C.
+	last_name: Villanueva
+	position: President
+	level: National
+	num_votes: 0
+	
+candidate9:
+	first_name: Manuel Jr.
+	middle_name: B.
+	last_name: Villar
+	position: President
+	level: National
+	num_votes: 0
+	
+candidate10:
+	first_name: Jejomar
+	middle_name: C.
+	last_name: Binay
+	position: Vice President
+	level: National
+	num_votes: 0
+	
+candidate11:
+	first_name: Dominador Jr.
+	middle_name: F.
+	last_name: Chipeco
+	position: Vice President
+	level: National
+	num_votes: 0
+	
+candidate12:
+	first_name: Bayani
+	middle_name: F.
+	last_name: Fernando
+	position: Vice President
+	level: National
+	num_votes: 0
+	
+candidate13:
+	first_name: Loren
+	middle_name: B.
+	last_name: Legarda
+	position: Vice President
+	level: National
+	num_votes: 0
+	
+candidate14:
+	first_name: Eduardo
+	middle_name: B.
+	last_name: Manzano
+	position: Vice President
+	level: National
+	num_votes: 0
+	
+candidate15:
+	first_name: Manuel
+	middle_name: A.
+	last_name: Roxas
+	position: Vice President
+	level: National
+	num_votes: 0
+	
+candidate16:
+	first_name: Jose
+	middle_name: Y.
+	last_name: Sonza
+	position: Vice President
+	level: National
+	num_votes: 0
+	
+candidate17:
+	first_name: Perfecto
+	middle_name: R.
+	last_name: Yasay
+	position: Vice President
+	level: National
+	num_votes: 0
+	
+candidate18:
+	first_name: Ramon Jr.
+	middle_name: B.
+	last_name: Revilla
+	position: Senator
+	level: National
+	num_votes: 0
+	
+candidate19:
+	first_name: Jinggoy
+	middle_name: E.
+	last_name: Estrada
+	position: Senator
+	level: National
+	num_votes: 0
+	
+candidate20:
+	first_name: Miriam
+	middle_name: P.
+	last_name: Defensor-Santiago
+	position: Senator
+	level: National
+	num_votes: 0
+	
+candidate21:
+	first_name: Franklin
+	middle_name: M.
+	last_name: Drilon
+	position: Senator
+	level: National
+	num_votes: 0
+	
+candidate22:
+	first_name: Juan Ponce
+	middle_name: 
+	last_name: Enrile
+	position: Senator
+	level: National
+	num_votes: 0
+	
+candidate23:
+	first_name: Pilar Juliana
+	middle_name: S.
+	last_name: Cayetano
+	position: Senator
+	level: National
+	num_votes: 0
+	
+candidate24:
+	first_name: Ferdinand Jr.
+	middle_name: R.
+	last_name: Marcos
+	position: Senator
+	level: National
+	num_votes: 0
+	
+candidate25:
+	first_name: Ralph
+	middle_name: G.
+	last_name: Recto
+	position: Senator
+	level: National
+	num_votes: 0
+	
+candidate26:
+	first_name: Vicente III
+	middle_name: C.
+	last_name: Sotto
+	position: Senator
+	level: National
+	num_votes: 0
+	
+candidate27:
+	first_name: Sergio III
+	middle_name: D.
+	last_name: Osmena
+	position: Senator
+	level: National
+	num_votes: 0
+	
+candidate28:
+	first_name: Manuel
+	middle_name: M.
+	last_name: Lapid
+	position: Senator
+	level: National
+	num_votes: 0
+	
+candidate29:
+	first_name: Teofisto III
+	middle_name: D.
+	last_name: Guingona
+	position: Senator
+	level: National
+	num_votes: 0
+	
+candidate30:
+	first_name: Ana Theresia
+	middle_name: 
+	last_name: Hontiveros-Braquel
+	position: Senator
+	level: National
+	num_votes: 0
+	
+candidate31:
+	first_name: Rozzano Rufino
+	middle_name: B.
+	last_name: Biazon
+	position: Senator
+	level: National
+	num_votes: 0
+	
+candidate32:
+	first_name: Jose III
+	middle_name: P.
+	last_name: De Venecia
+	position: Senator
+	level: National
+	num_votes: 0
+	
+candidate33:
+	first_name: Gilbert Cesar
+	middle_name: C.
+	last_name: Remulla
+	position: Senator
+	level: National
+	num_votes: 0
+	
+candidate34:
+	first_name: Danilo
+	middle_name: D.
+	last_name: Lim
+	position: Senator
+	level: National
+	num_votes: 0
+	
+candidate35:
+	first_name: Sonia
+	middle_name: M.
+	last_name: Roco
+	position: Senator
+	level: National
+	num_votes: 0
+	
+candidate36:
+	first_name: Ariel
+	middle_name: O.
+	last_name: Querubin
+	position: Senator
+	level: National
+	num_votes: 0
+	
+candidate37:
+	first_name: Gwendolyn
+	middle_name: D.
+	last_name: Pimentel
+	position: Senator
+	level: National
+	num_votes: 0
+	
+candidate38:
+	first_name: Nereus
+	middle_name: O.
+	last_name: Acosta
+	position: Senator
+	level: National
+	num_votes: 0
+	
+candidate39:
+	first_name: Alexander
+	middle_name: L.
+	last_name: Lacson
+	position: Senator
+	level: National
+	num_votes: 0
+	
+candidate40:
+	first_name: Adel
+	middle_name: A.
+	last_name: Tamano
+	position: Senator
+	level: National
+	num_votes: 0
+	
+candidate41:
+	first_name: Emilio Mario
+	middle_name: R.
+	last_name: Osmena
+	position: Senator
+	level: National
+	num_votes: 0
+	
+candidate42:
+	first_name: Liza
+	middle_name: L.
+	last_name: Maza
+	position: Senator
+	level: National
+	num_votes: 0
+	
+candidate43:
+	first_name: Saturnino
+	middle_name: C.
+	last_name: Ocampo
+	position: Senator
+	level: National
+	num_votes: 0
+	
+candidate44:
+	first_name: Francisco
+	middle_name: S.
+	last_name: Tatad
+	position: Senator
+	level: National
+	num_votes: 0
+	
+candidate45:
+	first_name: Jose Apolinario Jr.
+	middle_name: L.
+	last_name: Lozada
+	position: Senator
+	level: National
+	num_votes: 0
+	
+candidate46:
+	first_name: Ramon
+	middle_name: B.
+	last_name: Mitra
+	position: Senator
+	level: National
+	num_votes: 0
+	
+candidate47:
+	first_name: Rey
+	middle_name: M.
+	last_name: Langit
+	position: Senator
+	level: National
+	num_votes: 0
+	
+candidate48:
+	first_name: Silvestre III
+	middle_name: H.
+	last_name: Bello
+	position: Senator
+	level: National
+	num_votes: 0
+	
+candidate49:
+	first_name: Yasmin
+	middle_name: B.
+	last_name: Leo
+	position: Senator
+	level: National
+	num_votes: 0
+	
+candidate50:
+	first_name: Imelda
+	middle_name: A.
+	last_name: Papin
+	position: Senator
+	level: National
+	num_votes: 0
+	
+candidate51:
+	first_name: Susan
+	middle_name: V.
+	last_name: Ople
+	position: Senator
+	level: National
+	num_votes: 0
+	
+candidate52:
+	first_name: Martin
+	middle_name: D.
+	last_name: Bautista
+	position: Senator
+	level: National
+	num_votes: 0
+	
+candidate53:
+	first_name: J.V.
+	middle_name: L.
+	last_name: Bautista
+	position: Senator
+	level: National
+	num_votes: 0
+	
+candidate54:
+	first_name: Ramon Jr.
+	middle_name: N.
+	last_name: Guico
+	position: Senator
+	level: National
+	num_votes: 0
+	
+candidate55:
+	first_name: Raul
+	middle_name: L.
+	last_name: Lambino
+	position: Senator
+	level: National
+	num_votes: 0
+	
+candidate56:
+	first_name: Hector
+	middle_name: L.
+	last_name: Lambino
+	position: Senator
+	level: National
+	num_votes: 0
+	
+candidate57:
+	first_name: Emilio
+	middle_name: P.
+	last_name: Ejercito
+	position: Governor
+	level: Povincial
+	num_votes: 0
+	province: Laguna
+	
+candidate58:
+	first_name: Dennis
+	middle_name: S.
+	last_name: Lazaro
+	position: Governor
+	level: Povincial
+	num_votes: 0
+	province: Laguna
+	
+candidate59:
+	first_name: Jose Jr.
+	middle_name: D.
+	last_name: Lina
+	position: Governor
+	level: Povincial
+	num_votes: 0
+	province: Laguna
+	
+candidate60:
+	first_name: Juanito Victor Jr.
+	middle_name: C.
+	last_name: Remulla
+	position: Governor
+	level: Povincial
+	num_votes: 0
+	province: Cavite
+	
+candidate61:
+	first_name: Dencito
+	middle_name: P.
+	last_name: Campana
+	position: Governor
+	level: Povincial
+	num_votes: 0
+	province: Cavite
+	
+candidate62:
+	first_name: Melencio Jr.
+	middle_name: L.
+	last_name: De Sagun
+	position: Governor
+	level: Povincial
+	num_votes: 0
+	province: Cavite
+	
+candidate63:
+	first_name: Caesar
+	middle_name: P.
+	last_name: Perez
+	position: Vice Governor
+	level: Povincial
+	num_votes: 0
+	province: Laguna
+	
+candidate64:
+	first_name: Dave
+	middle_name: M.
+	last_name: Almarinez
+	position: Vice Governor
+	level: Povincial
+	num_votes: 0
+	province: Laguna
+	
+candidate65:
+	first_name: Celso
+	middle_name: O.
+	last_name: Mercado
+	position: Vice Governor
+	level: Povincial
+	num_votes: 0
+	province: Laguna
+	
+candidate66:
+	first_name: Recto
+	middle_name: M.
+	last_name: Cantimbuhan
+	position: Vice Governor
+	level: Povincial
+	num_votes: 0
+	province: Cavite
+	
+candidate67:
+	first_name: Bernard Michael
+	middle_name: I.
+	last_name: Bautista
+	position: Vice Governor
+	level: Povincial
+	num_votes: 0
+	province: Cavite
+	
+candidate68:
+	first_name: Cesario Jr.
+	middle_name: R.
+	last_name: Del Rosario
+	position: Vice Governor
+	level: Povincial
+	num_votes: 0
+	province: Cavite
+		
+candidate69:
+	first_name: Enrico
+	middle_name: R.
+	last_name: Echiverri
+	position: Mayor
+	level: City/Municipality
+	num_votes: 0
+	province: Metro Manila
+	municipality: Caloocan City
+
+candidate70:
+	first_name: Luis
+	middle_name: A.
+	last_name: Asistio
+	position: Mayor
+	level: City/Municipality
+	num_votes: 0
+	province: Metro Manila
+	municipality: Caloocan City
+
+candidate71:
+	first_name: Jejomar Jr
+	middle_name: S.
+	last_name: Binay
+	position: Mayor
+	level: City/Municipality
+	num_votes: 0
+	province: Metro Manila
+	municipality: Makati City
+
+candidate72:
+	first_name: Ernesto
+	middle_name: S.
+	last_name: Mercado
+	position: Mayor
+	level: City/Municipality
+	num_votes: 0
+	province: Metro Manila
+	municipality: Makati City
+
+candidate73:
+	first_name: Canuto Senen
+	middle_name: A.
+	last_name: Oreta
+	position: Mayor
+	level: City/Municipality
+	num_votes: 0
+	province: Metro Manila
+	municipality: Malabon City
+
+candidate74:
+	first_name: Salvador Sr.
+	middle_name: Z.
+	last_name: Beo
+	position: Mayor
+	level: City/Municipality
+	num_votes: 0
+	province: Metro Manila
+	municipality: Malabon City
+
+candidate75:
+	first_name: Felix
+	middle_name: G.
+	last_name: Sinanon
+	position: Mayor
+	level: City/Municipality
+	num_votes: 0
+	province: Metro Manila
+	municipality: Las Pinas City
+
+candidate76:
+	first_name: Vergel
+	middle_name: A.
+	last_name: Aguilar
+	position: Mayor
+	level: City/Municipality
+	num_votes: 0
+	province: Metro Manila
+	municipality: Las Pinas City
+
+candidate77:
+	first_name: Del
+	middle_name: R.
+	last_name: De Guzman
+	position: Mayor
+	level: City/Municipality
+	num_votes: 0
+	province: Metro Manila
+	municipality: Marikina City
+
+candidate78:
+	first_name: Marion
+	middle_name: S.
+	last_name: Andres
+	position: Mayor
+	level: City/Municipality
+	num_votes: 0
+	province: Metro Manila
+	municipality: Marikina City
+
+candidate79:
+	first_name: Alfredo
+	middle_name: S.
+	last_name: Lim
+	position: Mayor
+	level: City/Municipality
+	num_votes: 0
+	province: Metro Manila
+	municipality: Manila
+
+candidate80:
+	first_name: Jose Jr.
+	middle_name: L.
+	last_name: Atienza
+	position: Mayor
+	level: City/Municipality
+	num_votes: 0
+	province: Metro Manila
+	municipality: Manila
+
+candidate81:
+	first_name: Benjamin Jr.
+	middle_name: D.
+	last_name: Abalos
+	position: Mayor
+	level: City/Municipality
+	num_votes: 0
+	province: Metro Manila
+	municipality: Mandaluyong City
+
+candidate82:
+	first_name: Ernest Albert
+	middle_name: D.
+	last_name: Buan
+	position: Mayor
+	level: City/Municipality
+	num_votes: 0
+	province: Metro Manila
+	municipality: Mandaluyong City
+
+candidate83:
+	first_name: John Reynald
+	middle_name: M.
+	last_name: Tiangco
+	position: Mayor
+	level: City/Municipality
+	num_votes: 0
+	province: Metro Manila
+	municipality: Navotas City
+
+candidate84:
+	first_name: Jaime
+	middle_name: D.
+	last_name: Fresnedi
+	position: Mayor
+	level: City/Municipality
+	num_votes: 0
+	province: Metro Manila
+	municipality: Muntinlupa City
+
+candidate85:
+	first_name: Aldrin
+	middle_name: L.
+	last_name: San Pedro
+	position: Mayor
+	level: City/Municipality
+	num_votes: 0
+	province: Metro Manila
+	municipality: Muntinlupa City
+
+candidate86:
+	first_name: Antonio
+	middle_name: G.
+	last_name: Calixto
+	position: Mayor
+	level: City/Municipality
+	num_votes: 0
+	province: Metro Manila
+	municipality: Pasay City
+
+candidate87:
+	first_name: Consuelo
+	middle_name: A.
+	last_name: Dy
+	position: Mayor
+	level: City/Municipality
+	num_votes: 0
+	province: Metro Manila
+	municipality: Pasay City
+
+candidate88:
+	first_name: Florencio Jr.
+	middle_name: M.
+	last_name: Bernabe
+	position: Mayor
+	level: City/Municipality
+	num_votes: 0
+	province: Metro Manila
+	municipality: Paranaque City
+
+candidate89:
+	first_name: Eduardo
+	middle_name: C.
+	last_name: Zialcita
+	position: Mayor
+	level: City/Municipality
+	num_votes: 0
+	province: Metro Manila
+	municipality: Paranaque City
+
+candidate90:
+	first_name: Robert
+	middle_name: C.
+	last_name: Eusebio
+	position: Mayor
+	level: City/Municipality
+	num_votes: 0
+	province: Metro Manila
+	municipality: Pasig City
+
+candidate91:
+	first_name: Ricardo
+	middle_name: B.
+	last_name: Reyes
+	position: Mayor
+	level: City/Municipality
+	num_votes: 0
+	province: Metro Manila
+	municipality: Pasig City
+
+candidate92:
+	first_name: Jaime
+	middle_name: C.
+	last_name: Medina
+	position: Mayor
+	level: City/Municipality
+	num_votes: 0
+	province: Metro Manila
+	municipality: Pateros
+
+candidate93:
+	first_name: Patrick
+	middle_name: C.
+	last_name: Umali
+	position: Mayor
+	level: City/Municipality
+	num_votes: 0
+	province: Metro Manila
+	municipality: Pateros
+
+candidate94:
+	first_name: Herbert
+	middle_name: M.
+	last_name: Bautista
+	position: Mayor
+	level: City/Municipality
+	num_votes: 0
+	province: Metro Manila
+	municipality: Quezon City
+
+candidate95:
+	first_name: Michael
+	middle_name: T.
+	last_name: Defensor
+	position: Mayor
+	level: City/Municipality
+	num_votes: 0
+	province: Metro Manila
+	municipality: Quezon City
+
+candidate96:
+	first_name: Manuel
+	middle_name: L.
+	last_name: Andrada
+	position: Mayor
+	level: City/Municipality
+	num_votes: 0
+	province: Metro Manila
+	municipality: San Juan City
+
+candidate97:
+	first_name: Guia
+	middle_name: G.
+	last_name: Gomez
+	position: Mayor
+	level: City/Municipality
+	num_votes: 0
+	province: Metro Manila
+	municipality: San Juan City
+
+candidate98:
+	first_name: Dante
+	middle_name: O.
+	last_name: Tinga
+	position: Mayor
+	level: City/Municipality
+	num_votes: 0
+	province: Metro Manila
+	municipality: Taguig City
+
+candidate99:
+	first_name: Maria Laarni
+	middle_name: L.
+	last_name: Cayetano
+	position: Mayor
+	level: City/Municipality
+	num_votes: 0
+	province: Metro Manila
+	municipality: Taguig City
+
+candidate100:
+	first_name: Sherwin
+	middle_name: T.
+	last_name: Gatchalian
+	position: Mayor
+	level: City/Municipality
+	num_votes: 0
+	province: Metro Manila
+	municipality: Valenzuela City
+
+candidate101:
+	first_name: Manuel
+	middle_name: C.
+	last_name: Carreon
+	position: Mayor
+	level: City/Municipality
+	num_votes: 0
+	province: Metro Manila
+	municipality: Valenzuela City
+
+candidate102:
+	first_name: Calixto
+	middle_name: R.
+	last_name: Cataquiz
+	position: Mayor
+	level: City/Municipality
+	num_votes: 0
+	province: Laguna
+	municipality: San Pedro
+
+candidate103:
+	first_name: Felicisimo
+	middle_name: A.
+	last_name: Vierneza
+	position: Mayor
+	level: City/Municipality
+	num_votes: 0
+	province: Laguna
+	municipality: San Pedro
+
+candidate104:
+	first_name: Benjamin Jr.
+	middle_name: C.
+	last_name: Agarao
+	position: Mayor
+	level: City/Municipality
+	num_votes: 0
+	province: Laguna
+	municipality: Santa Cruz
+
+candidate105:
+	first_name: Domingo
+	middle_name: G.
+	last_name: Panganiban
+	position: Mayor
+	level: City/Municipality
+	num_votes: 0
+	province: Laguna
+	municipality: Santa Cruz
+
+candidate106:
+	first_name: Arlene
+	middle_name: B.
+	last_name: Arcilias-Nazareno
+	position: Mayor
+	level: City/Municipality
+	num_votes: 0
+	province: Laguna
+	municipality: Santa Rosa City
+
+candidate107:
+	first_name: Romeo
+	middle_name: P.
+	last_name: Aala
+	position: Mayor
+	level: City/Municipality
+	num_votes: 0
+	province: Laguna
+	municipality: Santa Rosa City
+
+candidate108:
+	first_name: Strike
+	middle_name: B.
+	last_name: Revilla
+	position: Mayor
+	level: City/Municipality
+	num_votes: 0
+	province: Cavite
+	municipality: Bacoor
+
+candidate109:
+	first_name: Jessie
+	middle_name: B.
+	last_name: Castillo
+	position: Mayor
+	level: City/Municipality
+	num_votes: 0
+	province: Cavite
+	municipality: Bacoor
+
+candidate110:
+	first_name: Romeo
+	middle_name: G.
+	last_name: Ramos
+	position: Mayor
+	level: City/Municipality
+	num_votes: 0
+	province: Cavite
+	municipality: Cavite City
+
+candidate111:
+	first_name: Timoteo Jr.
+	middle_name: O.
+	last_name: Encarnacion
+	position: Mayor
+	level: City/Municipality
+	num_votes: 0
+	province: Cavite
+	municipality: Cavite City
+
+candidate112:
+	first_name: Jennifer
+	middle_name: A.
+	last_name: Barzaga
+	position: Mayor
+	level: City/Municipality
+	num_votes: 0
+	province: Cavite
+	municipality: Dasmarinas City
+
+candidate113:
+	first_name: Manuel Luis
+	middle_name: N.
+	last_name: Campos
+	position: Mayor
+	level: City/Municipality
+	num_votes: 0
+	province: Cavite
+	municipality: Dasmarinas City
+
+candidate114:
+	first_name: Edgar
+	middle_name: R.
+	last_name: Erice
+	position: Vice Mayor
+	level: City/Municipality
+	num_votes: 0
+	province: Metro Manila
+	municipality: Caloocan City
+
+candidate115:
+	first_name: Reynaldo
+	middle_name: O.
+	last_name: Malonzo
+	position: Vice Mayor
+	level: City/Municipality
+	num_votes: 0
+	province: Metro Manila
+	municipality: Caloocan City
+
+candidate116:
+	first_name: Romulo Jr
+	middle_name: V.
+	last_name: Pena
+	position: Vice Mayor
+	level: City/Municipality
+	num_votes: 0
+	province: Metro Manila
+	municipality: Makati City
+
+candidate117:
+	first_name: Ernesto
+	middle_name: S.
+	last_name: Mercado
+	position: Vice Mayor
+	level: City/Municipality
+	num_votes: 0
+	province: Metro Manila
+	municipality: Makati City
+
+candidate118:
+	first_name: Antolin III
+	middle_name: A.
+	last_name: Oreta
+	position: Vice Mayor
+	level: City/Municipality
+	num_votes: 0
+	province: Metro Manila
+	municipality: Malabon City
+
+candidate119:
+	first_name: Ma.Lourdes
+	middle_name: G.
+	last_name: Yambao
+	position: Vice Mayor
+	level: City/Municipality
+	num_votes: 0
+	province: Metro Manila
+	municipality: Malabon City
+
+candidate120:
+	first_name: Luis
+	middle_name: I.
+	last_name: Bustamante
+	position: Vice Mayor
+	level: City/Municipality
+	num_votes: 0
+	province: Metro Manila
+	municipality: Las Pinas City
+
+candidate121:
+	first_name: Benjamin
+	middle_name: R.
+	last_name: Gonzales
+	position: Vice Mayor
+	level: City/Municipality
+	num_votes: 0
+	province: Metro Manila
+	municipality: Las Pinas City
+
+candidate122:
+	first_name: Jose Fabian
+	middle_name: I.
+	last_name: Cadiz
+	position: Vice Mayor
+	level: City/Municipality
+	num_votes: 0
+	province: Metro Manila
+	municipality: Marikina City
+
+candidate123:
+	first_name: Thaddeus
+	middle_name: M.
+	last_name: Santos
+	position: Vice Mayor
+	level: City/Municipality
+	num_votes: 0
+	province: Metro Manila
+	municipality: Marikina City
+
+candidate124:
+	first_name: Francisco
+	middle_name: M.
+	last_name: Domagoso
+	position: Vice Mayor
+	level: City/Municipality
+	num_votes: 0
+	province: Metro Manila
+	municipality: Manila
+
+candidate125:
+	first_name: Benjamin
+	middle_name: R.
+	last_name: Riano
+	position: Vice Mayor
+	level: City/Municipality
+	num_votes: 0
+	province: Metro Manila
+	municipality: Manila
+
+candidate126:
+	first_name: Danilo
+	middle_name: L.
+	last_name: De Guzman
+	position: Vice Mayor
+	level: City/Municipality
+	num_votes: 0
+	province: Metro Manila
+	municipality: Mandaluyong City
+
+candidate127:
+	first_name: Renato
+	middle_name: B.
+	last_name: Sta. Maria
+	position: Vice Mayor
+	level: City/Municipality
+	num_votes: 0
+	province: Metro Manila
+	municipality: Mandaluyong City
+
+candidate128:
+	first_name: Patrick Joseph
+	middle_name: A.
+	last_name: Javier
+	position: Vice Mayor
+	level: City/Municipality
+	num_votes: 0
+	province: Metro Manila
+	municipality: Navotas City
+
+candidate129:
+	first_name: Artemio
+	middle_name: A.
+	last_name: Simundac
+	position: Vice Mayor
+	level: City/Municipality
+	num_votes: 0
+	province: Metro Manila
+	municipality: Muntinlupa City
+
+candidate130:
+	first_name: Marissa
+	middle_name: C.
+	last_name: Rongavilla
+	position: Vice Mayor
+	level: City/Municipality
+	num_votes: 0
+	province: Metro Manila
+	municipality: Muntinlupa City
+
+candidate131:
+	first_name: Marlon
+	middle_name: A.
+	last_name: Pesebre
+	position: Vice Mayor
+	level: City/Municipality
+	num_votes: 0
+	province: Metro Manila
+	municipality: Pasay City
+
+candidate132:
+	first_name: Greg
+	middle_name: F.
+	last_name: Alcera
+	position: Vice Mayor
+	level: City/Municipality
+	num_votes: 0
+	province: Metro Manila
+	municipality: Pasay City
+
+candidate133:
+	first_name: Gustavo
+	middle_name: S.
+	last_name: Tambunting
+	position: Vice Mayor
+	level: City/Municipality
+	num_votes: 0
+	province: Metro Manila
+	municipality: Paranaque City
+
+candidate134:
+	first_name: Andres Jose Jr.
+	middle_name: G.
+	last_name: Yllana
+	position: Vice Mayor
+	level: City/Municipality
+	num_votes: 0
+	province: Metro Manila
+	municipality: Paranaque City
+
+candidate135:
+	first_name: Rosalio
+	middle_name: D.
+	last_name: Martires
+	position: Vice Mayor
+	level: City/Municipality
+	num_votes: 0
+	province: Metro Manila
+	municipality: Pasig City
+
+candidate136:
+	first_name: Wainwright
+	middle_name: R.
+	last_name: Rivera
+	position: Vice Mayor
+	level: City/Municipality
+	num_votes: 0
+	province: Metro Manila
+	municipality: Pasig City
+
+candidate137:
+	first_name: Jorge
+	middle_name: L.
+	last_name: Nicdao
+	position: Vice Mayor
+	level: City/Municipality
+	num_votes: 0
+	province: Metro Manila
+	municipality: Pateros
+
+candidate138:
+	first_name: Jonathan
+	middle_name: C.
+	last_name: Sanchez
+	position: Vice Mayor
+	level: City/Municipality
+	num_votes: 0
+	province: Metro Manila
+	municipality: Pateros
+
+candidate139:
+	first_name: Josefina
+	middle_name: G.
+	last_name: Belmonte
+	position: Vice Mayor
+	level: City/Municipality
+	num_votes: 0
+	province: Metro Manila
+	municipality: Quezon City
+
+candidate140:
+	first_name: Aiko
+	middle_name: S.
+	last_name: Melendez
+	position: Vice Mayor
+	level: City/Municipality
+	num_votes: 0
+	province: Metro Manila
+	municipality: Quezon City
+
+candidate141:
+	first_name: Alexander
+	middle_name: V.
+	last_name: Enriquez
+	position: Vice Mayor
+	level: City/Municipality
+	num_votes: 0
+	province: Metro Manila
+	municipality: San Juan City
+
+candidate142:
+	first_name: Francisco
+	middle_name: M.
+	last_name: Zamora
+	position: Vice Mayor
+	level: City/Municipality
+	num_votes: 0
+	province: Metro Manila
+	municipality: San Juan City
+
+candidate143:
+	first_name: George
+	middle_name: A.
+	last_name: Elias
+	position: Vice Mayor
+	level: City/Municipality
+	num_votes: 0
+	province: Metro Manila
+	municipality: Taguig City
+
+candidate144:
+	first_name: Ferdinand
+	middle_name:  B.
+	last_name: Santos
+	position: Vice Mayor
+	level: City/Municipality
+	num_votes: 0
+	province: Metro Manila
+	municipality: Taguig City
+	
+candidate145:
+	first_name: Eric
+	middle_name: M.
+	last_name: Martinez
+	position: Vice Mayor
+	level: City/Municipality
+	num_votes: 0
+	province: Metro Manila
+	municipality: Valenzuela City
+
+candidate146:
+	first_name: Marcelino
+	middle_name: G.
+	last_name: Morelos
+	position: Vice Mayor
+	level: City/Municipality
+	num_votes: 0
+	province: Metro Manila
+	municipality: Valenzuela City
+	
+candidate147:
+	first_name: Norvic
+	middle_name: D.
+	last_name: Solidum
+	position: Vice Mayor
+	level: City/Municipality
+	num_votes: 0
+	province: Laguna
+	municipality: San Pedro
+
+candidate148:
+	first_name: Celso
+	middle_name: D.
+	last_name: Ambayec
+	position: Vice Mayor
+	level: City/Municipality
+	num_votes: 0
+	province: Laguna
+	municipality: San Pedro
+
+candidate149:
+	first_name: Louie
+	middle_name: C.
+	last_name: De Leon
+	position: Vice Mayor
+	level: City/Municipality
+	num_votes: 0
+	province: Laguna
+	municipality: Santa Cruz
+
+candidate150:
+	first_name: Roselon
+	middle_name: F.
+	last_name: Pamatmat
+	position: Vice Mayor
+	level: City/Municipality
+	num_votes: 0
+	province: Laguna
+	municipality: Santa Cruz
+
+candidate151:
+	first_name: Manuel
+	middle_name: G.
+	last_name: Alipon
+	position: Vice Mayor
+	level: City/Municipality
+	num_votes: 0
+	province: Laguna
+	municipality: Santa Rosa City
+
+candidate152:
+	first_name: Arnel
+	middle_name: D.
+	last_name: Gomez
+	position: Vice Mayor
+	level: City/Municipality
+	num_votes: 0
+	province: Laguna
+	municipality: Santa Rosa City
+
+candidate153:
+	first_name: Rosette
+	middle_name: M.
+	last_name: Fernando
+	position: Vice Mayor
+	level: City/Municipality
+	num_votes: 0
+	province: Cavite
+	municipality: Bacoor
+
+candidate154:
+	first_name: Magdalena
+	middle_name: G.
+	last_name: Ortiz
+	position: Vice Mayor
+	level: City/Municipality
+	num_votes: 0
+	province: Cavite
+	municipality: Bacoor
+
+candidate155:
+	first_name: Lino
+	middle_name: S.
+	last_name: Barron
+	position: Vice Mayor
+	level: City/Municipality
+	num_votes: 0
+	province: Cavite
+	municipality: Cavite City
+
+candidate156:
+	first_name: Dominador
+	middle_name: O.
+	last_name: Nazareno
+	position: Vice Mayor
+	level: City/Municipality
+	num_votes: 0
+	province: Cavite
+	municipality: Cavite City
+
+candidate157:
+	first_name: Valeriano
+	middle_name: S.
+	last_name: Encabo
+	position: Vice Mayor
+	level: City/Municipality
+	num_votes: 0
+	province: Cavite
+	municipality: Dasmarinas City
+
+candidate158:
+	first_name: Teodorico
+	middle_name: S.
+	last_name: Remulla
+	position: Vice Mayor
+	level: City/Municipality
+	num_votes: 0
+	province: Cavite
+	municipality: Dasmarinas City
+
+candidate159:
+	first_name: Joseph
+	middle_name: M.
+	last_name: Aquino
+	position: Councilor
+	level: City/Municipality
+	num_votes: 0
+	province: Metro Manila
+	municipality: Caloocan City
+
+candidate160:
+	first_name: Andrew
+	middle_name: K.
+	last_name: Asistio
+	position: Councilor
+	level: City/Municipality
+	num_votes: 0
+	province: Metro Manila
+	municipality: Caloocan City
+
+candidate161:
+	first_name: Rasty
+	middle_name: C.
+	last_name: Benson
+	position: Councilor
+	level: City/Municipality
+	num_votes: 0
+	province: Metro Manila
+	municipality: Caloocan City
+
+candidate162:
+	first_name: Henry
+	middle_name: P.
+	last_name: Cammayo
+	position: Councilor
+	level: City/Municipality
+	num_votes: 0
+	province: Metro Manila
+	municipality: Caloocan City
+
+candidate163:
+	first_name: Ireneo
+	middle_name: D.
+	last_name: Cayetano
+	position: Councilor
+	level: City/Municipality
+	num_votes: 0
+	province: Metro Manila
+	municipality: Caloocan City
+
+candidate164:
+	first_name: Emmanuel
+	middle_name: V.
+	last_name: Cruz
+	position: Councilor
+	level: City/Municipality
+	num_votes: 0
+	province: Metro Manila
+	municipality: Caloocan City
+
+candidate165:
+	first_name: Roberto
+	middle_name: M.
+	last_name: Cruz
+	position: Councilor
+	level: City/Municipality
+	num_votes: 0
+	province: Metro Manila
+	municipality: Caloocan City
+
+candidate166:
+	first_name: Isaac
+	middle_name: M.
+	last_name: Domingo
+	position: Councilor
+	level: City/Municipality
+	num_votes: 0
+	province: Metro Manila
+	municipality: Caloocan City
+
+candidate167:
+	first_name: Garth
+	middle_name: M.
+	last_name: Gollayan
+	position: Councilor
+	level: City/Municipality
+	num_votes: 0
+	province: Metro Manila
+	municipality: Caloocan City
+
+candidate168:
+	first_name: Cenon
+	middle_name: D.
+	last_name: Mayor
+	position: Councilor
+	level: City/Municipality
+	num_votes: 0
+	province: Metro Manila
+	municipality: Caloocan City
+
+candidate169:
+	first_name: Amie
+	middle_name: M.
+	last_name: Rabas
+	position: Councilor
+	level: City/Municipality
+	num_votes: 0
+	province: Metro Manila
+	municipality: Caloocan City
+
+candidate170:
+	first_name: Jimmy
+	middle_name: P.
+	last_name: Sanchez
+	position: Councilor
+	level: City/Municipality
+	num_votes: 0
+	province: Metro Manila
+	municipality: Caloocan City
+
+candidate171:
+	first_name: Felicaiano
+	middle_name: P.
+	last_name: Bascon
+	position: Councilor
+	level: City/Municipality
+	num_votes: 0
+	province: Metro Manila
+	municipality: Makati City
+
+candidate172:
+	first_name: Renato
+	middle_name: L.
+	last_name: Bondal
+	position: Councilor
+	level: City/Municipality
+	num_votes: 0
+	province: Metro Manila
+	municipality: Makati City
+
+candidate173:
+	first_name: Glenn
+	middle_name: C.
+	last_name: Enciso
+	position: Councilor
+	level: City/Municipality
+	num_votes: 0
+	province: Metro Manila
+	municipality: Makati City
+
+candidate174:
+	first_name: Eduardo
+	middle_name: M.
+	last_name: Ison
+	position: Councilor
+	level: City/Municipality
+	num_votes: 0
+	province: Metro Manila
+	municipality: Makati City
+
+candidate175:
+	first_name: Luis Jr
+	middle_name: S.
+	last_name: Javier
+	position: Councilor
+	level: City/Municipality
+	num_votes: 0
+	province: Metro Manila
+	municipality: Makati City
+
+candidate176:
+	first_name: Perfecto
+	middle_name: M.
+	last_name: Santos
+	position: Councilor
+	level: City/Municipality
+	num_votes: 0
+	province: Metro Manila
+	municipality: Makati City
+
+candidate177:
+	first_name: Alberto
+	middle_name: P.
+	last_name: Almario
+	position: Councilor
+	level: City/Municipality
+	num_votes: 0
+	province: Metro Manila
+	municipality: Makati City
+
+candidate178:
+	first_name: Juanito
+	middle_name: L.
+	last_name: Dela Cruz
+	position: Councilor
+	level: City/Municipality
+	num_votes: 0
+	province: Metro Manila
+	municipality: Makati City
+
+candidate179:
+	first_name: Catalina
+	middle_name: A.
+	last_name: Balaoing
+	position: Councilor
+	level: City/Municipality
+	num_votes: 0
+	province: Metro Manila
+	municipality: Makati City
+
+candidate180:
+	first_name: Henry
+	middle_name: A.
+	last_name: Jacome
+	position: Councilor
+	level: City/Municipality
+	num_votes: 0
+	province: Metro Manila
+	municipality: Makati City
+
+candidate181:
+	first_name: Armando
+	middle_name: M.
+	last_name: Balatbat
+	position: Councilor
+	level: City/Municipality
+	num_votes: 0
+	province: Metro Manila
+	municipality: Malabon City
+
+candidate182:
+	first_name: Enrique
+	middle_name: M.
+	last_name: Linchangco
+	position: Councilor
+	level: City/Municipality
+	num_votes: 0
+	province: Metro Manila
+	municipality: Malabon City
+
+candidate183:
+	first_name: Rufino
+	middle_name: F.
+	last_name: Bautista
+	position: Councilor
+	level: City/Municipality
+	num_votes: 0
+	province: Metro Manila
+	municipality: Malabon City
+
+candidate184:
+	first_name: Antonio
+	middle_name: A.
+	last_name: Ponce
+	position: Councilor
+	level: City/Municipality
+	num_votes: 0
+	province: Metro Manila
+	municipality: Malabon City
+
+candidate185:
+	first_name: Edgardo
+	middle_name: S.
+	last_name: Marcial
+	position: Councilor
+	level: City/Municipality
+	num_votes: 0
+	province: Metro Manila
+	municipality: Malabon City
+
+candidate186:
+	first_name: Eduardo
+	middle_name: T.
+	last_name: Nolasco
+	position: Councilor
+	level: City/Municipality
+	num_votes: 0
+	province: Metro Manila
+	municipality: Malabon City
+
+candidate187:
+	first_name: Fernando
+	middle_name: P.
+	last_name: Diones
+	position: Councilor
+	level: City/Municipality
+	num_votes: 0
+	province: Metro Manila
+	municipality: Malabon City
+
+candidate188:
+	first_name: Diosdado
+	middle_name: A.
+	last_name: Cunanan
+	position: Councilor
+	level: City/Municipality
+	num_votes: 0
+	province: Metro Manila
+	municipality: Malabon City
+
+candidate189:
+	first_name: Edralin
+	middle_name: D.
+	last_name: Yanga
+	position: Councilor
+	level: City/Municipality
+	num_votes: 0
+	province: Metro Manila
+	municipality: Malabon City
+
+candidate190:
+	first_name: Victorio
+	middle_name: R.
+	last_name: Trinidad
+	position: Councilor
+	level: City/Municipality
+	num_votes: 0
+	province: Metro Manila
+	municipality: Malabon City
+
+candidate191:
+	first_name: Mario
+	middle_name: M.
+	last_name: Acuna
+	position: Councilor
+	level: City/Municipality
+	num_votes: 0
+	province: Metro Manila
+	municipality: Las Pinas City
+
+candidate192:
+	first_name: Dennis
+	middle_name: S.
+	last_name: Aguilar
+	position: Councilor
+	level: City/Municipality
+	num_votes: 0
+	province: Metro Manila
+	municipality: Las Pinas City
+
+candidate193:
+	first_name: Larry
+	middle_name: D.
+	last_name: Bugaring
+	position: Councilor
+	level: City/Municipality
+	num_votes: 0
+	province: Metro Manila
+	municipality: Las Pinas City
+
+candidate194:
+	first_name: Noel
+	middle_name: G.
+	last_name: Fortuna
+	position: Councilor
+	level: City/Municipality
+	num_votes: 0
+	province: Metro Manila
+	municipality: Las Pinas City
+
+candidate195:
+	first_name: Vilma
+	middle_name: B.
+	last_name: Miranda
+	position: Councilor
+	level: City/Municipality
+	num_votes: 0
+	province: Metro Manila
+	municipality: Las Pinas City
+
+candidate196:
+	first_name: Alfredo
+	middle_name: L.
+	last_name: Miranda
+	position: Councilor
+	level: City/Municipality
+	num_votes: 0
+	province: Metro Manila
+	municipality: Las Pinas City
+
+candidate197:
+	first_name: Mario
+	middle_name: B.
+	last_name: Casabal
+	position: Councilor
+	level: City/Municipality
+	num_votes: 0
+	province: Metro Manila
+	municipality: Las Pinas City
+
+candidate198:
+	first_name: Nonita
+	middle_name: B.
+	last_name: Menil
+	position: Councilor
+	level: City/Municipality
+	num_votes: 0
+	province: Metro Manila
+	municipality: Las Pinas City
+
+candidate199:
+	first_name: Ronald
+	middle_name: D.
+	last_name: Dominguez
+	position: Councilor
+	level: City/Municipality
+	num_votes: 0
+	province: Metro Manila
+	municipality: Las Pinas City
+
+candidate200:
+	first_name: Danilo
+	middle_name: V.
+	last_name: Hernandez
+	position: Councilor
+	level: City/Municipality
+	num_votes: 0
+	province: Metro Manila
+	municipality: Las Pinas City
+
+candidate201:
+	first_name: Dolores
+	middle_name: M.
+	last_name: Camacho
+	position: Councilor
+	level: City/Municipality
+	num_votes: 0
+	province: Metro Manila
+	municipality: Marikina City
+
+candidate202:
+	first_name: Aurelio
+	middle_name: C.
+	last_name: Caparas
+	position: Councilor
+	level: City/Municipality
+	num_votes: 0
+	province: Metro Manila
+	municipality: Marikina City
+
+candidate203:
+	first_name: Rodrigo
+	middle_name: V.
+	last_name: Contado
+	position: Councilor
+	level: City/Municipality
+	num_votes: 0
+	province: Metro Manila
+	municipality: Marikina City
+
+candidate204:
+	first_name: Arvin
+	middle_name: I.
+	last_name: Jimenez
+	position: Councilor
+	level: City/Municipality
+	num_votes: 0
+	province: Metro Manila
+	municipality: Marikina City
+
+candidate205:
+	first_name: Zosimo
+	middle_name: A.
+	last_name: Balingit
+	position: Councilor
+	level: City/Municipality
+	num_votes: 0
+	province: Metro Manila
+	municipality: Marikina City
+
+candidate206:
+	first_name: Alberto
+	middle_name: L.
+	last_name: Mendoza
+	position: Councilor
+	level: City/Municipality
+	num_votes: 0
+	province: Metro Manila
+	municipality: Marikina City
+
+candidate207:
+	first_name: Gerald
+	middle_name: C.
+	last_name: Diamante
+	position: Councilor
+	level: City/Municipality
+	num_votes: 0
+	province: Metro Manila
+	municipality: Marikina City
+
+candidate208:
+	first_name: Reginaldo
+	middle_name: N.
+	last_name: Reyes
+	position: Councilor
+	level: City/Municipality
+	num_votes: 0
+	province: Metro Manila
+	municipality: Marikina City
+
+candidate209:
+	first_name: Rogel
+	middle_name: V.
+	last_name: Santiago
+	position: Councilor
+	level: City/Municipality
+	num_votes: 0
+	province: Metro Manila
+	municipality: Marikina City
+
+candidate210:
+	first_name: Poncianito
+	middle_name: E.
+	last_name: Santos
+	position: Councilor
+	level: City/Municipality
+	num_votes: 0
+	province: Metro Manila
+	municipality: Marikina City
+
+candidate211:
+	first_name: Frederick
+	middle_name: P.
+	last_name: Constantino
+	position: Councilor
+	level: City/Municipality
+	num_votes: 0
+	province: Metro Manila
+	municipality: Manila
+
+candidate212:
+	first_name: Vicente
+	middle_name: O.
+	last_name: Salgado
+	position: Councilor
+	level: City/Municipality
+	num_votes: 0
+	province: Metro Manila
+	municipality: Manila
+
+candidate213:
+	first_name: Joana
+	middle_name: T.
+	last_name: Singson
+	position: Councilor
+	level: City/Municipality
+	num_votes: 0
+	province: Metro Manila
+	municipality: Manila
+
+candidate214:
+	first_name: Nelissa
+	middle_name: F.
+	last_name: Beltran
+	position: Councilor
+	level: City/Municipality
+	num_votes: 0
+	province: Metro Manila
+	municipality: Manila
+
+candidate215:
+	first_name: Rodolfo
+	middle_name: N.
+	last_name: Lacsamana
+	position: Councilor
+	level: City/Municipality
+	num_votes: 0
+	province: Metro Manila
+	municipality: Manila
+
+candidate216:
+	first_name: Christopher
+	middle_name: B.
+	last_name: Ortiz
+	position: Councilor
+	level: City/Municipality
+	num_votes: 0
+	province: Metro Manila
+	municipality: Manila
+
+candidate217:
+	first_name: Filomena
+	middle_name: L.
+	last_name: Aligayo
+	position: Councilor
+	level: City/Municipality
+	num_votes: 0
+	province: Metro Manila
+	municipality: Manila
+
+candidate218:
+	first_name: Estrellita
+	middle_name: P.
+	last_name: Geronimo
+	position: Councilor
+	level: City/Municipality
+	num_votes: 0
+	province: Metro Manila
+	municipality: Manila
+
+candidate219:
+	first_name: Romeo
+	middle_name: V.
+	last_name: Venturina
+	position: Councilor
+	level: City/Municipality
+	num_votes: 0
+	province: Metro Manila
+	municipality: Manila
+
+candidate220:
+	first_name: Jocelyn
+	middle_name: J.
+	last_name: Quintos
+	position: Councilor
+	level: City/Municipality
+	num_votes: 0
+	province: Metro Manila
+	municipality: Manila
+
+candidate221:
+	first_name: Bernardo
+	middle_name: L.
+	last_name: Buella
+	position: Councilor
+	level: City/Municipality
+	num_votes: 0
+	province: Metro Manila
+	municipality: Mandaluyong City
+
+candidate222:
+	first_name: Arsenio
+	middle_name: S.
+	last_name: Abalos
+	position: Councilor
+	level: City/Municipality
+	num_votes: 0
+	province: Metro Manila
+	municipality: Mandaluyong City
+
+candidate223:
+	first_name: Aniceto
+	middle_name: H.
+	last_name: Manansala
+	position: Councilor
+	level: City/Municipality
+	num_votes: 0
+	province: Metro Manila
+	municipality: Mandaluyong City
+
+candidate224:
+	first_name: Edgar
+	middle_name: J.
+	last_name: Bais
+	position: Councilor
+	level: City/Municipality
+	num_votes: 0
+	province: Metro Manila
+	municipality: Mandaluyong City
+
+candidate225:
+	first_name: Jonathan
+	middle_name: D.
+	last_name: Abalos
+	position: Councilor
+	level: City/Municipality
+	num_votes: 0
+	province: Metro Manila
+	municipality: Mandaluyong City
+
+candidate226:
+	first_name: Luisito
+	middle_name: I.
+	last_name: Pillas
+	position: Councilor
+	level: City/Municipality
+	num_votes: 0
+	province: Metro Manila
+	municipality: Mandaluyong City
+
+candidate227:
+	first_name: Jose
+	middle_name: R.
+	last_name: Reyes
+	position: Councilor
+	level: City/Municipality
+	num_votes: 0
+	province: Metro Manila
+	municipality: Mandaluyong City
+
+candidate228:
+	first_name: Edward
+	middle_name: B.
+	last_name: Santos
+	position: Councilor
+	level: City/Municipality
+	num_votes: 0
+	province: Metro Manila
+	municipality: Mandaluyong City
+
+candidate229:
+	first_name: Chito
+	middle_name: L.
+	last_name: Dumas
+	position: Councilor
+	level: City/Municipality
+	num_votes: 0
+	province: Metro Manila
+	municipality: Mandaluyong City
+
+candidate230:
+	first_name: Luisito
+	middle_name: E.
+	last_name: Espinosa
+	position: Councilor
+	level: City/Municipality
+	num_votes: 0
+	province: Metro Manila
+	municipality: Mandaluyong City
+
+candidate231:
+	first_name: Ricardo
+	middle_name: V.
+	last_name: Balasa
+	position: Councilor
+	level: City/Municipality
+	num_votes: 0
+	province: Metro Manila
+	municipality: Navotas City
+
+candidate232:
+	first_name: Ernani
+	middle_name: B.
+	last_name: Calayag
+	position: Councilor
+	level: City/Municipality
+	num_votes: 0
+	province: Metro Manila
+	municipality: Navotas City
+
+candidate233:
+	first_name: Domingo
+	middle_name: L.
+	last_name: Elape
+	position: Councilor
+	level: City/Municipality
+	num_votes: 0
+	province: Metro Manila
+	municipality: Navotas City
+
+candidate234:
+	first_name: Bernardo
+	middle_name: C.
+	last_name: Nazal
+	position: Councilor
+	level: City/Municipality
+	num_votes: 0
+	province: Metro Manila
+	municipality: Navotas City
+
+candidate235:
+	first_name: Reccelle
+	middle_name: G.
+	last_name: Miralles
+	position: Councilor
+	level: City/Municipality
+	num_votes: 0
+	province: Metro Manila
+	municipality: Navotas City
+
+candidate236:
+	first_name: Alfredo
+	middle_name: R.
+	last_name: Vicencio
+	position: Councilor
+	level: City/Municipality
+	num_votes: 0
+	province: Metro Manila
+	municipality: Navotas City
+
+candidate237:
+	first_name: Richard
+	middle_name: S.
+	last_name: San Juan
+	position: Councilor
+	level: City/Municipality
+	num_votes: 0
+	province: Metro Manila
+	municipality: Navotas City
+
+candidate238:
+	first_name: Florencio
+	middle_name: M.
+	last_name: Araga
+	position: Councilor
+	level: City/Municipality
+	num_votes: 0
+	province: Metro Manila
+	municipality: Navotas City
+
+candidate239:
+	first_name: Analiza
+	middle_name: D.
+	last_name: Lupisan
+	position: Councilor
+	level: City/Municipality
+	num_votes: 0
+	province: Metro Manila
+	municipality: Navotas City
+
+candidate240:
+	first_name: Cesar
+	middle_name: P.
+	last_name: Santos
+	position: Councilor
+	level: City/Municipality
+	num_votes: 0
+	province: Metro Manila
+	municipality: Navotas City
+
+candidate241:
+	first_name: Rommel
+	middle_name: L.
+	last_name: Abanto
+	position: Councilor
+	level: City/Municipality
+	num_votes: 0
+	province: Metro Manila
+	municipality: Muntinlupa City
+
+candidate242:
+	first_name: Gabriel
+	middle_name: B.
+	last_name: Dolleton
+	position: Councilor
+	level: City/Municipality
+	num_votes: 0
+	province: Metro Manila
+	municipality: Muntinlupa City
+
+candidate243:
+	first_name: Patricio
+	middle_name: L.
+	last_name: Boncayao
+	position: Councilor
+	level: City/Municipality
+	num_votes: 0
+	province: Metro Manila
+	municipality: Muntinlupa City
+
+candidate244:
+	first_name: Raul
+	middle_name: C.
+	last_name: Corro
+	position: Councilor
+	level: City/Municipality
+	num_votes: 0
+	province: Metro Manila
+	municipality: Muntinlupa City
+
+candidate245:
+	first_name: Alexander
+	middle_name: B.
+	last_name: Diaz
+	position: Councilor
+	level: City/Municipality
+	num_votes: 0
+	province: Metro Manila
+	municipality: Muntinlupa City
+
+candidate246:
+	first_name: Baldomero
+	middle_name: D.
+	last_name: Niefes
+	position: Councilor
+	level: City/Municipality
+	num_votes: 0
+	province: Metro Manila
+	municipality: Muntinlupa City
+
+candidate247:
+	first_name: Gerrovi
+	middle_name: L.
+	last_name: Hernandez
+	position: Councilor
+	level: City/Municipality
+	num_votes: 0
+	province: Metro Manila
+	municipality: Muntinlupa City
+
+candidate248:
+	first_name: Abegail
+	middle_name: A.
+	last_name: Camilon
+	position: Councilor
+	level: City/Municipality
+	num_votes: 0
+	province: Metro Manila
+	municipality: Muntinlupa City
+
+candidate249:
+	first_name: Antonio
+	middle_name: P.
+	last_name: Oliva
+	position: Councilor
+	level: City/Municipality
+	num_votes: 0
+	province: Metro Manila
+	municipality: Muntinlupa City
+
+candidate250:
+	first_name: Roderick
+	middle_name: V.
+	last_name: Lorica
+	position: Councilor
+	level: City/Municipality
+	num_votes: 0
+	province: Metro Manila
+	municipality: Muntinlupa City
+
+candidate251:
+	first_name: Rossano
+	middle_name: S.
+	last_name: Cuneta
+	position: Councilor
+	level: City/Municipality
+	num_votes: 0
+	province: Metro Manila
+	municipality: Pasay City
+
+candidate252:
+	first_name: Edmund
+	middle_name: M.
+	last_name: Cayetano
+	position: Councilor
+	level: City/Municipality
+	num_votes: 0
+	province: Metro Manila
+	municipality: Pasay City
+
+candidate253:
+	first_name: Eduardo
+	middle_name: I.
+	last_name: Cruz
+	position: Councilor
+	level: City/Municipality
+	num_votes: 0
+	province: Metro Manila
+	municipality: Pasay City
+
+candidate254:
+	first_name: Alejandro
+	middle_name: L.
+	last_name: Mendoza
+	position: Councilor
+	level: City/Municipality
+	num_votes: 0
+	province: Metro Manila
+	municipality: Pasay City
+
+candidate255:
+	first_name: Abelardo
+	middle_name: E.
+	last_name: Rogacion
+	position: Councilor
+	level: City/Municipality
+	num_votes: 0
+	province: Metro Manila
+	municipality: Pasay City
+
+candidate256:
+	first_name: Charlie
+	middle_name: I.
+	last_name: Chavez
+	position: Councilor
+	level: City/Municipality
+	num_votes: 0
+	province: Metro Manila
+	municipality: Pasay City
+
+candidate257:
+	first_name: Rolando
+	middle_name: G.
+	last_name: Cipriano
+	position: Councilor
+	level: City/Municipality
+	num_votes: 0
+	province: Metro Manila
+	municipality: Pasay City
+
+candidate258:
+	first_name: Valentino
+	middle_name: D.
+	last_name: Ilagan
+	position: Councilor
+	level: City/Municipality
+	num_votes: 0
+	province: Metro Manila
+	municipality: Pasay City
+
+candidate259:
+	first_name: Florencio
+	middle_name: C.
+	last_name: Mateo
+	position: Councilor
+	level: City/Municipality
+	num_votes: 0
+	province: Metro Manila
+	municipality: Pasay City
+
+candidate260:
+	first_name: Lolita
+	middle_name: M.
+	last_name: Miranda
+	position: Councilor
+	level: City/Municipality
+	num_votes: 0
+	province: Metro Manila
+	municipality: Pasay City
+
+candidate261:
+	first_name: Valmar
+	middle_name: C.
+	last_name: Sotto
+	position: Councilor
+	level: City/Municipality
+	num_votes: 0
+	province: Metro Manila
+	municipality: Paranaque City
+
+candidate262:
+	first_name: John Ryan
+	middle_name: G.
+	last_name: Yllana
+	position: Councilor
+	level: City/Municipality
+	num_votes: 0
+	province: Metro Manila
+	municipality: Paranaque City
+
+candidate263:
+	first_name: Julio
+	middle_name: R.
+	last_name: Estrera
+	position: Councilor
+	level: City/Municipality
+	num_votes: 0
+	province: Metro Manila
+	municipality: Paranaque City
+
+candidate264:
+	first_name: Gaspar
+	middle_name: B.
+	last_name: Bobadilla
+	position: Councilor
+	level: City/Municipality
+	num_votes: 0
+	province: Metro Manila
+	municipality: Paranaque City
+
+candidate265:
+	first_name: Abundio
+	middle_name: B.
+	last_name: Ferrer
+	position: Councilor
+	level: City/Municipality
+	num_votes: 0
+	province: Metro Manila
+	municipality: Paranaque City
+
+candidate266:
+	first_name: Carlito
+	middle_name: D.
+	last_name: Antipuesto
+	position: Councilor
+	level: City/Municipality
+	num_votes: 0
+	province: Metro Manila
+	municipality: Paranaque City
+
+candidate267:
+	first_name: Hilario
+	middle_name: L.
+	last_name: Bonsol
+	position: Councilor
+	level: City/Municipality
+	num_votes: 0
+	province: Metro Manila
+	municipality: Paranaque City
+
+candidate268:
+	first_name: Generoso
+	middle_name: V.
+	last_name: Puson
+	position: Councilor
+	level: City/Municipality
+	num_votes: 0
+	province: Metro Manila
+	municipality: Paranaque City
+
+candidate269:
+	first_name: Florencia
+	middle_name: N.
+	last_name: Amurao
+	position: Councilor
+	level: City/Municipality
+	num_votes: 0
+	province: Metro Manila
+	municipality: Paranaque City
+
+candidate270:
+	first_name: Conchita
+	middle_name: S.
+	last_name: Bustamante
+	position: Councilor
+	level: City/Municipality
+	num_votes: 0
+	province: Metro Manila
+	municipality: Paranaque City
+
+candidate271:
+	first_name: Regino
+	middle_name: S.
+	last_name: Balderrama
+	position: Councilor
+	level: City/Municipality
+	num_votes: 0
+	province: Metro Manila
+	municipality: Pasig City
+
+candidate272:
+	first_name: Rodrigo
+	middle_name: B.
+	last_name: Asilo
+	position: Councilor
+	level: City/Municipality
+	num_votes: 0
+	province: Metro Manila
+	municipality: Pasig City
+
+candidate273:
+	first_name: Charmie
+	middle_name: Q.
+	last_name: Benavides
+	position: Councilor
+	level: City/Municipality
+	num_votes: 0
+	province: Metro Manila
+	municipality: Pasig City
+
+candidate274:
+	first_name: Richard
+	middle_name: C.
+	last_name: Eusebio
+	position: Councilor
+	level: City/Municipality
+	num_votes: 0
+	province: Metro Manila
+	municipality: Pasig City
+
+candidate275:
+	first_name: Roberto
+	middle_name: E.
+	last_name: Benito
+	position: Councilor
+	level: City/Municipality
+	num_votes: 0
+	province: Metro Manila
+	municipality: Pasig City
+
+candidate276:
+	first_name: Teofilo
+	middle_name: L.
+	last_name: Pascual
+	position: Councilor
+	level: City/Municipality
+	num_votes: 0
+	province: Metro Manila
+	municipality: Pasig City
+
+candidate277:
+	first_name: Reynaldo
+	middle_name: F.
+	last_name: Raymundo
+	position: Councilor
+	level: City/Municipality
+	num_votes: 0
+	province: Metro Manila
+	municipality: Pasig City
+
+candidate278:
+	first_name: Christian
+	middle_name: D.
+	last_name: Sia
+	position: Councilor
+	level: City/Municipality
+	num_votes: 0
+	province: Metro Manila
+	municipality: Pasig City
+
+candidate279:
+	first_name: Renato
+	middle_name: G.
+	last_name: Lipana
+	position: Councilor
+	level: City/Municipality
+	num_votes: 0
+	province: Metro Manila
+	municipality: Pasig City
+
+candidate280:
+	first_name: Roland
+	middle_name: P.
+	last_name: Vasquez
+	position: Councilor
+	level: City/Municipality
+	num_votes: 0
+	province: Metro Manila
+	municipality: Pasig City
+
+candidate281:
+	first_name: Lauro
+	middle_name: S.
+	last_name: Capco
+	position: Councilor
+	level: City/Municipality
+	num_votes: 0
+	province: Metro Manila
+	municipality: Pateros
+
+candidate282:
+	first_name: Rolando
+	middle_name: L.
+	last_name: Dolon
+	position: Councilor
+	level: City/Municipality
+	num_votes: 0
+	province: Metro Manila
+	municipality: Pateros
+
+candidate283:
+	first_name: Arturo
+	middle_name: K.
+	last_name: Arancel
+	position: Councilor
+	level: City/Municipality
+	num_votes: 0
+	province: Metro Manila
+	municipality: Pateros
+
+candidate284:
+	first_name: Ernesto
+	middle_name: G.
+	last_name: Gallano
+	position: Councilor
+	level: City/Municipality
+	num_votes: 0
+	province: Metro Manila
+	municipality: Pateros
+
+candidate285:
+	first_name: Daisy
+	middle_name: G.
+	last_name: Reyes
+	position: Councilor
+	level: City/Municipality
+	num_votes: 0
+	province: Metro Manila
+	municipality: Pateros
+
+candidate286:
+	first_name: Gerardo
+	middle_name: C.
+	last_name: Sanchez
+	position: Councilor
+	level: City/Municipality
+	num_votes: 0
+	province: Metro Manila
+	municipality: Pateros
+
+candidate287:
+	first_name: Joseph
+	middle_name: D.
+	last_name: Manzon
+	position: Councilor
+	level: City/Municipality
+	num_votes: 0
+	province: Metro Manila
+	municipality: Pateros
+
+candidate288:
+	first_name: Oscar
+	middle_name: R.
+	last_name: Omanchi
+	position: Councilor
+	level: City/Municipality
+	num_votes: 0
+	province: Metro Manila
+	municipality: Pateros
+
+candidate289:
+	first_name: Arturo
+	middle_name: M.
+	last_name: Enriquez
+	position: Councilor
+	level: City/Municipality
+	num_votes: 0
+	province: Metro Manila
+	municipality: Pateros
+
+candidate290:
+	first_name: Milaor
+	middle_name: B.
+	last_name: Villegas
+	position: Councilor
+	level: City/Municipality
+	num_votes: 0
+	province: Metro Manila
+	municipality: Pateros
+
+candidate291:
+	first_name: Ricardo
+	middle_name: J.
+	last_name: Belmonte
+	position: Councilor
+	level: City/Municipality
+	num_votes: 0
+	province: Metro Manila
+	municipality: Quezon City
+
+candidate292:
+	first_name: Nestor
+	middle_name: P.
+	last_name: Borromeo
+	position: Councilor
+	level: City/Municipality
+	num_votes: 0
+	province: Metro Manila
+	municipality: Quezon City
+
+candidate293:
+	first_name: Fidel
+	middle_name: T.
+	last_name: Liones
+	position: Councilor
+	level: City/Municipality
+	num_votes: 0
+	province: Metro Manila
+	municipality: Quezon City
+
+candidate294:
+	first_name: Edgar
+	middle_name: L.
+	last_name: Delfinado
+	position: Councilor
+	level: City/Municipality
+	num_votes: 0
+	province: Metro Manila
+	municipality: Quezon City
+
+candidate295:
+	first_name: Raquel
+	middle_name: S.
+	last_name: Malangen
+	position: Councilor
+	level: City/Municipality
+	num_votes: 0
+	province: Metro Manila
+	municipality: Quezon City
+
+candidate296:
+	first_name: Alexis
+	middle_name: R.
+	last_name: Hererra
+	position: Councilor
+	level: City/Municipality
+	num_votes: 0
+	province: Metro Manila
+	municipality: Quezon City
+
+candidate297:
+	first_name: Francisco
+	middle_name: A.
+	last_name: Calalay
+	position: Councilor
+	level: City/Municipality
+	num_votes: 0
+	province: Metro Manila
+	municipality: Quezon City
+
+candidate298:
+	first_name: Flora
+	middle_name: A.
+	last_name: Santos
+	position: Councilor
+	level: City/Municipality
+	num_votes: 0
+	province: Metro Manila
+	municipality: Quezon City
+
+candidate299:
+	first_name: Fermin
+	middle_name: B.
+	last_name: Bilaos
+	position: Councilor
+	level: City/Municipality
+	num_votes: 0
+	province: Metro Manila
+	municipality: Quezon City
+
+candidate300:
+	first_name: Alfredo
+	middle_name: S.
+	last_name: Garcia
+	position: Councilor
+	level: City/Municipality
+	num_votes: 0
+	province: Metro Manila
+	municipality: Quezon City
+
+candidate301:
+	first_name: Angelo
+	middle_name: E.
+	last_name: Agcaoili
+	position: Councilor
+	level: City/Municipality
+	num_votes: 0
+	province: Metro Manila
+	municipality: San Juan City
+
+candidate302:
+	first_name: Bernard
+	middle_name: A.
+	last_name: Drilon
+	position: Councilor
+	level: City/Municipality
+	num_votes: 0
+	province: Metro Manila
+	municipality: San Juan City
+
+candidate303:
+	first_name: Joseph
+	middle_name: L.
+	last_name: Galarosa
+	position: Councilor
+	level: City/Municipality
+	num_votes: 0
+	province: Metro Manila
+	municipality: San Juan City
+
+candidate304:
+	first_name: Edgardo
+	middle_name: V.
+	last_name: Soriano
+	position: Councilor
+	level: City/Municipality
+	num_votes: 0
+	province: Metro Manila
+	municipality: San Juan City
+
+candidate305:
+	first_name: Ferdinand
+	middle_name: A.
+	last_name: Velasco
+	position: Councilor
+	level: City/Municipality
+	num_votes: 0
+	province: Metro Manila
+	municipality: San Juan City
+
+candidate306:
+	first_name: Rolando
+	middle_name: M.
+	last_name: Bernardo
+	position: Councilor
+	level: City/Municipality
+	num_votes: 0
+	province: Metro Manila
+	municipality: San Juan City
+
+candidate307:
+	first_name: Leonardo
+	middle_name: G.
+	last_name: Celles
+	position: Councilor
+	level: City/Municipality
+	num_votes: 0
+	province: Metro Manila
+	municipality: San Juan City
+
+candidate308:
+	first_name: Jannah
+	middle_name: A.
+	last_name: Ejercito
+	position: Councilor
+	level: City/Municipality
+	num_votes: 0
+	province: Metro Manila
+	municipality: San Juan City
+
+candidate309:
+	first_name: Richard
+	middle_name: F.
+	last_name: Peralta
+	position: Councilor
+	level: City/Municipality
+	num_votes: 0
+	province: Metro Manila
+	municipality: San Juan City
+
+candidate310:
+	first_name: Belinda
+	middle_name: C.
+	last_name: Surian
+	position: Councilor
+	level: City/Municipality
+	num_votes: 0
+	province: Metro Manila
+	municipality: San Juan City
+
+candidate311:
+	first_name: Eduardo
+	middle_name: T.
+	last_name: Cruz
+	position: Councilor
+	level: City/Municipality
+	num_votes: 0
+	province: Metro Manila
+	municipality: Taguig City
+
+candidate312:
+	first_name: Jinky
+	middle_name: O
+	last_name: Sarmiento
+	position: Councilor
+	level: City/Municipality
+	num_votes: 0
+	province: Metro Manila
+	municipality: Taguig City
+	
+candidate313:
+	first_name: Gamaliel
+	middle_name: N.
+	last_name: San Pedro
+	position: Councilor
+	level: City/Municipality
+	num_votes: 0
+	province: Metro Manila
+	municipality: Taguig City
+
+candidate314:
+	first_name: Emmanuel
+	middle_name: J.
+	last_name: Victoria
+	position: Councilor
+	level: City/Municipality
+	num_votes: 0
+	province: Metro Manila
+	municipality: Taguig City
+	
+candidate315:
+	first_name: Gerry
+	middle_name: N.
+	last_name: Placeros
+	position: Councilor
+	level: City/Municipality
+	num_votes: 0
+	province: Metro Manila
+	municipality: Taguig City
+
+candidate316:
+	first_name: Reynaldo
+	middle_name:  S.
+	last_name: Acas
+	position: Councilor
+	level: City/Municipality
+	num_votes: 0
+	province: Metro Manila
+	municipality: Taguig City
+	
+candidate317:
+	first_name: Vilma
+	middle_name: U.
+	last_name: Antigo
+	position: Councilor
+	level: City/Municipality
+	num_votes: 0
+	province: Metro Manila
+	municipality: Taguig City
+
+candidate318:
+	first_name: Janine
+	middle_name: D.
+	last_name: Bustos
+	position: Councilor
+	level: City/Municipality
+	num_votes: 0
+	province: Metro Manila
+	municipality: Taguig City
+	
+candidate319:
+	first_name: Generoso
+	middle_name: G.
+	last_name: Ignacio
+	position: Councilor
+	level: City/Municipality
+	num_votes: 0
+	province: Metro Manila
+	municipality: Taguig City
+
+candidate320:
+	first_name: Estela
+	middle_name: A.
+	last_name: Gasgonia
+	position: Councilor
+	level: City/Municipality
+	num_votes: 0
+	province: Metro Manila
+	municipality: Taguig City
+	
+candidate321:
+	first_name: Joel
+	middle_name: S.
+	last_name: Angeles
+	position: Councilor
+	level: City/Municipality
+	num_votes: 0
+	province: Metro Manila
+	municipality: Valenzuela City
+
+candidate322:
+	first_name: Corazon
+	middle_name: A.
+	last_name: Cortez
+	position: Councilor
+	level: City/Municipality
+	num_votes: 0
+	province: Metro Manila
+	municipality: Valenzuela City
+	
+candidate323:
+	first_name: Ritchie
+	middle_name: D.
+	last_name: Cuadra
+	position: Councilor
+	level: City/Municipality
+	num_votes: 0
+	province: Metro Manila
+	municipality: Valenzuela City
+
+candidate324:
+	first_name: Emmanuel
+	middle_name: S.
+	last_name: Delesmo
+	position: Councilor
+	level: City/Municipality
+	num_votes: 0
+	province: Metro Manila
+	municipality: Valenzuela City
+	
+candidate325:
+	first_name: Meilene
+	middle_name: T.
+	last_name: Dizor
+	position: Councilor
+	level: City/Municipality
+	num_votes: 0
+	province: Metro Manila
+	municipality: Valenzuela City
+
+candidate326:
+	first_name: Jasmin
+	middle_name: P.
+	last_name: Antonio
+	position: Councilor
+	level: City/Municipality
+	num_votes: 0
+	province: Metro Manila
+	municipality: Valenzuela City
+	
+candidate327:
+	first_name: Moises
+	middle_name: S.
+	last_name: Beltran
+	position: Councilor
+	level: City/Municipality
+	num_votes: 0
+	province: Metro Manila
+	municipality: Valenzuela City
+
+candidate328:
+	first_name: Robert
+	middle_name: T.
+	last_name: Cruz
+	position: Councilor
+	level: City/Municipality
+	num_votes: 0
+	province: Metro Manila
+	municipality: Valenzuela City
+	
+candidate329:
+	first_name: Adrian
+	middle_name: C.
+	last_name: Dapat
+	position: Councilor
+	level: City/Municipality
+	num_votes: 0
+	province: Metro Manila
+	municipality: Valenzuela City
+
+candidate330:
+	first_name: Lailaine
+	middle_name: P.
+	last_name: Nolasco
+	position: Councilor
+	level: City/Municipality
+	num_votes: 0
+	province: Metro Manila
+	municipality: Valenzuela City
+	
+candidate331:
+	first_name: Carlon
+	middle_name: G.
+	last_name: Ambayec
+	position: Councilor
+	level: City/Municipality
+	num_votes: 0
+	province: Laguna
+	municipality: San Pedro
+
+candidate332:
+	first_name: Michael
+	middle_name: M.
+	last_name: Casacop
+	position: Councilor
+	level: City/Municipality
+	num_votes: 0
+	province: Laguna
+	municipality: San Pedro
+
+candidate333:
+	first_name: Reynaldo
+	middle_name: L.
+	last_name: Capina
+	position: Councilor
+	level: City/Municipality
+	num_votes: 0
+	province: Laguna
+	municipality: San Pedro
+
+candidate334:
+	first_name: Rolando
+	middle_name: P.
+	last_name: Diaz
+	position: Councilor
+	level: City/Municipality
+	num_votes: 0
+	province: Laguna
+	municipality: San Pedro
+
+candidate335:
+	first_name: Delio
+	middle_name: L.
+	last_name: Hatulan
+	position: Councilor
+	level: City/Municipality
+	num_votes: 0
+	province: Laguna
+	municipality: San Pedro
+
+candidate336:
+	first_name: Edgardo
+	middle_name: M.
+	last_name: Berroya
+	position: Councilor
+	level: City/Municipality
+	num_votes: 0
+	province: Laguna
+	municipality: San Pedro
+
+candidate337:
+	first_name: Milencio
+	middle_name: E.
+	last_name: Lorenzo
+	position: Councilor
+	level: City/Municipality
+	num_votes: 0
+	province: Laguna
+	municipality: San Pedro
+
+candidate338:
+	first_name: Jose
+	middle_name: D.
+	last_name: Conde
+	position: Councilor
+	level: City/Municipality
+	num_votes: 0
+	province: Laguna
+	municipality: San Pedro
+
+candidate339:
+	first_name: Leslie
+	middle_name: E.
+	last_name: Lu
+	position: Councilor
+	level: City/Municipality
+	num_votes: 0
+	province: Laguna
+	municipality: San Pedro
+
+candidate340:
+	first_name: Cris
+	middle_name: A.
+	last_name: Machado
+	position: Councilor
+	level: City/Municipality
+	num_votes: 0
+	province: Laguna
+	municipality: San Pedro
+
+candidate341:
+	first_name: Michelle
+	middle_name: M.
+	last_name: Alejo
+	position: Councilor
+	level: City/Municipality
+	num_votes: 0
+	province: Laguna
+	municipality: Santa Cruz
+
+candidate342:
+	first_name: Reynan
+	middle_name: T.
+	last_name: Balubayan
+	position: Councilor
+	level: City/Municipality
+	num_votes: 0
+	province: Laguna
+	municipality: Santa Cruz
+
+candidate343:
+	first_name: Edgardo
+	middle_name: C.
+	last_name: Estrosa
+	position: Councilor
+	level: City/Municipality
+	num_votes: 0
+	province: Laguna
+	municipality: Santa Cruz
+
+candidate344:
+	first_name: Oscar
+	middle_name: F.
+	last_name: Feliciano
+	position: Councilor
+	level: City/Municipality
+	num_votes: 0
+	province: Laguna
+	municipality: Santa Cruz
+
+candidate345:
+	first_name: Rizaldy
+	middle_name: N.
+	last_name: Kalaw
+	position: Councilor
+	level: City/Municipality
+	num_votes: 0
+	province: Laguna
+	municipality: Santa Cruz
+
+candidate346:
+	first_name: Efren
+	middle_name: L.
+	last_name: Diaz
+	position: Councilor
+	level: City/Municipality
+	num_votes: 0
+	province: Laguna
+	municipality: Santa Cruz
+
+candidate347:
+	first_name: Marino
+	middle_name: B.
+	last_name: Libao
+	position: Councilor
+	level: City/Municipality
+	num_votes: 0
+	province: Laguna
+	municipality: Santa Cruz
+
+candidate348:
+	first_name: Angelito
+	middle_name: C.
+	last_name: Limjuco
+	position: Councilor
+	level: City/Municipality
+	num_votes: 0
+	province: Laguna
+	municipality: Santa Cruz
+
+candidate349:
+	first_name: Joselito
+	middle_name: C.
+	last_name: Lindico
+	position: Councilor
+	level: City/Municipality
+	num_votes: 0
+	province: Laguna
+	municipality: Santa Cruz
+
+candidate350:
+	first_name: Ramon
+	middle_name: D.
+	last_name: Tan
+	position: Councilor
+	level: City/Municipality
+	num_votes: 0
+	province: Laguna
+	municipality: Santa Cruz
+
+candidate351:
+	first_name: Luisito
+	middle_name: B.
+	last_name: Algabre
+	position: Councilor
+	level: City/Municipality
+	num_votes: 0
+	province: Laguna
+	municipality: Santa Rosa City
+
+candidate352:
+	first_name: Paulino
+	middle_name: Y.
+	last_name: Camaclang
+	position: Councilor
+	level: City/Municipality
+	num_votes: 0
+	province: Laguna
+	municipality: Santa Rosa City
+
+candidate353:
+	first_name: Laudemer
+	middle_name: A.
+	last_name: Carta
+	position: Councilor
+	level: City/Municipality
+	num_votes: 0
+	province: Laguna
+	municipality: Santa Rosa City
+
+candidate354:
+	first_name: Raymond
+	middle_name: F.
+	last_name: Carvajal
+	position: Councilor
+	level: City/Municipality
+	num_votes: 0
+	province: Laguna
+	municipality: Santa Rosa City
+
+candidate355:
+	first_name: Petronio
+	middle_name: C.
+	last_name: Factoriza
+	position: Councilor
+	level: City/Municipality
+	num_votes: 0
+	province: Laguna
+	municipality: Santa Rosa City
+
+candidate356:
+	first_name: Noel
+	middle_name: B.
+	last_name: Guerrero
+	position: Councilor
+	level: City/Municipality
+	num_votes: 0
+	province: Laguna
+	municipality: Santa Rosa City
+
+candidate357:
+	first_name: Antonia
+	middle_name: T.
+	last_name: Laserna
+	position: Councilor
+	level: City/Municipality
+	num_votes: 0
+	province: Laguna
+	municipality: Santa Rosa City
+
+candidate358:
+	first_name: Manuel
+	middle_name: A.
+	last_name: Garcia
+	position: Councilor
+	level: City/Municipality
+	num_votes: 0
+	province: Laguna
+	municipality: Santa Rosa City
+
+candidate359:
+	first_name: Sancho
+	middle_name: C.
+	last_name: Servo
+	position: Councilor
+	level: City/Municipality
+	num_votes: 0
+	province: Laguna
+	municipality: Santa Rosa City
+
+candidate360:
+	first_name: Marcela
+	middle_name: S.
+	last_name: Velandres
+	position: Councilor
+	level: City/Municipality
+	num_votes: 0
+	province: Laguna
+	municipality: Santa Rosa City
+
+candidate361:
+	first_name: Benito
+	middle_name: T.
+	last_name: Alba
+	position: Councilor
+	level: City/Municipality
+	num_votes: 0
+	province: Cavite
+	municipality: Bacoor
+
+candidate362:
+	first_name: Angelito
+	middle_name: D.
+	last_name: Antonio
+	position: Councilor
+	level: City/Municipality
+	num_votes: 0
+	province: Cavite
+	municipality: Bacoor
+
+candidate363:
+	first_name: Saturnino
+	middle_name: F.
+	last_name: Enriquez
+	position: Councilor
+	level: City/Municipality
+	num_votes: 0
+	province: Cavite
+	municipality: Bacoor
+
+candidate364:
+	first_name: Edwin
+	middle_name: G.
+	last_name: Gawaran
+	position: Councilor
+	level: City/Municipality
+	num_votes: 0
+	province: Cavite
+	municipality: Bacoor
+
+candidate365:
+	first_name: Fernan
+	middle_name: F.
+	last_name: Ocampo
+	position: Councilor
+	level: City/Municipality
+	num_votes: 0
+	province: Cavite
+	municipality: Bacoor
+
+candidate366:
+	first_name: Reynaldo
+	middle_name: D.
+	last_name: Palabrica
+	position: Councilor
+	level: City/Municipality
+	num_votes: 0
+	province: Cavite
+	municipality: Bacoor
+
+candidate367:
+	first_name: Janairo
+	middle_name: C.
+	last_name: San Miguel
+	position: Councilor
+	level: City/Municipality
+	num_votes: 0
+	province: Cavite
+	municipality: Bacoor
+
+candidate368:
+	first_name: Roberto
+	middle_name: J.
+	last_name: Saquitan
+	position: Councilor
+	level: City/Municipality
+	num_votes: 0
+	province: Cavite
+	municipality: Bacoor
+
+candidate369:
+	first_name: Jaime
+	middle_name: A.
+	last_name: Sapanghila
+	position: Councilor
+	level: City/Municipality
+	num_votes: 0
+	province: Cavite
+	municipality: Bacoor
+
+candidate370:
+	first_name: Avelino
+	middle_name: B.
+	last_name: Solis
+	position: Councilor
+	level: City/Municipality
+	num_votes: 0
+	province: Cavite
+	municipality: Bacoor
+
+candidate371:
+	first_name: Lawrence
+	middle_name: S.
+	last_name: Crawford
+	position: Councilor
+	level: City/Municipality
+	num_votes: 0
+	province: Cavite
+	municipality: Cavite City
+
+candidate372:
+	first_name: Arnoldo
+	middle_name: D.
+	last_name: Arellano
+	position: Councilor
+	level: City/Municipality
+	num_votes: 0
+	province: Cavite
+	municipality: Cavite City
+
+candidate373:
+	first_name: Benny
+	middle_name: D.
+	last_name: Abad
+	position: Councilor
+	level: City/Municipality
+	num_votes: 0
+	province: Cavite
+	municipality: Cavite City
+
+candidate374:
+	first_name: Amorico
+	middle_name: M.
+	last_name: Alvarez
+	position: Councilor
+	level: City/Municipality
+	num_votes: 0
+	province: Cavite
+	municipality: Cavite City
+
+candidate375:
+	first_name: Lourdes
+	middle_name: N.
+	last_name: Dahay
+	position: Councilor
+	level: City/Municipality
+	num_votes: 0
+	province: Cavite
+	municipality: Cavite City
+
+candidate376:
+	first_name: Edmund
+	middle_name: C.
+	last_name: Tirona
+	position: Councilor
+	level: City/Municipality
+	num_votes: 0
+	province: Cavite
+	municipality: Cavite City
+
+candidate377:
+	first_name: Araceli
+	middle_name: S.
+	last_name: Yap
+	position: Councilor
+	level: City/Municipality
+	num_votes: 0
+	province: Cavite
+	municipality: Cavite City
+
+candidate378:
+	first_name: Roberto
+	middle_name: J.
+	last_name: Yap
+	position: Councilor
+	level: City/Municipality
+	num_votes: 0
+	province: Cavite
+	municipality: Cavite City
+
+candidate379:
+	first_name: Roberto
+	middle_name: D.
+	last_name: Catalan
+	position: Councilor
+	level: City/Municipality
+	num_votes: 0
+	province: Cavite
+	municipality: Cavite City
+
+candidate380:
+	first_name: Nonilon
+	middle_name: C.
+	last_name: Nambayan
+	position: Councilor
+	level: City/Municipality
+	num_votes: 0
+	province: Cavite
+	municipality: Cavite City
+
+candidate381:
+	first_name: Roderick
+	middle_name: M.
+	last_name: Atienza
+	position: Councilor
+	level: City/Municipality
+	num_votes: 0
+	province: Cavite
+	municipality: Dasmarinas City
+
+candidate382:
+	first_name: Ernesto
+	middle_name: I.
+	last_name: Avendano
+	position: Councilor
+	level: City/Municipality
+	num_votes: 0
+	province: Cavite
+	municipality: Dasmarinas City
+
+candidate383:
+	first_name: Franciso
+	middle_name: K.
+	last_name: Barretto
+	position: Councilor
+	level: City/Municipality
+	num_votes: 0
+	province: Cavite
+	municipality: Dasmarinas City
+
+candidate384:
+	first_name: Elenida
+	middle_name: C.
+	last_name: Bunag
+	position: Councilor
+	level: City/Municipality
+	num_votes: 0
+	province: Cavite
+	municipality: Dasmarinas City
+
+candidate385:
+	first_name: Teofilo
+	middle_name: F.
+	last_name: Campano
+	position: Councilor
+	level: City/Municipality
+	num_votes: 0
+	province: Cavite
+	municipality: Dasmarinas City
+
+candidate386:
+	first_name: Danilo
+	middle_name: A.
+	last_name: Sarte
+	position: Councilor
+	level: City/Municipality
+	num_votes: 0
+	province: Cavite
+	municipality: Dasmarinas City
+
+candidate387:
+	first_name: Gavino
+	middle_name: C.
+	last_name: Mercado
+	position: Councilor
+	level: City/Municipality
+	num_votes: 0
+	province: Cavite
+	municipality: Dasmarinas City
+
+candidate388:
+	first_name: Nenita
+	middle_name: C.
+	last_name: Tarrobabo
+	position: Councilor
+	level: City/Municipality
+	num_votes: 0
+	province: Cavite
+	municipality: Dasmarinas City
+
+candidate389:
+	first_name: Rosa
+	middle_name: A.
+	last_name: Orejana
+	position: Councilor
+	level: City/Municipality
+	num_votes: 0
+	province: Cavite
+	municipality: Dasmarinas City
+
+candidate390:
+	first_name: Gene
+	middle_name: M.
+	last_name: Olroso
+	position: Councilor
+	level: City/Municipality
+	num_votes: 0
+	province: Cavite
+	municipality: Dasmarinas City
+
+candidate391:
+	first_name: Oscar
+	middle_name: G.
+	last_name: Malapitan
+	position: Representative
+	level: District
+	num_votes: 0
+	province: Metro Manila
+	municipality: Caloocan City
+	district: CLC1
+
+candidate392:
+	first_name: Luis
+	middle_name: Y.
+	last_name: Varela
+	position: Representative
+	level: District
+	num_votes: 0
+	province: Metro Manila
+	municipality: Caloocan City
+	district: CLC1
+
+candidate393:
+	first_name: Mary Mitzi
+	middle_name: L.
+	last_name: Cajayon
+	position: Representative
+	level: District
+	num_votes: 0
+	province: Metro Manila
+	municipality: Caloocan City
+	district: CLC2
+
+candidate394:
+	first_name: Antonio Marciano
+	middle_name: C.
+	last_name: Almeda
+	position: Representative
+	level: District
+	num_votes: 0
+	province: Metro Manila
+	municipality: Caloocan City
+	district: CLC2
+
+candidate395:
+	first_name: Ernesto
+	middle_name: A.
+	last_name: Aspillaga
+	position: Representative
+	level: District
+	num_votes: 0
+	province: Metro Manila
+	municipality: Makati City
+	district: MKT1
+
+candidate396:
+	first_name: Mar-Len Abigail
+	middle_name: S.
+	last_name: Binay
+	position: Representative
+	level: District
+	num_votes: 0
+	province: Metro Manila
+	municipality: Makati City
+	district: MKT1
+
+candidate397:
+	first_name: Robert Dean
+	middle_name: S.
+	last_name: Barbers
+	position: Representative
+	level: District
+	num_votes: 0
+	province: Metro Manila
+	municipality: Makati City
+	district: MKT2
+	
+candidate398:
+	first_name: Maria Lourdes
+	middle_name: B.
+	last_name: Locsin
+	position: Representative
+	level: District
+	num_votes: 0
+	province: Metro Manila
+	municipality: Makati City
+	district: MKT2
+
+candidate399:
+	first_name: Monique Yazmin
+	middle_name: Q.
+	last_name: Lagdameo
+	position: Representative
+	level: District
+	num_votes: 0
+	province: Metro Manila
+	municipality: Malabon City
+	district: MLB1
+
+candidate400:
+	first_name: Oswaldo
+	middle_name: A.
+	last_name: Carbonell
+	position: Representative
+	level: District
+	num_votes: 0
+	province: Metro Manila
+	municipality: Malabon City
+	district: MLB1
+
+candidate401:
+	first_name: Oscar
+	middle_name: M.
+	last_name: Ibay
+	position: Representative
+	level: District
+	num_votes: 0
+	province: Metro Manila
+	municipality: Malabon City
+	district: MLB2
+
+candidate402:
+	first_name: Bobby
+	middle_name: R.
+	last_name: Genorga
+	position: Representative
+	level: District
+	num_votes: 0
+	province: Metro Manila
+	municipality: Malabon City
+	district: MLB2
+
+candidate403:
+	first_name: Filipino
+	middle_name: R.
+	last_name: Alvarado
+	position: Representative
+	level: District
+	num_votes: 0
+	province: Metro Manila
+	municipality: Las Pinas City
+	district: LSP1
+
+candidate404:
+	first_name: Francisco
+	middle_name: A.
+	last_name: Antonio
+	position: Representative
+	level: District
+	num_votes: 0
+	province: Metro Manila
+	municipality: Las Pinas City
+	district: LSP1
+
+candidate405:
+	first_name: Zusarah
+	middle_name: B.
+	last_name: Veloria
+	position: Representative
+	level: District
+	num_votes: 0
+	province: Metro Manila
+	municipality: Las Pinas City
+	district: LSP2
+
+candidate406:
+	first_name: Mark
+	middle_name: A.
+	last_name: Villar
+	position: Representative
+	level: District
+	num_votes: 0
+	province: Metro Manila
+	municipality: Las Pinas City
+	district: LSP2
+
+candidate407:
+	first_name: Samuel
+	middle_name: S.
+	last_name: Ferriol
+	position: Representative
+	level: District
+	num_votes: 0
+	province: Metro Manila
+	municipality: Marikina City
+	district: MRK1
+
+candidate408:
+	first_name: Marcelino
+	middle_name: R.
+	last_name: Teodoro
+	position: Representative
+	level: District
+	num_votes: 0
+	province: Metro Manila
+	municipality: Marikina City
+	district: MRK1
+
+candidate409:
+	first_name: Romero Federico
+	middle_name: S.
+	last_name: Quimbo
+	position: Representative
+	level: District
+	num_votes: 0
+	province: Metro Manila
+	municipality: Marikina City
+	district: MRK2
+
+candidate410:
+	first_name: Donn Carlo
+	middle_name: B.
+	last_name: Favis
+	position: Representative
+	level: District
+	num_votes: 0
+	province: Metro Manila
+	municipality: Marikina City
+	district: MRK2
+
+candidate411:
+	first_name: Amado
+	middle_name: S.
+	last_name: Bagatsing
+	position: Representative
+	level: District
+	num_votes: 0
+	province: Metro Manila
+	municipality: Manila
+	district: MNL1
+
+candidate412:
+	first_name: Joey
+	middle_name: D.
+	last_name: Hizon
+	position: Representative
+	level: District
+	num_votes: 0
+	province: Metro Manila
+	municipality: Manila
+	district: MNL1
+
+candidate413:
+	first_name: Benjamin
+	middle_name: D.
+	last_name: Asilo
+	position: Representative
+	level: District
+	num_votes: 0
+	province: Metro Manila
+	municipality: Manila
+	district: MNL2
+
+candidate414:
+	first_name: Ernesto
+	middle_name: A.
+	last_name: Nieva
+	position: Representative
+	level: District
+	num_votes: 0
+	province: Metro Manila
+	municipality: Manila
+	district: MNL2
+
+candidate415:
+	first_name: Neptali
+	middle_name: M.
+	last_name: Gonzales
+	position: Representative
+	level: District
+	num_votes: 0
+	province: Metro Manila
+	municipality: Mandaluyong City
+	district: MND1
+
+candidate416:
+	first_name: Manuel
+	middle_name: M.
+	last_name: Zarcal
+	position: Representative
+	level: District
+	num_votes: 0
+	province: Metro Manila
+	municipality: Mandaluyong City
+	district: MND1
+
+candidate417:
+	first_name: Rodolfo
+	middle_name: C.
+	last_name: Bacani
+	position: Representative
+	level: District
+	num_votes: 0
+	province: Metro Manila
+	municipality: Mandaluyong City
+	district: MND2
+	
+candidate418:
+	first_name: Maria Theresa
+	middle_name: B.
+	last_name: Bonoan-David
+	position: Representative
+	level: District
+	num_votes: 0
+	province: Metro Manila
+	municipality: Mandaluyong City
+	district: MND2
+
+candidate419:
+	first_name: Josephine
+	middle_name: R.
+	last_name: Lacson-Noel
+	position: Representative
+	level: District
+	num_votes: 0
+	province: Metro Manila
+	municipality: Navotas City
+	district: NVT1
+
+candidate420:
+	first_name: Federico
+	middle_name: S.
+	last_name: Sandoval
+	position: Representative
+	level: District
+	num_votes: 0
+	province: Metro Manila
+	municipality: Navotas City
+	district: NVT1
+
+candidate421:
+	first_name: Arnold
+	middle_name: D.
+	last_name: Vicencio
+	position: Representative
+	level: District
+	num_votes: 0
+	province: Metro Manila
+	municipality: Navotas City
+	district: NVT2
+
+candidate422:
+	first_name: Mark Allan Jay
+	middle_name: G.
+	last_name: Yambao
+	position: Representative
+	level: District
+	num_votes: 0
+	province: Metro Manila
+	municipality: Navotas City
+	district: NVT2
+
+candidate423:
+	first_name: Rodolfo
+	middle_name: G.
+	last_name: Biazon
+	position: Representative
+	level: District
+	num_votes: 0
+	province: Metro Manila
+	municipality: Muntinlupa City
+	district: MNT1
+
+candidate424:
+	first_name: Rey
+	middle_name: E.
+	last_name: Bulay
+	position: Representative
+	level: District
+	num_votes: 0
+	province: Metro Manila
+	municipality: Muntinlupa City
+	district: MNT1
+
+candidate425:
+	first_name: Ricardo
+	middle_name: V.
+	last_name: Puno
+	position: Representative
+	level: District
+	num_votes: 0
+	province: Metro Manila
+	municipality: Muntinlupa City
+	district: MNT2
+
+candidate426:
+	first_name: Ermie
+	middle_name: S.
+	last_name: Espeleta
+	position: Representative
+	level: District
+	num_votes: 0
+	province: Metro Manila
+	municipality: Muntinlupa City
+	district: MNT2
+
+candidate427:
+	first_name: Jose Antonio
+	middle_name: F.
+	last_name: Roxas
+	position: Representative
+	level: District
+	num_votes: 0
+	province: Metro Manila
+	municipality: Pasay City
+	district: PSY1
+
+candidate428:
+	first_name: Allan
+	middle_name: T.
+	last_name: Panaligan
+	position: Representative
+	level: District
+	num_votes: 0
+	province: Metro Manila
+	municipality: Pasay City
+	district: PSY1
+
+candidate429:
+	first_name: Rica-Elah
+	middle_name: S.
+	last_name: Hortaleza
+	position: Representative
+	level: District
+	num_votes: 0
+	province: Metro Manila
+	municipality: Pasay City
+	district: PSY2
+
+candidate430:
+	first_name: Imelda
+	middle_name: G.
+	last_name: Calixto-Rubiano
+	position: Representative
+	level: District
+	num_votes: 0
+	province: Metro Manila
+	municipality: Pasay City
+	district: PSY2
+
+candidate431:
+	first_name: Edwin
+	middle_name: D.
+	last_name: Olivarez
+	position: Representative
+	level: District
+	num_votes: 0
+	province: Metro Manila
+	municipality: Paranaque City
+	district: PRN1
+
+candidate432:
+	first_name: Rolando
+	middle_name: M.
+	last_name: Bernabe
+	position: Representative
+	level: District
+	num_votes: 0
+	province: Metro Manila
+	municipality: Paranaque City
+	district: PRN1
+
+candidate433:
+	first_name: Roilo
+	middle_name: S.
+	last_name: Golez
+	position: Representative
+	level: District
+	num_votes: 0
+	province: Metro Manila
+	municipality: Paranaque City
+	district: PRN2
+
+candidate434:
+	first_name: Pedro
+	middle_name: C.
+	last_name: Montano
+	position: Representative
+	level: District
+	num_votes: 0
+	province: Metro Manila
+	municipality: Paranaque City
+	district: PRN2
+
+candidate435:
+	first_name: Francisco
+	middle_name: D.
+	last_name: Rivera
+	position: Representative
+	level: District
+	num_votes: 0
+	province: Metro Manila
+	municipality: Pasig City
+	district: PSG1
+
+candidate436:
+	first_name: Roman
+	middle_name: T.
+	last_name: Romulo
+	position: Representative
+	level: District
+	num_votes: 0
+	province: Metro Manila
+	municipality: Pasig City
+	district: PSG1
+
+candidate437:
+	first_name: Bienvenido
+	middle_name: M.
+	last_name: Abante
+	position: Representative
+	level: District
+	num_votes: 0
+	province: Metro Manila
+	municipality: Pasig City
+	district: PSG2
+
+candidate438:
+	first_name: Rosenda Ann
+	middle_name: M.
+	last_name: Ocampo
+	position: Representative
+	level: District
+	num_votes: 0
+	province: Metro Manila
+	municipality: Pasig City
+	district: PSG2
+
+candidate439:
+	first_name: Arnel
+	middle_name: C.
+	last_name: Cerafica
+	position: Representative
+	level: District
+	num_votes: 0
+	province: Metro Manila
+	municipality: Pateros
+	district: PTR1
+
+candidate440:
+	first_name: Ren-Ren
+	middle_name: T.
+	last_name: Cayetano
+	position: Representative
+	level: District
+	num_votes: 0
+	province: Metro Manila
+	municipality: Pateros
+	district: PTR1
+
+candidate441:
+	first_name: Luis
+	middle_name: D.
+	last_name: Cruz
+	position: Representative
+	level: District
+	num_votes: 0
+	province: Metro Manila
+	municipality: Pateros
+	district: PTR2
+
+candidate442:
+	first_name: Joselito
+	middle_name: M.
+	last_name: Gabriel
+	position: Representative
+	level: District
+	num_votes: 0
+	province: Metro Manila
+	municipality: Pateros
+	district: PTR2
+
+candidate443:
+	first_name: Vincent
+	middle_name: P.
+	last_name: Crisologo
+	position: Representative
+	level: District
+	num_votes: 0
+	province: Metro Manila
+	municipality: Quezon City
+	district: QZN1
+
+candidate444:
+	first_name: Vivienne
+	middle_name: K.
+	last_name: Tan
+	position: Representative
+	level: District
+	num_votes: 0
+	province: Metro Manila
+	municipality: Quezon City
+	district: QZN1
+
+candidate445:
+	first_name: Feliciano
+	middle_name: RR
+	last_name: Belmonte
+	position: Representative
+	level: District
+	num_votes: 0
+	province: Metro Manila
+	municipality: Quezon City
+	district: QZN2
+
+candidate446:
+	first_name: Don Emil
+	middle_name: D.
+	last_name: De Castro
+	position: Representative
+	level: District
+	num_votes: 0
+	province: Metro Manila
+	municipality: Quezon City
+	district: QZN2
+
+candidate447:
+	first_name: Joseph Victor
+	middle_name: G.
+	last_name: Ejercito
+	position: Representative
+	level: District
+	num_votes: 0
+	province: Metro Manila
+	municipality: San Juan City
+	district: SJN1
+
+candidate448:
+	first_name: Ronaldo
+	middle_name: J.
+	last_name: Zamora
+	position: Representative
+	level: District
+	num_votes: 0
+	province: Metro Manila
+	municipality: San Juan City
+	district: SJN1
+
+candidate449:
+	first_name: Jorge John
+	middle_name: B.
+	last_name: Banal
+	position: Representative
+	level: District
+	num_votes: 0
+	province: Metro Manila
+	municipality: San Juan City
+	district: SJN2
+
+candidate450:
+	first_name: Matias
+	middle_name: V.
+	last_name: Defensor
+	position: Representative
+	level: District
+	num_votes: 0
+	province: Metro Manila
+	municipality: San Juan City
+	district: SJN2
+
+candidate451:
+	first_name: Sigfrido
+	middle_name: O.
+	last_name: Tinga
+	position: Representative
+	level: District
+	num_votes: 0
+	province: Metro Manila
+	municipality: Taguig City
+	district: TGG1
+
+candidate452:
+	first_name: Angelito
+	middle_name: R.
+	last_name: Reyes
+	position: Representative
+	level: District
+	num_votes: 0
+	province: Metro Manila
+	municipality: Taguig City
+	district: TGG1
+
+candidate453:
+	first_name: James
+	middle_name: O.
+	last_name: Layug
+	position: Representative
+	level: District
+	num_votes: 0
+	province: Metro Manila
+	municipality: Taguig City
+	district: TGG2
+
+candidate454:
+	first_name: Robinson
+	middle_name: L.
+	last_name: Lumontod
+	position: Representative
+	level: District
+	num_votes: 0
+	province: Metro Manila
+	municipality: Taguig City
+	district: TGG2
+
+candidate455:
+	first_name: Rexlon
+	middle_name: T.
+	last_name: Gatchalian
+	position: Representative
+	level: District
+	num_votes: 0
+	province: Metro Manila
+	municipality: Valenzuela City
+	district: VLN1
+
+candidate456:
+	first_name: Maria Elisa
+	middle_name: D.
+	last_name: Mendoza
+	position: Representative
+	level: District
+	num_votes: 0
+	province: Metro Manila
+	municipality: Valenzuela City
+	district: VLN1
+
+candidate457:
+	first_name: Carlitos
+	middle_name: B.
+	last_name: Tiquia
+	position: Representative
+	level: District
+	num_votes: 0
+	province: Metro Manila
+	municipality: Valenzuela City
+	district: VLN2
+
+candidate458:
+	first_name: Magtanggol
+	middle_name: I.
+	last_name: Gunigundo
+	position: Representative
+	level: District
+	num_votes: 0
+	province: Metro Manila
+	municipality: Valenzuela City
+	district: VLN2
+
+candidate459:
+	first_name: Danilo Ramon
+	middle_name: S.
+	last_name: Fernandez
+	position: Representative
+	level: District
+	num_votes: 0
+	province: Laguna
+	municipality: San Pedro
+	district: SPD1
+
+candidate460:
+	first_name: Uliran
+	middle_name: T.
+	last_name: Joaquin
+	position: Representative
+	level: District
+	num_votes: 0
+	province: Laguna
+	municipality: San Pedro
+	district: SPD1
+
+candidate461:
+	first_name: Edgar
+	middle_name: S.
+	last_name: San Luis
+	position: Representative
+	level: District
+	num_votes: 0
+	province: Laguna
+	municipality: San Pedro
+	district: SPD2
+	
+candidate462:
+	first_name: Justin Marc
+	middle_name: S.
+	last_name: Chipeco
+	position: Representative
+	level: District
+	num_votes: 0
+	province: Laguna
+	municipality: San Pedro
+	district: SPD2
+
+candidate463:
+	first_name: Rosauro
+	middle_name: D.
+	last_name: Revilla
+	position: Representative
+	level: District
+	num_votes: 0
+	province: Laguna
+	municipality: Santa Cruz
+	district: SCR1
+
+candidate464:
+	first_name: Severino
+	middle_name: B.
+	last_name: Vergara
+	position: Representative
+	level: District
+	num_votes: 0
+	province: Laguna
+	municipality: Santa Cruz
+	district: SCR1
+
+candidate465:
+	first_name: Katherine
+	middle_name: C.
+	last_name: Agapay
+	position: Representative
+	level: District
+	num_votes: 0
+	province: Laguna
+	municipality: Santa Cruz
+	district: SCR2
+	
+candidate466:
+	first_name: Florante
+	middle_name: L.
+	last_name: Aquino
+	position: Representative
+	level: District
+	num_votes: 0
+	province: Laguna
+	municipality: Santa Cruz
+	district: SCR2
+
+candidate467:
+	first_name: Maria Evita
+	middle_name: R.
+	last_name: Arago
+	position: Representative
+	level: District
+	num_votes: 0
+	province: Laguna
+	municipality: Santa Rosa City
+	district: SRS1
+
+candidate468:
+	first_name: Angelica
+	middle_name: B.
+	last_name: Alarva
+	position: Representative
+	level: District
+	num_votes: 0
+	province: Laguna
+	municipality: Santa Rosa City
+	district: SRS1
+
+candidate469:
+	first_name: Diosdado
+	middle_name: A.
+	last_name: Biglete
+	position: Representative
+	level: District
+	num_votes: 0
+	province: Laguna
+	municipality: Santa Rosa City
+	district: SRS2
+	
+candidate470:
+	first_name: Rommel
+	middle_name: T.
+	last_name: Maghirang
+	position: Representative
+	level: District
+	num_votes: 0
+	province: Laguna
+	municipality: Santa Rosa City
+	district: SRS2
+
+candidate471:
+	first_name: Adel
+	middle_name: C.
+	last_name: Dinero
+	position: Representative
+	level: District
+	num_votes: 0
+	province: Cavite
+	municipality: Bacoor
+	district: BCR1
+
+candidate472:
+	first_name: Joseph
+	middle_name: A.
+	last_name: Abaya
+	position: Representative
+	level: District
+	num_votes: 0
+	province: Cavite
+	municipality: Bacoor
+	district: BCR1
+
+candidate473:
+	first_name: Bernardo
+	middle_name: S.
+	last_name: Paredes
+	position: Representative
+	level: District
+	num_votes: 0
+	province: Cavite
+	municipality: Bacoor
+	district: BCR2
+	
+candidate474:
+	first_name: Elpidio
+	middle_name: F.
+	last_name: Barzaga
+	position: Representative
+	level: District
+	num_votes: 0
+	province: Cavite
+	municipality: Bacoor
+	district: BCR2
+
+candidate475:
+	first_name: Fernando
+	middle_name: C.
+	last_name: Campos
+	position: Representative
+	level: District
+	num_votes: 0
+	province: Cavite
+	municipality: Cavite City
+	district: CVT1
+
+candidate476:
+	first_name: Ramon
+	middle_name: N.
+	last_name: Campos
+	position: Representative
+	level: District
+	num_votes: 0
+	province: Cavite
+	municipality: Cavite City
+	district: CVT1
+
+candidate477:
+	first_name: Editha
+	middle_name: G.
+	last_name: Boromeo
+	position: Representative
+	level: District
+	num_votes: 0
+	province: Cavite
+	municipality: Cavite City
+	district: CVT2
+
+candidate478:
+	first_name: Plaridel
+	middle_name: M.
+	last_name: Abaya
+	position: Representative
+	level: District
+	num_votes: 0
+	province: Cavite
+	municipality: Cavite City
+	district: CVT2
+
+candidate479:
+	first_name: Gerbie
+	middle_name: F.
+	last_name: Berado
+	position: Representative
+	level: District
+	num_votes: 0
+	province: Cavite
+	municipality: Dasmarinas City
+	district: DSM1
+
+candidate480:
+	first_name: Laureano
+	middle_name: S.
+	last_name: Mendoza
+	position: Representative
+	level: District
+	num_votes: 0
+	province: Cavite
+	municipality: Dasmarinas City
+	district: DSM1
+
+candidate481:
+	first_name: Jesus Crispin
+	middle_name: C.
+	last_name: Remulla
+	position: Representative
+	level: District
+	num_votes: 0
+	province: Cavite
+	municipality: Dasmarinas City
+	district: DSM2
+
+candidate482:
+	first_name: Hermogenes
+	middle_name: F.
+	last_name: Arayata
+	position: Representative
+	level: District
+	num_votes: 0
+	province: Cavite
+	municipality: Dasmarinas City
+	district: DSM2
+

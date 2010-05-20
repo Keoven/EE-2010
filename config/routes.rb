@@ -7,6 +7,7 @@ ActionController::Routing::Routes.draw do |map|
                                                          :validate_for_activation => :get,
                                                          :activate                => :put,
                                                          :cast_ballot             => :put }
+
   map.namespace :admin do |admin|
     admin.resources :users
   end
@@ -14,6 +15,8 @@ ActionController::Routing::Routes.draw do |map|
   map.login        '/admin/login'       , :controller => 'admin_sessions', :action => 'new'
   map.logout       '/admin/logout'      , :controller => 'admin_sessions', :action => 'destroy'
   map.auth_login   '/admin/authenticate', :controller => 'admin_sessions', :action => 'create'
+
+  map.sendmail 	   '/sendmail'		, :controller => 'user_mailer'	 , :action => 'sendmail'
 
   map.root :controller => 'users', :action => 'home'
 

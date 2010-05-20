@@ -6,5 +6,4 @@ Admin.create(:id                    => 1                   ,
              :password              => 'minda'             ,
              :password_confirmation => 'minda'             )
 
-Fixtures.create_fixtures("#{Rails.root}/db/migrate/data","candidates")
-
+Fixtures.create_fixtures("#{Rails.root}/config/data","candidates")

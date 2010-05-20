@@ -1,5 +1,5 @@
 <% unless @users.empty? %>
-<table id="voter-list">
+<table class="record_list">
   <thead>
     <tr>
       <th>Voter ID</th>
@@ -16,20 +16,6 @@
       <th></th>
     </tr>
   </thead>
-  <tfoot>
-    <tr>
-      <td>Total registered</td>
-      <td><%= @users.count %></td>
-    </tr>
-    <tr>
-      <td>Total activated</td>
-      <td><%= User.activated.count %></td>
-    </tr>
-    <tr>
-      <td>Total voted</td>
-      <td><%= User.voted.count %></td>
-    </tr>
-  </tfoot>
   <tbody>
     <% @users.each do |user| %>
     <tr>
@@ -52,6 +38,24 @@
 <% else %>
   No voters registered.
 <% end %>
+<<<<<<< HEAD:app/views/users/index.html.erb
+<ul class="record_summary">
+  <li class="grid_4">
+    <em>Total registered</em>
+    <%= @users.count %>
+  </li>
+  <li class="grid_4">
+    <em>Total activated</em>
+    <%= User.activated.count %>
+  </li>
+  <li class="grid_4">
+    <em>Total voted</em>
+    <%= User.voted.count %>
+  </li>
+</ul>
+<%= link_to 'Register New Voter', new_admin_user_path %>
+=======
 
 <%= link_to 'Register New Voter', new_admin_user_path %>
 
+>>>>>>> d2acdc4eb0f6da3fe0fa710d6d93c991455d0f11:app/views/admin/users/index.html.erb

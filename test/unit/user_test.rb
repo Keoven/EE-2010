@@ -1,7 +1,8 @@
 require 'test_helper'
 
 class UserTest < ActiveSupport::TestCase
-
+  ##Setup and Teardown
+  #
   def setup
     @valid_user = User.new( :id 		=> 1,
     			    :first_name 	=> 'Alejandro',
@@ -50,21 +51,30 @@ class UserTest < ActiveSupport::TestCase
     @valid_user.middle_name = nil
     @valid_user.last_name = nil
     assert_equal false, @valid_user.valid?
+
+    assert_not_nil @valid_user.errors.on(:first_name)
+    assert_not_nil @valid_user.errors.on(:middle_name)
+    assert_not_nil @valid_user.errors.on(:last_name)
   end
 
   test "validity of address" do
     @valid_user.street_number = nil
     @valid_user.street_name = nil
     assert_equal false, @valid_user.valid?
+
+    assert_not_nil @valid_user.errors.on(:street_number)
+    assert_not_nil @valid_user.errors.on(:street_name)
   end
 
   test "validity of district_code" do
     @valid_user.district_code = "AH1N1"
-    assert_equal true, @valid_user.valid? #value will changed to 0 if string is used O.o
+    assert_equal true, @valid_user.valid? #value will change to 0 if string is used O.o
     @valid_user.district_code = 1234
     assert_equal true, @valid_user.save
     @valid_user.district_code = nil
     assert_equal false, @valid_user.valid?
+
+    assert_not_nil @valid_user.errors.on(:district_code)
   end
 
   test "validity of municipality_code" do
@@ -74,6 +84,8 @@ class UserTest < ActiveSupport::TestCase
     assert_equal true, @valid_user.save #string can have a fixnum value
     @valid_user.municipality_code = nil
     assert_equal false, @valid_user.valid?
+
+    assert_not_nil @valid_user.errors.on(:municipality_code)
   end
 
   test "validity of provincial_code" do
@@ -83,6 +95,8 @@ class UserTest < ActiveSupport::TestCase
     assert_equal true, @valid_user.save #string can have a fixnum value
     @valid_user.provincial_code = nil
     assert_equal false, @valid_user.valid?
+    
+    assert_not_nil @valid_user.errors.on(:provincial_code)
   end
 
   test "unique voter id" do
@@ -95,11 +109,13 @@ class UserTest < ActiveSupport::TestCase
     assert_match /\A([^@\s]+)@((?:[-a-z0-9]+\.)+[a-z]{2,})\Z/i , @valid_user.email
   end
 
-  test "age should not be less then 18 years" do
+  test "validity of age" do
     @valid_user.birth_date = Date.today << 214 # 17 years old
     assert_equal(false, @valid_user.save)
     @valid_user.birth_date = Date.today << 228 # 19 years old
     assert_equal(true, @valid_user.save)
+    
+    assert_not_nil @valid_user.errors
   end
 
 end

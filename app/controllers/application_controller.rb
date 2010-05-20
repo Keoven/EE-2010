@@ -19,7 +19,6 @@ class ApplicationController < ActionController::Base
 
   def require_admin
     unless current_admin
-      store_location
       flash[:notice] = 'You must be logged in to access this page'
       redirect_to login_path
       return false
@@ -30,7 +29,7 @@ class ApplicationController < ActionController::Base
     require_admin
     unless current_admin.id == 1
       store_location
-      flash[:notice] = 'You must be logged in as supper admin to access this page'
+      flash[:notice] = 'You must be logged in as super admin to access this page'
       redirect_to admins_path
       return false
     end
