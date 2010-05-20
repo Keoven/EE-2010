@@ -3,13 +3,13 @@ class Admin::UsersController < ApplicationController
   #
   before_filter :require_election_open, :only => [:home]
 
-  ##GET /users
+  ##GET /admin/users
   #
   def index
     @users = User.all
   end
 
-  ##POST /users
+  ##POST /admin/users
   #
   def create
     @user = User.new(params[:user])
@@ -22,25 +22,25 @@ class Admin::UsersController < ApplicationController
     end
   end
 
-  ##GET /users/new
+  ##GET /admin/users/new
   #
   def new
     @user = User.new
   end
 
-  ##GET /users/:id/edit
+  ##GET /admin/users/:id/edit
   #
   def edit
     @user = User.find(params[:id])
   end
 
-  ##GET /users/:id
+  ##GET /admin/users/:id
   #
   def show
     @user = User.find(params[:id])
   end
 
-  ##PUT /users/:id
+  ##PUT /admin/users/:id
   #
   def update
     @user = User.find(params[:id])
@@ -51,7 +51,7 @@ class Admin::UsersController < ApplicationController
     end
   end
 
-  ##DELETE /users/:id
+  ##DELETE /admin/users/:id
   #
   def destroy
     @user = User.find(params[:id])

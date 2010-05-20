@@ -1,30 +1,30 @@
 <p>
   <em>Voter ID</em>
-  <%=h user.voter_id %>
+  <%=h @user.voter_id %>
 </p>
 <p>
   <em>Name</em>
-  <%=h format_name user %>
+  <%=h format_name @user %>
 </p>
 <p>
   <em>Address</em>
-  <%=h format_address user %>
+  <%= format_address @user.complete_address %>
 </p>
 <p>
   <em>Birthdate</em>
-  <%=h user.birth_date %>
+  <%=h @user.birth_date %>
 </p>
 <p>
   <em>Email Address</em>
-  <%=h user.email %>
+  <%=h @user.email %>
 </p>
 <p>
-  <%= "Activated" if user.activated %>
-  <%= "Voted" if user.voted %>
+  <%= "Activated" if @user.activated %>
+  <%= "Voted" if @user.voted %>
 </p>
 <p>
-  <%= link_to 'Edit', edit_user_path(user) %>
-  <%= link_to 'Remove', user, :confirm => 'Are you sure you want to unregister this voter?', :method => :delete %>
+  <%= link_to 'Edit', edit_user_path(@user) %>
+  <%= link_to 'Remove', @user, :confirm => 'Are you sure you want to unregister this voter?', :method => :delete %>
 </p>
 <p>
   <%= link_to 'Back to Index', users_path %>

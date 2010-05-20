@@ -11,7 +11,7 @@ class Admin::UsersControllerTest < ActionController::TestCase
 			:municipality_code 	=> 'QZN',
 			:provincial_code   	=> 'MML',
 			:voter_id 		=> 'qwer12341234',
-			:birth_date 		=> Date.today,
+			:birth_date 		=> Date.today << 264,
 			:email 			=> 'q@asdf.com',
 			:voted 			=> true,
 			:activated 		=> true)
@@ -25,7 +25,7 @@ class Admin::UsersControllerTest < ActionController::TestCase
 			:municipality_code 	=> 'QZN',
 			:provincial_code   	=> 'MML',
 			:voter_id 		=> 'qwer',
-			:birth_date 		=> Date.today,
+			:birth_date 		=> Date.today << 264,
 			:email 			=> 'aaaa@asdf.com',
 			:voted 			=> true,
 			:activated 		=> true}
@@ -39,7 +39,7 @@ class Admin::UsersControllerTest < ActionController::TestCase
 			:municipality_code 	=> 'QZN',
 			:provincial_code   	=> 'MML',
 			:voter_id 		=> 'qwer12341234',
-			:birth_date 		=> Date.today,
+			:birth_date 		=> Date.today << 264,
 			:email 			=> 'a@asdf.com',
 			:voted 			=> true,
 			:activated 		=> false}
