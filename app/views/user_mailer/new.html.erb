@@ -1,0 +1,12 @@
+<h1>Activating New Voter</h1>
+
+<% form_for(@user, :action => :sendmail) do |f| %>
+
+  <%= f.error_messages %>
+  <%= f.label :id %>
+  <%= f.text_field :id %>
+  <p>
+    <%= f.submit 'Approve' %>
+  </p>
+<% end %>
+
