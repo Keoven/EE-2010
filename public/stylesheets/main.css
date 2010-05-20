@@ -5,6 +5,7 @@
 */
 div {
   overflow: hidden;
+  outline: 1px solid green;
 }
 
 body, #header, #footer {
@@ -19,9 +20,19 @@ body, #header, #footer {
 #wrapper {
   background: white;
   min-height: 640px;
-  box-shadow: 0 0 25px #000;
-  -moz-box-shadow: 0 0 25px #000;
-  -webkit-box-shadow: 0 0 25px #000;
+}
+
+th, td {
+  padding: 5px;
+}
+#voter-list {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+.address_code {
+  background: #eee;
+  cursor: help;
 }
 
 #errorExplanation * { margin: 0 }
