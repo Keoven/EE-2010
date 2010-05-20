@@ -1,8 +1,12 @@
 class Candidate < ActiveRecord::Base
+  ##Constants
+  #
   LEVELS = %w(National Provincial City/Municipal District)
   POSITIONS = ['President', 'Vice President', 'Senator', 'Governor',
                'Vice Governor', 'Mayor', 'Vice Mayor', 'Councilor', 'Representative']
 
+  ##Validations
+  #
   validates_presence_of :first_name, :message => 'required'
   validates_presence_of :last_name, :message => 'required'
   validates_inclusion_of :level, :in => LEVELS, :message => 'not in list'
@@ -11,6 +15,8 @@ class Candidate < ActiveRecord::Base
   validate :level_and_position_should_match
   validate :location_should_match_level
 
+  ##Class Methods
+  #
   def self.levels
     LEVELS
   end
@@ -19,6 +25,8 @@ class Candidate < ActiveRecord::Base
     POSITIONS
   end
 
+  ##Instance Methods
+  #
   private
   def votes_should_not_be_negative
     errors.add(:num_votes, :message => 'should not be negative') if self.num_votes < 0

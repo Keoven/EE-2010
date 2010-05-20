@@ -2,7 +2,6 @@ class User < ActiveRecord::Base
 
   ##Validations
   #
-  
   validates_presence_of [ :first_name, :middle_name, :last_name, 
  			  :street_number, :street_name, :district_code, :municipality_code, :provincial_code, 
  			  :voter_id, :birth_date, :email], :message =>"is required"
