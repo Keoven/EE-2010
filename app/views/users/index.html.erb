@@ -1,5 +1,5 @@
 <% unless @users.empty? %>
-<table>
+<table id="voter-list">
   <thead>
     <tr>
       <th>Voter ID</th>
@@ -19,11 +19,15 @@
   <tfoot>
     <tr>
       <td>Total registered</td>
-      <td>100</td>
+      <td><%= @users.count %></td>
+    </tr>
+    <tr>
+      <td>Total activated</td>
+      <td><%= User.activated.count %></td>
     </tr>
     <tr>
       <td>Total voted</td>
-      <td>98 (98%)</td>
+      <td><%= User.voted.count %></td>
     </tr>
   </tfoot>
   <tbody>
@@ -33,7 +37,7 @@
       <td><%=h user.last_name %></td>
       <td><%=h user.first_name %></td>
       <td><%=h user.middle_name %></td>
-      <td><%=h format_address user %></td>
+      <td><%= format_address user %></td>
       <td><%=h user.birth_date %></td>
       <td><%=h user.email %></td>
       <td><%=h user.activated %></td>

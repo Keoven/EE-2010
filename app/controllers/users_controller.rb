@@ -14,16 +14,12 @@ class UsersController < ApplicationController
 
   def create
     @user = User.new(params[:user])
-    if @user.isActivated?
-      if @user.save
-        session[:save] = @user.id
-        redirect_to @user
-      else
-        session[:save] = 'Invalid User'
-        render :action => :new
-      end
+
+    if @user.save
+      session[:save] = @user.id
+      redirect_to @user
     else
-      session[:save] = 'Account not yet activated'
+      session[:save] = 'Invalid User'
       render :action => :new
     end
   end
@@ -34,22 +30,10 @@ class UsersController < ApplicationController
 
   def update
     @user = User.find(params[:id])
-<<<<<<< HEAD
-      p @user.inspect
-      p "################################"
     if @user.update_attributes(params[:user])
-      p "Asdf"
       redirect_to @user
     else
-      p @user.inspect
-      p "qwer"
       render :action=> :edit
-=======
-    if @user.update_attributes(params[:user])
-      redirect_to @user
-    else
-      render :action=> :edit 
->>>>>>> 129fdc5d2b119e3acf2471cf8afd3d629491d86c
     end
   end
 

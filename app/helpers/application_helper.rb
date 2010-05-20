@@ -16,15 +16,15 @@ module ApplicationHelper
     end
   end
 
-  def format_address(user, options={})
+  def format_address(address, options={})
     {:with_html => true}.merge!(options)
-    district = DISTRICT_LIST[user.district_code]
-    province = PROVINCE_LIST[user.provincial_code]
-    municipality = MUNICIPALITY_LIST[province][user.municipality_code]
+    district = DISTRICT_LIST[address[:district_code]]
+    province = PROVINCE_LIST[address[:provincial_code]]
+    municipality = MUNICIPALITY_LIST[province][address[:municipality_code]]
 
-    address = %Q{ #{user.street_number} #{user.street_name} St.,
-    <span title="#{user.municipality_code}">#{municipality}</span>,
-    <span title="#{user.provincial_code}">#{province}</span>
+    %Q{ #{address[:street_number]} #{address[:street_name]} St.,
+    #{content_tag :span, municipality, :title => "#{address[:municipality_code]}", :class => "address_code"},
+    #{content_tag :span, province, :title => "#{address[:provincial_code]}", :class => "address_code"}
     }
   end
 end
