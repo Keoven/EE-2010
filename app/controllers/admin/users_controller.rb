@@ -72,7 +72,7 @@ class Admin::UsersController < ApplicationController
 
     case district_count
       when 1
-        district_list["Lone District"] = 1
+        district_list["Lone District"] = "#{district_code}1"
       else
         district_list = {}
         1.upto district_count do |i|

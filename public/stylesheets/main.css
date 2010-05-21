@@ -5,8 +5,8 @@
 */
 body {
   cursor: default;
-  color: #333;
 }
+a { text-decoration: none; }
 a:focus {
   outline: none;
 }
@@ -16,20 +16,49 @@ div {/*outline: 1px solid green;*/
 
 body, #header, #footer {
   background: #333;
+  color: white;
 }
 #header > div {
   padding: 10px 0;
+  position: relative;
 }
 #header > div * {/*outline: 1px solid yellow*/
 }
+#login_panel {
+  display: block;
+  position: absolute;
+  right: 1em;
+  top: 2.5em;
+  text-align: right;
+}
+#login_panel a {
+  color: yellow;
+  font-weight: bold;
+}
+#login_panel a:hover {
+  text-decoration: underline;
+}
+a#to_dashboard {
+  padding-right: 1em;
+  background: url(../images/home.png) no-repeat right 2px;
+}
+
 #wrapper {
   background: white;
+  color: #333;
   min-height: 600px;
   padding: 1em 0;
 }
 #wrapper > div {
   min-height: inherit;
 }
+
+#footer {
+  padding: 1em 0;
+}
+  #credits {
+    text-align: right;
+  }
 
 th, td {
   padding: 5px;
@@ -42,7 +71,7 @@ th, td {
   background-color: red;
 }
 
-p {
+#wrapper p {
   padding: 5px;
   margin: 0 auto;
   width: 930px;
@@ -59,12 +88,11 @@ p {
 }
 .admin_panel {
   font-size: 2em;
-  -moz-box-shadow: 0 2px 10px #ddd;
 }
 .admin_panel > * {
-  text-decoration: none;
   display: block;
-  border-bottom: 2px groove #fff;
+  border-bottom: 1px solid #ccc;
+  border-top: 1px solid #fcfcfc;
   padding: 0.5em;
   line-height: 1em;
   height: 2em;
@@ -74,7 +102,7 @@ p {
 }
 .admin_panel > .disabled {
   color: #ccc;
-  background-color: #eee;
+  background-color: #f3f3f3;
 }
 .admin_panel a:hover {
   color: #333;
@@ -83,8 +111,11 @@ p {
 }
 
 .address_code {
-  background: #eee;
+  border-bottom: 1px dotted #333;
   cursor: help;
+}
+.address_code:hover {
+  border-bottom: 1px dotted #eee;
 }
 
 #errorExplanation * { margin: 0 }

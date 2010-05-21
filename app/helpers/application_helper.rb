@@ -19,26 +19,16 @@ module ApplicationHelper
   def format_address(address, options={})
     {:with_html => true}.merge!(options)
 
-    #district = DISTRICT_LIST[address[:district_code]]
-    #province = PROVINCE_LIST[address[:provincial_code]]
-    #municipality = MUNICIPALITY_LIST[province][address[:municipality_code]]
-=begin
-    %Q{ #{address[:street_number]} #{address[:street_name]} St.,
+    district_num = address[:district_code].last.to_i
+    district = (district_num == 1 ? "Lone District" : "#{district_num.ordinalize} District")
+    province = PROVINCE_LIST.index(address[:provincial_code])
+    municipality = MUNICIPALITY_LIST[address[:provincial_code]].index(address[:municipality_code])
+
+    %Q{ #{address[:street_number]} #{address[:street_name]},
     #{content_tag :span, municipality, :title => "#{address[:municipality_code]}", :class => "address_code"},
     #{content_tag :span, province, :title => "#{address[:provincial_code]}", :class => "address_code"}
+    #{content_tag :span, "(#{district})", :title => "#{address[:district_code]}", :class => "address_code"}
     }
-=end
-    "ADDRESS"
   end
-=begin
-  def update_select_box(target_dom_id, collection, options={})
-    # Set the default options
-    options[:text] ||= 'name'
-    options[:value] ||= 'id'
-    options[:clear] ||= []
-    out = "update_select_options( $('#{ target_dom_id.to_s }'),"
-    out << "#{(collection.collect{ |c| [c.send(options[:text]), c.send(options[:value])]}).to_json}" << ","
-    out << "#{options[:clear].to_json} )"
-=end
 end
 

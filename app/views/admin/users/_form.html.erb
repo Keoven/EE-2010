@@ -19,7 +19,7 @@
   <%= form.label :voter_id %>
 
   <% if @user.voter_id.nil? %>
-    <%= form.text_field :voter_id, :value => generated_id %>
+    <%= form.text_field :voter_id, :value => generate_id %>
   <% else %>
     <%= form.text_field :voter_id, :disabled => 'disabled' %>
   <% end %>
