@@ -1,16 +1,48 @@
-<h2>Official Ballot</h2>
-<div style="text-align:center"><h1>Presidents</h1><br />CHOOSE NOT MORE THAN ONE</div>
+<% user_province = "Metro Manila" %>
+<div style="text-align:center">
+  <h2>Official Ballot</h2>
+  <h1>Presidents</h1>CHOOSE NOT MORE THAN ONE(1)<br /><br />
 <table><% i=1 %>
-<% Candidate.get_candidates("President").each do |candidate| %>
-<%= show_candidates(candidate, i) %>
-<% i = i + 1 %>
+<% Candidate.get_candidates("President", nil).each do |candidate| %>
+<%= show_candidates(candidate, i, "President") %>
+<% i+=1 %>
 <% end %>
 </table>
-
-<div style="text-align:center"><h1>Presidents</h1><br />CHOOSE NOT MORE THAN ONE</div>
+<h1>Vice Presidents</h1>CHOOSE NOT MORE THAN ONE(1)<br /><br />
 <table><% i=1 %>
-<% Candidate.get_candidates("Vice President").each do |candidate| %>
-<%= show_candidates(candidate, i) %>
-<% i = i + 1 %>
+<% Candidate.get_candidates("Vice President", nil).each do |candidate| %>
+<%= show_candidates(candidate, i, "Vice President") %>
+<% i+=1 %>
 <% end %>
 </table>
+<h1>Senators</h1>CHOOSE NOT MORE THAN TWELVE(12)<br /><br />
+<table><% i=1 %>
+<% Candidate.get_candidates("Senator", nil).each do |candidate| %>
+<%= show_multiple_candidates(candidate, i, "Senator") %>
+<% i+=1 %>
+<% end %>
+</table>
+<% unless user_province == "Metro Manila" %>
+<h1>Governor</h1>CHOOSE NOT MORE THAN ONE(1)<br /><br />
+<table><% i=1 %>
+<% Candidate.get_candidates("Governor", user_province).each do |candidate| %>
+<%= show_candidates(candidate, i, "Governor") %>
+<% i+=1 %>
+<% end %>
+</table>
+<h1>Vice Governor</h1>CHOOSE NOT MORE THAN ONE(1)<br /><br />
+<table><% i=1 %>
+<% Candidate.get_candidates("Vice Governor", user_province).each do |candidate| %>
+<%= show_candidates(candidate, i, "Vice Governor") %>
+<% i+=1 %>
+<% end %>
+</table>
+<% end %>
+<h1>Mayor</h1>CHOOSE NOT MORE THAN ONE(1)<br /><br />
+<table><% i=1 %>
+<% Candidate.get_candidates("Mayor", user_province).each do |candidate| %>
+<%= show_candidates(candidate, i, "Mayor") %>
+<% i+=1 %>
+<% end %>
+</table>
+</div>

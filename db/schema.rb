@@ -1,4 +1,4 @@
-# This file is auto-generated from the current state of the database. Instead of editing this file,
+# This file is auto-generated from the current state of the database. Instead of editing this file, 
 # please use the migrations feature of Active Record to incrementally modify your database, and
 # then regenerate this schema definition.
 #
@@ -50,11 +50,7 @@ ActiveRecord::Schema.define(:version => 20100521020314) do
     t.string   "last_name"
     t.integer  "street_number"
     t.string   "street_name"
-<<<<<<< HEAD
     t.string   "district_code"
-=======
-    t.integer  "district_code"
->>>>>>> 72b8a495096451ff5dbd85140b19f22a6ac8e34f
     t.string   "municipality_code"
     t.string   "provincial_code"
     t.string   "voter_id"
@@ -67,4 +63,3 @@ ActiveRecord::Schema.define(:version => 20100521020314) do
   end
 
 end
-
