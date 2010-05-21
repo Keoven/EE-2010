@@ -9,7 +9,7 @@
 #
 # It's strongly recommended to check this file into your version control system.
 
-ActiveRecord::Schema.define(:version => 20100520083255) do
+ActiveRecord::Schema.define(:version => 20100521020314) do
 
   create_table "admins", :force => true do |t|
     t.string   "login"
@@ -50,7 +50,7 @@ ActiveRecord::Schema.define(:version => 20100520083255) do
     t.string   "last_name"
     t.integer  "street_number"
     t.string   "street_name"
-    t.integer  "district_code"
+    t.string   "district_code"
     t.string   "municipality_code"
     t.string   "provincial_code"
     t.string   "voter_id"

@@ -4,20 +4,20 @@ class UserTest < ActiveSupport::TestCase
   ##Setup and Teardown
   #
   def setup
-    @valid_user = User.new( :id 		=> 1,
-    			    :first_name 	=> 'Alejandro',
-    			    :middle_name 	=> 'Marasigan',
-    			    :last_name 		=> 'Suarez',
-     			    :street_number 	=> 1,
-     			    :street_name 	=> 'string',
-     			    :district_code 	=> 1,
-     			    :municipality_code 	=> 'asdf',
-     			    :provincial_code 	=> 'asdf',
-     			    :voter_id 		=> 'qwer',
-     			    :birth_date 	=> Date.today << 264,
-     			    :email		=> 'a@asdf.com',
-     			    :voted 		=> true,
-     			    :activated 		=> true)
+    @valid_user = User.new(:id                => 1                 ,
+                           :first_name        => 'Alejandro'       ,
+                           :middle_name       => 'Marasigan'       ,
+                           :last_name         => 'Suarez'          ,
+                           :street_number     => 1                 ,
+                           :street_name       => 'string'          ,
+                           :district_code     => 1                 ,
+                           :municipality_code => 'asdf'            ,
+                           :provincial_code   => 'asdf'            ,
+                           :voter_id          => 'qwer'            ,
+                           :birth_date        => Date.today << 264 ,
+                           :email             => 'a@asdf.com'      ,
+                           :voted             => true              ,
+                           :activated         => true              )
   end
 
   def teardown
@@ -95,7 +95,7 @@ class UserTest < ActiveSupport::TestCase
     assert_equal true, @valid_user.save #string can have a fixnum value
     @valid_user.provincial_code = nil
     assert_equal false, @valid_user.valid?
-    
+
     assert_not_nil @valid_user.errors.on(:provincial_code)
   end
 
@@ -114,7 +114,7 @@ class UserTest < ActiveSupport::TestCase
     assert_equal(false, @valid_user.save)
     @valid_user.birth_date = Date.today << 228 # 19 years old
     assert_equal(true, @valid_user.save)
-    
+
     assert_not_nil @valid_user.errors
   end
 

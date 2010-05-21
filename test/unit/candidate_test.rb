@@ -6,7 +6,7 @@ class CandidateTest < ActiveSupport::TestCase
   def setup
     @valid_candidate = candidates(:candidate_1)
   end
-  
+
   def teardown
     Candidate.delete_all
   end
@@ -81,15 +81,29 @@ class CandidateTest < ActiveSupport::TestCase
   end
 
   test 'should cast vote on a candidate' do
-  	## Valid Votes
-  	#
-  	
-  	
-  	## Invalid Votes
-  	#
-  	
-    assert_difference('@valid_candidate.num_votes') do
-      @valid_candidate.cast_vote('President', users(:one))
+    @valid_positions = ['President'      , 'Vice President', 'Senator'      ,
+                        'Senator'        , 'Governor'      , 'Vice Governor',
+                        'Mayor'          , 'Vice Mayor'    , 'Councilor'    ,
+                        'Representative'                                     ]
+    @valid_voter = User.create(:id                => 1                 ,
+                               :first_name        => 'Alejandro'       ,
+                               :middle_name       => 'Marasigan'       ,
+                               :last_name         => 'Suarez'          ,
+                               :street_number     => 1                 ,
+                               :street_name       => 'string'          ,
+                               :district_code     => 'ABR1'            ,
+                               :municipality_code => 'BNG'             ,
+                               :provincial_code   => 'ABR'             ,
+                               :voter_id          => 'qwer'            ,
+                               :birth_date        => Date.today << 264 ,
+                               :email             => 'a@asdf.com'      ,
+                               :voted             => false             ,
+                               :activated         => true              )
+    1.upto(9) do |n|
+      @candidate = candidates("candidate_#{n}".to_sym)
+      assert_difference('@candidate.num_votes') do
+        @candidate.cast_vote(@valid_positions[n], @valid_voter)
+      end
     end
   end
 

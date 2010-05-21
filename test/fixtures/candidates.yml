@@ -1,21 +1,21 @@
 # Read about fixtures at http://ar.rubyonrails.org/classes/Fixtures.html
 
-<% CANDIDATE = ['president'    , 'vice_president', 'senator'      ,
-                'senator'      , 'governor'      , 'vice_governor',
-                'mayor'        , 'vice_mayor'    , 'councilor'    ,
-                'representative'                                    ] %>
+<% CANDIDATE_POSITION = ['President'      , 'Vice President', 'Senator'      ,
+                         'Senator'        , 'Governor'      , 'Vice Governor',
+                         'Mayor'          , 'Vice Mayor'    , 'Councilor'    ,
+                         'Representative'                                     ] %>
 
-<% 1.upto(10) do |i| %>
+<% 1.upto(9) do |i| %>
 candidate_<%= i %>:
   id: <%= i %>
   first_name: fname_<%= i %>
   middle_name: mname_<%= i %>
   last_name: lname_<%= i %>
-  position: <%= CANDIDATE[i] %>
+  position: <%= CANDIDATE_POSITION[i] %>
   level: level
-  province: province_<%= i %>
-  municipality: municipality_<%= i %>
-  district: district_<%= i %>
+  province: Abra
+  municipality: Bangued
+  district: Abra
   num_votes: 0
 <% end %>
 
