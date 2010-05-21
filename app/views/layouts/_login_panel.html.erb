@@ -1,0 +1,5 @@
+<div id="login_panel">
+  Welcome, <%= content_tag :em, current_admin.login %>.
+  <%= "#{link_to('Go to dashboard', dashboard_admins_path, :id => 'to_dashboard')} or " unless current_page?(dashboard_admins_path) %>
+  <%= link_to 'Logout', logout_path, :method => :delete, :action => :destroy %>
+</div>

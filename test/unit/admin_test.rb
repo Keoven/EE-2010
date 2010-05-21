@@ -53,5 +53,10 @@ class AdminTest < ActiveSupport::TestCase
     @valid_admin.password_confirmation = ''
     assert_equal false, @valid_admin.valid?
   end
+  
+  test 'should get super admin' do
+    assert admins(:super).super_admin?
+  end
+
 end
 

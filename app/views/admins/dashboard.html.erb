@@ -1,8 +1,3 @@
-<p>
-Welcome, admin.
-<%= link_to 'Logout', logout_path, :method => :delete, :action => :destroy %>
-</p>
-
 <p id="election_status">
   Elections are currently <b>closed</b>.
   <button>Open</button>
@@ -10,11 +5,17 @@ Welcome, admin.
 
 <div class="admin_panel grid_4">
   <%= link_to 'Register Voter', new_admin_user_path if APP_CONFIG['election_status'].eql?('close') %>
-  <% link_to(admin_user_path(User.find 1)) do %>
-    Search for Voter
-    <input id="voter_id" type="text" value="Voter ID" />
+  
+  <% unless User.count.zero? %>
+    <%= link_to 'View List of Voters', admin_users_path %>
+    <% link_to(admin_user_path(User.first)) do %>
+      Search for Voter
+      <input id="voter_id" type="text" value="Voter ID" />
+    <% end %>
+  <% else %>
+    <%= content_tag :div, 'View List of Voters', :class => 'disabled' %>
+    <%= content_tag :div, 'Search for Voter', :class => 'disabled' %>
   <% end %>
-  <%= link_to 'View List of Voters', admin_users_path %>
 </div>
 
 <div class="admin_panel grid_4">
@@ -24,11 +25,5 @@ Welcome, admin.
 </div>
 
 <div class="admin_panel grid_4">
-  <%= link_to 'Create New Administrator', new_admin_path %>
-  <%= link_to 'View Administrators', admins_path %>
-  <% unless current_admin.super_admin? %>
-    <%= link_to 'Deactivate Account', admin_path(current_admin), :method => :delete , :confirm => 'Are you sure you want to deactivate your account? You will be automatically logged out.' %>
-  <% else %>
-    <%= content_tag :div, 'Deactivate Account', :class => 'disabled' %>
-  <% end %>
+  <%= display_admin_dashboard_panel %>
 </div>
