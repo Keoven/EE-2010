@@ -15,7 +15,7 @@
     <tr>
       <td><%=h admin.login %></td>
       <td><%=h admin.email %></td>
-      <td><%=h truncate(admin.crypted_password, 20) %></td>
+      <td><%=h truncate(@admin.crypted_password, :length => 20) %></td>
       <td><%= link_to 'Show', admin_path(admin) %></td>
       <td><%= link_to 'Edit', edit_admin_path(admin) %></td>
       <td><%= link_to 'Remove', admin_path(admin), :method => :delete, :confirm => 'Are you sure you want to unregister this voter?' %></td>
