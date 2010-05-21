@@ -53,7 +53,7 @@ class UsersController < ApplicationController
 
   def cast_ballot
     session[:action_accessed?] = true
-    @user = User.find(:first,:conditions => { :voter_id => params[:voter_id] })
+    @user = User.find(:first, :conditions => { :voter_id => params[:voter_id] })
     unless @user.activated?
       redirect_to root_path
     else
@@ -69,6 +69,8 @@ class UsersController < ApplicationController
           end
         end
         @user.update_attribute(:voted, true)
+        PendingBallot.find(:first, :conditions => { :voter_id   => params[:voter_id],
+                                                    :ballot_key => params[:code]      }).destroy
         flash[:notice] = 'Casting of ballot successful'
         render :text => 'Congratulations, you have successfully cast your ballot'
       end
