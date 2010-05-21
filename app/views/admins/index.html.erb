@@ -1,4 +1,3 @@
-<% unless @admins.empty? %>
 <table class="record_list">
   <thead>
     <tr>
@@ -15,7 +14,7 @@
     <tr>
       <td><%=h admin.login %></td>
       <td><%=h admin.email %></td>
-      <td><%=h truncate(@admin.crypted_password, :length => 20) %></td>
+      <td><%=h truncate(admin.crypted_password, :length => 20) %></td>
       <td><%= link_to 'Show', admin_path(admin) %></td>
       <td><%= link_to 'Edit', edit_admin_path(admin) %></td>
       <td><%= link_to 'Remove', admin_path(admin), :method => :delete, :confirm => 'Are you sure you want to unregister this voter?' %></td>
@@ -23,13 +22,5 @@
     <% end %>
   </tbody>
 </table>
-<% else %>
-  No voters registered.
-<% end %>
-<ul class="record_summary">
-  <li class="grid_4">
-    <em>Total administrating</em>
-    <%= @admins.count %>
-  </li>
-</ul>
+
 <%= link_to 'Create New Administrator', new_admin_path %>

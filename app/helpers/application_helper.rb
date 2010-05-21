@@ -28,17 +28,17 @@ module ApplicationHelper
 
   def format_address(address, options={})
     {:with_html => true}.merge!(options)
-
-    district_num = address[:district_code].last.to_i
-    district = (district_num == 1 ? "Lone District" : "#{district_num.ordinalize} District")
+ 
     province = PROVINCE_LIST.index(address[:provincial_code])
     municipality = MUNICIPALITY_LIST[address[:provincial_code]].index(address[:municipality_code])
+    district = address[:district_code] !~ /^#{address[:provincial_code]}\d$/ ? "#{address[:district_code].last.to_i.ordinalize} District" : nil
 
-    %Q{ #{address[:street_number]} #{address[:street_name]},
-    #{content_tag :span, municipality, :title => "#{address[:municipality_code]}", :class => "address_code"},
-    #{content_tag :span, province, :title => "#{address[:provincial_code]}", :class => "address_code"}
-    #{content_tag :span, "(#{district})", :title => "#{address[:district_code]}", :class => "address_code"}
-    }
+    str = "#{address[:street_number]} #{address[:street_name]}, "
+    str << content_tag(:span, municipality, :title => address[:municipality_code], :class => 'address_code') << ", "
+    str << content_tag(:span, province, :title => address[:provincial_code], :class => 'address_code')
+    str << content_tag(:span, '(#{district})', :title => address[:district_code], :class => 'address_code') unless district.nil?
+    
+    return str
   end
 end
 
