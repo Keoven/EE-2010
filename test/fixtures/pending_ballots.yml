@@ -2,7 +2,7 @@
 
 one:
   ballot_key: asdf1234
-  voter_id: 1
+  voter_id: activated_voter
 
 two:
   ballot_key: MyString

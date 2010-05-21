@@ -58,20 +58,22 @@ class UsersControllerTest < ActionController::TestCase
   #  Finish cast ballot test.
 
   test 'should cast ballot' do
-    ballot = { 'President'      =>     [1] ,
-               'Vice President' =>     [2] ,
-               'Senator'        =>  [3, 4] ,
-               'Governor'       =>     [5] ,
-               'Vice Governor'  =>     [6] ,
-               'Mayor'          =>     [7] ,
-               'Vice Mayor'     =>     [8] ,
-               'Councilor'      =>     [9] ,
-               'Representative' =>    [10] }
-    put :cast_ballot, :voter_id => 'non_activated_voter', :ballot => ballot
-    assert_redirected_to root_path
-    put :cast_ballot, :voter_id => 'activated_voter', :ballot => ballot
-    assert_equal 10, Candidate.sum(:num_votes)
-    assert_response :success
+    assert_difference('PendingBallot.all.size', -1) do
+      ballot = { 'President'      =>     [1] ,
+                 'Vice President' =>     [2] ,
+                 'Senator'        =>  [3, 4] ,
+                 'Governor'       =>     [5] ,
+                 'Vice Governor'  =>     [6] ,
+                 'Mayor'          =>     [7] ,
+                 'Vice Mayor'     =>     [8] ,
+                 'Councilor'      =>     [9] ,
+                 'Representative' =>    [10] }
+      put :cast_ballot, :voter_id => 'non_activated_voter', :code => 'asdf1234', :ballot => ballot
+      assert_redirected_to root_path
+      put :cast_ballot, :voter_id => 'activated_voter', :code => 'asdf1234', :ballot => ballot
+      assert_equal 10, Candidate.sum(:num_votes)
+      assert_response :success
+    end
   end
 end
 
