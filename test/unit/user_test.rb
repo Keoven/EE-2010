@@ -18,6 +18,10 @@ class UserTest < ActiveSupport::TestCase
      			    :email		=> 'a@asdf.com',
      			    :voted 		=> true,
      			    :activated 		=> true)
+    ActionMailer::Base.delivery_method = :test
+    ActionMailer::Base.perform_deliveries = true
+    ActionMailer::Base.deliveries = []
+
   end
 
   def teardown
@@ -116,6 +120,18 @@ class UserTest < ActiveSupport::TestCase
     assert_equal(true, @valid_user.save)
     
     assert_not_nil @valid_user.errors
+  end
+  
+  test "email has been sent to created voter" do
+    assert @valid_user.save
+
+    # Send the email, then test that it got queued
+    email = UserMailer.deliver_voter_approval(@valid_user)
+    assert !ActionMailer::Base.deliveries.empty?
+
+    # Test the body of the sent email contains what we expect it to
+    assert_equal [@valid_user.email], email.to
+    assert_equal "Welcome to Exist Elections 2010", email.subject
   end
 
 end

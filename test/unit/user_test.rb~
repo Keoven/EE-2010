@@ -18,6 +18,10 @@ class UserTest < ActiveSupport::TestCase
      			    :email		=> 'a@asdf.com',
      			    :voted 		=> true,
      			    :activated 		=> true)
+    ActionMailer::Base.delivery_method = :test
+    ActionMailer::Base.perform_deliveries = true
+    ActionMailer::Base.deliveries = []
+
   end
 
   def teardown
@@ -68,13 +72,13 @@ class UserTest < ActiveSupport::TestCase
 
   test "validity of district_code" do
     @valid_user.district_code = "AH1N1"
-    assert_equal true, @valid_user.valid? #value will changed to 0 if string is used O.o
+    assert_equal true, @valid_user.valid? #value will change to 0 if string is used O.o
     @valid_user.district_code = 1234
     assert_equal true, @valid_user.save
     @valid_user.district_code = nil
     assert_equal false, @valid_user.valid?
 
-    assert_not_nil @valid_user.errors.on(:distrct_code)
+    assert_not_nil @valid_user.errors.on(:district_code)
   end
 
   test "validity of municipality_code" do
@@ -116,6 +120,19 @@ class UserTest < ActiveSupport::TestCase
     assert_equal(true, @valid_user.save)
     
     assert_not_nil @valid_user.errors
+  end
+  
+  test "email has been sent to created voter" do
+    assert @valid_user.save
+
+    # Send the email, then test that it got queued
+    email = UserMailer.deliver_voter_approval(@valid_user)
+    assert !ActionMailer::Base.deliveries.empty?
+    p ActionMailer::Base.deliveries.length
+
+    # Test the body of the sent email contains what we expect it to
+    assert_equal [@valid_user.email], email.to
+    assert_equal "Welcome to Exist Elections 2010", email.subject
   end
 
 end
