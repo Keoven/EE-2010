@@ -51,8 +51,9 @@ class UsersController < ApplicationController
 
   def cast_ballot
     session[:action_accessed?] = true
-    @ballot = params[:ballot]
     @user = User.find(:first,:conditions => { :voter_id => params[:voter_id] })
+    redirect_to home_users_path unless @user.activated?
+    @ballot = params[:ballot]
     if @user.voted?
       flash[:notice] = 'User already voted!'
       render :text => 'You have already casted your vote.'

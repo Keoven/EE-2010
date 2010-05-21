@@ -1,0 +1,16 @@
+<h2>Official Ballot</h2>
+<div style="text-align:center"><h1>Presidents</h1><br />CHOOSE NOT MORE THAN ONE</div>
+<table><% i=1 %>
+<% Candidate.get_candidates("President").each do |candidate| %>
+<%= show_candidates(candidate, i) %>
+<% i = i + 1 %>
+<% end %>
+</table>
+
+<div style="text-align:center"><h1>Presidents</h1><br />CHOOSE NOT MORE THAN ONE</div>
+<table><% i=1 %>
+<% Candidate.get_candidates("Vice President").each do |candidate| %>
+<%= show_candidates(candidate, i) %>
+<% i = i + 1 %>
+<% end %>
+</table>
