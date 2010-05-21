@@ -21,7 +21,7 @@ class CandidateTest < ActiveSupport::TestCase
     assert @valid_candidate.level.is_a?(String)
     assert @valid_candidate.province.is_a?(String)
     assert @valid_candidate.municipality.is_a?(String)
-    assert @valid_candidate.district.is_a?(String)
+    assert @valid_candidate.district.is_a?(Integer)
     assert @valid_candidate.num_votes.is_a?(Integer)
   end
 
@@ -65,6 +65,18 @@ class CandidateTest < ActiveSupport::TestCase
   test "level and position should match" do
     @valid_candidate.level = 'National'
     @valid_candidate.position = 'Representative'
+    @valid_candidate.save
+    
+    @valid_candidate.level = 'Provincial'
+    @valid_candidate.position = 'Councilor'
+    @valid_candidate.save
+    
+    @valid_candidate.level = 'City/Municipal'
+    @valid_candidate.position = 'President'
+    @valid_candidate.save
+    
+    @valid_candidate.level = 'District'
+    @valid_candidate.position = 'President'
     @valid_candidate.save
 
     assert_not_nil @valid_candidate.errors

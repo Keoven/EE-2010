@@ -5,7 +5,7 @@ candidate1:
   position: President
   level: National
   num_votes: 0
-  
+
 candidate2:
   first_name: John Carlos
   middle_name: G.
@@ -13,7 +13,7 @@ candidate2:
   position: President
   level: National
   num_votes: 0
-  
+
 candidate3:
   first_name: Joseph
   middle_name: M.
@@ -21,7 +21,7 @@ candidate3:
   position: President
   level: National
   num_votes: 0
-  
+
 candidate4:
   first_name: Richard
   middle_name: J.
@@ -29,7 +29,7 @@ candidate4:
   position: President
   level: National
   num_votes: 0
-  
+
 candidate5:
   first_name: Madrigal
   middle_name: A.
@@ -37,7 +37,7 @@ candidate5:
   position: President
   level: National
   num_votes: 0
-  
+
 candidate6:
   first_name: Jesus Nicanor
   middle_name: P.
@@ -45,7 +45,7 @@ candidate6:
   position: President
   level: National
   num_votes: 0
-  
+
 candidate7:
   first_name: Gilberto Jr.
   middle_name: C.
@@ -53,7 +53,7 @@ candidate7:
   position: President
   level: National
   num_votes: 0
-  
+
 candidate8:
   first_name: Eduardo
   middle_name: C.
@@ -61,7 +61,7 @@ candidate8:
   position: President
   level: National
   num_votes: 0
-  
+
 candidate9:
   first_name: Manuel Jr.
   middle_name: B.
@@ -69,7 +69,7 @@ candidate9:
   position: President
   level: National
   num_votes: 0
-  
+
 candidate10:
   first_name: Jejomar
   middle_name: C.
@@ -77,7 +77,7 @@ candidate10:
   position: Vice President
   level: National
   num_votes: 0
-  
+
 candidate11:
   first_name: Dominador Jr.
   middle_name: F.
@@ -85,7 +85,7 @@ candidate11:
   position: Vice President
   level: National
   num_votes: 0
-  
+
 candidate12:
   first_name: Bayani
   middle_name: F.
@@ -93,7 +93,7 @@ candidate12:
   position: Vice President
   level: National
   num_votes: 0
-  
+
 candidate13:
   first_name: Loren
   middle_name: B.
@@ -101,7 +101,7 @@ candidate13:
   position: Vice President
   level: National
   num_votes: 0
-  
+
 candidate14:
   first_name: Eduardo
   middle_name: B.
@@ -109,7 +109,7 @@ candidate14:
   position: Vice President
   level: National
   num_votes: 0
-  
+
 candidate15:
   first_name: Manuel
   middle_name: A.
@@ -117,7 +117,7 @@ candidate15:
   position: Vice President
   level: National
   num_votes: 0
-  
+
 candidate16:
   first_name: Jose
   middle_name: Y.
@@ -125,7 +125,7 @@ candidate16:
   position: Vice President
   level: National
   num_votes: 0
-  
+
 candidate17:
   first_name: Perfecto
   middle_name: R.
@@ -133,7 +133,7 @@ candidate17:
   position: Vice President
   level: National
   num_votes: 0
-  
+
 candidate18:
   first_name: Ramon Jr.
   middle_name: B.
@@ -141,7 +141,7 @@ candidate18:
   position: Senator
   level: National
   num_votes: 0
-  
+
 candidate19:
   first_name: Jinggoy
   middle_name: E.
@@ -149,7 +149,7 @@ candidate19:
   position: Senator
   level: National
   num_votes: 0
-  
+
 candidate20:
   first_name: Miriam
   middle_name: P.
@@ -157,7 +157,7 @@ candidate20:
   position: Senator
   level: National
   num_votes: 0
-  
+
 candidate21:
   first_name: Franklin
   middle_name: M.
@@ -165,15 +165,15 @@ candidate21:
   position: Senator
   level: National
   num_votes: 0
-  
+
 candidate22:
   first_name: Juan Ponce
-  middle_name: 
+  middle_name:
   last_name: Enrile
   position: Senator
   level: National
   num_votes: 0
-  
+
 candidate23:
   first_name: Pilar Juliana
   middle_name: S.
@@ -181,7 +181,7 @@ candidate23:
   position: Senator
   level: National
   num_votes: 0
-  
+
 candidate24:
   first_name: Ferdinand Jr.
   middle_name: R.
@@ -189,7 +189,7 @@ candidate24:
   position: Senator
   level: National
   num_votes: 0
-  
+
 candidate25:
   first_name: Ralph
   middle_name: G.
@@ -197,7 +197,7 @@ candidate25:
   position: Senator
   level: National
   num_votes: 0
-  
+
 candidate26:
   first_name: Vicente III
   middle_name: C.
@@ -205,7 +205,7 @@ candidate26:
   position: Senator
   level: National
   num_votes: 0
-  
+
 candidate27:
   first_name: Sergio III
   middle_name: D.
@@ -213,7 +213,7 @@ candidate27:
   position: Senator
   level: National
   num_votes: 0
-  
+
 candidate28:
   first_name: Manuel
   middle_name: M.
@@ -221,7 +221,7 @@ candidate28:
   position: Senator
   level: National
   num_votes: 0
-  
+
 candidate29:
   first_name: Teofisto III
   middle_name: D.
@@ -229,15 +229,15 @@ candidate29:
   position: Senator
   level: National
   num_votes: 0
-  
+
 candidate30:
   first_name: Ana Theresia
-  middle_name: 
+  middle_name:
   last_name: Hontiveros-Braquel
   position: Senator
   level: National
   num_votes: 0
-  
+
 candidate31:
   first_name: Rozzano Rufino
   middle_name: B.
@@ -245,7 +245,7 @@ candidate31:
   position: Senator
   level: National
   num_votes: 0
-  
+
 candidate32:
   first_name: Jose III
   middle_name: P.
@@ -253,7 +253,7 @@ candidate32:
   position: Senator
   level: National
   num_votes: 0
-  
+
 candidate33:
   first_name: Gilbert Cesar
   middle_name: C.
@@ -261,7 +261,7 @@ candidate33:
   position: Senator
   level: National
   num_votes: 0
-  
+
 candidate34:
   first_name: Danilo
   middle_name: D.
@@ -269,7 +269,7 @@ candidate34:
   position: Senator
   level: National
   num_votes: 0
-  
+
 candidate35:
   first_name: Sonia
   middle_name: M.
@@ -277,7 +277,7 @@ candidate35:
   position: Senator
   level: National
   num_votes: 0
-  
+
 candidate36:
   first_name: Ariel
   middle_name: O.
@@ -285,7 +285,7 @@ candidate36:
   position: Senator
   level: National
   num_votes: 0
-  
+
 candidate37:
   first_name: Gwendolyn
   middle_name: D.
@@ -293,7 +293,7 @@ candidate37:
   position: Senator
   level: National
   num_votes: 0
-  
+
 candidate38:
   first_name: Nereus
   middle_name: O.
@@ -301,7 +301,7 @@ candidate38:
   position: Senator
   level: National
   num_votes: 0
-  
+
 candidate39:
   first_name: Alexander
   middle_name: L.
@@ -309,7 +309,7 @@ candidate39:
   position: Senator
   level: National
   num_votes: 0
-  
+
 candidate40:
   first_name: Adel
   middle_name: A.
@@ -317,7 +317,7 @@ candidate40:
   position: Senator
   level: National
   num_votes: 0
-  
+
 candidate41:
   first_name: Emilio Mario
   middle_name: R.
@@ -325,7 +325,7 @@ candidate41:
   position: Senator
   level: National
   num_votes: 0
-  
+
 candidate42:
   first_name: Liza
   middle_name: L.
@@ -333,7 +333,7 @@ candidate42:
   position: Senator
   level: National
   num_votes: 0
-  
+
 candidate43:
   first_name: Saturnino
   middle_name: C.
@@ -341,7 +341,7 @@ candidate43:
   position: Senator
   level: National
   num_votes: 0
-  
+
 candidate44:
   first_name: Francisco
   middle_name: S.
@@ -349,7 +349,7 @@ candidate44:
   position: Senator
   level: National
   num_votes: 0
-  
+
 candidate45:
   first_name: Jose Apolinario Jr.
   middle_name: L.
@@ -357,7 +357,7 @@ candidate45:
   position: Senator
   level: National
   num_votes: 0
-  
+
 candidate46:
   first_name: Ramon
   middle_name: B.
@@ -365,7 +365,7 @@ candidate46:
   position: Senator
   level: National
   num_votes: 0
-  
+
 candidate47:
   first_name: Rey
   middle_name: M.
@@ -373,7 +373,7 @@ candidate47:
   position: Senator
   level: National
   num_votes: 0
-  
+
 candidate48:
   first_name: Silvestre III
   middle_name: H.
@@ -381,7 +381,7 @@ candidate48:
   position: Senator
   level: National
   num_votes: 0
-  
+
 candidate49:
   first_name: Yasmin
   middle_name: B.
@@ -389,7 +389,7 @@ candidate49:
   position: Senator
   level: National
   num_votes: 0
-  
+
 candidate50:
   first_name: Imelda
   middle_name: A.
@@ -397,7 +397,7 @@ candidate50:
   position: Senator
   level: National
   num_votes: 0
-  
+
 candidate51:
   first_name: Susan
   middle_name: V.
@@ -405,7 +405,7 @@ candidate51:
   position: Senator
   level: National
   num_votes: 0
-  
+
 candidate52:
   first_name: Martin
   middle_name: D.
@@ -413,7 +413,7 @@ candidate52:
   position: Senator
   level: National
   num_votes: 0
-  
+
 candidate53:
   first_name: J.V.
   middle_name: L.
@@ -421,7 +421,7 @@ candidate53:
   position: Senator
   level: National
   num_votes: 0
-  
+
 candidate54:
   first_name: Ramon Jr.
   middle_name: N.
@@ -429,7 +429,7 @@ candidate54:
   position: Senator
   level: National
   num_votes: 0
-  
+
 candidate55:
   first_name: Raul
   middle_name: L.
@@ -437,7 +437,7 @@ candidate55:
   position: Senator
   level: National
   num_votes: 0
-  
+
 candidate56:
   first_name: Hector
   middle_name: L.
@@ -445,7 +445,7 @@ candidate56:
   position: Senator
   level: National
   num_votes: 0
-  
+
 candidate57:
   first_name: Emilio
   middle_name: P.
@@ -454,7 +454,7 @@ candidate57:
   level: Povincial
   num_votes: 0
   province: Laguna
-  
+
 candidate58:
   first_name: Dennis
   middle_name: S.
@@ -463,7 +463,7 @@ candidate58:
   level: Povincial
   num_votes: 0
   province: Laguna
-  
+
 candidate59:
   first_name: Jose Jr.
   middle_name: D.
@@ -472,7 +472,7 @@ candidate59:
   level: Povincial
   num_votes: 0
   province: Laguna
-  
+
 candidate60:
   first_name: Juanito Victor Jr.
   middle_name: C.
@@ -481,7 +481,7 @@ candidate60:
   level: Povincial
   num_votes: 0
   province: Cavite
-  
+
 candidate61:
   first_name: Dencito
   middle_name: P.
@@ -490,7 +490,7 @@ candidate61:
   level: Povincial
   num_votes: 0
   province: Cavite
-  
+
 candidate62:
   first_name: Melencio Jr.
   middle_name: L.
@@ -499,7 +499,7 @@ candidate62:
   level: Povincial
   num_votes: 0
   province: Cavite
-  
+
 candidate63:
   first_name: Caesar
   middle_name: P.
@@ -508,7 +508,7 @@ candidate63:
   level: Povincial
   num_votes: 0
   province: Laguna
-  
+
 candidate64:
   first_name: Dave
   middle_name: M.
@@ -517,7 +517,7 @@ candidate64:
   level: Povincial
   num_votes: 0
   province: Laguna
-  
+
 candidate65:
   first_name: Celso
   middle_name: O.
@@ -526,7 +526,7 @@ candidate65:
   level: Povincial
   num_votes: 0
   province: Laguna
-  
+
 candidate66:
   first_name: Recto
   middle_name: M.
@@ -535,7 +535,7 @@ candidate66:
   level: Povincial
   num_votes: 0
   province: Cavite
-  
+
 candidate67:
   first_name: Bernard Michael
   middle_name: I.
@@ -544,7 +544,7 @@ candidate67:
   level: Povincial
   num_votes: 0
   province: Cavite
-  
+
 candidate68:
   first_name: Cesario Jr.
   middle_name: R.
@@ -553,7 +553,7 @@ candidate68:
   level: Povincial
   num_votes: 0
   province: Cavite
-    
+
 candidate69:
   first_name: Enrico
   middle_name: R.
@@ -1313,7 +1313,7 @@ candidate144:
   num_votes: 0
   province: Metro Manila
   municipality: Taguig City
-  
+
 candidate145:
   first_name: Eric
   middle_name: M.
@@ -1333,7 +1333,7 @@ candidate146:
   num_votes: 0
   province: Metro Manila
   municipality: Valenzuela City
-  
+
 candidate147:
   first_name: Norvic
   middle_name: D.
@@ -2993,7 +2993,7 @@ candidate312:
   num_votes: 0
   province: Metro Manila
   municipality: Taguig City
-  
+
 candidate313:
   first_name: Gamaliel
   middle_name: N.
@@ -3013,7 +3013,7 @@ candidate314:
   num_votes: 0
   province: Metro Manila
   municipality: Taguig City
-  
+
 candidate315:
   first_name: Gerry
   middle_name: N.
@@ -3033,7 +3033,7 @@ candidate316:
   num_votes: 0
   province: Metro Manila
   municipality: Taguig City
-  
+
 candidate317:
   first_name: Vilma
   middle_name: U.
@@ -3053,7 +3053,7 @@ candidate318:
   num_votes: 0
   province: Metro Manila
   municipality: Taguig City
-  
+
 candidate319:
   first_name: Generoso
   middle_name: G.
@@ -3073,7 +3073,7 @@ candidate320:
   num_votes: 0
   province: Metro Manila
   municipality: Taguig City
-  
+
 candidate321:
   first_name: Joel
   middle_name: S.
@@ -3093,7 +3093,7 @@ candidate322:
   num_votes: 0
   province: Metro Manila
   municipality: Valenzuela City
-  
+
 candidate323:
   first_name: Ritchie
   middle_name: D.
@@ -3113,7 +3113,7 @@ candidate324:
   num_votes: 0
   province: Metro Manila
   municipality: Valenzuela City
-  
+
 candidate325:
   first_name: Meilene
   middle_name: T.
@@ -3133,7 +3133,7 @@ candidate326:
   num_votes: 0
   province: Metro Manila
   municipality: Valenzuela City
-  
+
 candidate327:
   first_name: Moises
   middle_name: S.
@@ -3153,7 +3153,7 @@ candidate328:
   num_votes: 0
   province: Metro Manila
   municipality: Valenzuela City
-  
+
 candidate329:
   first_name: Adrian
   middle_name: C.
@@ -3173,7 +3173,7 @@ candidate330:
   num_votes: 0
   province: Metro Manila
   municipality: Valenzuela City
-  
+
 candidate331:
   first_name: Carlon
   middle_name: G.
@@ -3783,7 +3783,7 @@ candidate391:
   num_votes: 0
   province: Metro Manila
   municipality: Caloocan City
-  district: CLC1
+  district: 1
 
 candidate392:
   first_name: Luis
@@ -3794,7 +3794,7 @@ candidate392:
   num_votes: 0
   province: Metro Manila
   municipality: Caloocan City
-  district: CLC1
+  district: 1
 
 candidate393:
   first_name: Mary Mitzi
@@ -3805,7 +3805,7 @@ candidate393:
   num_votes: 0
   province: Metro Manila
   municipality: Caloocan City
-  district: CLC2
+  district: 2
 
 candidate394:
   first_name: Antonio Marciano
@@ -3816,7 +3816,7 @@ candidate394:
   num_votes: 0
   province: Metro Manila
   municipality: Caloocan City
-  district: CLC2
+  district: 2
 
 candidate395:
   first_name: Ernesto
@@ -3827,7 +3827,7 @@ candidate395:
   num_votes: 0
   province: Metro Manila
   municipality: Makati City
-  district: MKT1
+  district: 1
 
 candidate396:
   first_name: Mar-Len Abigail
@@ -3838,7 +3838,7 @@ candidate396:
   num_votes: 0
   province: Metro Manila
   municipality: Makati City
-  district: MKT1
+  district: 1
 
 candidate397:
   first_name: Robert Dean
@@ -3849,8 +3849,8 @@ candidate397:
   num_votes: 0
   province: Metro Manila
   municipality: Makati City
-  district: MKT2
-  
+  district: 2
+
 candidate398:
   first_name: Maria Lourdes
   middle_name: B.
@@ -3860,7 +3860,7 @@ candidate398:
   num_votes: 0
   province: Metro Manila
   municipality: Makati City
-  district: MKT2
+  district: 2
 
 candidate399:
   first_name: Monique Yazmin
@@ -3871,7 +3871,7 @@ candidate399:
   num_votes: 0
   province: Metro Manila
   municipality: Malabon City
-  district: MLB1
+  district: 1
 
 candidate400:
   first_name: Oswaldo
@@ -3882,7 +3882,7 @@ candidate400:
   num_votes: 0
   province: Metro Manila
   municipality: Malabon City
-  district: MLB1
+  district: 1
 
 candidate401:
   first_name: Oscar
@@ -3893,7 +3893,7 @@ candidate401:
   num_votes: 0
   province: Metro Manila
   municipality: Malabon City
-  district: MLB2
+  district: 2
 
 candidate402:
   first_name: Bobby
@@ -3904,7 +3904,7 @@ candidate402:
   num_votes: 0
   province: Metro Manila
   municipality: Malabon City
-  district: MLB2
+  district: 2
 
 candidate403:
   first_name: Filipino
@@ -3915,7 +3915,7 @@ candidate403:
   num_votes: 0
   province: Metro Manila
   municipality: Las Pinas City
-  district: LSP1
+  district: 1
 
 candidate404:
   first_name: Francisco
@@ -3926,7 +3926,7 @@ candidate404:
   num_votes: 0
   province: Metro Manila
   municipality: Las Pinas City
-  district: LSP1
+  district: 1
 
 candidate405:
   first_name: Zusarah
@@ -3937,7 +3937,7 @@ candidate405:
   num_votes: 0
   province: Metro Manila
   municipality: Las Pinas City
-  district: LSP2
+  district: 2
 
 candidate406:
   first_name: Mark
@@ -3948,7 +3948,7 @@ candidate406:
   num_votes: 0
   province: Metro Manila
   municipality: Las Pinas City
-  district: LSP2
+  district: 2
 
 candidate407:
   first_name: Samuel
@@ -3959,7 +3959,7 @@ candidate407:
   num_votes: 0
   province: Metro Manila
   municipality: Marikina City
-  district: MRK1
+  district: 1
 
 candidate408:
   first_name: Marcelino
@@ -3970,7 +3970,7 @@ candidate408:
   num_votes: 0
   province: Metro Manila
   municipality: Marikina City
-  district: MRK1
+  district: 1
 
 candidate409:
   first_name: Romero Federico
@@ -3981,7 +3981,7 @@ candidate409:
   num_votes: 0
   province: Metro Manila
   municipality: Marikina City
-  district: MRK2
+  district: 2
 
 candidate410:
   first_name: Donn Carlo
@@ -3992,7 +3992,7 @@ candidate410:
   num_votes: 0
   province: Metro Manila
   municipality: Marikina City
-  district: MRK2
+  district: 2
 
 candidate411:
   first_name: Amado
@@ -4003,7 +4003,7 @@ candidate411:
   num_votes: 0
   province: Metro Manila
   municipality: Manila
-  district: MNL1
+  district: 1
 
 candidate412:
   first_name: Joey
@@ -4014,7 +4014,7 @@ candidate412:
   num_votes: 0
   province: Metro Manila
   municipality: Manila
-  district: MNL1
+  district: 1
 
 candidate413:
   first_name: Benjamin
@@ -4025,7 +4025,7 @@ candidate413:
   num_votes: 0
   province: Metro Manila
   municipality: Manila
-  district: MNL2
+  district: 2
 
 candidate414:
   first_name: Ernesto
@@ -4036,7 +4036,7 @@ candidate414:
   num_votes: 0
   province: Metro Manila
   municipality: Manila
-  district: MNL2
+  district: 2
 
 candidate415:
   first_name: Neptali
@@ -4047,7 +4047,7 @@ candidate415:
   num_votes: 0
   province: Metro Manila
   municipality: Mandaluyong City
-  district: MND1
+  district: 1
 
 candidate416:
   first_name: Manuel
@@ -4058,7 +4058,7 @@ candidate416:
   num_votes: 0
   province: Metro Manila
   municipality: Mandaluyong City
-  district: MND1
+  district: 1
 
 candidate417:
   first_name: Rodolfo
@@ -4069,8 +4069,8 @@ candidate417:
   num_votes: 0
   province: Metro Manila
   municipality: Mandaluyong City
-  district: MND2
-  
+  district: 2
+
 candidate418:
   first_name: Maria Theresa
   middle_name: B.
@@ -4080,7 +4080,7 @@ candidate418:
   num_votes: 0
   province: Metro Manila
   municipality: Mandaluyong City
-  district: MND2
+  district: 2
 
 candidate419:
   first_name: Josephine
@@ -4091,7 +4091,7 @@ candidate419:
   num_votes: 0
   province: Metro Manila
   municipality: Navotas City
-  district: NVT1
+  district: 1
 
 candidate420:
   first_name: Federico
@@ -4102,7 +4102,7 @@ candidate420:
   num_votes: 0
   province: Metro Manila
   municipality: Navotas City
-  district: NVT1
+  district: 1
 
 candidate421:
   first_name: Arnold
@@ -4113,7 +4113,7 @@ candidate421:
   num_votes: 0
   province: Metro Manila
   municipality: Navotas City
-  district: NVT2
+  district: 2
 
 candidate422:
   first_name: Mark Allan Jay
@@ -4124,7 +4124,7 @@ candidate422:
   num_votes: 0
   province: Metro Manila
   municipality: Navotas City
-  district: NVT2
+  district: 2
 
 candidate423:
   first_name: Rodolfo
@@ -4135,7 +4135,7 @@ candidate423:
   num_votes: 0
   province: Metro Manila
   municipality: Muntinlupa City
-  district: MNT1
+  district: 1
 
 candidate424:
   first_name: Rey
@@ -4146,7 +4146,7 @@ candidate424:
   num_votes: 0
   province: Metro Manila
   municipality: Muntinlupa City
-  district: MNT1
+  district: 1
 
 candidate425:
   first_name: Ricardo
@@ -4157,7 +4157,7 @@ candidate425:
   num_votes: 0
   province: Metro Manila
   municipality: Muntinlupa City
-  district: MNT2
+  district: 2
 
 candidate426:
   first_name: Ermie
@@ -4168,7 +4168,7 @@ candidate426:
   num_votes: 0
   province: Metro Manila
   municipality: Muntinlupa City
-  district: MNT2
+  district: 2
 
 candidate427:
   first_name: Jose Antonio
@@ -4179,7 +4179,7 @@ candidate427:
   num_votes: 0
   province: Metro Manila
   municipality: Pasay City
-  district: PSY1
+  district: 1
 
 candidate428:
   first_name: Allan
@@ -4190,7 +4190,7 @@ candidate428:
   num_votes: 0
   province: Metro Manila
   municipality: Pasay City
-  district: PSY1
+  district: 1
 
 candidate429:
   first_name: Rica-Elah
@@ -4201,7 +4201,7 @@ candidate429:
   num_votes: 0
   province: Metro Manila
   municipality: Pasay City
-  district: PSY2
+  district: 2
 
 candidate430:
   first_name: Imelda
@@ -4212,7 +4212,7 @@ candidate430:
   num_votes: 0
   province: Metro Manila
   municipality: Pasay City
-  district: PSY2
+  district: 2
 
 candidate431:
   first_name: Edwin
@@ -4223,7 +4223,7 @@ candidate431:
   num_votes: 0
   province: Metro Manila
   municipality: Paranaque City
-  district: PRN1
+  district: 1
 
 candidate432:
   first_name: Rolando
@@ -4234,7 +4234,7 @@ candidate432:
   num_votes: 0
   province: Metro Manila
   municipality: Paranaque City
-  district: PRN1
+  district: 1
 
 candidate433:
   first_name: Roilo
@@ -4245,7 +4245,7 @@ candidate433:
   num_votes: 0
   province: Metro Manila
   municipality: Paranaque City
-  district: PRN2
+  district: 2
 
 candidate434:
   first_name: Pedro
@@ -4256,7 +4256,7 @@ candidate434:
   num_votes: 0
   province: Metro Manila
   municipality: Paranaque City
-  district: PRN2
+  district: 2
 
 candidate435:
   first_name: Francisco
@@ -4267,7 +4267,7 @@ candidate435:
   num_votes: 0
   province: Metro Manila
   municipality: Pasig City
-  district: PSG1
+  district: 1
 
 candidate436:
   first_name: Roman
@@ -4278,7 +4278,7 @@ candidate436:
   num_votes: 0
   province: Metro Manila
   municipality: Pasig City
-  district: PSG1
+  district: 1
 
 candidate437:
   first_name: Bienvenido
@@ -4289,7 +4289,7 @@ candidate437:
   num_votes: 0
   province: Metro Manila
   municipality: Pasig City
-  district: PSG2
+  district: 2
 
 candidate438:
   first_name: Rosenda Ann
@@ -4300,7 +4300,7 @@ candidate438:
   num_votes: 0
   province: Metro Manila
   municipality: Pasig City
-  district: PSG2
+  district: 2
 
 candidate439:
   first_name: Arnel
@@ -4311,7 +4311,7 @@ candidate439:
   num_votes: 0
   province: Metro Manila
   municipality: Pateros
-  district: PTR1
+  district: 1
 
 candidate440:
   first_name: Ren-Ren
@@ -4322,7 +4322,7 @@ candidate440:
   num_votes: 0
   province: Metro Manila
   municipality: Pateros
-  district: PTR1
+  district: 1
 
 candidate441:
   first_name: Luis
@@ -4333,7 +4333,7 @@ candidate441:
   num_votes: 0
   province: Metro Manila
   municipality: Pateros
-  district: PTR2
+  district: 2
 
 candidate442:
   first_name: Joselito
@@ -4344,7 +4344,7 @@ candidate442:
   num_votes: 0
   province: Metro Manila
   municipality: Pateros
-  district: PTR2
+  district: 2
 
 candidate443:
   first_name: Vincent
@@ -4355,7 +4355,7 @@ candidate443:
   num_votes: 0
   province: Metro Manila
   municipality: Quezon City
-  district: QZN1
+  district: 1
 
 candidate444:
   first_name: Vivienne
@@ -4366,7 +4366,7 @@ candidate444:
   num_votes: 0
   province: Metro Manila
   municipality: Quezon City
-  district: QZN1
+  district: 1
 
 candidate445:
   first_name: Feliciano
@@ -4377,7 +4377,7 @@ candidate445:
   num_votes: 0
   province: Metro Manila
   municipality: Quezon City
-  district: QZN2
+  district: 2
 
 candidate446:
   first_name: Don Emil
@@ -4388,7 +4388,7 @@ candidate446:
   num_votes: 0
   province: Metro Manila
   municipality: Quezon City
-  district: QZN2
+  district: 2
 
 candidate447:
   first_name: Joseph Victor
@@ -4399,7 +4399,7 @@ candidate447:
   num_votes: 0
   province: Metro Manila
   municipality: San Juan City
-  district: SJN1
+  district: 1
 
 candidate448:
   first_name: Ronaldo
@@ -4410,7 +4410,7 @@ candidate448:
   num_votes: 0
   province: Metro Manila
   municipality: San Juan City
-  district: SJN1
+  district: 1
 
 candidate449:
   first_name: Jorge John
@@ -4421,7 +4421,7 @@ candidate449:
   num_votes: 0
   province: Metro Manila
   municipality: San Juan City
-  district: SJN2
+  district: 2
 
 candidate450:
   first_name: Matias
@@ -4432,7 +4432,7 @@ candidate450:
   num_votes: 0
   province: Metro Manila
   municipality: San Juan City
-  district: SJN2
+  district: 2
 
 candidate451:
   first_name: Sigfrido
@@ -4443,7 +4443,7 @@ candidate451:
   num_votes: 0
   province: Metro Manila
   municipality: Taguig City
-  district: TGG1
+  district: 1
 
 candidate452:
   first_name: Angelito
@@ -4454,7 +4454,7 @@ candidate452:
   num_votes: 0
   province: Metro Manila
   municipality: Taguig City
-  district: TGG1
+  district: 1
 
 candidate453:
   first_name: James
@@ -4465,7 +4465,7 @@ candidate453:
   num_votes: 0
   province: Metro Manila
   municipality: Taguig City
-  district: TGG2
+  district: 2
 
 candidate454:
   first_name: Robinson
@@ -4476,7 +4476,7 @@ candidate454:
   num_votes: 0
   province: Metro Manila
   municipality: Taguig City
-  district: TGG2
+  district: 2
 
 candidate455:
   first_name: Rexlon
@@ -4487,7 +4487,7 @@ candidate455:
   num_votes: 0
   province: Metro Manila
   municipality: Valenzuela City
-  district: VLN1
+  district: 1
 
 candidate456:
   first_name: Maria Elisa
@@ -4498,7 +4498,7 @@ candidate456:
   num_votes: 0
   province: Metro Manila
   municipality: Valenzuela City
-  district: VLN1
+  district: 1
 
 candidate457:
   first_name: Carlitos
@@ -4509,7 +4509,7 @@ candidate457:
   num_votes: 0
   province: Metro Manila
   municipality: Valenzuela City
-  district: VLN2
+  district: 2
 
 candidate458:
   first_name: Magtanggol
@@ -4520,7 +4520,7 @@ candidate458:
   num_votes: 0
   province: Metro Manila
   municipality: Valenzuela City
-  district: VLN2
+  district: 2
 
 candidate459:
   first_name: Danilo Ramon
@@ -4531,7 +4531,7 @@ candidate459:
   num_votes: 0
   province: Laguna
   municipality: San Pedro
-  district: SPD1
+  district: 1
 
 candidate460:
   first_name: Uliran
@@ -4542,7 +4542,7 @@ candidate460:
   num_votes: 0
   province: Laguna
   municipality: San Pedro
-  district: SPD1
+  district: 1
 
 candidate461:
   first_name: Edgar
@@ -4553,8 +4553,8 @@ candidate461:
   num_votes: 0
   province: Laguna
   municipality: San Pedro
-  district: SPD2
-  
+  district: 2
+
 candidate462:
   first_name: Justin Marc
   middle_name: S.
@@ -4564,7 +4564,7 @@ candidate462:
   num_votes: 0
   province: Laguna
   municipality: San Pedro
-  district: SPD2
+  district: 2
 
 candidate463:
   first_name: Rosauro
@@ -4575,7 +4575,7 @@ candidate463:
   num_votes: 0
   province: Laguna
   municipality: Santa Cruz
-  district: SCR1
+  district: 1
 
 candidate464:
   first_name: Severino
@@ -4586,7 +4586,7 @@ candidate464:
   num_votes: 0
   province: Laguna
   municipality: Santa Cruz
-  district: SCR1
+  district: 1
 
 candidate465:
   first_name: Katherine
@@ -4597,8 +4597,8 @@ candidate465:
   num_votes: 0
   province: Laguna
   municipality: Santa Cruz
-  district: SCR2
-  
+  district: 2
+
 candidate466:
   first_name: Florante
   middle_name: L.
@@ -4608,7 +4608,7 @@ candidate466:
   num_votes: 0
   province: Laguna
   municipality: Santa Cruz
-  district: SCR2
+  district: 2
 
 candidate467:
   first_name: Maria Evita
@@ -4619,7 +4619,7 @@ candidate467:
   num_votes: 0
   province: Laguna
   municipality: Santa Rosa City
-  district: SRS1
+  district: 1
 
 candidate468:
   first_name: Angelica
@@ -4630,7 +4630,7 @@ candidate468:
   num_votes: 0
   province: Laguna
   municipality: Santa Rosa City
-  district: SRS1
+  district: 1
 
 candidate469:
   first_name: Diosdado
@@ -4641,8 +4641,8 @@ candidate469:
   num_votes: 0
   province: Laguna
   municipality: Santa Rosa City
-  district: SRS2
-  
+  district: 2
+
 candidate470:
   first_name: Rommel
   middle_name: T.
@@ -4652,7 +4652,7 @@ candidate470:
   num_votes: 0
   province: Laguna
   municipality: Santa Rosa City
-  district: SRS2
+  district: 2
 
 candidate471:
   first_name: Adel
@@ -4663,7 +4663,7 @@ candidate471:
   num_votes: 0
   province: Cavite
   municipality: Bacoor
-  district: BCR1
+  district: 1
 
 candidate472:
   first_name: Joseph
@@ -4674,7 +4674,7 @@ candidate472:
   num_votes: 0
   province: Cavite
   municipality: Bacoor
-  district: BCR1
+  district: 1
 
 candidate473:
   first_name: Bernardo
@@ -4685,8 +4685,8 @@ candidate473:
   num_votes: 0
   province: Cavite
   municipality: Bacoor
-  district: BCR2
-  
+  district: 2
+
 candidate474:
   first_name: Elpidio
   middle_name: F.
@@ -4696,7 +4696,7 @@ candidate474:
   num_votes: 0
   province: Cavite
   municipality: Bacoor
-  district: BCR2
+  district: 2
 
 candidate475:
   first_name: Fernando
@@ -4707,7 +4707,7 @@ candidate475:
   num_votes: 0
   province: Cavite
   municipality: Cavite City
-  district: CVT1
+  district: 1
 
 candidate476:
   first_name: Ramon
@@ -4718,7 +4718,7 @@ candidate476:
   num_votes: 0
   province: Cavite
   municipality: Cavite City
-  district: CVT1
+  district: 1
 
 candidate477:
   first_name: Editha
@@ -4729,7 +4729,7 @@ candidate477:
   num_votes: 0
   province: Cavite
   municipality: Cavite City
-  district: CVT2
+  district: 2
 
 candidate478:
   first_name: Plaridel
@@ -4740,7 +4740,7 @@ candidate478:
   num_votes: 0
   province: Cavite
   municipality: Cavite City
-  district: CVT2
+  district: 2
 
 candidate479:
   first_name: Gerbie
@@ -4751,7 +4751,7 @@ candidate479:
   num_votes: 0
   province: Cavite
   municipality: Dasmarinas City
-  district: DSM1
+  district: 1
 
 candidate480:
   first_name: Laureano
@@ -4762,7 +4762,7 @@ candidate480:
   num_votes: 0
   province: Cavite
   municipality: Dasmarinas City
-  district: DSM1
+  district: 1
 
 candidate481:
   first_name: Jesus Crispin
@@ -4773,7 +4773,7 @@ candidate481:
   num_votes: 0
   province: Cavite
   municipality: Dasmarinas City
-  district: DSM2
+  district: 2
 
 candidate482:
   first_name: Hermogenes
@@ -4784,5 +4784,5 @@ candidate482:
   num_votes: 0
   province: Cavite
   municipality: Dasmarinas City
-  district: DSM2
+  district: 2
 

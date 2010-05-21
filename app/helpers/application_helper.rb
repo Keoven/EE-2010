@@ -1,5 +1,15 @@
 # Methods added to this helper will be available to all templates in the application.
 module ApplicationHelper
+
+  def generate_code(length=12)
+    character_map = [*'a'..'z'] + [*0..9]
+    code = String.new
+    length.times do
+      code << character_map.choice.to_s
+    end
+    return code
+  end
+
   def format_name(user, options={})
     {:initial_first => false, :last_name_first => false}.merge!(options)
 
