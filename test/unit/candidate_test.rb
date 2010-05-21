@@ -99,10 +99,10 @@ class CandidateTest < ActiveSupport::TestCase
                                :email             => 'a@asdf.com'      ,
                                :voted             => false             ,
                                :activated         => true              )
-    1.upto(9) do |n|
+    1.upto(10) do |n|
       @candidate = candidates("candidate_#{n}".to_sym)
       assert_difference('@candidate.num_votes') do
-        @candidate.cast_vote(@valid_positions[n], @valid_voter)
+        @candidate.cast_vote(@valid_positions[n - 1], @valid_voter)
       end
     end
   end

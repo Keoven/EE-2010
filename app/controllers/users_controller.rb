@@ -52,20 +52,24 @@ class UsersController < ApplicationController
   def cast_ballot
     session[:action_accessed?] = true
     @user = User.find(:first,:conditions => { :voter_id => params[:voter_id] })
-    redirect_to home_users_path unless @user.activated?
-    @ballot = params[:ballot]
-    if @user.voted?
-      flash[:notice] = 'User already voted!'
-      render :text => 'You have already casted your vote.'
+    unless @user.activated?
+      redirect_to home_users_path
     else
-      @ballot.each do |key, value|
-        raise 'InvalidBallot: Impossible to happen in normal usage.' unless value.count <= APP_CONFIG['positions'][key]
-        value.each do |id|
-          Candidate.find(id).cast_vote(key, @user)
+      @ballot = params[:ballot]
+      if @user.voted?
+        flash[:notice] = 'User already voted!'
+        render :text => 'You have already casted your vote.'
+      else
+        @ballot.each do |key, value|
+          raise 'InvalidBallot: Impossible to happen in normal usage.' unless value.size <= APP_CONFIG['positions'][key]
+          value.each do |id|
+            Candidate.find(id).cast_vote(key, @user)
+          end
         end
+        @user.update_attribute(:voted, true)
+        flash[:notice] = 'Casting of ballot successful'
+        render :text => 'Congratulations, you have successfully cast your ballot'
       end
-      flash[:notice] = 'Casting of ballot successful'
-      render :text => 'Congratulations, you have successfully cast your ballot'
     end
     rescue
       render :text => 'An error had occurred. Sorry for the inconvenience.'
