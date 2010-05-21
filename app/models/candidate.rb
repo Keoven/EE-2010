@@ -25,8 +25,8 @@ class Candidate < ActiveRecord::Base
     POSITIONS
   end
 
-  def self.get_candidates(position, province)
-    Candidate.find_all_by_position("#{position}",  :conditions => {:province => province} ,:order => "last_name")
+  def self.get_candidates(position, province, municipality, district)
+    Candidate.find_all_by_position("#{position}",  :conditions => {:province => province, :municipality => municipality, :district => district} ,:order => "last_name")
   end
 
   ##Instance Methods

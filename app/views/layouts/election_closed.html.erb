@@ -1,48 +1,34 @@
-<% user_province = "Metro Manila" %>
-<div style="text-align:center">
-  <h2>Official Ballot</h2>
-  <h1>Presidents</h1>CHOOSE NOT MORE THAN ONE(1)<br /><br />
-<table><% i=1 %>
-<% Candidate.get_candidates("President", nil).each do |candidate| %>
-<%= show_candidates(candidate, i, "President") %>
-<% i+=1 %>
-<% end %>
-</table>
-<h1>Vice Presidents</h1>CHOOSE NOT MORE THAN ONE(1)<br /><br />
-<table><% i=1 %>
-<% Candidate.get_candidates("Vice President", nil).each do |candidate| %>
-<%= show_candidates(candidate, i, "Vice President") %>
-<% i+=1 %>
-<% end %>
-</table>
-<h1>Senators</h1>CHOOSE NOT MORE THAN TWELVE(12)<br /><br />
-<table><% i=1 %>
-<% Candidate.get_candidates("Senator", nil).each do |candidate| %>
-<%= show_multiple_candidates(candidate, i, "Senator") %>
-<% i+=1 %>
-<% end %>
-</table>
-<% unless user_province == "Metro Manila" %>
-<h1>Governor</h1>CHOOSE NOT MORE THAN ONE(1)<br /><br />
-<table><% i=1 %>
-<% Candidate.get_candidates("Governor", user_province).each do |candidate| %>
-<%= show_candidates(candidate, i, "Governor") %>
-<% i+=1 %>
-<% end %>
-</table>
-<h1>Vice Governor</h1>CHOOSE NOT MORE THAN ONE(1)<br /><br />
-<table><% i=1 %>
-<% Candidate.get_candidates("Vice Governor", user_province).each do |candidate| %>
-<%= show_candidates(candidate, i, "Vice Governor") %>
-<% i+=1 %>
-<% end %>
-</table>
-<% end %>
-<h1>Mayor</h1>CHOOSE NOT MORE THAN ONE(1)<br /><br />
-<table><% i=1 %>
-<% Candidate.get_candidates("Mayor", user_province).each do |candidate| %>
-<%= show_candidates(candidate, i, "Mayor") %>
-<% i+=1 %>
-<% end %>
-</table>
+<p>
+Welcome, admin.
+<%= link_to 'Logout', logout_path, :method => :delete, :action => :destroy %>
+</p>
+
+<p id="election_status">
+  Elections are currently <b>closed</b>.
+  <button>Open</button>
+</p>
+
+<div class="admin_panel grid_4">
+  <%= link_to 'Register Voter', new_admin_user_path if APP_CONFIG['election_status'].eql?('close') %>
+  <% link_to(admin_user_path(User.find 1)) do %>
+    Search for Voter
+    <input id="voter_id" type="text" value="Voter ID" />
+  <% end %>
+  <%= link_to 'View List of Voters', admin_users_path %>
+</div>
+
+<div class="admin_panel grid_4">
+  <%= link_to 'View List of Candidates', "/" %>
+  <%= link_to 'View Ballot Form', "/" %>
+  <%= link_to 'View Election Statistics', "/" %>
+</div>
+
+<div class="admin_panel grid_4">
+  <%= link_to 'Create New Administrator', new_admin_path %>
+  <%= link_to 'View Administrators', admins_path %>
+  <% unless current_admin.super_admin? %>
+    <%= link_to 'Deactivate Account', admin_path(current_admin), :method => :delete , :confirm => 'Are you sure you want to deactivate your account? You will be automatically logged out.' %>
+  <% else %>
+    <%= content_tag :div, 'Deactivate Account', :class => 'disabled' %>
+  <% end %>
 </div>
