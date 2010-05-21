@@ -89,4 +89,3 @@ class AdminsControllerTest < ActionController::TestCase
     end	
   end
 end
-

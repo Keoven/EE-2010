@@ -11,4 +11,3 @@ class Admin < ActiveRecord::Base
     id == 1
   end
 end
-

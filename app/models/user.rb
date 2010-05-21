@@ -44,6 +44,4 @@ class User < ActiveRecord::Base
     voted == true
   end
 
-
 end
-
