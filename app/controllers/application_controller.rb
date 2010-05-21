@@ -55,7 +55,7 @@ class ApplicationController < ActionController::Base
 
   def require_election_open
     unless APP_CONFIG['election_status'] == 'open'
-      flash[:notice] = 'Election is not yet open.'
+      flash[:notice] = 'Election is not open.'
       render :action => 'election_closed', :layout => 'election_closed'
       return false
     end

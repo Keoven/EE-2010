@@ -24,9 +24,24 @@ two:
   district_code: QZN1
   municipality_code: QZN
   provincial_code: MML
-  voter_id: MyString
+  voter_id: non_activated_voter
   birth_date: 2010-05-18
   email: MyString2@yahoo.com
   voted: false
   activated: false
+
+valid_voter:
+  first_name: MyString
+  middle_name: MyString
+  last_name: MyString
+  street_number: 1
+  street_name: MyString
+  district_code: ABR1
+  municipality_code: BNG
+  provincial_code: ABR
+  voter_id: activated_voter
+  birth_date: 2010-05-18
+  email: MyString@yahoo.com
+  voted: false
+  activated: true
 

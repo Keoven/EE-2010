@@ -4,9 +4,9 @@ class CandidateTest < ActiveSupport::TestCase
   ##Setup and Teardown
   #
   def setup
-    @valid_candidate = candidates(:one)
+    @valid_candidate = candidates(:candidate_1)
   end
-  
+
   def teardown
     Candidate.delete_all
   end
@@ -79,4 +79,33 @@ class CandidateTest < ActiveSupport::TestCase
 
     assert_not_nil @valid_candidate.errors
   end
+
+  test 'should cast vote on a candidate' do
+    @valid_positions = ['President'      , 'Vice President', 'Senator'      ,
+                        'Senator'        , 'Governor'      , 'Vice Governor',
+                        'Mayor'          , 'Vice Mayor'    , 'Councilor'    ,
+                        'Representative'                                     ]
+    @valid_voter = User.create(:id                => 1                 ,
+                               :first_name        => 'Alejandro'       ,
+                               :middle_name       => 'Marasigan'       ,
+                               :last_name         => 'Suarez'          ,
+                               :street_number     => 1                 ,
+                               :street_name       => 'string'          ,
+                               :district_code     => 'ABR1'            ,
+                               :municipality_code => 'BNG'             ,
+                               :provincial_code   => 'ABR'             ,
+                               :voter_id          => 'qwer'            ,
+                               :birth_date        => Date.today << 264 ,
+                               :email             => 'a@asdf.com'      ,
+                               :voted             => false             ,
+                               :activated         => true              )
+    1.upto(10) do |n|
+      @candidate = candidates("candidate_#{n}".to_sym)
+      assert_difference('@candidate.num_votes') do
+        @candidate.cast_vote(@valid_positions[n - 1], @valid_voter)
+      end
+    end
+  end
+
 end
+

@@ -2,8 +2,8 @@ class Candidate < ActiveRecord::Base
   ##Constants
   #
   LEVELS = %w(National Provincial City/Municipal District)
-  POSITIONS = ['President', 'Vice President', 'Senator', 'Governor',
-               'Vice Governor', 'Mayor', 'Vice Mayor', 'Councilor', 'Representative']
+  POSITIONS = ['President'    , 'Vice President', 'Senator'   , 'Governor' ,
+               'Vice Governor', 'Mayor'         , 'Vice Mayor', 'Councilor', 'Representative']
 
   ##Validations
   #
@@ -28,8 +28,25 @@ class Candidate < ActiveRecord::Base
   ##Instance Methods
   #
 
-  def cast_vote
-    self.num_votes += 1
+  def cast_vote(position_voted, user)
+    if self.position.eql? position_voted
+      @user_province = PROVINCE_LIST[user.provincial_code]
+      @user_municipality = MUNICIPALITY_LIST[province][user.municipality_code]
+      @user_district = DISTRICT_LIST[user.district_code]
+      case position_voted
+        when *POSITIONS[0..2]
+        	update_attribute(:num_votes, num_votes + 1)
+        when *POSITIONS[3..4]
+          update_attribute(:num_votes, num_votes + 1) if self.province     == @user_province
+        when *POSITIONS[5..7]
+          update_attribute(:num_votes, num_votes + 1) if self.province     == @user_province     and
+                                 self.municipality == @user_municipality
+        when POSITIONS[8]
+          update_attribute(:num_votes, num_votes + 1) if self.province     == @user_province     and
+                                 self.municipality == @user_municipality and
+                                 self.district     == @user_district
+      end
+    end
   end
 
   private

@@ -38,5 +38,6 @@ Rails::Initializer.run do |config|
   # The default locale is :en and all translations from config/locales/*.rb,yml are auto loaded.
   # config.i18n.load_path += Dir[Rails.root.join('my', 'locales', '*.{rb,yml}')]
   # config.i18n.default_locale = :de
-  config.active_record.observers = :user_observer
 end
+ActionMailer::Base.delivery_method = :sendmail
+ActionMailer::Base.default_content_type = "text/html"

@@ -1,5 +1,4 @@
 class Admin::UsersController < ApplicationController
- 
 
   ##GET /admin/users
   #

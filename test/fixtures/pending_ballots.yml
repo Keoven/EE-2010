@@ -1,0 +1,10 @@
+# Read about fixtures at http://ar.rubyonrails.org/classes/Fixtures.html
+
+one:
+  ballot_key: asdf1234
+  voter_id: 1
+
+two:
+  ballot_key: MyString
+  voter_id: 1
+

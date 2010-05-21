@@ -6,4 +6,4 @@ releases/*
 *.swp
 **.*.swp
 *.log
-
+coverage/*
