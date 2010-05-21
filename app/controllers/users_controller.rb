@@ -46,14 +46,14 @@ class UsersController < ApplicationController
   def ballot
     session[:action_accessed?] = true
     @ballot = PendingBallot.find(:first, :conditions => { :ballot_key => params[:code] })
-    redirect_to home_users_path if @ballot.nil?
+    redirect_to root_path if @ballot.nil?
   end
 
   def cast_ballot
     session[:action_accessed?] = true
     @user = User.find(:first,:conditions => { :voter_id => params[:voter_id] })
     unless @user.activated?
-      redirect_to home_users_path
+      redirect_to root_path
     else
       @ballot = params[:ballot]
       if @user.voted?

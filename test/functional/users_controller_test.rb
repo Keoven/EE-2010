@@ -48,7 +48,7 @@ class UsersControllerTest < ActionController::TestCase
     get :ballot, :code => 'asdf1234'
     assert_response :success
     get :ballot, :code => 'Invalid Code'
-    assert_redirected_to home_users_path
+    assert_redirected_to root_path
   end
 
   ## TODO:
@@ -65,7 +65,7 @@ class UsersControllerTest < ActionController::TestCase
                'Councilor'      =>     [9] ,
                'Representative' =>    [10] }
     put :cast_ballot, :voter_id => 'non_activated_voter', :ballot => ballot
-    assert_redirected_to home_users_path
+    assert_redirected_to root_path
     put :cast_ballot, :voter_id => 'activated_voter', :ballot => ballot
     assert_equal 10, Candidate.sum(:num_votes)
     assert_response :success
