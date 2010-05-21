@@ -38,9 +38,9 @@ class Candidate < ActiveRecord::Base
 
   def cast_vote(position_voted, user)
     if self.position.eql? position_voted
-      @user_province = PROVINCE_LIST[user.provincial_code]
-      @user_municipality = MUNICIPALITY_LIST[province][user.municipality_code]
-      @user_district = DISTRICT_LIST[user.district_code]
+      @user_province = PROVINCE_LIST.index(user.provincial_code)
+      @user_municipality = MUNICIPALITY_LIST[user.provincial_code].index(user.municipality_code)
+      @user_district = user.district_code.last.to_i
       case position_voted
         when *POSITIONS[0..2]
         	update_attribute(:num_votes, num_votes + 1)
@@ -48,11 +48,11 @@ class Candidate < ActiveRecord::Base
           update_attribute(:num_votes, num_votes + 1) if self.province     == @user_province
         when *POSITIONS[5..7]
           update_attribute(:num_votes, num_votes + 1) if self.province     == @user_province     and
-                                 self.municipality == @user_municipality
+                                                         self.municipality == @user_municipality
         when POSITIONS[8]
           update_attribute(:num_votes, num_votes + 1) if self.province     == @user_province     and
-                                 self.municipality == @user_municipality and
-                                 self.district     == @user_district
+                                                         self.municipality == @user_municipality and
+                                                         self.district     == @user_district
       end
     end
 

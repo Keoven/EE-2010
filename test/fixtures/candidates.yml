@@ -15,7 +15,7 @@ candidate_<%= i %>:
   level: level
   province: Abra
   municipality: Bangued
-  district: Abra
+  district: 1
   num_votes: 0
 <% end %>
 

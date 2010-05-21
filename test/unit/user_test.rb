@@ -18,10 +18,6 @@ class UserTest < ActiveSupport::TestCase
                            :email             => 'a@asdf.com'      ,
                            :voted             => true              ,
                            :activated         => true              )
-
-    ActionMailer::Base.delivery_method = :test
-    ActionMailer::Base.perform_deliveries = true
-    ActionMailer::Base.deliveries = []
   end
 
   def teardown
