@@ -70,6 +70,35 @@ th, td {
 .record_summary li {
   background-color: red;
 }
+.record_view p {
+  font-weight: bold;
+  font-size: 1.5em;
+}
+.record_view p em {
+  display: block;
+  font-style: normal;
+  font-size: 0.75em;
+  font-weight: normal;
+}
+.record_controls a {
+  font-weight: bold;
+  margin-right: 1em;
+  text-transform: uppercase;
+}
+form label {
+  display: block;
+  font-weight: normal;
+}
+form input,
+form select,
+form textarea {
+  font: bold 1.5em Helvetica, Arial, sans-serif;
+}
+form fieldset {
+  padding: 3px;
+  border-top: 1px solid #eee;
+  margin-bottom: 1em;
+}
 
 #wrapper p {
   padding: 5px;
