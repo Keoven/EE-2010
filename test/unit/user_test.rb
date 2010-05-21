@@ -24,7 +24,7 @@ class UserTest < ActiveSupport::TestCase
     User.delete_all
   end
 
-  ## Columns
+  ## COLUMNS
   #
   test "check column types" do
     assert @valid_user.first_name.is_a?(String)

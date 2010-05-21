@@ -34,14 +34,17 @@ class UsersControllerTest < ActionController::TestCase
   end
 
   test 'should activate account' do
-    @user = users(:one)
-    @param = { :birth_date => @user.birth_date ,
-               :email      => @user.email      ,
-               :voter_id   => @user.voter_id   }
-    get :activate, :user => @param
-    assert_equal 'User account activated!', flash[:notice]
-    get :activate, :user => @param
-    assert_equal 'User account already activated!', flash[:notice]
+    assert_difference('PendingBallot.all.size') do
+      @user = users(:one)
+      @param = { :birth_date => @user.birth_date ,
+                 :email      => @user.email      ,
+                 :voter_id   => @user.voter_id   }
+      get :activate, :user => @param
+      assert_equal 'User account activated!', flash[:notice]
+      assert !ActionMailer::Base.deliveries.empty?
+      get :activate, :user => @param
+      assert_equal 'User account already activated!', flash[:notice]
+    end
   end
 
   test 'should show ballot' do
