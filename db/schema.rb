@@ -50,11 +50,7 @@ ActiveRecord::Schema.define(:version => 20100521020314) do
     t.string   "last_name"
     t.integer  "street_number"
     t.string   "street_name"
-<<<<<<< HEAD
     t.string   "district_code"
-=======
-    t.integer  "district_code"
->>>>>>> 72b8a495096451ff5dbd85140b19f22a6ac8e34f
     t.string   "municipality_code"
     t.string   "provincial_code"
     t.string   "voter_id"
