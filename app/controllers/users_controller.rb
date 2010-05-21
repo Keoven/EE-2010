@@ -35,7 +35,7 @@ class UsersController < ApplicationController
       flash[:notice] = 'User account already activated!'
       render :text => 'You have already activated your account, please check your email. Click here to send the link to the ballot form to your email again.'
     else
-      @user.update_attribute(:activated, true)
+      @user.toggle!(:activated)
       key = generate_code
       PendingBallot.create(:ballot_key => key, :voter_id => @user.voter_id)
       flash[:notice] = 'User account activated!'
@@ -68,7 +68,7 @@ class UsersController < ApplicationController
             Candidate.find(id).cast_vote(key, @user)
           end
         end
-        @user.update_attribute(:voted, true)
+        @user.toggle!(:voted)
         PendingBallot.find(:first, :conditions => { :voter_id   => params[:voter_id],
                                                     :ballot_key => params[:code]      }).destroy
         flash[:notice] = 'Casting of ballot successful'
