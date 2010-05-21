@@ -1,0 +1,17 @@
+<% province_list = PROVINCE_LIST.sort %>
+
+<%= label :user, :provincial_code, "Province" %>
+<%= select :user, :provincial_code, province_list, {},
+    { :onchange => remote_function(
+        :url => { :action => 'list_municipalities', :controller => 'admin/users' },
+        :method => :get,
+        :with => "'province=' + $('user_provincial_code').value" ) } %>
+
+<span id="municipality_code_field">
+  <%= render(:partial => 'municipality_list', :locals => { :list => MUNICIPALITY_LIST[@user.provincial_code].sort }) unless @user.provincial_code.nil? %>
+</span>
+
+<span id="district_code_field">
+  <% district_list = generate_district_list(@user.provincial_code, @user.municipality_code) %>
+  <%= render(:partial => 'district_list', :locals => { :list => district_list }) unless @user.district_code.nil? %>
+</span>

@@ -17,20 +17,14 @@
 <% end %>
 <% field_set_tag 'Voter Details' do %>
   <%= form.label :voter_id %>
-  <%= form.text_field :voter_id %>
-  <!--%= button_to_function 'Generate' %--><br />
-  
-  <%= label :user, :district_code, "District" %>
-  <%= form.text_field :district_code %>
-  <!--TODO%= select :user, :district_code, DISTRICT_LIST.values %-->
-  
-  <%= label :user, :municipality_code, "City/Municipality" %>
-  <%= form.text_field :municipality_code %>
-  <!--TODO%= select :user, :municipality_code, MUNICIPALITY_LIST %-->
-  
-  <%= label :user, :provincial_code, "Province" %>
-  <%= form.text_field :provincial_code %>
-  <!--TODO%= select :user, :provincial_code, PROVINCE_LIST.values.sort %-->
+
+  <% if @user.voter_id.nil? %>
+    <%= form.text_field :voter_id, :value => generated_id %>
+  <% else %>
+    <%= form.text_field :voter_id, :disabled => 'disabled' %>
+  <% end %>
+
+  <%= render :partial => 'location_code' %>
 <% end %>
 <p>
   <%= form.label :birth_date %><br />

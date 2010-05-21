@@ -3,7 +3,7 @@
 <% form_for(@user, :url => admin_users_path) do |f| %>
 
   <%= f.error_messages %>
-  <%= render :partial => "form", :locals => {:form => f} %>
+  <%= render :partial => "form", :locals => {:form => f, :generated_id => generate_id} %>
   <p>
     <%= f.submit 'Register' %>
   </p>

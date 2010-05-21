@@ -13,7 +13,7 @@ ActionController::Routing::Routes.draw do |map|
 
 
   map.namespace :admin do |admin|
-    admin.resources :users
+    admin.resources :users, :collection => {:list_municipalities => :get, :list_districts => :get}
   end
 
   map.login        '/admin/login'       , :controller => 'admin_sessions', :action => 'new'
