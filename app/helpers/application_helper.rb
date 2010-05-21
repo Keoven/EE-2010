@@ -10,6 +10,11 @@ module ApplicationHelper
     return code
   end
 
+  def valid_email(email)
+    return true if !Admin.exists?(:email => email)                          and
+                    email =~  /\A([^@\s]+)@((?:[-a-z0-9]+\.)+[a-z]{2,})\Z/i
+  end
+
   def format_name(user, options={})
     {:initial_first => false, :last_name_first => false}.merge!(options)
 
