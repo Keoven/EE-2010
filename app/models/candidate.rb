@@ -25,8 +25,16 @@ class Candidate < ActiveRecord::Base
     POSITIONS
   end
 
+  def self.get_candidates(position)
+    Candidate.find_all_by_position("#{position}", :order => "last_name")
+  end
+
   ##Instance Methods
   #
+
+  def full_name
+    "#{last_name}, #{first_name} #{middle_name}"
+  end
 
   def cast_vote(position, user)
     case position
