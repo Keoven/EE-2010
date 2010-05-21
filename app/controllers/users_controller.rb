@@ -36,6 +36,8 @@ class UsersController < ApplicationController
       render :text => 'You have already activated your account, please check your email. Click here to send the link to the ballot form to your email again.'
     else
       @user.update_attribute(:activated, true)
+      key = generate_code
+      PendingBallot.create(:ballot_key => key, :voter_id => @user.voter_id)
       flash[:notice] = 'User account activated!'
       render :text => 'Thank you. An email had been sent to your account that contains the link to your ballot form.'
     end
