@@ -16,8 +16,6 @@ ActionController::Routing::Routes.draw do |map|
   map.logout       '/admin/logout'      , :controller => 'admin_sessions', :action => 'destroy'
   map.auth_login   '/admin/authenticate', :controller => 'admin_sessions', :action => 'create'
 
-  map.sendmail 	   '/sendmail'		, :controller => 'user_mailer'	 , :action => 'sendmail'
-
   map.root :controller => 'users', :action => 'home'
 
   # The priority is based upon order of creation: first created -> highest priority.
