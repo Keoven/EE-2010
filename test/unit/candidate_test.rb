@@ -66,6 +66,18 @@ class CandidateTest < ActiveSupport::TestCase
     @valid_candidate.level = 'National'
     @valid_candidate.position = 'Representative'
     @valid_candidate.save
+    
+    @valid_candidate.level = 'Provincial'
+    @valid_candidate.position = 'Councilor'
+    @valid_candidate.save
+    
+    @valid_candidate.level = 'City/Municipal'
+    @valid_candidate.position = 'President'
+    @valid_candidate.save
+    
+    @valid_candidate.level = 'District'
+    @valid_candidate.position = 'President'
+    @valid_candidate.save
 
     assert_not_nil @valid_candidate.errors
   end
