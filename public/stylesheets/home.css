@@ -1,0 +1,31 @@
+#wrapper {
+  font-size: 3em;
+  font-weight: bold;
+  text-align: center;
+  background-color: #333;
+  color: #999;
+  height: 540px;
+  min-height: 0;
+}
+#wrapper h2 {
+  font-size: inherit;
+  margin-bottom: 1em;
+}
+#wrapper a {
+  font-size: 1.25em;
+  color: #fff;
+  padding: 0.5em;
+  padding-left: 70px;
+  text-decoration: none;
+  text-shadow: 0 -1px 0 #333;
+  line-height: 1em;
+  border-bottom: 1px solid #111;
+  border-top: 1px solid #444;
+  display: block;
+  width: 710px;
+  margin: 0 auto;
+  text-align: left;
+}
+#wrapper a:hover {
+  background: #393939;
+}

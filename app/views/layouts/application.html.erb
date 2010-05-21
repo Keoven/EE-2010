@@ -24,14 +24,14 @@
 <body>
   <div id="header">
     <div class="container_12">
+      <% link_to dashboard_admins_path do %>
       <h1 class="grid_4">
         <%= image_tag "logo.png", :alt => "Exist Elections 2010" %>
       </h1>
+      <% end %>
       
       <div class="menu grid_8">
-        SIDEBAR
-        <div id="login-panel">
-        </div>
+        <%= render :partial => 'layouts/login_panel' unless current_admin.nil? %>
       </div><!--menu-->
     </div>
   </div><!--header-->
@@ -45,11 +45,15 @@
   <div id="footer">
     <div class="container_12">
       <p id="copyright" class="grid_6">
-        copyright 2010 Exist Software Labs, Inc.
+        &copy;2010 Exist Software Labs, Inc.<br />
+        <span style="color: #666">
+        Developed by Nelvin Driz, Gillian Dugay,<br />
+        Kaisel Molina, Amboy Suarez
+        </span>
       </p>
-      <a id="credits" class="grid_6" href="http://vectorart.org">
-        Para sa Bayan
-      </a>
+      <div id="credits" class="grid_6">
+      <%= link_to image_tag('rails.png', :alt => "Developed on Rails"), 'http://rubyonrails.org/', :target => '_blank' %>
+      </div>
     </div>
   </div><!--footer-->
 </body>
