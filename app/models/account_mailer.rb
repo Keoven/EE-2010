@@ -1,4 +1,4 @@
-class UserMailer < ActionMailer::Base
+class AccountMailer < ActionMailer::Base
   def voter_approval(user)
     @recipients    = user.email
     @from          = "Exist Administrator <asuarez@g2ix.net>"

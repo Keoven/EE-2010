@@ -5,13 +5,13 @@
                          'Mayor'          , 'Vice Mayor'    , 'Councilor'    ,
                          'Representative'                                     ] %>
 
-<% 1.upto(9) do |i| %>
+<% 1.upto(10) do |i| %>
 candidate_<%= i %>:
   id: <%= i %>
   first_name: fname_<%= i %>
   middle_name: mname_<%= i %>
   last_name: lname_<%= i %>
-  position: <%= CANDIDATE_POSITION[i] %>
+  position: <%= CANDIDATE_POSITION[i - 1] %>
   level: level
   province: Abra
   municipality: Bangued

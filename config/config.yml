@@ -1,39 +1,39 @@
 development:
   election_status: close
   positions:
-    president: 1
-    vice_president: 1
-    senator: 12
-    governor: 1
-    vice_governor: 1
-    mayor: 1
-    vice_mayor: 1
-    councilor: 6
-    representative: 1
+    'President': 1
+    'Vice President': 1
+    'Senator': 12
+    'Governor': 1
+    'Vice Governor': 1
+    'Mayor': 1
+    'Vice Mayor': 1
+    'Councilor': 6
+    'Representative': 1
 
 test:
   election_status: close
   positions:
-    president: 1
-    vice_president: 1
-    senator: 12
-    governor: 1
-    vice_governor: 1
-    mayor: 1
-    vice_mayor: 1
-    councilor: 6
-    representative: 1
+    'President': 1
+    'Vice President': 1
+    'Senator': 12
+    'Governor': 1
+    'Vice Governor': 1
+    'Mayor': 1
+    'Vice Mayor': 1
+    'Councilor': 6
+    'Representative': 1
 
 production:
   election_status: close
   positions:
-    president: 1
-    vice_president: 1
-    senator: 12
-    governor: 1
-    vice_governor: 1
-    mayor: 1
-    vice_mayor: 1
-    councilor: 6
-    representative: 1
+    'President': 1
+    'Vice President': 1
+    'Senator': 12
+    'Governor': 1
+    'Vice Governor': 1
+    'Mayor': 1
+    'Vice Mayor': 1
+    'Councilor': 6
+    'Representative': 1
 

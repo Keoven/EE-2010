@@ -48,23 +48,27 @@ class UsersControllerTest < ActionController::TestCase
     get :ballot, :code => 'asdf1234'
     assert_response :success
     get :ballot, :code => 'Invalid Code'
-    assert_redirected_to home_users_path
+    assert_redirected_to root_path
   end
 
   ## TODO:
   #  Finish cast ballot test.
 
   test 'should cast ballot' do
-    put :cast_ballot, :voter_id => 1234, :ballot => { :president      =>     [1] ,
-                                                      :vice_president =>     [2] ,
-                                                      :senator        =>  [3, 4] ,
-                                                      :governor       =>     [5] ,
-                                                      :vice_governor  =>     [6] ,
-                                                      :mayor          =>     [7] ,
-                                                      :vice_mayor     =>     [8] ,
-                                                      :councilor      =>     [9] ,
-                                                      :representative =>    [10] }
-
+    ballot = { 'President'      =>     [1] ,
+               'Vice President' =>     [2] ,
+               'Senator'        =>  [3, 4] ,
+               'Governor'       =>     [5] ,
+               'Vice Governor'  =>     [6] ,
+               'Mayor'          =>     [7] ,
+               'Vice Mayor'     =>     [8] ,
+               'Councilor'      =>     [9] ,
+               'Representative' =>    [10] }
+    put :cast_ballot, :voter_id => 'non_activated_voter', :ballot => ballot
+    assert_redirected_to root_path
+    put :cast_ballot, :voter_id => 'activated_voter', :ballot => ballot
+    assert_equal 10, Candidate.sum(:num_votes)
+    assert_response :success
   end
 end
 

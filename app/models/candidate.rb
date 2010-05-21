@@ -43,14 +43,14 @@ class Candidate < ActiveRecord::Base
       @user_district = DISTRICT_LIST[user.district_code]
       case position_voted
         when *POSITIONS[0..2]
-        	self.num_votes += 1
+        	update_attribute(:num_votes, num_votes + 1)
         when *POSITIONS[3..4]
-          self.num_votes += 1 if self.province     == @user_province
+          update_attribute(:num_votes, num_votes + 1) if self.province     == @user_province
         when *POSITIONS[5..7]
-          self.num_votes += 1 if self.province     == @user_province     and
+          update_attribute(:num_votes, num_votes + 1) if self.province     == @user_province     and
                                  self.municipality == @user_municipality
         when POSITIONS[8]
-          self.num_votes += 1 if self.province     == @user_province     and
+          update_attribute(:num_votes, num_votes + 1) if self.province     == @user_province     and
                                  self.municipality == @user_municipality and
                                  self.district     == @user_district
       end

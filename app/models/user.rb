@@ -3,7 +3,7 @@ class User < ActiveRecord::Base
   ##Callback
   #
   after_create do |user|
-    UserMailer.deliver_voter_approval(user)
+    AccountMailer.deliver_voter_approval(user)
     #return if request.xhr?
     #flash[:notice] => 'A message has been sent successfully to the new voter of his/her registration'
   end
