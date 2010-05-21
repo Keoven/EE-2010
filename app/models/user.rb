@@ -7,7 +7,7 @@ class User < ActiveRecord::Base
     #return if request.xhr?
     #flash[:notice] => 'A message has been sent successfully to the new voter of his/her registration'
   end
-  
+
   ##Validations
   #
   validates_presence_of [ :first_name, :middle_name, :last_name,

@@ -9,7 +9,7 @@
 #
 # It's strongly recommended to check this file into your version control system.
 
-ActiveRecord::Schema.define(:version => 20100521020314) do
+ActiveRecord::Schema.define(:version => 20100521070047) do
 
   create_table "admins", :force => true do |t|
     t.string   "login"
@@ -34,7 +34,7 @@ ActiveRecord::Schema.define(:version => 20100521020314) do
     t.datetime "updated_at"
     t.string   "province"
     t.string   "municipality"
-    t.string   "district"
+    t.integer  "district"
   end
 
   create_table "pending_ballots", :force => true do |t|

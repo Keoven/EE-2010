@@ -21,7 +21,7 @@ class CandidateTest < ActiveSupport::TestCase
     assert @valid_candidate.level.is_a?(String)
     assert @valid_candidate.province.is_a?(String)
     assert @valid_candidate.municipality.is_a?(String)
-    assert @valid_candidate.district.is_a?(String)
+    assert @valid_candidate.district.is_a?(Integer)
     assert @valid_candidate.num_votes.is_a?(Integer)
   end
 
