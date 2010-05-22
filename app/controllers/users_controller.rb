@@ -1,7 +1,8 @@
 class UsersController < ApplicationController
   ##Hooks/Callbacks
   #
-  before_filter :require_election_open
+  before_filter :require_election_open, :except => :election_closed
+  before_filter :require_election_close, :except => :home
 
   ## ACTIONS
   #

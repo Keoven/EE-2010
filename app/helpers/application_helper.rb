@@ -41,7 +41,7 @@ module ApplicationHelper
     str = "#{address[:street_number]} #{address[:street_name]}, "
     str << content_tag(:span, municipality, :title => address[:municipality_code], :class => 'address_code') << ", "
     str << content_tag(:span, province, :title => address[:provincial_code], :class => 'address_code')
-    str << content_tag(:span, '(#{district})', :title => address[:district_code], :class => 'address_code') unless district.nil?
+    str << content_tag(:span, "(#{district})", :title => address[:district_code], :class => 'address_code') unless district.nil?
     
     return str
   end
