@@ -2,7 +2,7 @@
   font-size: 3em;
   font-weight: bold;
   text-align: center;
-  background-color: #333;
+  background-color: #222;
   color: #999;
   height: 540px;
   min-height: 0;
@@ -11,21 +11,27 @@
   font-size: inherit;
   margin-bottom: 1em;
 }
-#wrapper a {
+#wrapper a.action_wide {
   font-size: 1.25em;
+  background-color: #292929;
   color: #fff;
   padding: 0.5em;
   padding-left: 70px;
   text-decoration: none;
-  text-shadow: 0 -1px 0 #333;
+  text-shadow: 0 -1px 0 #222;
   line-height: 1em;
+  border: 1px solid #444;
   border-bottom: 1px solid #111;
-  border-top: 1px solid #444;
   display: block;
   width: 710px;
   margin: 0 auto;
+  margin-top: 0.5em;
   text-align: left;
+  border-radius: 5px;
 }
-#wrapper a:hover {
-  background: #393939;
+#wrapper a.action_wide:visited {
+  background: #292929 url('../images/check.png') no-repeat 10px center;
+}
+#wrapper a.action_wide:hover {
+  background-color: #444;
 }

@@ -1,12 +1,12 @@
 <div class="grid_6">
 <% field_set_tag 'Name' do %>
-  <%= form.label :last_name %>
+  <%= form.label :last_name, {}, :class => 'required' %>
   <%= form.text_field :last_name %>
   
-  <%= form.label :first_name %>
+  <%= form.label :first_name, {}, :class => 'required' %>
   <%= form.text_field :first_name %>
   
-  <%= form.label :middle_name %>
+  <%= form.label :middle_name, {}, :class => 'required' %>
   <%= form.text_field :middle_name %>
 <% end %>
 <% field_set_tag 'Address' do %>
@@ -19,12 +19,12 @@
 </div>
 <div class="grid_6">
 <% field_set_tag 'Voter Details' do %>
-  <%= form.label :voter_id %>
+  <%= form.label :voter_id, 'Voter ID', :class => 'required' %>
 
   <% if @user.voter_id.nil? %>
-    <%= form.text_field :voter_id, :value => generate_code %>
+    <%= form.text_field :voter_id, :value => generate_code, :readonly => 'readonly' %>
   <% else %>
-    <%= form.text_field :voter_id, :disabled => 'disabled' %>
+    <%= form.text_field :voter_id, :readonly => 'readonly' %>
   <% end %>
 
   <%= render :partial => 'location_code' %>

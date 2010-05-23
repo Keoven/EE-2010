@@ -13,7 +13,7 @@ module ApplicationHelper
   def election_status_button
     case APP_CONFIG['election_status']
       when 'close'
-        button_to_remote 'Open', :update => 'election_status',
+        button_to_remote 'Open', :update => 'election_status'
         return 'Open'
       when 'open'
         return 'Close'

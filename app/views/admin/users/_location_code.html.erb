@@ -8,10 +8,20 @@
         :with => "'province=' + $('user_provincial_code').value" ) } %>
 
 <span id="municipality_code_field">
-  <%= render(:partial => 'municipality_list', :locals => { :list => MUNICIPALITY_LIST[@user.provincial_code].sort }) unless @user.provincial_code.nil? %>
+  <% unless @user.provincial_code.nil? %>
+    <%= render(:partial => 'municipality_list', :locals => { :list => MUNICIPALITY_LIST[@user.provincial_code].sort }) %>
+  <% else %>
+    <%= render(:partial => 'municipality_list', :locals => { :list => MUNICIPALITY_LIST[PROVINCE_LIST.sort.first[1]].sort }) %>
+  <% end %>
 </span>
 
 <span id="district_code_field">
-  <% district_list = generate_district_list(@user.provincial_code, @user.municipality_code) %>
-  <%= render(:partial => 'district_list', :locals => { :list => district_list }) unless @user.district_code.nil? %>
+  <% unless @user.provincial_code.nil? and @user.municipality_code.nil? %>
+    <% district_list = generate_district_list(@user.provincial_code, @user.municipality_code) %>
+  <% else %>
+    <% district_list = generate_district_list(PROVINCE_LIST.sort.first[1],
+        MUNICIPALITY_LIST[PROVINCE_LIST.sort.first[1]].sort.first[1]) %>
+  <% end %>
+  
+  <%= render(:partial => 'district_list', :locals => { :list => district_list }) %>
 </span>

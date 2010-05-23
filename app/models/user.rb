@@ -27,6 +27,10 @@ class User < ActiveRecord::Base
   def full_name
     return "#{first_name.capitalize} #{middle_name.slice(0).chr.capitalize}. #{last_name.capitalize}"
   end
+  
+  def middle_initial
+    return self.middle_name[0].chr
+  end
 
   def complete_address
     return { :street_number => self.street_number, :street_name => self.street_name, :district_code => self.district_code, :municipality_code => self.municipality_code, :provincial_code => self.provincial_code }

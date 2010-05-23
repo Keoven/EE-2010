@@ -16,7 +16,16 @@ class AdminsController < ApplicationController
   ##GET /admins
   #
   def index
-    @admins = Admin.all
+    @admins = Admin.paginate :page => params[:page], :per_page => 10
+    
+    respond_to do |format|
+      format.html
+      format.js {
+        render :update do |page|
+          page.replace 'admin_records', :partial => 'records'
+        end
+      }
+    end
   end
 
   ##POST /admins
