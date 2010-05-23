@@ -30,10 +30,13 @@
   <%= render :partial => 'location_code' %>
 <% end %>
 <% field_set_tag 'For Verification' do %>
-  <%= form.label :birth_date %>
-  <%= date_select :user, :birth_date, :start_year => Time.now.year - 100, :end_year => Time.now.year - 17, :default => Time.now, :order => [:month, :day, :year] %>
+  <%= form.label :birth_date, {}, :class => 'required' %>
+  <%= date_select :user, :birth_date, :start_year => Time.now.year - 100,
+                                      :end_year => Time.now.year - 17,
+                                      :default => Time.now,
+                                      :order => [:month, :day, :year] %>
 
-  <%= form.label :email %>
+  <%= form.label :email, {}, :class => 'required' %>
   <%= form.text_field :email %>
 <% end %>
 </div>

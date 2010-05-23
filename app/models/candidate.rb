@@ -14,6 +14,18 @@ class Candidate < ActiveRecord::Base
   validate :votes_should_not_be_negative
   validate :level_and_position_should_match
   validate :location_should_match_level
+  
+  ##Named scopes
+  #
+  named_scope :for_president,      :conditions => {:position => 'President'}
+  named_scope :for_vice_president, :conditions => {:position => 'Vice President'}
+  named_scope :for_senator,        :conditions => {:position => 'Senator'}
+  named_scope :for_governor,       :conditions => {:position => 'Governor'}
+  named_scope :for_vice_governor,  :conditions => {:position => 'Vice Governor'}
+  named_scope :for_mayor,          :conditions => {:position => 'Mayor'}
+  named_scope :for_vice_mayor,     :conditions => {:position => 'Vice Mayor'}
+  named_scope :for_councilor,      :conditions => {:position => 'Councilor'}
+  named_scope :for_representative, :conditions => {:position => 'Representative'}
 
   ##Class Methods
   #
@@ -27,6 +39,10 @@ class Candidate < ActiveRecord::Base
 
   ##Instance Methods
   #
+  
+  def middle_initial
+    self.middle_name[0].chr
+  end
 
   def cast_vote(position_voted, user)
     if self.position.eql? position_voted
