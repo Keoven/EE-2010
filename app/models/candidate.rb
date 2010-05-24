@@ -2,9 +2,8 @@ class Candidate < ActiveRecord::Base
   ##Constants
   #
   LEVELS = %w(National Provincial City/Municipal District)
-  POSITIONS = ['President', 'Vice President', 'Senator',
-               'Governor' , 'Vice Governor' , 'Mayor'  , 'Vice Mayor',
-               'Councilor', 'Representative']
+  POSITIONS = ['President'    , 'Vice President', 'Senator'   , 'Governor' ,
+               'Vice Governor', 'Mayor'         , 'Vice Mayor', 'Councilor', 'Representative']
 
   ##Validations
   #
@@ -48,40 +47,20 @@ class Candidate < ActiveRecord::Base
   def self.positions
     POSITIONS
   end
-  
-  def self.position_filters
-    filters = []
-    
-    POSITIONS.each do |position|
-      filter_pair = {}
-      filter_pair[:scope] = "for_#{position.gsub(' ', '').underscore}"
-      filter_pair[:label] = position
-      
-      filters << filter_pair
-    end
-    
-    return filters
+  def self.get_candidates(position, province, municipality, district)
+    Candidate.find_all_by_position("#{position}",  :conditions => {:province => province, :municipality => municipality, :district => district} ,:order => "last_name")
   end
 
-
-  def self.filtered(position, province, municipality, district)
-    Candidate.find :all, :conditions => {:position => position,
-                                         :province => province,
-                                         :municipality => municipality,
-                                         :district => district}
-  end
 
   ##Instance Methods
   #
-  def full_name
-    name = "#{last_name}, #{first_name}"
-    name << " #{middle_name.first}." unless middle_name.nil?
-    
-    return name
-  end
   
+  def full_name
+    "#{last_name}, #{first_name} #{middle_name}"
+  end
+
   def middle_initial
-    return middle_name.nil? ? "" : middle_name.first
+    self.middle_name[0].chr
   end
 
   def cast_vote(position_voted, user)
@@ -138,4 +117,3 @@ class Candidate < ActiveRecord::Base
     end
   end
 end
-
