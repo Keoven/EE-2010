@@ -1,4 +1,3 @@
-# Methods added to this helper will be available to all templates in the application.
 module ApplicationHelper
 
   def generate_code(length=12)
@@ -62,6 +61,7 @@ module ApplicationHelper
 
     return str
   end
+
   def show_candidates(candidate, i, position)
     case i.%(3)
     when 1
@@ -72,6 +72,7 @@ module ApplicationHelper
         "<td>#{radio_button_tag position, candidate.id}#{i}. #{candidate.full_name}</td></tr>"
     end
   end
+
   def show_multiple_candidates(candidate, i, position)
     case i.%(3)
     when 1
@@ -83,3 +84,4 @@ module ApplicationHelper
     end
   end
 end
+
