@@ -63,8 +63,22 @@ class UsersController < ApplicationController
   def ballot
     session[:action_accessed?] = true
     @ballot = PendingBallot.find(:first, :conditions => { :ballot_key => params[:code] })
+    @user = User.find(:first, :conditions => { :voter_id => @ballot.voter_id })
+    @user_province = PROVINCE_LIST.index(@user.provincial_code)
+    @user_municipality = MUNICIPALITY_LIST[@user.provincial_code].index(@user.municipality_code)
+    @user_district = @user.district_code.last.to_i
     redirect_to root_path if @ballot.nil?
   end
+
+{ 'President'      =>     [1] ,
+                 'Vice President' =>     [2] ,
+                 'Senator'        =>  [3, 4] ,
+                 'Governor'       =>     [5] ,
+                 'Vice Governor'  =>     [6] ,
+                 'Mayor'          =>     [7] ,
+                 'Vice Mayor'     =>     [8] ,
+                 'Councilor'      =>     [9] ,
+                 'Representative' =>    [10] }
 
   def cast_ballot
     session[:action_accessed?] = true
@@ -72,11 +86,26 @@ class UsersController < ApplicationController
     unless @user.activated?
       redirect_to root_path
     else
-      @ballot = params[:ballot]
       if @user.voted?
         flash[:notice] = 'User already voted!'
         render :text => 'You have already casted your vote.'
       else
+        @ballot ||= {}
+        params.each do |position, value|
+          @ballot[position] ||= []
+          if value.is_a?(String) 
+            @ballot[position] << value
+          else
+            value.each do |id, value|
+              @ballot[position] << id if value == '1'
+            end
+          end
+        end
+        p '----------------------------------------'
+        @ballot.reject! {|key, value| Candidate::POSITIONS.include?(key) ? false : true}
+        p '----------------------------------------'
+        p @ballot
+        
         @ballot.each do |key, value|
           raise 'InvalidBallot: Impossible to happen in normal usage.' unless value.size <= APP_CONFIG['positions'][key]
           value.each do |id|

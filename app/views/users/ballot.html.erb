@@ -1,7 +1,5 @@
-<% user_province = "Laguna"; user_municipality = "San Pedro"; user_district = "1" %>
-<!--                  -->
 <h2>Official Ballot</h2>
-<% form_tag({:controller => "users", :action => "cast_ballot"}, :voter_id => "IF3E7AQ293QP" ) do %>
+<% form_for(:ballot, :url => {:controller => "users", :action => "cast_ballot", :voter_id => @user.voter_id, :code => @ballot.ballot_key }) do |f| %>
   <h1>Presidents</h1>CHOOSE NOT MORE THAN ONE(1)<br /><br />
   <table>
     <% i=1 %>
@@ -26,11 +24,11 @@
     <% i+=1 %>
   <% end %>
   </table>
-  <% unless user_province == "Metro Manila" %>
+  <% unless @user_province == "Metro Manila" %>
     <h1>Governor</h1>CHOOSE NOT MORE THAN ONE(1)<br /><br />
     <table>
     <% i=1 %>
-    <% Candidate.get_candidates("Governor", user_province, nil, nil).each do |candidate| %>
+    <% Candidate.get_candidates("Governor", @user_province, nil, nil).each do |candidate| %>
       <%= show_candidates(candidate, i, "Governor") %>
       <% i+=1 %>
     <% end %>
@@ -38,7 +36,7 @@
     <h1>Vice Governor</h1>CHOOSE NOT MORE THAN ONE(1)<br /><br />
     <table>
     <% i=1 %>
-    <% Candidate.get_candidates("Vice Governor", user_province, nil, nil).each do |candidate| %>
+    <% Candidate.get_candidates("Vice Governor", @user_province, nil, nil).each do |candidate| %>
       <%= show_candidates(candidate, i, "Vice Governor") %>
       <% i+=1 %>
     <% end %>
@@ -47,7 +45,7 @@
   <h1>Mayor</h1>CHOOSE NOT MORE THAN ONE(1)<br /><br />
   <table>
   <% i=1 %>
-  <% Candidate.get_candidates("Mayor", user_province, user_municipality, nil).each do |candidate| %>
+  <% Candidate.get_candidates("Mayor", @user_province, @user_municipality, nil).each do |candidate| %>
     <%= show_candidates(candidate, i, "Mayor") %>
     <% i+=1 %>
   <% end %>
@@ -55,7 +53,7 @@
   <h1>Vice Mayor</h1>CHOOSE NOT MORE THAN ONE(1)<br /><br />
   <table>
   <% i=1 %>
-  <% Candidate.get_candidates("Vice Mayor", user_province, user_municipality, nil).each do |candidate| %>
+  <% Candidate.get_candidates("Vice Mayor", @user_province, @user_municipality, nil).each do |candidate| %>
     <%= show_candidates(candidate, i, "Vice Mayor") %>
     <% i+=1 %>
   <% end %>
@@ -63,7 +61,7 @@
   <h1>Councilors</h1>CHOOSE NOT MORE THAN SIX(6)<br /><br />
   <table>
   <% i=1 %>
-  <% Candidate.get_candidates("Councilor", user_province, user_municipality, nil).each do |candidate| %>
+  <% Candidate.get_candidates("Councilor", @user_province, @user_municipality, nil).each do |candidate| %>
     <%= show_multiple_candidates(candidate, i, "Councilor") %>
     <% i+=1 %>
   <% end %>
@@ -71,7 +69,7 @@
   <h1>Representative</h1>CHOOSE NOT MORE THAN ONE(1)<br /><br />
   <table>
   <% i=1 %>
-  <% Candidate.get_candidates("Representative", user_province, user_municipality, user_district).each do |candidate| %>
+  <% Candidate.get_candidates("Representative", @user_province, @user_municipality, @user_district).each do |candidate| %>
     <%= show_candidates(candidate, i, "Representative") %>
     <% i+=1 %>
   <% end %>
@@ -79,5 +77,5 @@
   <br/>
   <br/>
   <br/>
-  <%= submit_tag "Finish" %>
+  <%= f.submit "Finish" %>
 <% end %>
