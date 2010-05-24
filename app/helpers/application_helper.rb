@@ -28,8 +28,8 @@ module ApplicationHelper
   end
 
   def valid_email(email)
-    return true if !Admin.exists?(:email => email)                        and   ## no two admin can have the same email
-                   email =~  /\A([^@\s]+)@((?:[-a-z0-9]+\.)+[a-z]{2,})\Z/i
+    return true if !Admin.exists?(:email => email)                          and
+                    email =~  /\A([^@\s]+)@((?:[-a-z0-9]+\.)+[a-z]{2,})\Z/i
   end
 
   def format_name(user, options={})
@@ -62,5 +62,27 @@ module ApplicationHelper
 
     return str
   end
+  def show_candidates(candidate, i, position)
+    case i.%(3)
+    when 1
+        "<tr><td>#{radio_button_tag position, candidate}#{i}. #{candidate.full_name}</td>"
+    when 2
+        "<td>#{radio_button_tag position, candidate}#{i}. #{candidate.full_name}</td>"
+    when 0
+        "<td>#{radio_button_tag position, candidate}#{i}. #{candidate.full_name}</td></tr>"
+    end
+  end
+  def show_multiple_candidates(candidate, i, position)
+    case i.%(3)
+    when 1
+        "<tr><td>#{check_box position, candidate}#{i}. #{candidate.full_name}</td>"
+    when 2
+        "<td>#{check_box position, candidate}#{i}. #{candidate.full_name}</td>"
+    when 0
+        "<td>#{check_box position, candidate}#{i}. #{candidate.full_name}</td></tr>"
+    end
+  end
+  def show_results(candidate, i)
+        "<tr><td>#{i}. #{candidate.full_name}</td><td>#{candidate.num_votes}</td></tr>"
+  end
 end
-

@@ -7,13 +7,13 @@ class Candidate < ActiveRecord::Base
 
   ##Validations
   #
-  validates_presence_of  :first_name, 		      :message => 'required'
-  validates_presence_of  :last_name, 		      :message => 'required'
-  validates_inclusion_of :level,    :in => LEVELS,    :message => 'not in list'
+  validates_presence_of :first_name, :message => 'required'
+  validates_presence_of :last_name, :message => 'required'
+  validates_inclusion_of :level, :in => LEVELS, :message => 'not in list'
   validates_inclusion_of :position, :in => POSITIONS, :message => 'not in list'
-  validate 		 :votes_should_not_be_negative
-  validate 		 :level_and_position_should_match
-  validate 		 :location_should_match_level
+  validate :votes_should_not_be_negative
+  validate :level_and_position_should_match
+  validate :location_should_match_level
   
   ##Named scopes
   #
@@ -36,10 +36,18 @@ class Candidate < ActiveRecord::Base
   def self.positions
     POSITIONS
   end
+  def self.get_candidates(position, province, municipality, district)
+    Candidate.find_all_by_position("#{position}",  :conditions => {:province => province, :municipality => municipality, :district => district} ,:order => "last_name")
+  end
+
 
   ##Instance Methods
   #
   
+  def full_name
+    "#{last_name}, #{first_name} #{middle_name}"
+  end
+
   def middle_initial
     self.middle_name[0].chr
   end
@@ -98,4 +106,3 @@ class Candidate < ActiveRecord::Base
     end
   end
 end
-
