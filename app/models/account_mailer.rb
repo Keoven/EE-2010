@@ -4,7 +4,7 @@ class AccountMailer < ActionMailer::Base
 
   def voter_approval(user)
     recipients     user.email
-    from           "Exist Elections"
+    from           "Exist Elections <asuarez@g2ix.net>"
     subject        "Welcome to Exist Elections 2010"
     sent_on        Time.now
     content_type   'multipart/related; type=text/html'
@@ -13,7 +13,7 @@ class AccountMailer < ActionMailer::Base
     :body => render_message('voter_approval',:user => user, :date => Date.today.year)
 
      inline_attachment :content_type => "image/png",
-    :body => File.read("#{RAILS_ROOT}/public/images/logo.png"),
+    :body => File.read("#{RAILS_ROOT}/public/images/logo-wshadow.png"),
     :filename => "logo.png"
 
   end
@@ -34,7 +34,7 @@ class AccountMailer < ActionMailer::Base
                                                                        :code       => key                ))
 
     inline_attachment :content_type => "image/png",
-    :body => File.read("#{RAILS_ROOT}/public/images/logo.png"),
+    :body => File.read("#{RAILS_ROOT}/public/images/logo-wshadow.png"),
     :filename => "logo.png"
   end
 end

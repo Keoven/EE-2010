@@ -63,11 +63,11 @@ class UsersController < ApplicationController
   def ballot
     session[:action_accessed?] = true
     @ballot = PendingBallot.find(:first, :conditions => { :ballot_key => params[:code] })
+    redirect_to root_path if @ballot.nil?
     @user = User.find(:first, :conditions => { :voter_id => @ballot.voter_id })
     @user_province = PROVINCE_LIST.index(@user.provincial_code)
     @user_municipality = MUNICIPALITY_LIST[@user.provincial_code].index(@user.municipality_code)
     @user_district = @user.district_code.last.to_i
-    redirect_to root_path if @ballot.nil?
   end
 
   def cast_ballot
@@ -90,14 +90,12 @@ class UsersController < ApplicationController
               @ballot[position] << id if value == '1'
             end
           end
+          raise 'InvalidBallot: Impossible to happen in normal usage.' unless @ballot[position].size <= APP_CONFIG['positions'][key]
         end
-        p '----------------------------------------'
+
         @ballot.reject! {|key, value| Candidate::POSITIONS.include?(key) ? false : true}
-        p '----------------------------------------'
-        p @ballot
         
         @ballot.each do |key, value|
-          raise 'InvalidBallot: Impossible to happen in normal usage.' unless value.size <= APP_CONFIG['positions'][key]
           value.each do |id|
             Candidate.find(id).cast_vote(key, @user)
           end
