@@ -2,7 +2,13 @@
 <html>
   <head>
   </head>
-  <body>
+  <body style="color:#C0C0C0; background-color:black;align:center;background-color:black; width:100%;">
+    <div>
+    <h1>
+      <%= image_tag "logo.png", :alt => "Exist Elections 2010" %>
+    </h1>
+    </div>
+    <div>
     <h1>Welcome to Exist Elections <%=h @date %>, <%=h @user.full_name %></h1>
     <p>
       You have been successfully registered to vote for the <%=h @date %> Elections.
@@ -11,6 +17,7 @@
       You are only eligible to vote once you have finished activation.
     </p>
     <p>Thank you for registering and have a great day!</p>
+    </div>
   </body>
 </html>
 

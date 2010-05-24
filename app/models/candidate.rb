@@ -36,10 +36,18 @@ class Candidate < ActiveRecord::Base
   def self.positions
     POSITIONS
   end
+  def self.get_candidates(position, province, municipality, district)
+    Candidate.find_all_by_position("#{position}",  :conditions => {:province => province, :municipality => municipality, :district => district} ,:order => "last_name")
+  end
+
 
   ##Instance Methods
   #
   
+  def full_name
+    "#{last_name}, #{first_name} #{middle_name}"
+  end
+
   def middle_initial
     self.middle_name[0].chr
   end
@@ -98,4 +106,3 @@ class Candidate < ActiveRecord::Base
     end
   end
 end
-

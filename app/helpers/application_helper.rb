@@ -1,4 +1,3 @@
-# Methods added to this helper will be available to all templates in the application.
 module ApplicationHelper
 
   def generate_code(length=12)
@@ -8,6 +7,23 @@ module ApplicationHelper
       code << character_map.choice.to_s
     end
     return code
+  end
+
+  def election_status_button
+    options = [:update => 'election_status' ,
+               :method => :put              ,
+               :url    => { :controller => :admins                 ,
+                            :action     => :toggle_election_status }]
+    case APP_CONFIG['election_status']
+      when 'close'
+        return button_to_remote 'Open' , *options
+      when 'open'
+        return button_to_remote 'Close', *options
+      when 'finished'
+        ## TODO
+        #Store into file previous results and reset all
+        return button_to_remote 'Reset', *options
+    end
   end
 
   def valid_email(email)
@@ -44,6 +60,32 @@ module ApplicationHelper
     str << content_tag(:span, "(#{district})", :title => address[:district_code], :class => 'address_code') unless district.nil?
 
     return str
+  end
+
+  def show_candidates(candidate, i, position)
+    case i.%(3)
+    when 1
+        "<tr><td>#{radio_button_tag position, candidate}#{i}. #{candidate.full_name}</td>"
+    when 2
+        "<td>#{radio_button_tag position, candidate}#{i}. #{candidate.full_name}</td>"
+    when 0
+        "<td>#{radio_button_tag position, candidate}#{i}. #{candidate.full_name}</td></tr>"
+    end
+  end
+
+  def show_multiple_candidates(candidate, i, position)
+    case i.%(3)
+    when 1
+        "<tr><td>#{check_box position, candidate}#{i}. #{candidate.full_name}</td>"
+    when 2
+        "<td>#{check_box position, candidate}#{i}. #{candidate.full_name}</td>"
+    when 0
+        "<td>#{check_box position, candidate}#{i}. #{candidate.full_name}</td></tr>"
+    end
+  end
+
+  def show_results(candidate, i)
+        "<tr><td>#{i}. #{candidate.full_name}</td><td>#{candidate.num_votes}</td></tr>"
   end
 end
 

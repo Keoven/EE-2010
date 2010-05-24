@@ -47,8 +47,12 @@ class UserTest < ActiveSupport::TestCase
   #
   test "validity of name" do
     assert_equal "Alejandro M. Suarez", @valid_user.full_name
+    assert_equal "M", @valid_user.middle_initial
+    
     @valid_user.first_name = nil
+    assert_equal false, @valid_user.valid?
     @valid_user.middle_name = nil
+    assert_equal false, @valid_user.valid?
     @valid_user.last_name = nil
     assert_equal false, @valid_user.valid?
 
@@ -74,7 +78,7 @@ class UserTest < ActiveSupport::TestCase
     assert_equal true, @valid_user.save
     @valid_user.district_code = nil
     assert_equal false, @valid_user.valid?
-
+    
     assert_not_nil @valid_user.errors.on(:district_code)
   end
 
@@ -131,6 +135,7 @@ class UserTest < ActiveSupport::TestCase
     assert_equal "Welcome to Exist Elections 2010", email.subject
   end
   
+
   test "activated account" do
     assert_equal true, @valid_user.activated?
   end
