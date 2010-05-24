@@ -60,14 +60,16 @@ class ApplicationController < ActionController::Base
       render :action => 'election_closed', :layout => 'election_closed'
       return false
     end
+    render :action => 'home', :layout => 'election_open'
   end
-  
+
   def require_election_close
     unless APP_CONFIG['election_status'] == 'close'
-      flash[:notice] = 'Election is not closed.'
-      render :action => 'home', :layout => 'home'
+      flash[:notice] = 'Election is not close.'
+      render :action => 'home', :layout => 'election_open'
       return false
     end
+    render :action => 'election_closed', :layout => 'election_closed'
   end
 end
 
