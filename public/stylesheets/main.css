@@ -271,35 +271,54 @@ fieldset.tally_filter_group {
   clear: left;
   overflow: hidden;
   display: block;
+  margin: 0 auto;
   margin-bottom: 1em;
+  width: 95%;
+  padding: 5px;
+  border: 1px solid #eee;
+  border-bottom: 1px solid #aaa;
+  border-radius: 5px;
+  line-height: 2em;
 }
   .tally_filter_group span {
     display: block;
   }
   .tally_filter_group label {
     display: block;
-    width: 100px;
     float: left;
+    width: 30%;
   }
   .tally_filter_group select {
-    width:180px; 
+    font-size: 1.25em;
+    font-weight: bold;
+    float: left;
+    width: 70%;
   }
 .tally_list {
   margin-bottom: 1em;
 }
+  .tally_list h3 span {
+    font-size: 0.75em;
+    float: right;
+    margin-bottom: -0.5em;
+    color: #999;
+  }
 
 .tally_bar {
   background-color: #c33;
   border-top: 1px solid #933;
   border-bottom: 1px solid #fcc;
+  height: 3px;
   text-align: right;
+  margin-bottom: 0.5em;
 }
   .tally_bar em.tally_count {
-    text-shadow: 0 -1px 0 #333;
-    color: #fff;
+    color: #999;
     font-weight: bold;
     font-style: normal;
-    margin-right: 0.5em;
+    font-size: 0.75em;
+    position: absolute;
+    margin-top: 0.25em;
   }
 
 .address_code {

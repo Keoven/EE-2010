@@ -1,16 +1,18 @@
-<h1>Election Results</h1>
+<h1 id="header_elec">Election Results</h1>
+<%= periodically_call_remote(:frequency => 300,
+                             :url => { :action => :update_tally }) %>
 
-<div id="national_tally" class="grid_6">
+<div class="grid_6">
   <h2>National</h2>
   <div id="national_tally">
     <%= render :partial => 'tally_position',
-          :locals => { :prefix => 'national',
+          :locals => { :division => 'national',
                        :position => 'president' } %>
     <%= render :partial => 'tally_position',
-          :locals => { :prefix => 'national',
+          :locals => { :division => 'national',
                        :position => 'vice_president' } %>
     <%= render :partial => 'tally_position',
-          :locals => { :prefix => 'national',
+          :locals => { :division => 'national',
                        :position => 'senator' } %>
   </div>
 </div>
@@ -20,25 +22,24 @@
   <fieldset class="tally_filter_group">
     <%= render :partial => 'location_code' %>
   </fieldset>
-  <hr />
   <div id="local_tally">
     <%= render :partial => 'tally_position',
-          :locals => { :prefix => 'local',
+          :locals => { :division => 'local',
                        :position => 'governor' } %>
     <%= render :partial => 'tally_position',
-          :locals => { :prefix => 'local',
+          :locals => { :division => 'local',
                        :position => 'vice_governor' } %>
     <%= render :partial => 'tally_position',
-          :locals => { :prefix => 'local',
+          :locals => { :division => 'local',
                        :position => 'mayor' } %>
     <%= render :partial => 'tally_position',
-          :locals => { :prefix => 'local',
+          :locals => { :division => 'local',
                        :position => 'vice_mayor' } %>
     <%= render :partial => 'tally_position',
-          :locals => { :prefix => 'local',
+          :locals => { :division => 'local',
                        :position => 'councilor' } %>
     <%= render :partial => 'tally_position',
-          :locals => { :prefix => 'local',
+          :locals => { :division => 'local',
                        :position => 'representative' } %>
   </div>
 </div>

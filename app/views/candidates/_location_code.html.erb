@@ -3,9 +3,9 @@
 <%= label :candidate, :province, "Province" %>
 <%= select :candidate, :province, province_list, {},
     { :onchange => remote_function(
-        :url => { :action => 'list_municipalities', :controller => 'candidates' },
-        :method => :get,
-        :with => "'province=' + $('candidate_province').value" ) } %>
+        :url => { :action => 'choose_province', :controller => 'candidates' },
+        :method => :post,
+        :with => "'province=' + this.value" ) } %>
 </span>
 
 <span id="municipality_tally_filter">
