@@ -1,0 +1,44 @@
+<h1>Election Results</h1>
+
+<div id="national_tally" class="grid_6">
+  <h2>National</h2>
+  <div id="national_tally">
+    <%= render :partial => 'tally_position',
+          :locals => { :prefix => 'national',
+                       :position => 'president' } %>
+    <%= render :partial => 'tally_position',
+          :locals => { :prefix => 'national',
+                       :position => 'vice_president' } %>
+    <%= render :partial => 'tally_position',
+          :locals => { :prefix => 'national',
+                       :position => 'senator' } %>
+  </div>
+</div>
+
+<div class="grid_6">
+  <h2>Local</h2>
+  <fieldset class="tally_filter_group">
+    <%= render :partial => 'location_code' %>
+  </fieldset>
+  <hr />
+  <div id="local_tally">
+    <%= render :partial => 'tally_position',
+          :locals => { :prefix => 'local',
+                       :position => 'governor' } %>
+    <%= render :partial => 'tally_position',
+          :locals => { :prefix => 'local',
+                       :position => 'vice_governor' } %>
+    <%= render :partial => 'tally_position',
+          :locals => { :prefix => 'local',
+                       :position => 'mayor' } %>
+    <%= render :partial => 'tally_position',
+          :locals => { :prefix => 'local',
+                       :position => 'vice_mayor' } %>
+    <%= render :partial => 'tally_position',
+          :locals => { :prefix => 'local',
+                       :position => 'councilor' } %>
+    <%= render :partial => 'tally_position',
+          :locals => { :prefix => 'local',
+                       :position => 'representative' } %>
+  </div>
+</div>

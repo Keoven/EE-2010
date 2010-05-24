@@ -11,7 +11,9 @@ ActionController::Routing::Routes.draw do |map|
                                          :cast_ballot             => :put }
 =end
 
-  map.candidates   '/candidates'        , :controller => 'candidates'    , :action => 'index' 
+  map.resources    :candidates, :only => :index, :collection => {:list_municipalities => :get, :list_districts => :get}
+
+  map.tally        '/tally'             , :controller => 'candidates'    , :action => 'tally'
 
   map.namespace :admin do |admin|
     admin.resources :users, :collection => {:list_municipalities => :get, :list_districts => :get}

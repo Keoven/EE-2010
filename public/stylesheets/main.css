@@ -83,15 +83,24 @@ a#to_dashboard {
 th, td {
   padding: 5px;
 }
-.record_list table {
+.row_number {
+  text-align: right;
+  width: 1.5em;
+  color: #999;
+  font-size: 0.9em;
+}
+.record_list table,
+.tally_list table {
   border-collapse: collapse;
   border-spacing: 0;
   width: 100%;
 }
-.record_list table .alt {
+.record_list table .alt,
+.tally_list table .alt {
   background-color: #f6f6f6;
 }
-.record_list table th {
+.record_list table th,
+.tally_list table th {
   text-align: left;
 }
 .record_summary {
@@ -209,7 +218,7 @@ form fieldset {
   margin-bottom: 1em;
   text-align: center;
 }
-#election_status button {
+#election_status input[type='button'] {
   font-size: 1em;
   font: inherit;
 }
@@ -239,6 +248,59 @@ form fieldset {
   text-shadow: 0 1px 0 #fff;
   border-bottom: 2px solid #999;
 }
+
+.position_list {
+  display: block;
+  clear: right;
+  width: 100%;
+}
+.position_list li  {
+  list-style: none;
+  float: left;
+  margin: 0;
+  margin-right: 0.5em;
+  margin-bottom: 1em;
+}
+.position_list li a {
+  padding: 3px 9px;
+    border: 1px solid #eee;
+    border-radius: 5px;
+    margin: 0 3px;
+}
+fieldset.tally_filter_group {
+  clear: left;
+  overflow: hidden;
+  display: block;
+  margin-bottom: 1em;
+}
+  .tally_filter_group span {
+    display: block;
+  }
+  .tally_filter_group label {
+    display: block;
+    width: 100px;
+    float: left;
+  }
+  .tally_filter_group select {
+    width:180px; 
+  }
+.tally_list {
+  margin-bottom: 1em;
+}
+
+.tally_bar {
+  background-color: #c33;
+  border-top: 1px solid #933;
+  border-bottom: 1px solid #fcc;
+  text-align: right;
+}
+  .tally_bar em.tally_count {
+    text-shadow: 0 -1px 0 #333;
+    color: #fff;
+    font-weight: bold;
+    font-style: normal;
+    margin-right: 0.5em;
+  }
 
 .address_code {
   border-bottom: 1px dotted #333;

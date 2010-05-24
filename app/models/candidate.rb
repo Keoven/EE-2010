@@ -2,8 +2,9 @@ class Candidate < ActiveRecord::Base
   ##Constants
   #
   LEVELS = %w(National Provincial City/Municipal District)
-  POSITIONS = ['President'    , 'Vice President', 'Senator'   , 'Governor' ,
-               'Vice Governor', 'Mayor'         , 'Vice Mayor', 'Councilor', 'Representative']
+  POSITIONS = ['President', 'Vice President', 'Senator',
+               'Governor' , 'Vice Governor' , 'Mayor'  , 'Vice Mayor',
+               'Councilor', 'Representative']
 
   ##Validations
   #
@@ -17,15 +18,26 @@ class Candidate < ActiveRecord::Base
   
   ##Named scopes
   #
-  named_scope :for_president,      :conditions => {:position => 'President'}
-  named_scope :for_vice_president, :conditions => {:position => 'Vice President'}
-  named_scope :for_senator,        :conditions => {:position => 'Senator'}
-  named_scope :for_governor,       :conditions => {:position => 'Governor'}
-  named_scope :for_vice_governor,  :conditions => {:position => 'Vice Governor'}
-  named_scope :for_mayor,          :conditions => {:position => 'Mayor'}
-  named_scope :for_vice_mayor,     :conditions => {:position => 'Vice Mayor'}
-  named_scope :for_councilor,      :conditions => {:position => 'Councilor'}
-  named_scope :for_representative, :conditions => {:position => 'Representative'}
+  POSITIONS.each do |position|
+    named_scope "for_#{position.gsub(' ','').underscore}".intern,
+      :conditions => {:position => position}, :order => 'last_name'
+  end
+  named_scope :by_province, lambda { |province|
+    province = PROVINCE_LIST.index(province) unless province !~ /^[A-Z]{3}$/
+    { :conditions => {:province => province} }
+  }
+  named_scope :by_province_and_municipality, lambda { |province, municipality|
+    provincial_code = PROVINCE_LIST[province]
+    municipality = MUNICIPALITY_LIST[provincial_code].index(municipality) unless municipality !~ /^[A-Z]{3}$/
+    
+    { :conditions => {:province => province,
+                      :municipality => municipality} }
+  }
+  named_scope :by_location, lambda { |province, municipality, district|
+    { :conditions => {:province => province,
+                      :municipality => municipality,
+                      :district => district} }
+  }
 
   ##Class Methods
   #
@@ -36,12 +48,40 @@ class Candidate < ActiveRecord::Base
   def self.positions
     POSITIONS
   end
+  
+  def self.position_filters
+    filters = []
+    
+    POSITIONS.each do |position|
+      filter_pair = {}
+      filter_pair[:scope] = "for_#{position.gsub(' ', '').underscore}"
+      filter_pair[:label] = position
+      
+      filters << filter_pair
+    end
+    
+    return filters
+  end
+
+
+  def self.filtered(position, province, municipality, district)
+    Candidate.find :all, :conditions => {:position => position,
+                                         :province => province,
+                                         :municipality => municipality,
+                                         :district => district}
+  end
 
   ##Instance Methods
   #
+  def full_name
+    name = "#{last_name}, #{first_name}"
+    name << " #{middle_name.first}." unless middle_name.nil?
+    
+    return name
+  end
   
   def middle_initial
-    self.middle_name[0].chr
+    return middle_name.nil? ? "" : middle_name.first
   end
 
   def cast_vote(position_voted, user)

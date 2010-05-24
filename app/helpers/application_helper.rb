@@ -57,5 +57,6 @@ module ApplicationHelper
     
     return str
   end
+  
 end
 
