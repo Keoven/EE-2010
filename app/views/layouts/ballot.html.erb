@@ -1,0 +1,67 @@
+<% user_province = "Metro Manila"; user_municipality = "Muntinlupa City"; user_district = "1" %>
+  <h2>Official Ballot</h2>
+  <h1>Presidents</h1>CHOOSE NOT MORE THAN ONE(1)<br /><br />
+<table><% i=1 %>
+<% Candidate.get_candidates("President", nil, nil, nil).each do |candidate| %>
+<%= show_candidates(candidate, i, "President") %>
+<% i+=1 %>
+<% end %>
+</table>
+<h1>Vice Presidents</h1>CHOOSE NOT MORE THAN ONE(1)<br /><br />
+<table><% i=1 %>
+<% Candidate.get_candidates("Vice President", nil, nil, nil).each do |candidate| %>
+<%= show_candidates(candidate, i, "Vice President") %>
+<% i+=1 %>
+<% end %>
+</table>
+<h1>Senators</h1>CHOOSE NOT MORE THAN TWELVE(12)<br /><br />
+<table><% i=1 %>
+<% Candidate.get_candidates("Senator", nil, nil, nil).each do |candidate| %>
+<%= show_multiple_candidates(candidate, i, "Senator") %>
+<% i+=1 %>
+<% end %>
+</table>
+<% unless user_province == "Metro Manila" %>
+<h1>Governor</h1>CHOOSE NOT MORE THAN ONE(1)<br /><br />
+<table><% i=1 %>
+<% Candidate.get_candidates("Governor", user_province, nil, nil).each do |candidate| %>
+<%= show_candidates(candidate, i, "Governor") %>
+<% i+=1 %>
+<% end %>
+</table>
+<h1>Vice Governor</h1>CHOOSE NOT MORE THAN ONE(1)<br /><br />
+<table><% i=1 %>
+<% Candidate.get_candidates("Vice Governor", user_province, nil, nil).each do |candidate| %>
+<%= show_candidates(candidate, i, "Vice Governor") %>
+<% i+=1 %>
+<% end %>
+</table>
+<% end %>
+<h1>Mayor</h1>CHOOSE NOT MORE THAN ONE(1)<br /><br />
+<table><% i=1 %>
+<% Candidate.get_candidates("Mayor", user_province, user_municipality, nil).each do |candidate| %>
+<%= show_candidates(candidate, i, "Mayor") %>
+<% i+=1 %>
+<% end %>
+</table>
+<h1>Vice Mayor</h1>CHOOSE NOT MORE THAN ONE(1)<br /><br />
+<table><% i=1 %>
+<% Candidate.get_candidates("Vice Mayor", user_province, user_municipality, nil).each do |candidate| %>
+<%= show_candidates(candidate, i, "Vice Mayor") %>
+<% i+=1 %>
+<% end %>
+</table>
+<h1>Councilors</h1>CHOOSE NOT MORE THAN SIX(6)<br /><br />
+<table><% i=1 %>
+<% Candidate.get_candidates("Councilor", user_province, user_municipality, nil).each do |candidate| %>
+<%= show_multiple_candidates(candidate, i, "Councilor") %>
+<% i+=1 %>
+<% end %>
+</table>
+<h1>Representative</h1>CHOOSE NOT MORE THAN ONE(1)<br /><br />
+<table><% i=1 %>
+<% Candidate.get_candidates("Representative", user_province, user_municipality, user_district).each do |candidate| %>
+<%= show_candidates(candidate, i, "Representative") %>
+<% i+=1 %>
+<% end %>
+</table>
