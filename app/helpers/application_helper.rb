@@ -62,7 +62,7 @@ module ApplicationHelper
 
     return str
   end
-    def show_candidates(candidate, i, position)
+  def show_candidates(candidate, i, position)
     case i.%(3)
     when 1
         "<tr><td>#{radio_button_tag position, candidate}#{i}. #{candidate.full_name}</td>"
@@ -81,5 +81,8 @@ module ApplicationHelper
     when 0
         "<td>#{check_box position, candidate}#{i}. #{candidate.full_name}</td></tr>"
     end
+  end
+  def show_results(candidate, i)
+        "<tr><td>#{i}. #{candidate.full_name}</td><td>#{candidate.num_votes}</td></tr>"
   end
 end
