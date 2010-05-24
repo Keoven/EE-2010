@@ -7,13 +7,13 @@ class Candidate < ActiveRecord::Base
 
   ##Validations
   #
-  validates_presence_of :first_name, :message => 'required'
-  validates_presence_of :last_name, :message => 'required'
-  validates_inclusion_of :level, :in => LEVELS, :message => 'not in list'
+  validates_presence_of  :first_name, 		      :message => 'required'
+  validates_presence_of  :last_name, 		      :message => 'required'
+  validates_inclusion_of :level,    :in => LEVELS,    :message => 'not in list'
   validates_inclusion_of :position, :in => POSITIONS, :message => 'not in list'
-  validate :votes_should_not_be_negative
-  validate :level_and_position_should_match
-  validate :location_should_match_level
+  validate 		 :votes_should_not_be_negative
+  validate 		 :level_and_position_should_match
+  validate 		 :location_should_match_level
   
   ##Named scopes
   #

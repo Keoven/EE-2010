@@ -24,7 +24,7 @@ class UserTest < ActiveSupport::TestCase
     User.delete_all
   end
 
-  ## Columns
+  ## COLUMNS
   #
   test "check column types" do
     assert @valid_user.first_name.is_a?(String)
@@ -32,7 +32,7 @@ class UserTest < ActiveSupport::TestCase
     assert @valid_user.last_name.is_a?(String)
     assert @valid_user.street_number.is_a?(Integer)
     assert @valid_user.street_name.is_a?(String)
-    assert @valid_user.district_code.is_a?(Integer)
+    assert @valid_user.district_code.is_a?(String)
     assert @valid_user.municipality_code.is_a?(String)
     assert @valid_user.provincial_code.is_a?(String)
     assert @valid_user.voter_id.is_a?(String)
@@ -47,8 +47,12 @@ class UserTest < ActiveSupport::TestCase
   #
   test "validity of name" do
     assert_equal "Alejandro M. Suarez", @valid_user.full_name
+    assert_equal "M", @valid_user.middle_initial
+    
     @valid_user.first_name = nil
+    assert_equal false, @valid_user.valid?
     @valid_user.middle_name = nil
+    assert_equal false, @valid_user.valid?
     @valid_user.last_name = nil
     assert_equal false, @valid_user.valid?
 
@@ -74,7 +78,8 @@ class UserTest < ActiveSupport::TestCase
     assert_equal true, @valid_user.save
     @valid_user.district_code = nil
     assert_equal false, @valid_user.valid?
-
+    
+    assert generate_district_list(@valid_user.provincial_code, @valid_user.municipality_code)
     assert_not_nil @valid_user.errors.on(:district_code)
   end
 
@@ -131,6 +136,7 @@ class UserTest < ActiveSupport::TestCase
     assert_equal "Welcome to Exist Elections 2010", email.subject
   end
   
+
   test "activated account" do
     assert_equal true, @valid_user.activated?
   end

@@ -28,8 +28,8 @@ module ApplicationHelper
   end
 
   def valid_email(email)
-    return true if !Admin.exists?(:email => email)                          and
-                    email =~  /\A([^@\s]+)@((?:[-a-z0-9]+\.)+[a-z]{2,})\Z/i
+    return true if !Admin.exists?(:email => email)                        and   ## no two admin can have the same email
+                   email =~  /\A([^@\s]+)@((?:[-a-z0-9]+\.)+[a-z]{2,})\Z/i
   end
 
   def format_name(user, options={})
