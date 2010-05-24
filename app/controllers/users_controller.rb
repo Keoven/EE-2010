@@ -79,4 +79,9 @@ class UsersController < ApplicationController
     rescue
       render :text => 'An error had occurred. Sorry for the inconvenience.'
   end
+=begin  def cast_ballot
+    @user = User.find(:first, :conditions => { :voter_id => 'IF3E7AQ293QP' })
+    Candidate.find(params[:President]).cast_vote("President", @user)
+
+=end
 end
