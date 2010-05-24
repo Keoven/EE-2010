@@ -1,0 +1,44 @@
+<div id="user_records" class="record_list">
+  <table>
+    <thead>
+      <tr>
+        <th></th>
+        <th></th>
+        <th>Voter ID</th>
+        <th>Last Name</th>
+        <th>First Name</th>
+        <th title="Middle Initial">MI</th>
+        <th title="Provincial Code">Prov. Code</th>
+        <th title="City/Municipal Code">City/Mun. Code</th>
+        <th title="District Code">Dist. Code</th>
+        <th title="YYYY-MM-DD">Birthdate</th>
+        <th>Email</th>
+        <th></th>
+        <th></th>
+        <th></th>
+      </tr>
+    </thead>
+    <tbody>
+      <% @users.each do |user| %>
+      <tr <%= cycle("class = 'alt'", String.new) -%> >
+        <td><%=h user.activated ? "/" : "x" %></td>
+        <td><%=h user.voted ? "/" : "x" %></td>
+        <td><%=h user.voter_id.upcase %></td>
+        <td><%=h user.last_name %></td>
+        <td><%=h user.first_name %></td>
+        <td><%=h user.middle_initial %></td>
+        <td><%=h user.provincial_code %></td>
+        <td><%=h user.municipality_code %></td>
+        <td><%=h user.district_code %></td>
+        <td><%=h user.birth_date %></td>
+        <td><%=h user.email %></td>
+        <td><%= link_to 'Show', admin_user_path(user) %></td>
+        <td><%= link_to 'Edit', edit_admin_user_path(user) %></td>
+        <td><%= link_to 'Remove', admin_user_path(user), :confirm => 'Are you sure you want to unregister this voter?', :method => :delete %></td>
+      </tr>
+      <% end %>
+    </tbody>
+  </table>
+
+  <%= will_paginate @users %>
+</div>

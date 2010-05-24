@@ -1,0 +1,29 @@
+<% list = Candidate.class_eval("for_#{position}") %>
+
+<div class="tally_list">
+<% if list.any? %>
+  <h3><%=h position.titleize %></h3>
+  <table>
+    <tbody>
+      <% i = 1 %>
+      <% list.each do |candidate| %>
+        <tr <%= cycle("class = 'alt'", String.new) %> >
+          <td class="row_number">
+            <%= i %>
+          </td>
+          <td><%= candidate.full_name %></td>
+          <td style="text-align: right">
+            <%=h candidate.num_votes %>
+          </td>
+          <td style="width: 150px">
+            <%= tally_bar(candidate) %>
+          </td>
+        </tr>
+        <% i += 1 %>
+      <% end %>
+    </tbody>
+  </table>
+<% else %>
+  No candidates.
+<% end %>
+</div>

@@ -14,6 +14,29 @@ class Candidate < ActiveRecord::Base
   validate :votes_should_not_be_negative
   validate :level_and_position_should_match
   validate :location_should_match_level
+  
+  ##Named scopes
+  #
+  POSITIONS.each do |position|
+    named_scope "for_#{position.gsub(' ','').underscore}".intern,
+      :conditions => {:position => position}, :order => 'last_name'
+  end
+  named_scope :by_province, lambda { |province|
+    province = PROVINCE_LIST.index(province) unless province !~ /^[A-Z]{3}$/
+    { :conditions => {:province => province} }
+  }
+  named_scope :by_province_and_municipality, lambda { |province, municipality|
+    provincial_code = PROVINCE_LIST[province]
+    municipality = MUNICIPALITY_LIST[provincial_code].index(municipality) unless municipality !~ /^[A-Z]{3}$/
+    
+    { :conditions => {:province => province,
+                      :municipality => municipality} }
+  }
+  named_scope :by_location, lambda { |province, municipality, district|
+    { :conditions => {:province => province,
+                      :municipality => municipality,
+                      :district => district} }
+  }
 
   ##Class Methods
   #
@@ -24,9 +47,21 @@ class Candidate < ActiveRecord::Base
   def self.positions
     POSITIONS
   end
+  def self.get_candidates(position, province, municipality, district)
+    Candidate.find_all_by_position("#{position}",  :conditions => {:province => province, :municipality => municipality, :district => district} ,:order => "last_name")
+  end
+
 
   ##Instance Methods
   #
+  
+  def full_name
+    "#{last_name}, #{first_name} #{middle_name}"
+  end
+
+  def middle_initial
+    self.middle_name[0].chr
+  end
 
   def cast_vote(position_voted, user)
     if self.position.eql? position_voted
@@ -82,4 +117,3 @@ class Candidate < ActiveRecord::Base
     end
   end
 end
-

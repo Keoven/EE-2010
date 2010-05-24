@@ -1,11 +1,10 @@
 <p id="election_status">
-  Elections are currently <b>closed</b>.
-  <%= election_status_button %>
+  <%= render :partial => 'election_status' %>
 </p>
 
 <div class="admin_panel grid_4">
   <%= link_to 'Register Voter', new_admin_user_path if APP_CONFIG['election_status'].eql?('close') %>
-  
+
   <% unless User.count.zero? %>
     <%= link_to 'View List of Voters', admin_users_path %>
     <% link_to(admin_user_path(User.first)) do %>
@@ -19,7 +18,7 @@
 </div>
 
 <div class="admin_panel grid_4">
-  <%= link_to 'View List of Candidates', "/" %>
+  <%= link_to 'View List of Candidates', candidates_path %>
   <%= link_to 'View Ballot Form', "/" %>
   <%= link_to 'View Election Statistics', "/" %>
 </div>
@@ -27,3 +26,4 @@
 <div class="admin_panel grid_4">
   <%= display_admin_dashboard_panel %>
 </div>
+

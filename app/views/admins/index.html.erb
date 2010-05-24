@@ -1,26 +1,14 @@
-<table class="record_list">
-  <thead>
-    <tr>
-      <th>Username</th>
-      <th>Email Address</th>
-      <th>Password</th>
-      <th></th>
-      <th></th>
-      <th></th>
-    </tr>
-  </thead>
-  <tbody>
-    <% @admins.each do |admin| %>
-    <tr>
-      <td><%=h admin.login %></td>
-      <td><%=h admin.email %></td>
-      <td><%=h truncate(admin.crypted_password, :length => 20) %></td>
-      <td><%= link_to 'Show', admin_path(admin) %></td>
-      <td><%= link_to 'Edit', edit_admin_path(admin) %></td>
-      <td><%= link_to 'Remove', admin_path(admin), :method => :delete, :confirm => 'Are you sure you want to unregister this voter?' %></td>
-    </tr>
+<ul class="record_summary">
+  <li id="record_action" class="grid_3">
+    <%= link_to 'Create New Administrator', new_admin_path %>
+  </li>
+  <li class="grid_3 push_6">
+    <% content_tag :div do %>
+      <%= Admin.all.count %>
+      <em>Total administrating</em>
     <% end %>
-  </tbody>
-</table>
-
-<%= link_to 'Create New Administrator', new_admin_path %>
+  </li>
+</ul>
+<div class="grid_12">
+  <%= render :partial => 'records' %>
+</div>

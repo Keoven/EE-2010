@@ -1,13 +1,11 @@
-<fieldset>
 <%= form.label :login %>
 <%= form.text_field :login %>
-<br />
+
 <%= form.label :email %>
 <%= form.text_field :email %>
-<br />
+
 <%= form.label :password, form.object.new_record? ? nil : "Change password" %>
 <%= form.password_field :password %>
-<br />
+
 <%= form.label :password_confirmation %>
-<%= form.password_field :password_confirmation %>
-</fieldset>
+<%= form.password_field :password_confirmation %><br />

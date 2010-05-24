@@ -4,8 +4,6 @@ class User < ActiveRecord::Base
   #
   after_create do |user|
     AccountMailer.deliver_voter_approval(user)
-    #return if request.xhr?
-    #flash[:notice] => 'A message has been sent successfully to the new voter of his/her registration'
   end
 
   ##Validations
@@ -14,8 +12,8 @@ class User < ActiveRecord::Base
  			  :street_number, :street_name, :district_code, :municipality_code, :provincial_code,
  			  :voter_id, :birth_date, :email], :message =>"is required"
   validates_uniqueness_of :voter_id, :email
-  validates_format_of :email, :with => /\A([^@\s]+)@((?:[-a-z0-9]+\.)+[a-z]{2,})\Z/i, :on => :create
-  validate :user_is_older_than_18_years_old
+  validates_format_of 	  :email, :with => /\A([^@\s]+)@((?:[-a-z0-9]+\.)+[a-z]{2,})\Z/i, :on => :create
+  validate 		  :user_is_older_than_18_years_old
 
   ##Named Scopes
   #
@@ -26,6 +24,10 @@ class User < ActiveRecord::Base
   #
   def full_name
     return "#{first_name.capitalize} #{middle_name.slice(0).chr.capitalize}. #{last_name.capitalize}"
+  end
+  
+  def middle_initial
+    return self.middle_name[0].chr
   end
 
   def complete_address

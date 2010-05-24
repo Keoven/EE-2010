@@ -1,0 +1,27 @@
+<div id="admin_records" class="record_list">
+  <table>
+    <thead>
+      <tr>
+        <th>Username</th>
+        <th>Email Address</th>
+        <th>Password</th>
+        <th></th>
+      </tr>
+    </thead>
+    <tbody>
+      <% @admins.each do |admin| %>
+      <tr <%= cycle("class = 'alt'", String.new) -%> >
+        <td><%=h admin.login %></td>
+        <td><%=h admin.email %></td>
+        <td><%=h truncate(admin.crypted_password, :length => 20) %></td>
+        <td>
+          <%= link_to 'Show', admin_path(admin) %>
+          <%= link_to 'Edit', edit_admin_path(admin) %>
+          <%= link_to 'Remove', admin_path(admin), :method => :delete,
+            :confirm => 'Are you sure you want to unregister this voter?' %>
+        </td>
+      </tr>
+      <% end %>
+    </tbody>
+  </table>
+</div>

@@ -1,31 +1,56 @@
 #wrapper {
-  font-size: 3em;
   font-weight: bold;
   text-align: center;
-  background-color: #333;
+  background-color: #222;
   color: #999;
-  height: 540px;
-  min-height: 0;
 }
 #wrapper h2 {
-  font-size: inherit;
-  margin-bottom: 1em;
+  font-size: 3em;
+  margin: 1em 0;
 }
-#wrapper a {
-  font-size: 1.25em;
+#wrapper a.action_wide, #activation_form {
+  font-size: 3.5em;
+  background-color: #292929;
   color: #fff;
-  padding: 0.5em;
+  padding: 10px;
   padding-left: 70px;
   text-decoration: none;
-  text-shadow: 0 -1px 0 #333;
-  line-height: 1em;
+  text-shadow: 0 -1px 0 #222;
+  border: 1px solid #444;
   border-bottom: 1px solid #111;
-  border-top: 1px solid #444;
   display: block;
   width: 710px;
   margin: 0 auto;
+  margin-top: 0.5em;
   text-align: left;
+  border-radius: 5px;
 }
-#wrapper a:hover {
-  background: #393939;
+
+#activation_form {
+  padding: 0;
+  margin: 0 auto;
+  width: 770px;
+  font-size: 1.5em;
+  position: relative;
 }
+
+#activation_form form {
+  padding: 10px 20px 20px 20px;
+}
+
+#close-aform {
+  float: right;
+  margin: 10px;
+}
+
+#match-found {
+  color: #6B912E;
+}
+
+#wrapper a.action_wide:visited {
+  background: #292929 url('../images/check.png') no-repeat 10px center;
+}
+#wrapper a.action_wide:hover {
+  background-color: #444;
+}
+
