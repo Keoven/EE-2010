@@ -1,0 +1,6 @@
+th { background-color: #000; color: #fff; }
+td, th{
+  font-family: verdana, arial, helvetica, sans-serif;}
+table {
+	border-collapse:separate;
+}

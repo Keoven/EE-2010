@@ -70,16 +70,6 @@ class UsersController < ApplicationController
     redirect_to root_path if @ballot.nil?
   end
 
-{ 'President'      =>     [1] ,
-                 'Vice President' =>     [2] ,
-                 'Senator'        =>  [3, 4] ,
-                 'Governor'       =>     [5] ,
-                 'Vice Governor'  =>     [6] ,
-                 'Mayor'          =>     [7] ,
-                 'Vice Mayor'     =>     [8] ,
-                 'Councilor'      =>     [9] ,
-                 'Representative' =>    [10] }
-
   def cast_ballot
     session[:action_accessed?] = true
     @user = User.find(:first, :conditions => { :voter_id => params[:voter_id] })
@@ -122,9 +112,4 @@ class UsersController < ApplicationController
     rescue
       render :text => 'An error had occurred. Sorry for the inconvenience.'
   end
-=begin  def cast_ballot
-    @user = User.find(:first, :conditions => { :voter_id => 'IF3E7AQ293QP' })
-    Candidate.find(params[:President]).cast_vote("President", @user)
-
-=end
 end
