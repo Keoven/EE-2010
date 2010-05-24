@@ -14,7 +14,7 @@ class AccountMailer < ActionMailer::Base
 
      inline_attachment :content_type => "image/png",
     :body => File.read("#{RAILS_ROOT}/public/images/logo-wshadow.png"),
-    :filename => "logo.png"
+    :filename => "logo-wshadow.png"
 
   end
 
@@ -35,7 +35,7 @@ class AccountMailer < ActionMailer::Base
 
     inline_attachment :content_type => "image/png",
     :body => File.read("#{RAILS_ROOT}/public/images/logo-wshadow.png"),
-    :filename => "logo.png"
+    :filename => "logo-wshadow.png"
   end
 end
 
