@@ -60,7 +60,6 @@ class ApplicationController < ActionController::Base
       render :action => 'election_closed', :layout => 'election_closed'
       return false
     end
-    render :action => 'home', :layout => 'election_open'
   end
 
   def require_election_close
@@ -69,7 +68,6 @@ class ApplicationController < ActionController::Base
       render :action => 'home', :layout => 'election_open'
       return false
     end
-    render :action => 'election_closed', :layout => 'election_closed'
   end
 end
 

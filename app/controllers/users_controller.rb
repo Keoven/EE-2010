@@ -33,6 +33,7 @@ class UsersController < ApplicationController
     session[:action_accessed?] = true
     @user = User.find(:first, :conditions => params[:user])
     if @user.activated?
+      p "qwer"
       flash[:notice] = 'User account already activated!'
       render :text => 'You have already activated your account, please check your email. Click here to send the link to the ballot form to your email again.'
     else
