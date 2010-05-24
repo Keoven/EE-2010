@@ -191,6 +191,10 @@ form label {
   display: block;
   font-weight: normal;
 }
+  form label.nonrequired {
+    color: #999;
+    font-style: italic;
+  }
 form input,
 form select,
 form textarea {

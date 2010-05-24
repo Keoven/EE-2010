@@ -2,36 +2,19 @@ class CandidatesController < ApplicationController
   ##GET /candidates
   #
   def index
-    filters = params.dup
-    filters.delete("action")
-    filters.delete("controller")
-    
-    @items = Candidate.filtered(filters) rescue Candidate.all
-=begin
-    if params[:position] && @filters.collect{|f| f[:scope]}.include?(params[:position])
-      @items = Candidate.send(params[:position])
-    else
-      @items = Candidate.for_president
-    end  
-=end
-    @candidates = @items.paginate :page     => params[:page],
-                                    :per_page => 25,
-                                    :order    => 'last_name'
-    
-    respond_to do |format|
-      format.html
-      format.js {
-        render :update do |page|
-          page.replace 'candidate_records', :partial => 'records'
-        end
-      }
+    @candidates = Candidate.paginate :page     => params[:page],
+                                     :per_page => 20,
+                                     :order    => 'last_name'
+  end
+  
+  def update_index
+    render :update do |page|
+      page.replace 'candidate_records', :partial => 'records', :locals => { :position => params[:position] }
     end
   end
   
   def tally
-    @candidates = Candidate.for_president.paginate :page     => params[:page],
-                                    :per_page => 25,
-                                    :order    => 'num_votes DESC'
+    @candidates = Candidate.all
   end
   
   def update_tally

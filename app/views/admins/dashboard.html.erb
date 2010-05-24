@@ -3,7 +3,11 @@
 </p>
 
 <div class="admin_panel grid_4">
-  <%= link_to 'Register Voter', new_admin_user_path if APP_CONFIG['election_status'].eql?('close') %>
+  <% if APP_CONFIG['election_status'].eql?('close') %>
+    <%= link_to 'Register Voter', new_admin_user_path  %>
+  <% else %>
+    <%= content_tag :div, 'Register Voter', :class => 'disabled' %>
+  <% end %>
 
   <% unless User.count.zero? %>
     <%= link_to 'View List of Voters', admin_users_path %>
@@ -19,8 +23,8 @@
 
 <div class="admin_panel grid_4">
   <%= link_to 'View List of Candidates', candidates_path %>
-  <%= link_to 'View Ballot Form', "/" %>
-  <%= link_to 'View Election Statistics', "/" %>
+  <%= content_tag :div, 'View Ballot Form', :class => 'disabled' %>
+  <%= content_tag :div, 'View Election Statistics', :class => 'disabled' %>
 </div>
 
 <div class="admin_panel grid_4">

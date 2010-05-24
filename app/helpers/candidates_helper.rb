@@ -1,5 +1,5 @@
 module CandidatesHelper
-  def candidate_list(position, province, municipality, district)
+  def candidate_list(list, position, province, municipality, district, for_tally=false)
     limit = 5
     case position
       when /president$/
@@ -8,7 +8,7 @@ module CandidatesHelper
         limit = 15
     end
     
-    list = Candidate.class_eval("for_#{position}")
+    list = position.nil? ? Candidate.all : Candidate.class_eval("for_#{position}")
     case position
       when /governor$/
         list = list.by_province(province)
@@ -18,7 +18,11 @@ module CandidatesHelper
         list = list.by_province(province).by_municipality(municipality).by_district(district)
     end
     
-    return list.by_ranking.top(limit)
+    if for_tally
+      return list.top(limit).by_ranking
+    else
+      return list
+    end
   end
   
   def candidate_list_heading(position, province, municipality, district)

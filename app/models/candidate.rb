@@ -58,7 +58,7 @@ class Candidate < ActiveRecord::Base
   end
 
   def middle_initial
-    self.middle_name[0].chr
+    middle_name.nil? ? "" : middle_name[0].chr
   end
 
   def cast_vote(position_voted, user)
