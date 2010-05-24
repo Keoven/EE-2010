@@ -82,6 +82,7 @@ class UsersController < ApplicationController
       else
         @ballot ||= {}
         params.each do |position, value|
+          next unless Candidate::POSITIONS.include?(position)
           @ballot[position] ||= []
           if value.is_a?(String)
             @ballot[position] << value
@@ -92,8 +93,6 @@ class UsersController < ApplicationController
           end
           raise 'InvalidBallot: Impossible to happen in normal usage.' unless @ballot[position].size <= APP_CONFIG['positions'][position]
         end
-
-        @ballot.reject! {|key, value| Candidate::POSITIONS.include?(key) ? false : true}
 
         @ballot.each do |key, value|
           value.each do |id|
