@@ -10,6 +10,28 @@ module ApplicationHelper
     return code
   end
 
+  def election_status_button
+    options = [:update => 'election_status' ,
+               :method => :put              ,
+               :url    => { :controller => :admins                 ,
+                            :action     => :toggle_election_status }]
+    case APP_CONFIG['election_status']
+      when 'close'
+        return button_to_remote 'Open' , *options
+      when 'open'
+        return button_to_remote 'Close', *options
+      when 'finished'
+        ## TODO
+        #Store into file previous results and reset all
+        return button_to_remote 'Reset', *options
+    end
+  end
+
+  def valid_email(email)
+    return true if !Admin.exists?(:email => email)                          and
+                    email =~  /\A([^@\s]+)@((?:[-a-z0-9]+\.)+[a-z]{2,})\Z/i
+  end
+
   def format_name(user, options={})
     {:initial_first => false, :last_name_first => false}.merge!(options)
 
@@ -25,7 +47,22 @@ module ApplicationHelper
       "#{first_name} #{middle_initial} #{last_name}"
     end
   end
-  def show_candidates(candidate, i, position)
+
+  def format_address(address, options={})
+    {:with_html => true}.merge!(options)
+
+    province = PROVINCE_LIST.index(address[:provincial_code])
+    municipality = MUNICIPALITY_LIST[address[:provincial_code]].index(address[:municipality_code])
+    district = address[:district_code] !~ /^#{address[:provincial_code]}\d$/ ? "#{address[:district_code].last.to_i.ordinalize} District" : nil
+
+    str = "#{address[:street_number]} #{address[:street_name]}, "
+    str << content_tag(:span, municipality, :title => address[:municipality_code], :class => 'address_code') << ", "
+    str << content_tag(:span, province, :title => address[:provincial_code], :class => 'address_code')
+    str << content_tag(:span, "(#{district})", :title => address[:district_code], :class => 'address_code') unless district.nil?
+
+    return str
+  end
+    def show_candidates(candidate, i, position)
     case i.%(3)
     when 1
         "<tr><td>#{radio_button_tag position, candidate}#{i}. #{candidate.full_name}</td>"
@@ -45,19 +82,4 @@ module ApplicationHelper
         "<td>#{check_box position, candidate}#{i}. #{candidate.full_name}</td></tr>"
     end
   end
-  def format_address(address, options={})
-    {:with_html => true}.merge!(options)
- 
-    province = PROVINCE_LIST.index(address[:provincial_code])
-    municipality = MUNICIPALITY_LIST[address[:provincial_code]].index(address[:municipality_code])
-    district = address[:district_code] !~ /^#{address[:provincial_code]}\d$/ ? "#{address[:district_code].last.to_i.ordinalize} District" : nil
-
-    str = "#{address[:street_number]} #{address[:street_name]}, "
-    str << content_tag(:span, municipality, :title => address[:municipality_code], :class => 'address_code') << ", "
-    str << content_tag(:span, province, :title => address[:provincial_code], :class => 'address_code')
-    str << content_tag(:span, '(#{district})', :title => address[:district_code], :class => 'address_code') unless district.nil?
-    
-    return str
-  end
 end
-

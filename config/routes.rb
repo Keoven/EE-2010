@@ -1,6 +1,7 @@
 ActionController::Routing::Routes.draw do |map|
 
-  map.resources :admins, :collection => { :dashboard => :get }
+  map.resources :admins, :collection => { :dashboard              => :get ,
+                                          :toggle_election_status => :put }
 =begin
   map.resources :users, :as => '',
                         :only => :none,
@@ -10,10 +11,10 @@ ActionController::Routing::Routes.draw do |map|
                                          :activate                => :put,
                                          :cast_ballot             => :put }
 =end
-
-
+  map.resources   :candidates, :only => :index
   map.namespace :admin do |admin|
-    admin.resources :users, :collection => {:list_municipalities => :get, :list_districts => :get}
+    admin.resources :users, :collection => { :list_municipalities => :get ,
+                                             :list_districts      => :get }
   end
 
   map.login        '/admin/login'       , :controller => 'admin_sessions', :action => 'new'

@@ -4,5 +4,7 @@
   <%= render :partial => "form", :locals => {:form => f} %> 
   <p>
     <%= f.submit 'Save Changes' %> 
-  </p>                         
+  </p>  
 <% end %>
+
+<%= link_to 'Back to Index', admin_users_path %>

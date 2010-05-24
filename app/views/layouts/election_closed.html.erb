@@ -24,7 +24,7 @@
 <body>
   <div id="header">
     <div class="container_12">
-      <% link_to dashboard_admins_path do %>
+      <% link_to root_path do %>
       <h1 class="grid_4">
         <%= image_tag "logo.png", :alt => "Exist Elections 2010" %>
       </h1>
@@ -41,8 +41,8 @@
       <h2>
         Elections are currently closed.
       </h2>
-      <%= link_to 'Browse the list of candidates.', '/' %>
-      <%= link_to 'Learn how to vote.', 'http://www.youtube.com/watch#!v=orr2M-wv594' %>
+      <%= link_to 'Browse the list of candidates.', candidates_path, :class => 'action_wide' %>
+      <%= link_to 'Learn how to vote.', 'http://www.youtube.com/watch#!v=orr2M-wv594', :class => 'action_wide' %>
       <!--
       <object width="480" height="385"><param name="movie" value="http://www.youtube.com/v/orr2M-wv594&hl=en_US&fs=1&"></param><param name="allowFullScreen" value="true"></param><param name="allowscriptaccess" value="always"></param><embed src="http://www.youtube.com/v/orr2M-wv594&hl=en_US&fs=1&" type="application/x-shockwave-flash" allowscriptaccess="always" allowfullscreen="true" width="480" height="385"></embed></object>
       -->

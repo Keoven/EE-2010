@@ -21,8 +21,9 @@ development:
   database: EE-2010_development
   pool: 5
   username: root
-  password: latitude
+  password: root
   socket: /var/run/mysqld/mysqld.sock
+  host: 127.0.0.1
 
 # Warning: The database defined as "test" will be erased and
 # re-generated from your development database when you run "rake".
@@ -34,8 +35,9 @@ test:
   database: EE-2010_test
   pool: 5
   username: root
-  password: latitude
+  password: root
   socket: /var/run/mysqld/mysqld.sock
+  host: 127.0.0.1
 
 production:
   adapter: mysql
@@ -44,5 +46,5 @@ production:
   database: EE-2010_production
   pool: 5
   username: root
-  password: latitude
+  password: root
   socket: /var/run/mysqld/mysqld.sock

@@ -6,10 +6,8 @@
   <body>
     <h1>Welcome to Exist Elections <%=h @date %>, <%=h @user.full_name %></h1>
     <p>
-      You have been successfully approved to vote for the <%=h @date %> Elections.<br/>
-      Please visit the site to continue the voting process.
+      Please click <%= link_to "here", :controller => 'users', :action => 'ballot', :code => @ballot_key %> to start voting.
     </p>
-    <p>Thank you for joining and have a great day!</p>
   </body>
 </html>
 

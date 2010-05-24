@@ -1,56 +1,30 @@
-<% unless @users.empty? %>
-<table class="record_list">
-  <thead>
-    <tr>
-      <th>Voter ID</th>
-      <th>Last Name</th>
-      <th>First Name</th>
-      <th>Middle Name</th>
-      <th>Address</th>
-      <th>Birthdate</th>
-      <th>Email address</th>
-      <th></th>
-      <th></th>
-      <th></th>
-      <th></th>
-      <th></th>
-    </tr>
-  </thead>
-  <tbody>
-    <% @users.each do |user| %>
-    <% p user %>
-    <tr>
-      <td><%=h user.voter_id %></td>
-      <td><%=h user.last_name %></td>
-      <td><%=h user.first_name %></td>
-      <td><%=h user.middle_name %></td>
-      <td><%= format_address user.complete_address %></td>
-      <td><%=h user.birth_date %></td>
-      <td><%=h user.email %></td>
-      <td><%=h user.activated %></td>
-      <td><%=h user.voted %></td>
-      <td><%= link_to 'Show', admin_user_path(user) %></td>
-      <td><%= link_to 'Edit', edit_admin_user_path(user) %></td>
-      <td><%= link_to 'Remove', admin_user_path(user), :confirm => 'Are you sure you want to unregister this voter?', :method => :delete %></td>
-    </tr>
-    <% end %>
-  </tbody>
-</table>
-<% else %>
-  No voters registered.
-<% end %>
 <ul class="record_summary">
-  <li class="grid_4">
-    <em>Total registered</em>
-    <%= @users.count %>
+  <li id="record_action" class="grid_3">
+    <%= link_to 'Register New Voter', new_admin_user_path %>
   </li>
-  <li class="grid_4">
-    <em>Total activated</em>
-    <%= User.activated.count %>
+  <li class="grid_3">
+    <% link_to '#' do %>
+      <%= User.activated.count %>
+      <em>Total activated</em>
+    <% end %>
   </li>
-  <li class="grid_4">
-    <em>Total voted</em>
-    <%= User.voted.count %>
+  <li class="grid_3">
+    <% link_to '#' do %>
+      <%= User.voted.count %>
+      <em>Total voted</em>
+    <% end %>
+  </li>
+  <li class="grid_3">
+    <% link_to '#' do %>
+      <%= User.all.count %>
+      <em>Total registered</em>
+    <% end %>
   </li>
 </ul>
-<%= link_to 'Register New Voter', new_admin_user_path %>
+<div class="grid_12">
+  <% unless @users.empty? %>
+    <%= render :partial => 'records' %>
+  <% else %>
+    No voters registered.
+  <% end %>
+</div>
