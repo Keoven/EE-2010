@@ -17,15 +17,24 @@ class Candidate < ActiveRecord::Base
   
   ##Named scopes
   #
-  named_scope :for_president,      :conditions => {:position => 'President'}
-  named_scope :for_vice_president, :conditions => {:position => 'Vice President'}
-  named_scope :for_senator,        :conditions => {:position => 'Senator'}
-  named_scope :for_governor,       :conditions => {:position => 'Governor'}
-  named_scope :for_vice_governor,  :conditions => {:position => 'Vice Governor'}
-  named_scope :for_mayor,          :conditions => {:position => 'Mayor'}
-  named_scope :for_vice_mayor,     :conditions => {:position => 'Vice Mayor'}
-  named_scope :for_councilor,      :conditions => {:position => 'Councilor'}
-  named_scope :for_representative, :conditions => {:position => 'Representative'}
+  POSITIONS.each do |position|
+    named_scope "for_#{position.gsub(' ','').underscore}".intern,
+      :conditions => {:position => position}
+  end
+  named_scope :top, lambda { |limit|
+    { :limit => limit } unless limit.zero?
+  }
+  named_scope :by_ranking, :order => 'num_votes DESC, last_name'
+  named_scope :by_province, lambda { |province|
+    province = PROVINCE_LIST.index(province) unless province !~ /^[A-Z]{3}$/
+    { :conditions => {:province => province} }
+  }
+  named_scope :by_municipality, lambda { |municipality|
+    { :conditions => {:municipality => municipality} }
+  }
+  named_scope :by_district, lambda { |district|
+    { :conditions => {:district => district} }
+  }
 
   ##Class Methods
   #
@@ -49,7 +58,7 @@ class Candidate < ActiveRecord::Base
   end
 
   def middle_initial
-    self.middle_name[0].chr
+    middle_name.nil? ? "" : middle_name[0].chr
   end
 
   def cast_vote(position_voted, user)

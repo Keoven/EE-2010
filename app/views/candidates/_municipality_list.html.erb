@@ -1,0 +1,6 @@
+<%= label :candidate, :municipality, "City/Municipality" %>
+<%= select :candidate, :municipality, list, {},
+    { :onchange => remote_function(
+        :url => { :action => 'choose_municipality', :controller => 'candidates' },
+        :method => :post,
+        :with => "'province=' + $('candidate_province').value + '&municipality=' + this.value" ) } %>

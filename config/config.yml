@@ -1,5 +1,7 @@
 development:
   election_status: close
+  host: localhost
+  port: 3000
   positions:
     'President': 1
     'Vice President': 1
@@ -13,6 +15,8 @@ development:
 
 test:
   election_status: close
+  host: localhost
+  port: 3000
   positions:
     'President': 1
     'Vice President': 1
@@ -26,6 +30,8 @@ test:
 
 production:
   election_status: close
+  host: localhost
+  port: 3000
   positions:
     'President': 1
     'Vice President': 1

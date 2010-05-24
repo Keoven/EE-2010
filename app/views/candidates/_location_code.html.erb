@@ -1,0 +1,19 @@
+<span id="province_tally_filter">
+<% province_list = PROVINCE_LIST.sort %>
+<%= label :candidate, :province, "Province" %>
+<%= select :candidate, :province, province_list, {},
+    { :onchange => remote_function(
+        :url => { :action => 'choose_province', :controller => 'candidates' },
+        :method => :post,
+        :with => "'province=' + this.value" ) } %>
+</span>
+
+<span id="municipality_tally_filter">
+  <%= render(:partial => 'municipality_list', :locals => { :list => MUNICIPALITY_LIST[PROVINCE_LIST.sort.first[1]].sort }) %>
+</span>
+
+<span id="district_tally_filter">
+  <% district_list = generate_district_list(PROVINCE_LIST.sort.first[1],
+        MUNICIPALITY_LIST[PROVINCE_LIST.sort.first[1]].sort.first[1]) %>
+  <%= render(:partial => 'district_list', :locals => { :list => district_list }) %>
+</span>
