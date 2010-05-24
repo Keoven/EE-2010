@@ -9,16 +9,21 @@ module ApplicationHelper
     end
     return code
   end
-  
+
   def election_status_button
+    options = [:update => 'election_status' ,
+               :method => :put              ,
+               :url    => { :controller => :admins                 ,
+                            :action     => :toggle_election_status }]
     case APP_CONFIG['election_status']
       when 'close'
-        button_to_remote 'Open', :update => 'election_status'
-        return 'Open'
+        return button_to_remote 'Open' , *options
       when 'open'
-        return 'Close'
+        return button_to_remote 'Close', *options
       when 'finished'
-        return 'Reset'
+        ## TODO
+        #Store into file previous results and reset all
+        return button_to_remote 'Reset', *options
     end
   end
 
@@ -45,7 +50,7 @@ module ApplicationHelper
 
   def format_address(address, options={})
     {:with_html => true}.merge!(options)
- 
+
     province = PROVINCE_LIST.index(address[:provincial_code])
     municipality = MUNICIPALITY_LIST[address[:provincial_code]].index(address[:municipality_code])
     district = address[:district_code] !~ /^#{address[:provincial_code]}\d$/ ? "#{address[:district_code].last.to_i.ordinalize} District" : nil
@@ -54,7 +59,7 @@ module ApplicationHelper
     str << content_tag(:span, municipality, :title => address[:municipality_code], :class => 'address_code') << ", "
     str << content_tag(:span, province, :title => address[:provincial_code], :class => 'address_code')
     str << content_tag(:span, "(#{district})", :title => address[:district_code], :class => 'address_code') unless district.nil?
-    
+
     return str
   end
 end

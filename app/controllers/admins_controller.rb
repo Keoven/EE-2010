@@ -17,7 +17,7 @@ class AdminsController < ApplicationController
   #
   def index
     @admins = Admin.paginate :page => params[:page], :per_page => 10
-    
+
     respond_to do |format|
       format.html
       format.js {
@@ -93,21 +93,19 @@ class AdminsController < ApplicationController
     redirect_to(dashboard_admins_url)
     flash[:notice] = 'Account deleted!'
   end
-  
+
   ##PUT /admins/toggle_election_status
   #
   def toggle_election_status
     case APP_CONFIG['election_status']
       when 'close'
         APP_CONFIG['election_status'] = 'open'
-        render :text => 'open'
       when 'open'
         APP_CONFIG['election_status'] = 'finished'
-        render :text => 'finished'
       when 'finished'
         APP_CONFIG['election_status'] = 'close'
-        render :text => 'close'
     end
+    render :partial => 'election_status'
   end
 
 end
