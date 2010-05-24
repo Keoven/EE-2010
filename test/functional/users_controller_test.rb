@@ -23,13 +23,13 @@ class UsersControllerTest < ActionController::TestCase
 
   test 'should validate for activation' do
     @user = users(:one)
-    get :validate_for_activation, :conditions => { :birth_date => @user.birth_date ,
-                                                   :email      => @user.email      ,
-                                                   :voter_id   => @user.voter_id   }
+    get :validate_for_activation, :user => { :birth_date => @user.birth_date ,
+                                             :email      => @user.email      ,
+                                             :voter_id   => @user.voter_id   }
     assert_equal 'Voter exists!', flash[:notice]
-    get :validate_for_activation, :conditions => { :birth_date => @user.birth_date ,
-                                                   :email      => @user.email      ,
-                                                   :voter_id   => 'Invalid ID'     }
+    get :validate_for_activation, :user => { :birth_date => @user.birth_date ,
+                                             :email      => @user.email      ,
+                                             :voter_id   => 'Invalid ID'     }
     assert_equal 'User not found!', flash[:notice]
   end
 

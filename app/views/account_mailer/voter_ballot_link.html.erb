@@ -6,7 +6,7 @@
   <body>
     <h1>Welcome to Exist Elections <%=h @date %>, <%=h @user.full_name %></h1>
     <p>
-      Please click <%= link_to "here", :controller => 'users', :action => 'ballot', :code => @ballot_key %> to start voting.
+      Please click <%= link_to "here", @url %> to start voting.
     </p>
   </body>
 </html>

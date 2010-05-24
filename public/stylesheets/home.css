@@ -8,7 +8,7 @@
   font-size: 3em;
   margin: 1em 0;
 }
-#wrapper a.action_wide {
+#wrapper a.action_wide, #activation_form {
   font-size: 3.5em;
   background-color: #292929;
   color: #fff;
@@ -25,9 +25,32 @@
   text-align: left;
   border-radius: 5px;
 }
+
+#activation_form {
+  padding: 0;
+  margin: 0 auto;
+  width: 770px;
+  font-size: 1.5em;
+  position: relative;
+}
+
+#activation_form form {
+  padding: 10px 20px 20px 20px;
+}
+
+#close-aform {
+  float: right;
+  margin: 10px;
+}
+
+#match-found {
+  color: #6B912E;
+}
+
 #wrapper a.action_wide:visited {
   background: #292929 url('../images/check.png') no-repeat 10px center;
 }
 #wrapper a.action_wide:hover {
   background-color: #444;
 }
+

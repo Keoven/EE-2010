@@ -10,23 +10,6 @@ module ApplicationHelper
     return code
   end
 
-  def election_status_button
-    options = [:update => 'election_status' ,
-               :method => :put              ,
-               :url    => { :controller => :admins                 ,
-                            :action     => :toggle_election_status }]
-    case APP_CONFIG['election_status']
-      when 'close'
-        return button_to_remote 'Open' , *options
-      when 'open'
-        return button_to_remote 'Close', *options
-      when 'finished'
-        ## TODO
-        #Store into file previous results and reset all
-        return button_to_remote 'Reset', *options
-    end
-  end
-
   def valid_email(email)
     return true if !Admin.exists?(:email => email)                          and
                     email =~  /\A([^@\s]+)@((?:[-a-z0-9]+\.)+[a-z]{2,})\Z/i

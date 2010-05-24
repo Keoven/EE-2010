@@ -1,0 +1,62 @@
+<div id='e_status'>
+  <h2>
+    Elections are currently ongoing.
+  </h2>
+</div>
+
+<div id='act-link'>
+  <%= link_to_function 'Activate your account.'                                ,
+                       'if(close)
+                        {
+                          Effect.SlideUp("e_status", {duration: 0.5});
+                          Effect.Fade("ptt-link", {duration: 0.5, queue: "end"});
+                          Effect.SlideDown("activation_form", {duration: 0.5, queue: "end"});
+                          close = false
+                        }' ,
+                       :class => 'action_wide'                                 %>
+</div>
+<div id='activation_form' style='display: none;'>
+  <%= link_to_function image_tag('close.png')                        ,
+                       'Effect.SlideUp("activation_form", {duration: 0.5});
+                        Effect.Appear("ptt-link", {duration: 0.5, queue: "end"});
+                        Effect.SlideDown("e_status", {duration: 0.5, queue: "end"});
+                        close = true',
+                        :id => 'close-aform' %>
+  <% remote_form_for :user, :url  => {:controller => :users, :action => :activate},
+                            :html => {:id => 'aform'},
+                            :update => 'activation-response',
+                            :before => 'Element.show("spinner2");
+                                        Effect.SlideDown("activation-response", {duration: 0.5, queue: "end"});',
+                            :loaded => 'Element.hide("spinner2");',
+                            :complete => 'Element.hide("spinner2");',
+                            :after => 'document.getElementById("user_submit").disabled = true;' do |f| %>
+    <%= content_tag :label, 'Birth Date' %>
+    <%= date_select :user, :birth_date, :start_year => Time.now.year - 100,
+                                        :end_year => Time.now.year - 17,
+                                        :default => Time.now,
+                                        :order => [:month, :day, :year] %>
+
+    <%= f.label :email %>
+    <%= f.text_field :email %>
+
+    <%= content_tag :label, 'Voter ID' %>
+    <%= f.text_field :voter_id %>
+    <%= f.submit 'Activate', :disabled => 'disabled' %><br />
+    <span id='astatus'>No matching voters found.</span>
+  <% end %>
+
+  <%= observe_form 'aform', :url    => { :controller => :users,
+                                         :action     => :validate_for_activation },
+                            :update => :astatus,
+                            :frequency => 2,
+                            :success => 'activation_ready()'%>
+</div>
+<div id='activation-response' style='display: none;'>
+  <div id='spinner2' style='display: none;'>
+      Loading...
+  </div>
+</div>
+<div id='ptt-link'>
+  <%= link_to 'View the partial tally.', '/', :class => 'action_wide' %>
+</div>
+
