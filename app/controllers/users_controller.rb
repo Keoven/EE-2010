@@ -83,18 +83,18 @@ class UsersController < ApplicationController
         @ballot ||= {}
         params.each do |position, value|
           @ballot[position] ||= []
-          if value.is_a?(String) 
+          if value.is_a?(String)
             @ballot[position] << value
           else
             value.each do |id, value|
               @ballot[position] << id if value == '1'
             end
           end
-          raise 'InvalidBallot: Impossible to happen in normal usage.' unless @ballot[position].size <= APP_CONFIG['positions'][key]
+          raise 'InvalidBallot: Impossible to happen in normal usage.' unless @ballot[position].size <= APP_CONFIG['positions'][position]
         end
 
         @ballot.reject! {|key, value| Candidate::POSITIONS.include?(key) ? false : true}
-        
+
         @ballot.each do |key, value|
           value.each do |id|
             Candidate.find(id).cast_vote(key, @user)
