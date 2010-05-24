@@ -1,5 +1,4 @@
-<div id="candidate_records" class="record_list grid_<%= grid_width %>">
-<% limit ||= 0 %>
+<div id="candidate_records" class="record_list">
   <table>
     <thead>
       <tr>
@@ -7,23 +6,24 @@
         <th>First Name</th>
         <th title="Middle Initial">MI</th>
         <th>Position</th>
-        <!--th>Province</th>
+        <th>Province</th>
         <th>City/Municipality</th>
-        <th>District</th-->
+        <th>District</th>
       </tr>
     </thead>
     <tbody>
-      <% candidate_list(position, limit).each do |candidate| %>
+      <% @candidates.each do |candidate| %>
       <tr <%= cycle("class = 'alt'", String.new) -%> >
         <td><%=h candidate.last_name %></td>
         <td><%=h candidate.first_name %></td>
         <td><%=h candidate.middle_initial %></td>
         <td><%=h candidate.position %></td>
-        <!--td><%=h candidate.province %></td>
-        <td><%=h candidate.municipality %></td>
-        <td><%=h candidate.district %></td-->
+        <td><%=h candidate.province     unless candidate.province.nil? %></td>
+        <td><%=h candidate.municipality unless candidate.municipality.nil? %></td>
+        <td><%=h candidate.district     unless candidate.district.nil? %></td>
       </tr>
       <% end %>
     </tbody>
   </table>
+  <%= will_paginate @candidates %>
 </div>

@@ -1,8 +1,14 @@
-<% list = Candidate.class_eval("for_#{position}") %>
+<% province = PROVINCE_LIST.sort.first[0] unless defined?(province) %>
+<% municipality = MUNICIPALITY_LIST[PROVINCE_LIST[province]].sort.first[0] unless defined?(municipality) %>
+<% district = 1 unless defined?(province) %>
 
-<div class="tally_list">
-<% if list.any? %>
-  <h3><%=h position.titleize %></h3>
+<% list = candidate_list(@candidates, position, province, municipality, district, true) %>
+
+<div id="<%= position %>_tally" class="tally_list">
+  <h3>
+    <%= candidate_list_heading(position, province, municipality, district) %>
+  </h3>
+<% unless list.count.zero? %>
   <table>
     <tbody>
       <% i = 1 %>
@@ -13,7 +19,7 @@
           </td>
           <td><%= candidate.full_name %></td>
           <td style="text-align: right">
-            <%=h candidate.num_votes %>
+            <%= number_with_delimiter(candidate.num_votes) %>
           </td>
           <td style="width: 150px">
             <%= tally_bar(candidate) %>
@@ -23,7 +29,5 @@
       <% end %>
     </tbody>
   </table>
-<% else %>
-  No candidates.
 <% end %>
 </div>

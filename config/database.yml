@@ -48,3 +48,4 @@ production:
   username: root
   password: latitude
   socket: /var/run/mysqld/mysqld.sock
+  host: 127.0.0.1

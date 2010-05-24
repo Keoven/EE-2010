@@ -12,7 +12,7 @@ ActionController::Routing::Routes.draw do |map|
                                          :cast_ballot             => :put }
 =end
 
-  map.resources    :candidates, :only => :index, :collection => {:list_municipalities => :get, :list_districts => :get}
+  map.resources    :candidates, :only => :index, :collection => {:choose_province => :post, :choose_municipality => :post, :choose_district => :post, :update_tally => :post, :update_index => :post}
 
   map.tally        '/tally'             , :controller => 'candidates'    , :action => 'tally'
 

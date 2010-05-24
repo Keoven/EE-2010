@@ -1,9 +1,3 @@
-<%= render :partial => 'records', :locals => { :position => 'president', :grid_width => 6 } %>
+<h1>Candidates</h1>
 
-<%= render :partial => 'records', :locals => { :position => 'vice_president', :grid_width => 6 } %>
-
-<div style="clear: left">
-<% 1.upto 2 do %>
-<%= render :partial => 'records', :locals => { :position => 'senator', :grid_width => 6, :limit => Candidate.for_senator.count/2 } %>
-<% end %> 
-</div>
+<%= render :partial => 'records' %>

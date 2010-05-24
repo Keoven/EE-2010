@@ -19,23 +19,21 @@ class Candidate < ActiveRecord::Base
   #
   POSITIONS.each do |position|
     named_scope "for_#{position.gsub(' ','').underscore}".intern,
-      :conditions => {:position => position}, :order => 'last_name'
+      :conditions => {:position => position}
   end
+  named_scope :top, lambda { |limit|
+    { :limit => limit } unless limit.zero?
+  }
+  named_scope :by_ranking, :order => 'num_votes DESC, last_name'
   named_scope :by_province, lambda { |province|
     province = PROVINCE_LIST.index(province) unless province !~ /^[A-Z]{3}$/
     { :conditions => {:province => province} }
   }
-  named_scope :by_province_and_municipality, lambda { |province, municipality|
-    provincial_code = PROVINCE_LIST[province]
-    municipality = MUNICIPALITY_LIST[provincial_code].index(municipality) unless municipality !~ /^[A-Z]{3}$/
-    
-    { :conditions => {:province => province,
-                      :municipality => municipality} }
+  named_scope :by_municipality, lambda { |municipality|
+    { :conditions => {:municipality => municipality} }
   }
-  named_scope :by_location, lambda { |province, municipality, district|
-    { :conditions => {:province => province,
-                      :municipality => municipality,
-                      :district => district} }
+  named_scope :by_district, lambda { |district|
+    { :conditions => {:district => district} }
   }
 
   ##Class Methods
@@ -60,7 +58,7 @@ class Candidate < ActiveRecord::Base
   end
 
   def middle_initial
-    self.middle_name[0].chr
+    middle_name.nil? ? "" : middle_name[0].chr
   end
 
   def cast_vote(position_voted, user)

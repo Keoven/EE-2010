@@ -3,9 +3,7 @@
 <% form_for(@user, :url => admin_users_path) do |f| %>
   <%= f.error_messages %>
   <%= render :partial => "form", :locals => {:form => f} %>
-  <p>
-    <%= f.submit 'Register' %>
-  </p>
+  <%= f.submit 'Register' %>
 <% end %>
 
 <%= link_to 'Back to Index', admin_users_path %>
