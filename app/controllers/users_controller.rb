@@ -80,4 +80,3 @@ class UsersController < ApplicationController
       render :text => 'An error had occurred. Sorry for the inconvenience.'
   end
 end
-

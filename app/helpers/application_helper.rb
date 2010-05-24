@@ -82,7 +82,4 @@ module ApplicationHelper
         "<td>#{check_box position, candidate}#{i}. #{candidate.full_name}</td></tr>"
     end
   end
-  def show_results(candidate, i)
-        "<tr><td>#{i}. #{candidate.full_name}</td><td>#{candidate.num_votes}</td></tr>"
-  end
 end

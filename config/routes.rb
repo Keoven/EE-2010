@@ -17,6 +17,7 @@ ActionController::Routing::Routes.draw do |map|
                                              :list_districts      => :get }
   end
 
+
   map.login        '/admin/login'       , :controller => 'admin_sessions', :action => 'new'
   map.logout       '/admin/logout'      , :controller => 'admin_sessions', :action => 'destroy'
   map.auth_login   '/admin/authenticate', :controller => 'admin_sessions', :action => 'create'

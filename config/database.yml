@@ -21,7 +21,7 @@ development:
   database: EE-2010_development
   pool: 5
   username: root
-  password: latitude
+  password: root
   socket: /var/run/mysqld/mysqld.sock
   host: 127.0.0.1
 
@@ -35,7 +35,7 @@ test:
   database: EE-2010_test
   pool: 5
   username: root
-  password: latitude
+  password: root
   socket: /var/run/mysqld/mysqld.sock
   host: 127.0.0.1
 
@@ -46,5 +46,5 @@ production:
   database: EE-2010_production
   pool: 5
   username: root
-  password: latitude
+  password: root
   socket: /var/run/mysqld/mysqld.sock
