@@ -19,10 +19,10 @@ class AccountMailer < ActionMailer::Base
   end
 
   def voter_ballot_link(user, key)
-    recipients    = user.email
-    from          = 'Exist Elections'
-    subject       = '[Exist Elections] Vote your next leader now!'
-    sent_on       = Time.now
+    recipients     user.email
+    from           'Exist Elections'
+    subject        '[Exist Elections] Vote your next leader now!'
+    sent_on        Time.now
     content_type   'multipart/related; type=text/html'
 
     part :content_type => "text/html",
