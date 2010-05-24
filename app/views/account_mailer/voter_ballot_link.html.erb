@@ -4,10 +4,17 @@
     <meta content="text/html; charset=UTF-8" http-equiv="Content-Type" />
   </head>
   <body>
-    <h1>Welcome to Exist Elections <%=h @date %>, <%=h @user.full_name %></h1>
-    <p>
-      Please click <%= link_to "here", @url %> to start voting.
-    </p>
+    <div>
+      <h1>
+        <%= image_tag "logo-wshadow.png", :alt => "Exist Elections 2010" %>
+      </h1>
+    </div>
+    <div>
+      <h1>Welcome to Exist Elections <%=h @date %>, <%=h @user.full_name %></h1>
+      <p>
+        Please click <%= link_to "here", @url %> to start voting.
+      </p>
+    </div>
   </body>
 </html>
 
