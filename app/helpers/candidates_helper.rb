@@ -43,6 +43,8 @@ module CandidatesHelper
   end
 
   def tally_bar(candidate)
+    position = candidate.position
+
     group = Candidate.class_eval("for_#{position.gsub(' ','').underscore}")
     group = group.by_province(candidate.province) if Candidate.positions[3..8].include? position
     group = group.by_municipality(candidate.municipality) if Candidate.positions[5..8].include? position
