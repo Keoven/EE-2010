@@ -1,6 +1,6 @@
 <ul class="record_summary">
   <li id="record_action" class="grid_3">
-    <%= link_to 'Register New Voter', new_admin_user_path %>
+    <%= link_to 'Register New Voter', new_admin_user_path if APP_CONFIG['election_status'].eql? 'close' do; end  %>
   </li>
   <li class="grid_3">
     <% link_to '#' do %>
