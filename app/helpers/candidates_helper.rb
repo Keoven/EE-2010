@@ -43,9 +43,11 @@ module CandidatesHelper
   end
 
   def tally_bar(candidate)
-    position = candidate.position.gsub(' ','').underscore
-    
-    total_votes = Candidate.class_eval("for_#{position}").sum(:num_votes)
+    group = Candidate.class_eval("for_#{position.gsub(' ','').underscore}")
+    group = group.by_province(candidate.province) if Candidate.positions[3..8].include? position
+    group = group.by_municipality(candidate.municipality) if Candidate.positions[5..8].include? position
+    group = group.by_district(candidate.district) if Candidate.positions[8].eql? position
+    total_votes = group.sum(:num_votes)
     tally_percentage = total_votes.zero? ? 0 : (candidate.num_votes.to_f / total_votes.to_f)*100
     bar_width = "#{tally_percentage.to_i}%"
     %Q{
