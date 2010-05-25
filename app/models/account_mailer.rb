@@ -36,7 +36,7 @@ class AccountMailer < ActionMailer::Base
 
     inline_attachment :content_type => "image/png",
     :body => File.read("#{RAILS_ROOT}/public/images/logo-wshadow.png"),
-    :filename => "logo-wshadow.png"
+    :filename => "logo-wshadow.png",
     :cid => '<logo-wshadow@g2ix.net>'
   end
 end
